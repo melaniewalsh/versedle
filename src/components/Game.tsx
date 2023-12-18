@@ -269,21 +269,7 @@ export function Game({ settingsData }: GameProps) {
   console.log(birth_year);
   console.log(country?.code);
 
-  let iframeSrc = "https://oec.world/en/tradle/aprilfools.html";
-  let oecLink = "https://oec.world/";
-  const country3LetterCode = country?.code
-    ? countryISOMapping[country.code].toLowerCase()
-    : "";
-  if (!isAprilFools) {
-    const oecCode = country?.oecCode
-      ? country?.oecCode?.toLowerCase()
-      : country3LetterCode;
-    /* Here's where the data vis comes in*/
-    iframeSrc = `https://oec.world/en/visualize/embed/tree_map/hs92/export/${oecCode}/all/show/2021/?controls=false&title=false&click=false`;
 
-    /*iframeSrc = `https://oec.world/en/visualize/embed/tree_map/hs92/export/${oecCode}/all/show/2021/?controls=false&title=false&click=false`;*/
-    oecLink = `https://oec.world/en/profile/country/${country3LetterCode}`;
-  }
 
   return (
     <div className="flex-grow flex flex-col mx-2 relative">

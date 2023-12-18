@@ -14,6 +14,7 @@ const countryCodesWithImage = [
   "ae",
   "ag",
   "dd",
+  "bc",
 ];
 
 export interface Country {
@@ -41,6 +42,138 @@ And by opposing end them. To die—to sleep,
 No more; and by a sleep to say we end`,
     title: "Hamlet",
     name: "William Shakespeare",
+  },
+  {
+    code: "WS",
+    latitude: 42.546245,
+    longitude: 1.601554,
+    birth_year: 1554,
+    first_line: `How like a winter hath my absence been
+From thee, the pleasure of the fleeting year!
+What freezings have I felt, what dark days seen!
+What old December's bareness everywhere!
+And yet this time remov'd was summer's time,
+The teeming autumn, big with rich increase,
+Bearing the wanton burthen of the prime,
+Like widow'd wombs after their lords' decease:
+Yet this abundant issue seem'd to me
+But hope of orphans and unfather'd fruit;
+For summer and his pleasures wait on thee,
+And thou away, the very birds are mute;
+Or if they sing, 'tis with so dull a cheer
+That leaves look pale, dreading the winter's near.`,
+    title: "Sonnet 97: How like a winter hath my absence been",
+    name: "William Shakespeare",
+  },
+  {
+    code: "EE",
+    latitude: 42.546245,
+    longitude: 1.601554,
+    birth_year: 1894,
+    first_line: `little tree
+little silent Christmas tree
+you are so little
+you are more like a flower
+who found you in the green forest
+and were you very sorry to come away?
+see          i will comfort you
+because you smell so sweetly
+
+i will kiss your cool bark
+and hug you safe and tight
+just as your mother would,`,
+    title: "[little tree]",
+    name: "E.E. Cummings",
+  },
+  {
+    code: "AT",
+    latitude: 42.546245,
+    longitude: 1.601554,
+    birth_year: 1892,
+    first_line: `The heart that never plighted troth
+      But stagnates in the weeds of sloth,
+Nor any want-begotten rest.
+I hold it true, whate’er befall,
+      I feel it, when I sorrow most;
+      ‘Tis better to have loved and lost
+Than never to have loved at all.`,
+    title: "In Memoriam A.H.H. 1849",
+    name: "Alfred Lord Tennyson",
+  },
+  {
+    code: "JD",
+    latitude: 42.546245,
+    longitude: 1.601554,
+    birth_year: 1572,
+    first_line: `Our two souls therefore, which are one,
+   Though I must go, endure not yet
+A breach, but an expansion,
+   Like gold to airy thinness beat.
+
+If they be two, they are two so
+   As stiff twin compasses are two;
+Thy soul, the fixed foot, makes no show
+   To move, but doth, if the other do.
+
+And though it in the center sit,
+   Yet when the other far doth roam,
+It leans and hearkens after it,
+   And grows erect, as that comes home.
+
+Such wilt thou be to me, who must,
+   Like th' other foot, obliquely run;
+Thy firmness makes my circle just,
+   And makes me end where I begun.`,
+    title: "A Valediction: Forbidding Mourning",
+    name: "John Donne",
+  },
+  {
+    code: "SP",
+    latitude: 42.546245,
+    longitude: 1.601554,
+    birth_year: 1932,
+    first_line: `A cake of soap,
+A wedding ring,
+A gold filling.
+Herr God, Herr Lucifer
+Beware
+Beware.
+Out of the ash
+I rise with my red hair
+And I eat men like air.`,
+    title: "Lady Lazarus",
+    name: "Sylvia Plath",
+  },
+  {
+    code: "ED",
+    latitude: 42.546245,
+    longitude: 1.601554,
+    birth_year: 1886,
+    first_line: `I’m Nobody! Who are you?
+Are you – Nobody – too?
+Then there’s a pair of us!
+Don't tell! they'd advertise – you know!
+How dreary – to be – Somebody!
+How public – like a Frog –
+To tell one’s name – the livelong June –
+To an admiring Bog!`,
+    title: "I’m Nobody! Who are you? (260)",
+    name: "Emily Dickinson",
+  },
+  {
+    code: "BC",
+    latitude: 42.546245,
+    longitude: 1.601554,
+    birth_year: 1941,
+    first_line: `But for now I am a willing prisoner in this house,
+a sympathizer with the anarchic cause of snow.
+I will make a pot of tea
+and listen to the plastic radio on the counter,
+as glad as anyone to hear the news
+that the Kiddie Corner School is closed,
+the Ding-Dong School, closed.`,
+    title: "Snow Day",
+    name: "Billy Collins",
   },
 
   {
