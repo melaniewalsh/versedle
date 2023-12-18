@@ -67,11 +67,12 @@ export function CountryInput({
       autoComplete="noautocompleteplzz"
       // Pick an author input buo
       placeholder="Pick an author"
-      limit={5}
+      limit={100}
       itemComponent={
         isAprilFools ? AutoCompleteItemAprilFools : AutoCompleteItem
       }
       data={items}
+      styles={{ dropdown: { maxHeight: 400, overflowY: `auto` } }}
       filter={(value, item) =>
         item.value
           .toLowerCase()

@@ -30,40 +30,33 @@ export interface Country {
 
 export const countries: Country[] = [
   {
-    code: "AD",
-    latitude: 42.546245,
-    longitude: 1.601554,
-    birth_year: 1554,
-    first_line: `To be, or not to be, that is the question:
-Whether 'tis nobler in the mind to suffer
-The slings and arrows of outrageous fortune,
-Or to take arms against a sea of troubles
-And by opposing end them. To die—to sleep,
-No more; and by a sleep to say we end`,
-    title: "Hamlet",
-    name: "William Shakespeare",
+    code: "AF",
+    latitude: 33.93911,
+    longitude: 67.709953,
+    birth_year: 1775,
+    first_line: `It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
+However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters.
+"My dear Mr. Bennet," said his lady to him one day, "have you heard that Netherfield Park is let at last?"
+Mr. Bennet replied that he had not.
+"But it is," returned she; "for Mrs. Long has just been here, and she told me all about it."
+Mr. Bennet made no answer.`,
+    title: "Pride and Prejudice",
+    name: "Jane Austen",
   },
   {
-    code: "WS",
+    code: "BC",
     latitude: 42.546245,
     longitude: 1.601554,
-    birth_year: 1554,
-    first_line: `How like a winter hath my absence been
-From thee, the pleasure of the fleeting year!
-What freezings have I felt, what dark days seen!
-What old December's bareness everywhere!
-And yet this time remov'd was summer's time,
-The teeming autumn, big with rich increase,
-Bearing the wanton burthen of the prime,
-Like widow'd wombs after their lords' decease:
-Yet this abundant issue seem'd to me
-But hope of orphans and unfather'd fruit;
-For summer and his pleasures wait on thee,
-And thou away, the very birds are mute;
-Or if they sing, 'tis with so dull a cheer
-That leaves look pale, dreading the winter's near.`,
-    title: "Sonnet 97: How like a winter hath my absence been",
-    name: "William Shakespeare",
+    birth_year: 1941,
+    first_line: `But for now I am a willing prisoner in this house,
+a sympathizer with the anarchic cause of snow.
+I will make a pot of tea
+and listen to the plastic radio on the counter,
+as glad as anyone to hear the news
+that the Kiddie Corner School is closed,
+the Ding-Dong School, closed.`,
+    title: "Snow Day",
+    name: "Billy Collins",
   },
   {
     code: "EE",
@@ -86,19 +79,36 @@ just as your mother would,`,
     name: "E.E. Cummings",
   },
   {
-    code: "AT",
+    code: "DD",
+    latitude: 17.060816,
+    longitude: -61.796428,
+    birth_year: 1936,
+    first_line: `The station wagons arrived at noon, a long shining line that coursed through the west campus.
+    In single file they eased around the orange I-beam sculpture and moved toward the dormitories.
+    The roofs of the station wagons were loaded down with carefully secured suitcases full of light and heavy clothing;
+    with boxes of blankets, boots and shoes, stationery and books, sheets, pillows, quilts; with rolled-up rugs and sleeping bags;
+    with bicycles, skis, rucksacks, English and Western saddles, inflated rafts.
+    As cars slowed to a crawl and stopped, students sprang out and raced to the rear doors to begin removing the objects inside; the stereo sets, radios, personal computers; small refrigerators and table ranges; the cartons of phonograph records and cassettes; the hairdryers and styling irons;
+    the tennis rackets, soccer balls, hockey and lacrosse sticks, bows and arrows; the controlled substances, the birth control pills and devices; the junk food still in shopping bags--onion-and-garlic chips, nacho thins, peanut creme patties, Waffelos and Kabooms, fruit chews and toffee popcorn; the Dum-Dum pops, the Mystic mints.`,
+    title: "White Noise",
+    name: "Don Delillo",
+  },
+
+  {
+    code: "ED",
     latitude: 42.546245,
     longitude: 1.601554,
-    birth_year: 1892,
-    first_line: `The heart that never plighted troth
-      But stagnates in the weeds of sloth,
-Nor any want-begotten rest.
-I hold it true, whate’er befall,
-      I feel it, when I sorrow most;
-      ‘Tis better to have loved and lost
-Than never to have loved at all.`,
-    title: "In Memoriam A.H.H. 1849",
-    name: "Alfred Lord Tennyson",
+    birth_year: 1886,
+    first_line: `I’m Nobody! Who are you?
+Are you – Nobody – too?
+Then there’s a pair of us!
+Don't tell! they'd advertise – you know!
+How dreary – to be – Somebody!
+How public – like a Frog –
+To tell one’s name – the livelong June –
+To an admiring Bog!`,
+    title: "I’m Nobody! Who are you? (260)",
+    name: "Emily Dickinson",
   },
   {
     code: "JD",
@@ -128,6 +138,35 @@ Thy firmness makes my circle just,
     name: "John Donne",
   },
   {
+    code: "AE",
+    latitude: 23.424076,
+    longitude: 53.847818,
+    birth_year: 1812,
+    first_line: `It was the best of times, it was the worst of times,
+    it was the age of wisdom, it was the age of foolishness,
+    it was the epoch of belief, it was the epoch of incredulity,
+    it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair,
+    we had everything before us, we had nothing before us,
+    we were all going direct to Heaven, we were all going direct the other way--in short, the period was so far like the present period that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.`,
+    title: "A Tale of Two Cities",
+    name: "Charles Dickens",
+  },
+  {
+    code: "AG",
+    latitude: 17.060816,
+    longitude: -61.796428,
+    birth_year: 1931,
+    first_line: `“Your love is too thick,” he said, thinking,
+    That bitch is looking at me; she is right over my head looking down through the floor at me.
+    “Too thick?”she said, thinking of the Clearing where Baby Suggs’ commands knocked the pods off horse chestnuts.
+    “Love is or it ain’t. Thin love ain’t love at all.”
+    “Yeah. It didn’t work, did it? Did it work?” he asked.
+“It worked,” she said.`,
+    title: "Beloved",
+    name: "Toni Morrison",
+  },
+
+  {
     code: "SP",
     latitude: 42.546245,
     longitude: 1.601554,
@@ -145,94 +184,41 @@ And I eat men like air.`,
     name: "Sylvia Plath",
   },
   {
-    code: "ED",
+    code: "WS",
     latitude: 42.546245,
     longitude: 1.601554,
-    birth_year: 1886,
-    first_line: `I’m Nobody! Who are you?
-Are you – Nobody – too?
-Then there’s a pair of us!
-Don't tell! they'd advertise – you know!
-How dreary – to be – Somebody!
-How public – like a Frog –
-To tell one’s name – the livelong June –
-To an admiring Bog!`,
-    title: "I’m Nobody! Who are you? (260)",
-    name: "Emily Dickinson",
+    birth_year: 1554,
+    first_line: `How like a winter hath my absence been
+From thee, the pleasure of the fleeting year!
+What freezings have I felt, what dark days seen!
+What old December's bareness everywhere!
+And yet this time remov'd was summer's time,
+The teeming autumn, big with rich increase,
+Bearing the wanton burthen of the prime,
+Like widow'd wombs after their lords' decease:
+Yet this abundant issue seem'd to me
+But hope of orphans and unfather'd fruit;
+For summer and his pleasures wait on thee,
+And thou away, the very birds are mute;
+Or if they sing, 'tis with so dull a cheer
+That leaves look pale, dreading the winter's near.`,
+    title: "Sonnet 97: How like a winter hath my absence been",
+    name: "William Shakespeare",
   },
   {
-    code: "BC",
+    code: "AT",
     latitude: 42.546245,
     longitude: 1.601554,
-    birth_year: 1941,
-    first_line: `But for now I am a willing prisoner in this house,
-a sympathizer with the anarchic cause of snow.
-I will make a pot of tea
-and listen to the plastic radio on the counter,
-as glad as anyone to hear the news
-that the Kiddie Corner School is closed,
-the Ding-Dong School, closed.`,
-    title: "Snow Day",
-    name: "Billy Collins",
-  },
-
-  {
-    code: "AE",
-    latitude: 23.424076,
-    longitude: 53.847818,
-    birth_year: 1812,
-    first_line: `It was the best of times, it was the worst of times,
-    it was the age of wisdom, it was the age of foolishness,
-    it was the epoch of belief, it was the epoch of incredulity,
-    it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair,
-    we had everything before us, we had nothing before us,
-    we were all going direct to Heaven, we were all going direct the other way--in short, the period was so far like the present period that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.`,
-    title: "A Tale of Two Cities",
-    name: "Charles Dickens",
-  },
-  {
-    code: "AF",
-    latitude: 33.93911,
-    longitude: 67.709953,
-    birth_year: 1775,
-    first_line: `It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
-However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters.
-"My dear Mr. Bennet," said his lady to him one day, "have you heard that Netherfield Park is let at last?"
-Mr. Bennet replied that he had not.
-"But it is," returned she; "for Mrs. Long has just been here, and she told me all about it."
-Mr. Bennet made no answer.`,
-    title: "Pride and Prejudice",
-
-    name: "Jane Austen",
-  },
-  {
-    code: "AG",
-    latitude: 17.060816,
-    longitude: -61.796428,
-    birth_year: 1931,
-    first_line: `“Your love is too thick,” he said, thinking,
-    That bitch is looking at me; she is right over my head looking down through the floor at me.
-    “Too thick?”she said, thinking of the Clearing where Baby Suggs’ commands knocked the pods off horse chestnuts.
-    “Love is or it ain’t. Thin love ain’t love at all.”
-    “Yeah. It didn’t work, did it? Did it work?” he asked.
-“It worked,” she said.`,
-    title: "Beloved",
-    name: "Toni Morrison",
-  },
-  {
-    code: "DD",
-    latitude: 17.060816,
-    longitude: -61.796428,
-    birth_year: 1936,
-    first_line: `The station wagons arrived at noon, a long shining line that coursed through the west campus.
-    In single file they eased around the orange I-beam sculpture and moved toward the dormitories.
-    The roofs of the station wagons were loaded down with carefully secured suitcases full of light and heavy clothing;
-    with boxes of blankets, boots and shoes, stationery and books, sheets, pillows, quilts; with rolled-up rugs and sleeping bags;
-    with bicycles, skis, rucksacks, English and Western saddles, inflated rafts.
-    As cars slowed to a crawl and stopped, students sprang out and raced to the rear doors to begin removing the objects inside; the stereo sets, radios, personal computers; small refrigerators and table ranges; the cartons of phonograph records and cassettes; the hairdryers and styling irons;
-    the tennis rackets, soccer balls, hockey and lacrosse sticks, bows and arrows; the controlled substances, the birth control pills and devices; the junk food still in shopping bags--onion-and-garlic chips, nacho thins, peanut creme patties, Waffelos and Kabooms, fruit chews and toffee popcorn; the Dum-Dum pops, the Mystic mints.`,
-    title: "White Noise",
-    name: "Don Delillo",
+    birth_year: 1892,
+    first_line: `The heart that never plighted troth
+      But stagnates in the weeds of sloth,
+Nor any want-begotten rest.
+I hold it true, whate’er befall,
+      I feel it, when I sorrow most;
+      ‘Tis better to have loved and lost
+Than never to have loved at all.`,
+    title: "In Memoriam A.H.H. 1849",
+    name: "Alfred Lord Tennyson",
   },
 ];
 
