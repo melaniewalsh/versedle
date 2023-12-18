@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/literaturdle/static/css/main.d69d1022.css",
+    "main.js": "/literaturdle/static/js/main.bda8eb5c.js",
+    "index.html": "/literaturdle/index.html",
+    "main.d69d1022.css.map": "/literaturdle/static/css/main.d69d1022.css.map",
+    "main.bda8eb5c.js.map": "/literaturdle/static/js/main.bda8eb5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d69d1022.css",
+    "static/js/main.bda8eb5c.js"
+  ]
+}
