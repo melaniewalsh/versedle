@@ -1,5 +1,6 @@
 {
   "name": "literaturdle",
+  "homepage": "https://melaniewalsh.github.io/literaturdle",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -70,6 +71,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
+    "gh-pages": "^6.1.0",
     "mini-css-extract-plugin": "2.4.5",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",

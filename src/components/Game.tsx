@@ -269,8 +269,6 @@ export function Game({ settingsData }: GameProps) {
   console.log(birth_year);
   console.log(country?.code);
 
-
-
   return (
     <div className="flex-grow flex flex-col mx-2 relative">
       {hideImageMode && !gameEnded && (
