@@ -46,7 +46,7 @@ export function Share({
       : "";
     const title = isAprilFools
       ? `#Tradle #AprilFoolsDay #${dayCount} ${guessCount}/6${difficultyModifierEmoji}`
-      : `#Tradle #${dayCount} ${guessCount}/6${difficultyModifierEmoji}`;
+      : `#Literaturdle #${dayCount} ${guessCount}/6${difficultyModifierEmoji}`;
 
     const guessString = guesses
       .map((guess) => {
@@ -55,7 +55,7 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString, "https://oec.world/en/tradle"].join("\n");
+    return [title, guessString].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme, isAprilFools]);
 
   return (

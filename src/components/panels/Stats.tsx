@@ -31,14 +31,7 @@ export function Stats({ isOpen, close, distanceUnit }: StatsProps) {
         <StatsTile value={maxStreak} name={t("stats.maxStreak")} />
       </div>
       <div className="flex justify-center m-6">
-        <div className="flex flex-col m-2">
-          <p className="text-4xl font-bold text-center">
-            {formatDistance(averageBestDistance, distanceUnit)}
-          </p>
-          <p className="text-lg text-center">
-            {t("stats.averageBestDistance")}
-          </p>
-        </div>
+        <div className="flex flex-col m-2"></div>
       </div>
       <div>
         <h3 className="text-xl font-bold">{t("stats.guessDistribution")}</h3>

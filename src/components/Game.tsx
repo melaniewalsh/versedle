@@ -12,11 +12,13 @@ import {
   countryISOMapping,
   getFictionalCountryByName,
   getCountryByName,
+  getBirthYearByName,
 } from "../domain/countries";
 import { useGuesses } from "../hooks/useGuesses";
 import { CountryInput } from "./CountryInput";
 import * as geolib from "geolib";
 import { Share } from "./Share";
+import { constructOecLink, constructWikiLink, Guess } from "../domain/guess";
 import { Guesses } from "./Guesses";
 import { useTranslation } from "react-i18next";
 import { SettingsData } from "../hooks/useSettings";
@@ -26,6 +28,14 @@ import axios from "axios";
 
 function getDayString() {
   return DateTime.now().toFormat("yyyy-MM-dd");
+}
+
+function getDirection(birth_year: number, birth_year2: number) {
+  if (birth_year2 - birth_year > 0) {
+    return "E";
+  } else {
+    return "W";
+  }
 }
 
 const MAX_TRY_COUNT = 6;
@@ -40,7 +50,6 @@ export function Game({ settingsData }: GameProps) {
   const isAprilFools = dayString === "2022-04-01";
 
   const countryInputRef = useRef<HTMLInputElement>(null);
-
   const countryData = useCountry(`${dayString}`);
   let country = countryData[0];
 
@@ -50,6 +59,9 @@ export function Game({ settingsData }: GameProps) {
       latitude: 42.546245,
       longitude: 1.601554,
       name: "Land of Oz",
+      birth_year: 150,
+      first_line: "To be or not to be",
+      title: "Beloved",
     };
   }
 
@@ -57,7 +69,79 @@ export function Game({ settingsData }: GameProps) {
   const [won, setWon] = useState(false);
   const [currentGuess, setCurrentGuess] = useState<string>("");
   const [countryValue, setCountryValue] = useState<string>("");
+  const [displayedLines, setDisplayedLines] = useState<string[]>([]); // Initialize a state variable for displayed lines
+
   const [guesses, addGuess] = useGuesses(dayString);
+
+  let currentLine = 0;
+
+  if (guesses.length == 0) {
+    currentLine = 0;
+  } else {
+    currentLine = guesses.length;
+  }
+
+  console.log(guesses.length);
+
+  /*function displayLine() {
+    if (country && country.first_line) {
+      const lines = country.first_line.split("\n"); // Split lines using line breaks
+      const newDisplayedLines = lines.slice(0, currentLine + 1); // Join the lines up to the current line
+      console.log(`These are the new displayed lines: ${newDisplayedLines}`);
+      console.log(lines);
+      setDisplayedLines(newDisplayedLines); // Update the displayed lines in state
+    }
+  }
+
+  function displayLineTemp() {
+    if (country && country.first_line) {
+      const lines = country.first_line.split("\n"); // Split lines using line breaks
+      const newDisplayedLines = lines.slice(0, currentLine + 1); // Join the lines up to the current line
+      console.log(`These are the new displayed lines: ${newDisplayedLines}`);
+      console.log(lines);
+      setDisplayedLines(newDisplayedLines); // Update the displayed lines in state
+    }
+  }
+
+  function displayFullPassage() {
+    if (country && country.first_line) {
+      const lines = country.first_line.split("\n"); // Split lines using line breaks
+      const newDisplayedLines = lines.slice(0, 6); // Join the lines up to the current line
+      console.log(`These are the new displayed lines: ${newDisplayedLines}`);
+      console.log(lines);
+      setDisplayedLines(newDisplayedLines); // Update the displayed lines in state
+    }
+  }*/
+
+  const displayLine = useCallback(() => {
+    if (country && country.first_line) {
+      const lines = country.first_line.split("\n");
+      const newDisplayedLines = lines.slice(0, currentLine + 1);
+      console.log(`These are the new displayed lines: ${newDisplayedLines}`);
+      console.log(lines);
+      setDisplayedLines(newDisplayedLines);
+    }
+  }, [country, currentLine]);
+
+  const displayLineTemp = useCallback(() => {
+    if (country && country.first_line) {
+      const lines = country.first_line.split("\n");
+      const newDisplayedLines = lines.slice(0, currentLine + 1);
+      console.log(`These are the new displayed lines: ${newDisplayedLines}`);
+      console.log(lines);
+      setDisplayedLines(newDisplayedLines);
+    }
+  }, [country, currentLine]);
+
+  const displayFullPassage = useCallback(() => {
+    if (country && country.first_line) {
+      const lines = country.first_line.split("\n");
+      const newDisplayedLines = lines.slice(0, 6);
+      console.log(`These are the new displayed lines: ${newDisplayedLines}`);
+      console.log(lines);
+      setDisplayedLines(newDisplayedLines);
+    }
+  }, [country]);
   const [hideImageMode, setHideImageMode] = useMode(
     "hideImageMode",
     dayString,
@@ -92,8 +176,10 @@ export function Game({ settingsData }: GameProps) {
 
       const newGuess = {
         name: currentGuess,
-        distance: geolib.getDistance(guessedCountry, country),
-        direction: geolib.getCompassDirection(guessedCountry, country),
+        /*distance: geolib.getDistance(guessedCountry, country),*/
+        distance: guessedCountry.birth_year - country.birth_year,
+        direction: getDirection(guessedCountry.birth_year, country.birth_year),
+        /*direction: geolib.getCompassDirection(guessedCountry, country),*/
         country: guessedCountry,
       };
 
@@ -102,13 +188,30 @@ export function Game({ settingsData }: GameProps) {
       setCountryValue("");
 
       if (newGuess.distance === 0) {
+        displayFullPassage();
         setWon(true);
         getIpData();
         toast.success(t("welldone"), { delay: 2000 });
+      } else {
+        currentLine++;
+        displayLineTemp();
       }
     },
-    [addGuess, country, currentGuess, t, isAprilFools]
+    [
+      addGuess,
+      country,
+      currentLine,
+      displayFullPassage,
+      displayLineTemp,
+      currentGuess,
+      t,
+      isAprilFools,
+    ]
   );
+
+  useEffect(() => {
+    displayLine();
+  }, [country, displayLine]);
 
   useEffect(() => {
     const getIpData = async () => {
@@ -159,6 +262,13 @@ export function Game({ settingsData }: GameProps) {
     }
   }, [guesses, ipData, won, country]);
 
+  const first_line = country?.first_line;
+  const birth_year = country?.birth_year;
+
+  console.log(first_line);
+  console.log(birth_year);
+  console.log(country?.code);
+
   let iframeSrc = "https://oec.world/en/tradle/aprilfools.html";
   let oecLink = "https://oec.world/";
   const country3LetterCode = country?.code
@@ -168,7 +278,10 @@ export function Game({ settingsData }: GameProps) {
     const oecCode = country?.oecCode
       ? country?.oecCode?.toLowerCase()
       : country3LetterCode;
+    /* Here's where the data vis comes in*/
     iframeSrc = `https://oec.world/en/visualize/embed/tree_map/hs92/export/${oecCode}/all/show/2021/?controls=false&title=false&click=false`;
+
+    /*iframeSrc = `https://oec.world/en/visualize/embed/tree_map/hs92/export/${oecCode}/all/show/2021/?controls=false&title=false&click=false`;*/
     oecLink = `https://oec.world/en/profile/country/${country3LetterCode}`;
   }
 
@@ -185,32 +298,21 @@ export function Game({ settingsData }: GameProps) {
       )}
       {/* <div className="my-1 mx-auto"> */}
       <h2 className="font-bold text-center">
-        Guess which country exports these products!
+        Guess which author wrote these lines!
       </h2>
       <div
         style={{
           position: "relative",
-          paddingBottom: "70%",
+          paddingBottom: "50%",
           paddingTop: "25px",
-          height: 0,
+          maxHeight: "400px", // Set a maximum height (adjust the value as needed)
+          overflowY: "auto", // Add a scrollbar when content exceeds the maximum height
+          background: "white",
         }}
       >
-        {country3LetterCode ? (
-          <iframe
-            style={{
-              position: "absolute",
-              top: 0,
-              left: 0,
-              width: "100%",
-              height: "100%",
-            }}
-            title="Country to guess"
-            width="390"
-            height="315"
-            src={iframeSrc}
-            frameBorder="0"
-          />
-        ) : null}
+        {displayedLines.map((line, index) => (
+          <div key={index} dangerouslySetInnerHTML={{ __html: line }} />
+        ))}
       </div>
       {rotationMode && !hideImageMode && !gameEnded && (
         <button
@@ -239,9 +341,28 @@ export function Game({ settingsData }: GameProps) {
               rotationMode={rotationMode}
               isAprilFools={isAprilFools}
             />
+            <div
+              style={{
+                position: "relative",
+                paddingBottom: "10px",
+                paddingTop: "3px",
+                height: "70px",
+                background: "white",
+              }}
+            >
+              <h2
+                style={{
+                  color: "green",
+                }}
+              >
+                The answer was {country?.name}, who was born in{" "}
+                {country?.birth_year}. The passage is excerpted from{" "}
+                {country?.title}.
+              </h2>
+            </div>
             <a
               className="underline w-full text-center block mt-4 flex justify-center"
-              href={oecLink}
+              href={constructWikiLink(country?.name)}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -286,7 +407,7 @@ export function Game({ settingsData }: GameProps) {
               </button> */}
               <div className="text-left">
                 <button className="my-2 inline-block justify-end bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded items-center">
-                  {isAprilFools ? "🪄" : "🌍"} <span>Guess</span>
+                  {isAprilFools ? "🪄" : "📚"} <span>Guess</span>
                 </button>
               </div>
             </div>

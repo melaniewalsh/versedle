@@ -4,7 +4,7 @@ import { Direction } from "./geography";
 export interface Guess {
   name: string;
   distance: number;
-  direction: Direction;
+  direction: string;
   country?: Country;
 }
 
@@ -29,4 +29,8 @@ export function constructOecLink(country: Country) {
     ? countryISOMapping[country.code].toLowerCase()
     : "";
   return `https://oec.world/en/profile/country/${country3LetterCode}`;
+}
+
+export function constructWikiLink(country: string | undefined) {
+  return `https://en.wikipedia.org/wiki/${country}`;
 }

@@ -24,7 +24,6 @@ const AutoCompleteItem = forwardRef<HTMLDivElement, ItemProps>(
   ({ id, value, isAprilFools = false, ...others }: ItemProps, ref) => (
     <div ref={ref} {...others}>
       <Group noWrap>
-        <Text>{flag(id)}</Text>
         <div>
           <Text>{value}</Text>
         </div>
@@ -66,7 +65,8 @@ export function CountryInput({
   return (
     <Autocomplete
       autoComplete="noautocompleteplzz"
-      placeholder="Pick a location"
+      // Pick an author input buo
+      placeholder="Pick an author"
       limit={5}
       itemComponent={
         isAprilFools ? AutoCompleteItemAprilFools : AutoCompleteItem

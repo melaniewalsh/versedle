@@ -4,29 +4,15 @@ import {
   formatDistance,
   generateSquareCharacters,
 } from "../domain/geography";
-import { constructOecLink, Guess } from "../domain/guess";
+import { constructOecLink, constructWikiLink, Guess } from "../domain/guess";
 import React, { useCallback, useEffect, useState } from "react";
 import CountUp from "react-countup";
 import { SettingsData } from "../hooks/useSettings";
 import { getCountryPrettyName } from "../domain/countries";
 
-const DIRECTION_ARROWS: Record<Direction, string> = {
-  N: "⬆️",
-  NNE: "↗️",
-  NE: "↗️",
-  ENE: "↗️",
+const DIRECTION_ARROWS: Record<string, string> = {
   E: "➡️",
-  ESE: "↘️",
-  SE: "↘️",
-  SSE: "↘️",
-  S: "⬇️",
-  SSW: "↙️",
-  SW: "↙️",
-  WSW: "↙️",
   W: "⬅️",
-  WNW: "↖️",
-  NW: "↖️",
-  NNW: "↖️",
 };
 
 const DIRECTION_ARROWS_APRIL_FOOLS: Record<number, string> = {
@@ -142,7 +128,7 @@ export function GuessRow({
             <p>
               {guess?.country !== undefined ? (
                 <a
-                  href={constructOecLink(guess?.country)}
+                  href={constructWikiLink(getCountryPrettyName(guess?.name))}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -174,7 +160,7 @@ export function GuessRow({
             {guess && isAprilFools
               ? "⁇"
               : guess
-              ? formatDistance(guess.distance, distanceUnit)
+              ? `${guess.distance} years`
               : null}
           </div>
           <div

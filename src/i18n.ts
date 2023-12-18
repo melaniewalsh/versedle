@@ -8,7 +8,7 @@ const resources = {
       placeholder: "Country, territory...",
       guess: "Guess",
       share: "Share",
-      showOnGoogleMaps: "View on the OEC",
+      showOnGoogleMaps: "Check out this author on Wikipedia",
       welldone: "Well done!",
       unknownCountry: "Unknown country!",
       copy: "Copied results to clipboard",

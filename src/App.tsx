@@ -29,7 +29,11 @@ function App() {
   return (
     <>
       <div className="absolute hidden md:block">
-        <img src="images/top-ship.png" alt="logo" width="371" />
+        <img
+          src="https://pngimg.com/d/book_PNG51067.png"
+          alt="logo"
+          width="300"
+        />
       </div>
       <ToastContainer
         hideProgressBar
@@ -89,12 +93,7 @@ function App() {
             </button>
             <h1 className="text-center my-1 flex-auto">
               {/* <span className="text-red-600">TRADE</span>LE */}
-              <img
-                className="block m-auto"
-                src="images/oec-tradle-logo.png"
-                alt="logo"
-                width="120"
-              />
+              LITERATURDLE
             </h1>
             <button
               className="ml-3 text-xl"
@@ -130,19 +129,14 @@ function App() {
             </button> */}
           </header>
           <Game settingsData={settingsData} />
-          <footer className="flex justify-center text-sm mt-8 mb-1">
-            <a
-              className="underline pl-1"
-              href="https://oec.world"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Get more trade data on the OEC! 🌎
-            </a>
-          </footer>
+          <footer className="flex justify-center text-sm mt-8 mb-1"></footer>
         </div>
         <div className="absolute bottom-0 right-0 z-0">
-          <img src="images/bottom-ship.png" alt="logo" width="342" />
+          <img
+            src="https://pngimg.com/d/book_PNG51067.png"
+            alt="logo"
+            width="342"
+          />
         </div>
       </div>
     </>
