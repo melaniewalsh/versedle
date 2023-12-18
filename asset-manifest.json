@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/literaturdle/static/css/main.d69d1022.css",
-    "main.js": "/literaturdle/static/js/main.bda8eb5c.js",
-    "index.html": "/literaturdle/index.html",
-    "main.d69d1022.css.map": "/literaturdle/static/css/main.d69d1022.css.map",
-    "main.bda8eb5c.js.map": "/literaturdle/static/js/main.bda8eb5c.js.map"
+    "main.css": "/static/css/main.752de9d2.css",
+    "main.js": "/static/js/main.f54374f9.js",
+    "index.html": "/index.html",
+    "main.752de9d2.css.map": "/static/css/main.752de9d2.css.map",
+    "main.f54374f9.js.map": "/static/js/main.f54374f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.d69d1022.css",
-    "static/js/main.bda8eb5c.js"
+    "static/css/main.752de9d2.css",
+    "static/js/main.f54374f9.js"
   ]
 }
