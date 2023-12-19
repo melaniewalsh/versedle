@@ -15,16 +15,13 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
   return (
     <Panel title="How to play" isOpen={isOpen} close={close}>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
-        <div>Guess the LITERATURDLE in 6 guesses.</div>
+        <div>Try to guess the LITERATURDLE in 6 guesses!</div>
         <div>
-          Each day you&apos;ll see a passage by an author. Each rectangle
-          represents the share of a given product proportional to its percentage
-          of exports for that country.
+          Each day you&apos;ll see a line by a famous literary author.
         </div>
-        <div>Each guess must be a valid country, territory, ...</div>
+        <div> Your goal is to guess the correct author of that line!</div>
         <div>
-          After each guess, you will have the distance, the direction and the
-          proximity from your guess and the target country.
+          After each guess, Literaturdle will tell you how many years later or earlier the correct author was born.
         </div>
       </div>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
@@ -34,19 +31,15 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Chile",
-                direction: "NE",
-                distance: 13_557_000,
+                name: "Emily Dickinson",
+                direction: "E",
+                distance: 45,
               },
             ]}
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your guess <span className="uppercase font-bold">Chile</span> is{" "}
-            {formatDistance(13557000, settingsData.distanceUnit)} away from the
-            target country, the target country is in the North-East direction
-            and you have a only 32% of proximity because it&apos;s quite far
-            away!
+            Your guess, <span className="uppercase font-bold">Emily Dickinson</span>, was born 45 years before the correct author.
           </div>
         </div>
         <div>
@@ -54,18 +47,17 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Finland",
-                direction: "SE",
-                distance: 3_206_000,
+                name: "Sylvia Plath",
+                direction: "W",
+                distance: -1,
               },
             ]}
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your second guess{" "}
-            <span className="uppercase font-bold">Finland</span> is getting
-            closer! {formatDistance(3206000, settingsData.distanceUnit)} away,
-            South-East direction and 84%!
+            Your second guess, {" "}
+            <span className="uppercase font-bold">Sylvia Plath</span>, is very, very close!
+
           </div>
         </div>
         <div>
@@ -73,7 +65,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Lebanon",
+                name: "Toni Morrison",
                 direction: "N",
                 distance: 0,
               },
@@ -81,28 +73,15 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Next guess, <span className="uppercase font-bold">Lebanon</span>, is
-            the correct country! Congrats! 🎉
+            <span className="uppercase font-bold">Toni Morrison</span> is correct! Congrats! 🎉
           </div>
         </div>
       </div>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        A new <Tradele /> will be available every day!
+        A new Literaturdle will be available every day!
       </div>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
-        <div className="font-bold">About distance</div>
-        <div>
-          The distances displayed correspond to the distances between the
-          selected and the target territory centers.
-        </div>
-        <div>
-          For instance, the computed distance between United States and Canada
-          is around {formatDistance(2_260_000, settingsData.distanceUnit)} even
-          if they have a common border.
-        </div>
-      </div>
-      <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
-        <Tradele /> has been <span className="font-bold">heavily</span> inspired
+        Literaturdle is <span className="font-bold">heavily</span> inspired by Tradele, which is heavily inspired
         by{" "}
         <a
           className="underline"
@@ -112,16 +91,16 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         >
           Worldle
         </a>{" "}
-        created by{" "}
+        (created by{" "}
         <a
           className="underline"
           href="https://twitter.com/teuteuf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          @teuteuf
+          @teuteuf),
         </a>{" "}
-        which itself was <span className="font-bold">heavily</span> inspired by{" "}
+        which itself was heavily inspired by{" "}
         <a
           className="underline"
           href="https://www.powerlanguage.co.uk/wordle/"
@@ -130,14 +109,14 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         >
           Wordle
         </a>{" "}
-        created by{" "}
+        (created by{" "}
         <a
           className="underline"
           href="https://twitter.com/powerlanguish"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Josh Wardle (@powerlanguish)
+          Josh Wardle (@powerlanguish)).
         </a>
         .
       </div>
@@ -146,16 +125,16 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           Made by{" "}
           <a
             className="underline"
-            href="https://twitter.com/ximoes"
+            href="https://twitter.com/mellymeldubs"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @ximoes
+            Melanie Walsh
           </a>
           . Source code on{" "}
           <a
             className="underline"
-            href="https://github.com/alexandersimoes/tradle"
+            href="https://github.com/melaniewalsh/literaturdle"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -170,7 +149,6 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn more about trade data on the OEC! 🌎
           </a>
         </div>
       </div>

@@ -25,7 +25,7 @@ export type Direction =
 
 export function computeProximityPercent(distance: number): number {
   const proximity = Math.max(500 - Math.abs(distance), 0);
-  return Math.round((proximity / 500) * 100);
+  return Math.floor((proximity / 500) * 100);
 }
 
 export function generateSquareCharacters(
