@@ -1,6 +1,6 @@
 import { csv } from "d3-fetch";
 import { useEffect, useMemo, useState } from "react";
-import { countriesWithImage, Country } from "../domain/countries";
+import { countries, Country } from "../domain/countries";
 
 interface DateCountry {
   country: string;
@@ -27,9 +27,7 @@ export function useCountry(dayString: string): [Country | undefined] {
   const country = useMemo(() => {
     const forcedCountry =
       forcedCountryCode !== ""
-        ? countriesWithImage.find(
-            (country) => country.code === forcedCountryCode
-          )
+        ? countries.find((country) => country.code === forcedCountryCode)
         : undefined;
     return forcedCountry;
   }, [forcedCountryCode]);

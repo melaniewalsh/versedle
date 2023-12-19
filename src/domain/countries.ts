@@ -15,6 +15,9 @@ const countryCodesWithImage = [
   "ag",
   "dd",
   "bc",
+  "jd",
+  "ee",
+  "sp",
 ];
 
 export interface Country {
@@ -119,7 +122,6 @@ To an admiring Bog!`,
    Though I must go, endure not yet
 A breach, but an expansion,
    Like gold to airy thinness beat.
-
 If they be two, they are two so
    As stiff twin compasses are two;
 Thy soul, the fixed foot, makes no show
@@ -227,6 +229,8 @@ export const fictionalCountries: Country[] = [];
 export const countriesWithImage = countries.filter((c) =>
   countryCodesWithImage.includes(c.code.toLowerCase())
 );
+
+console.log(countriesWithImage);
 
 export function getCountryName(language: string, country: Country | undefined) {
   return country?.name;

@@ -16,11 +16,10 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
     <Panel title="How to play" isOpen={isOpen} close={close}>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
         <div>
-          Guess the <Tradele /> in 6 guesses.
+          Guess the LITERATURDLE in 6 guesses.
         </div>
         <div>
-          What exactly am I trying to guess? Each day you&apos;ll see a
-          different treemap of the exports for a particular country. Each
+          Each day you&apos;ll see a passage by an author. Each
           rectangle represents the share of a given product proportional to its
           percentage of exports for that country.
         </div>
