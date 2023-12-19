@@ -4,22 +4,6 @@
 import { flag } from "country-emoji";
 import i18n from "../i18n";
 
-const countryCodesWithImage = [
-  "ad",
-  "ao",
-  "ax",
-  "bg",
-  "bo",
-  "af",
-  "ae",
-  "ag",
-  "dd",
-  "bc",
-  "jd",
-  "ee",
-  "sp",
-];
-
 export interface Country {
   code: string;
   latitude: number;
@@ -225,12 +209,6 @@ Than never to have loved at all.`,
 ];
 
 export const fictionalCountries: Country[] = [];
-
-export const countriesWithImage = countries.filter((c) =>
-  countryCodesWithImage.includes(c.code.toLowerCase())
-);
-
-console.log(countriesWithImage);
 
 export function getCountryName(language: string, country: Country | undefined) {
   return country?.name;

@@ -133,7 +133,7 @@ export function Game({ settingsData }: GameProps) {
     }
   }, [country, currentLine]);
 
-  const displayFullPassage = useCallback(() => {
+/*  const displayFullPassage = useCallback(() => {
     if (country && country.first_line) {
       const lines = country.first_line.split("\n");
       const allDisplayedLines = lines.slice(0, lines.length);
@@ -141,7 +141,20 @@ export function Game({ settingsData }: GameProps) {
       console.log(lines);
       setDisplayedLines(allDisplayedLines);
     }
-  }, [country]);
+  }, [country]);*/
+
+  const displayFullPassage = useCallback(() => {
+  if (country && country.first_line) {
+    const lines = country.first_line.split("\n");
+    const allDisplayedLines = lines.slice(0, lines.length);
+    console.log(`ALL LINES: ${allDisplayedLines}`);
+    console.log(lines);
+    setDisplayedLines(allDisplayedLines);
+  }
+}, [country]);
+
+
+
   const [hideImageMode, setHideImageMode] = useMode(
     "hideImageMode",
     dayString,
@@ -155,7 +168,8 @@ export function Game({ settingsData }: GameProps) {
 
   const gameEnded =
     guesses.length === MAX_TRY_COUNT ||
-    guesses[guesses.length - 1]?.distance === 0;
+    guesses[guesses.length - 1]?.distance === 0 ||
+    won;
 
   const handleSubmit = useCallback(
     (e: React.FormEvent<HTMLFormElement>) => {
@@ -212,6 +226,13 @@ export function Game({ settingsData }: GameProps) {
   useEffect(() => {
     displayLine();
   }, [country, displayLine]);
+
+  useEffect(() => {
+    // Check if the game has ended and display the full passage if so
+    if (gameEnded) {
+      displayFullPassage();
+    }
+  }, [gameEnded, displayFullPassage]);
 
   useEffect(() => {
     const getIpData = async () => {

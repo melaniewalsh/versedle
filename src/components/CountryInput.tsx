@@ -72,7 +72,7 @@ export function CountryInput({
         isAprilFools ? AutoCompleteItemAprilFools : AutoCompleteItem
       }
       data={items}
-      styles={{ dropdown: { maxHeight: 400, overflowY: `auto` } }}
+      styles={{ dropdown: { maxHeight: 200, overflowY: `auto` } }}
       filter={(value, item) =>
         item.value
           .toLowerCase()
