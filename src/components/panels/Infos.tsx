@@ -16,12 +16,11 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
     <Panel title="How to play" isOpen={isOpen} close={close}>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
         <div>Try to guess the LITERATURDLE in 6 guesses!</div>
-        <div>
-          Each day you&apos;ll see a line by a famous literary author.
-        </div>
+        <div>Each day you&apos;ll see a line by a famous literary author.</div>
         <div> Your goal is to guess the correct author of that line!</div>
         <div>
-          After each guess, Literaturdle will tell you how many years later or earlier the correct author was born.
+          After each guess, Literaturdle will tell you how many years later or
+          earlier the correct author was born.
         </div>
       </div>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
@@ -39,7 +38,9 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your guess, <span className="uppercase font-bold">Emily Dickinson</span>, was born 45 years before the correct author.
+            Your guess,{" "}
+            <span className="uppercase font-bold">Emily Dickinson</span>, was
+            born 45 years before the correct author.
           </div>
         </div>
         <div>
@@ -55,9 +56,9 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your second guess, {" "}
-            <span className="uppercase font-bold">Sylvia Plath</span>, is very, very close!
-
+            Your second guess,{" "}
+            <span className="uppercase font-bold">Sylvia Plath</span>, is very,
+            very close!
           </div>
         </div>
         <div>
@@ -73,7 +74,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            <span className="uppercase font-bold">Toni Morrison</span> is correct! Congrats! 🎉
+            <span className="uppercase font-bold">Toni Morrison</span> is
+            correct! Congrats! 🎉
           </div>
         </div>
       </div>
@@ -81,8 +83,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         A new Literaturdle will be available every day!
       </div>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
-        Literaturdle is <span className="font-bold">heavily</span> inspired by Tradele, which is heavily inspired
-        by{" "}
+        Literaturdle is <span className="font-bold">heavily</span> inspired by
+        Tradele, which is heavily inspired by{" "}
         <a
           className="underline"
           href="https://worldle.teuteuf.fr/"
@@ -148,8 +150,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             href="https://oec.world"
             target="_blank"
             rel="noopener noreferrer"
-          >
-          </a>
+          ></a>
         </div>
       </div>
     </Panel>

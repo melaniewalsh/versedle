@@ -133,7 +133,7 @@ export function Game({ settingsData }: GameProps) {
     }
   }, [country, currentLine]);
 
-/*  const displayFullPassage = useCallback(() => {
+  /*  const displayFullPassage = useCallback(() => {
     if (country && country.first_line) {
       const lines = country.first_line.split("\n");
       const allDisplayedLines = lines.slice(0, lines.length);
@@ -144,16 +144,14 @@ export function Game({ settingsData }: GameProps) {
   }, [country]);*/
 
   const displayFullPassage = useCallback(() => {
-  if (country && country.first_line) {
-    const lines = country.first_line.split("\n");
-    const allDisplayedLines = lines.slice(0, lines.length);
-    console.log(`ALL LINES: ${allDisplayedLines}`);
-    console.log(lines);
-    setDisplayedLines(allDisplayedLines);
-  }
-}, [country]);
-
-
+    if (country && country.first_line) {
+      const lines = country.first_line.split("\n");
+      const allDisplayedLines = lines.slice(0, lines.length);
+      console.log(`ALL LINES: ${allDisplayedLines}`);
+      console.log(lines);
+      setDisplayedLines(allDisplayedLines);
+    }
+  }, [country]);
 
   const [hideImageMode, setHideImageMode] = useMode(
     "hideImageMode",
