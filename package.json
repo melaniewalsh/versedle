@@ -1,6 +1,5 @@
 {
   "name": "literaturdle",
-  "homepage": "https://melaniewalsh.github.io/literaturdle",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
