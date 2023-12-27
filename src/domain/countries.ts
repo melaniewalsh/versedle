@@ -17,6 +17,23 @@ export interface Country {
 
 export const countries: Country[] = [
   {
+    name: "Maya Angelou",
+    first_line: `Leaving behind nights of terror and fear
+I rise
+Into a daybreak that’s wondrously clear
+I rise
+Bringing the gifts that my ancestors gave,
+I am the dream and the hope of the slave.
+I rise
+I rise
+I rise.`,
+    latitude: 33.93911,
+    longitude: 67.709953,
+    title: "Still I Rise",
+    birth_year: 1928,
+    code: "MA",
+  },
+  {
     code: "AF",
     latitude: 33.93911,
     longitude: 67.709953,
