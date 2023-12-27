@@ -1,6 +1,6 @@
 {
-  "short_name": "Tradle",
-  "name": "OEC Tradle",
+  "short_name": "Literaturdle",
+  "name": "Literaturdle",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "literaturdle-logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "literaturdle-logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
