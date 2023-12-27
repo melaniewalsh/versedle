@@ -1,8 +1,12 @@
-# Tradle
+# Literaturdle
 
-Play this international wordle here: https://oec.world/en/tradle/!
+Play Literaturdle, the literary Wordle, here: https://melaniewalsh.github.io/literaturdle/ Test your knowledge of famous literary lines and authors from across history — once every day!
 
-# Development requirements
+# Acknowledgments
+
+Literaturdle is largely built from the code of [Tradle](https://games.oec.world/en/tradle/) ([source code](https://github.com/alexandersimoes/tradle), which is built from [Worldle](https://worldle.teuteuf.fr/) ([source code](https://github.com/markgalassi/worldle)), which is of course based on the original [Wordle](https://www.nytimes.com/games/wordle/index.html)!
+
+# If you want to build on Literaturdle...
 
 To test and develop new features, make sure you meet the following requirements:
 
@@ -11,14 +15,9 @@ To test and develop new features, make sure you meet the following requirements:
 | node.js  | >=14        |
 | npm      | >=8         |
 
-# Run a local copy
+# To run a local copy of Literaturdle...
 
 ```
 npm ci
 npm start
 ```
-
-## Resources used:
-
-- Countries with long/lat => https://developers.google.com/public-data/docs/canonical/countries_csv
-- Country emojis => https://www.npmjs.com/package/country-emoji
