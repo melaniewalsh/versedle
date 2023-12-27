@@ -31,6 +31,28 @@ Mr. Bennet made no answer.`,
     name: "Jane Austen",
   },
   {
+    code: "EB",
+    name: "Elizabeth Barrett Browning",
+    title: "How Do I Love Thee? (Sonnet 43)",
+    latitude: 33.93911,
+    longitude: 67.709953,
+    birth_year: 1806,
+    first_line: `How do I love thee? Let me count the ways.
+I love thee to the depth and breadth and height
+My soul can reach, when feeling out of sight
+For the ends of being and ideal grace.
+I love thee to the level of every day’s
+Most quiet need, by sun and candle-light.
+I love thee freely, as men strive for right.
+I love thee purely, as they turn from praise.
+I love thee with the passion put to use
+In my old griefs, and with my childhood’s faith.
+I love thee with a love I seemed to lose
+With my lost saints. I love thee with the breath,
+Smiles, tears, of all my life; and, if God choose,
+I shall but love thee better after death.`,
+  },
+  {
     code: "BC",
     latitude: 42.546245,
     longitude: 1.601554,
@@ -138,6 +160,26 @@ Thy firmness makes my circle just,
     name: "Charles Dickens",
   },
   {
+    name: "T.S. Eliot",
+    first_line: `I grow old ... I grow old ...
+I shall wear the bottoms of my trousers rolled.
+Shall I part my hair behind?   Do I dare to eat a peach?
+I shall wear white flannel trousers, and walk upon the beach.
+I have heard the mermaids singing, each to each.
+I do not think that they will sing to me.
+I have seen them riding seaward on the waves
+Combing the white hair of the waves blown back
+When the wind blows the water white and black.
+We have lingered in the chambers of the sea
+By sea-girls wreathed with seaweed red and brown
+Till human voices wake us, and we drown.`,
+    code: "TE",
+    birth_year: 1888,
+    latitude: 42.546245,
+    longitude: 1.601554,
+    title: "The Love Song of J. Alfred Prufrock",
+  },
+  {
     code: "JM",
     latitude: 17.060816,
     longitude: -61.796428,
@@ -165,6 +207,22 @@ Of wedded Maid, and Virgin Mother born,
 “It worked,” she said.`,
     title: "Beloved",
     name: "Toni Morrison",
+  },
+  {
+    name: "Alexander Pope",
+    first_line: `Hope springs eternal in the human breast:
+Man never is, but always to be blest:
+The soul, uneasy and confin'd from home,
+Rests and expatiates in a life to come.
+Lo! the poor Indian, whose untutor'd mind
+Sees God in clouds, or hears him in the wind;
+His soul, proud science never taught to stray
+Far as the solar walk, or milky way;`,
+    title: "An Essay on Man: Epistle I",
+    birth_year: 1688,
+    code: "AP",
+    latitude: 17.060816,
+    longitude: -61.796428,
   },
 
   {
@@ -220,6 +278,22 @@ I hold it true, whate’er befall,
 Than never to have loved at all.`,
     title: "In Memoriam A.H.H. 1849",
     name: "Alfred Lord Tennyson",
+  },
+  {
+    name: "William Butler Yeats",
+    first_line: `Turning and turning in the widening gyre
+The falcon cannot hear the falconer;
+Things fall apart; the centre cannot hold;
+Mere anarchy is loosed upon the world,
+The blood-dimmed tide is loosed, and everywhere
+The ceremony of innocence is drowned;
+The best lack all conviction, while the worst
+Are full of passionate intensity.`,
+    birth_year: 1865,
+    title: "The Second Coming",
+    code: "WY",
+    latitude: 42.546245,
+    longitude: 1.601554,
   },
 ];
 
