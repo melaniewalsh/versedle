@@ -1,6 +1,10 @@
-# Literaturdle
+# Literaturdle 🐢📚
 
-Play Literaturdle, the literary Wordle, here: https://melaniewalsh.github.io/literaturdle/ Test your knowledge of famous literary lines and authors from across history — once every day!
+Play **Literaturdle**, the literary Wordle, here: https://melaniewalsh.github.io/literaturdle/
+
+Test your knowledge of famous literary lines and authors from across history — once every day!
+
+Pronunciation: Litera-churdle  
 
 # Acknowledgments
 
