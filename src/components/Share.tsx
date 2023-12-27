@@ -11,7 +11,7 @@ import { Guess } from "../domain/guess";
 import React from "react";
 import { SettingsData } from "../hooks/useSettings";
 
-const START_DATE = DateTime.fromISO("2022-03-06");
+const START_DATE = DateTime.fromISO("2023-12-15");
 
 interface ShareProps {
   guesses: Guess[];

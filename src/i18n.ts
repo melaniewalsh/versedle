@@ -10,7 +10,7 @@ const resources = {
       share: "Share",
       showOnGoogleMaps: "Check out this author on Wikipedia",
       welldone: "Well done!",
-      unknownCountry: "Unknown country!",
+      unknownCountry: "Unknown author!",
       copy: "Copied results to clipboard",
       showCountry: "🗺️ Show map!",
       cancelRotation: "🌀 Cancel rotation",
