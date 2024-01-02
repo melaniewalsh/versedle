@@ -34,6 +34,28 @@ I rise.`,
     code: "MA",
   },
   {
+    name: "W.H. Auden",
+    first_line: `Stop all the clocks, cut off the telephone,
+Prevent the dog from barking with a juicy bone,
+Silence the pianos and with muffled drum
+Bring out the coffin, let the mourners come.
+
+Let aeroplanes circle moaning overhead
+Scribbling on the sky the message He Is Dead
+Put crepe bows round the white necks of the public doves,
+Let the traffic policemen wear black cotton gloves.
+
+He was my North, my South, my East and West,
+My working week and my Sunday rest,
+My noon, my midnight, my talk, my song;
+I thought that love would last for ever: I was wrong.`,
+    code: "AU",
+    title: "Twelve Songs: IX",
+    birth_year: 1907,
+    latitude: 33.93911,
+    longitude: 67.709953,
+  },
+  {
     code: "AF",
     latitude: 33.93911,
     longitude: 67.709953,
@@ -46,6 +68,22 @@ Mr. Bennet replied that he had not.
 Mr. Bennet made no answer.`,
     title: "Pride and Prejudice",
     name: "Jane Austen",
+  },
+  {
+    name: "William Blake",
+    first_line: `Tyger Tyger, burning bright,
+In the forests of the night;
+What immortal hand or eye,
+Could frame thy fearful symmetry?
+In what distant deeps or skies.
+Burnt the fire of thine eyes?
+On what wings dare he aspire?
+What the hand, dare seize the fire?`,
+    title: "The Tyger",
+    birth_year: 1757,
+    code: "WB",
+    latitude: 33.93911,
+    longitude: 67.709953,
   },
   {
     code: "EB",
@@ -197,6 +235,23 @@ Till human voices wake us, and we drown.`,
     title: "The Love Song of J. Alfred Prufrock",
   },
   {
+    name: "Robert Frost",
+    title: "Stopping By Woods on a Snowy Evening",
+    first_line: `He gives his harness bells a shake
+To ask if there is some mistake.
+The only other sound's the sweep
+Of easy wind and downy flake.
+
+The woods are lovely, dark and deep.
+But I have promises to keep,
+And miles to go before I sleep,
+And miles to go before I sleep.`,
+    birth_year: 1874,
+    code: "RF",
+    latitude: 42.546245,
+    longitude: 1.601554,
+  },
+  {
     code: "JM",
     latitude: 17.060816,
     longitude: -61.796428,
@@ -280,6 +335,24 @@ Or if they sing, 'tis with so dull a cheer
 That leaves look pale, dreading the winter's near.`,
     title: "Sonnet 97: How like a winter hath my absence been",
     name: "William Shakespeare",
+  },
+  {
+    name: "Gertrude Stein",
+    first_line: `Color mahogany.
+Color mahogany center.
+Rose is a rose is a rose is a rose.
+Loveliness extreme.
+Extra gaiters.
+Loveliness extreme.
+Sweetest ice-cream.
+Page ages page ages page ages.
+Wiped Wiped wire wire.
+Sweeter than peaches and pears and cream.`,
+    code: "GS",
+    birth_year: 1874,
+    title: "Sacred Emily",
+    latitude: 42.546245,
+    longitude: 1.601554,
   },
   {
     code: "AT",

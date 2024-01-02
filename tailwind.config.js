@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "oec-orange": "#FFA63F",
         "oec-yellow": "#FFD422",
+        "literaturdle-gold": "darkgoldenrod",
       },
       keyframes: {
         reveal: {

@@ -93,7 +93,8 @@ function App() {
             </button>
             <h1 className="text-center my-1 flex-auto">
               {/* <span className="text-red-600">TRADE</span>LE */}
-              LITERATURDLE
+              <b className="text-literaturdle-gold">LITERATUR(E)</b>
+              <b className="text-black-300">DLE</b>
             </h1>
             <button
               className="ml-3 text-xl"

@@ -25,6 +25,7 @@ import { SettingsData } from "../hooks/useSettings";
 import { useMode } from "../hooks/useMode";
 import { useCountry } from "../hooks/useCountry";
 import axios from "axios";
+import Easter from "./Easter";
 
 function getDayString() {
   return DateTime.now().toFormat("yyyy-MM-dd");
@@ -189,7 +190,7 @@ export function Game({ settingsData }: GameProps) {
       const newGuess = {
         name: currentGuess,
         /*distance: geolib.getDistance(guessedCountry, country),*/
-        distance: guessedCountry.birth_year - country.birth_year,
+        distance: Math.abs(guessedCountry.birth_year - country.birth_year),
         direction: getDirection(guessedCountry.birth_year, country.birth_year),
         /*direction: geolib.getCompassDirection(guessedCountry, country),*/
         country: guessedCountry,
@@ -203,6 +204,7 @@ export function Game({ settingsData }: GameProps) {
         displayFullPassage();
         setWon(true);
         getIpData();
+        Easter();
         toast.success(t("welldone"), { delay: 2000 });
       } else {
         currentLine++;
@@ -289,134 +291,139 @@ export function Game({ settingsData }: GameProps) {
   console.log(country?.code);
 
   return (
-    <div className="flex-grow flex flex-col mx-2 relative">
-      {hideImageMode && !gameEnded && (
-        <button
-          className="border-2 uppercase my-2 hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-slate-800 dark:active:bg-slate-700"
-          type="button"
-          onClick={() => setHideImageMode(false)}
+    <>
+      {won && <Easter />}
+      <div className="flex-grow flex flex-col mx-2 relative">
+        {/* Render Easter component when the user has won */}
+
+        {hideImageMode && !gameEnded && (
+          <button
+            className="border-2 uppercase my-2 hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-slate-800 dark:active:bg-slate-700"
+            type="button"
+            onClick={() => setHideImageMode(false)}
+          >
+            {t("showCountry")}
+          </button>
+        )}
+        {/* <div className="my-1 mx-auto"> */}
+        <h2 className="font-bold text-center">
+          Guess which author wrote these lines!
+        </h2>
+        <div
+          style={{
+            position: "relative",
+            paddingBottom: "50%",
+            paddingTop: "5px",
+            maxHeight: "210px", // Set a maximum height (adjust the value as needed)
+            /*overflowY: "auto", // Add a scrollbar when content exceeds the maximum height*/
+            background: "white",
+          }}
         >
-          {t("showCountry")}
-        </button>
-      )}
-      {/* <div className="my-1 mx-auto"> */}
-      <h2 className="font-bold text-center">
-        Guess which author wrote these lines!
-      </h2>
-      <div
-        style={{
-          position: "relative",
-          paddingBottom: "50%",
-          paddingTop: "25px",
-          maxHeight: "400px", // Set a maximum height (adjust the value as needed)
-          overflowY: "auto", // Add a scrollbar when content exceeds the maximum height
-          background: "white",
-        }}
-      >
-        {displayedLines.map((line, index) => (
-          <div key={index} dangerouslySetInnerHTML={{ __html: line }} />
-        ))}
-      </div>
-      {rotationMode && !hideImageMode && !gameEnded && (
-        <button
-          className="border-2 uppercase mb-2 hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-slate-800 dark:active:bg-slate-700"
-          type="button"
-          onClick={() => setRotationMode(false)}
-        >
-          {t("cancelRotation")}
-        </button>
-      )}
-      <Guesses
-        rowCount={MAX_TRY_COUNT}
-        guesses={guesses}
-        settingsData={settingsData}
-        countryInputRef={countryInputRef}
-        isAprilFools={isAprilFools}
-      />
-      <div className="my-2">
-        {gameEnded ? (
-          <>
-            <Share
-              guesses={guesses}
-              dayString={dayString}
-              settingsData={settingsData}
-              hideImageMode={hideImageMode}
-              rotationMode={rotationMode}
-              isAprilFools={isAprilFools}
-            />
-            <div
-              style={{
-                position: "relative",
-                paddingBottom: "10px",
-                paddingTop: "3px",
-                height: "70px",
-                background: "white",
-              }}
-            >
-              <h2
-                style={{
-                  color: "green",
-                }}
-              >
-                The answer was {country?.name}, who was born in{" "}
-                {country?.birth_year}. The passage is excerpted from{" "}
-                {country?.title}.
-              </h2>
-            </div>
-            <a
-              className="underline w-full text-center block mt-4 flex justify-center"
-              href={constructWikiLink(country?.name)}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>
-              {t("showOnGoogleMaps")}
-            </a>
-            {isAprilFools ? (
-              <div className="w-full text-center block mt-4 flex flex-col justify-center text-2xl font-bold">
-                <div>🐶 🚲 🌪 🏚</div>
-                <div>Happy April Fools!</div>
-                <div>👠 🤖 🦁 🎍</div>
-              </div>
-            ) : null}
-          </>
-        ) : (
-          <form onSubmit={handleSubmit}>
-            <div className="">
-              <CountryInput
-                countryValue={countryValue}
-                setCountryValue={setCountryValue}
-                setCurrentGuess={setCurrentGuess}
+          {displayedLines.map((line, index) => (
+            <div key={index} dangerouslySetInnerHTML={{ __html: line }} />
+          ))}
+        </div>
+        {rotationMode && !hideImageMode && !gameEnded && (
+          <button
+            className="border-2 uppercase mb-2 hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-slate-800 dark:active:bg-slate-700"
+            type="button"
+            onClick={() => setRotationMode(false)}
+          >
+            {t("cancelRotation")}
+          </button>
+        )}
+        <Guesses
+          rowCount={MAX_TRY_COUNT}
+          guesses={guesses}
+          settingsData={settingsData}
+          countryInputRef={countryInputRef}
+          isAprilFools={isAprilFools}
+        />
+        <div className="my-2">
+          {gameEnded ? (
+            <>
+              <Share
+                guesses={guesses}
+                dayString={dayString}
+                settingsData={settingsData}
+                hideImageMode={hideImageMode}
+                rotationMode={rotationMode}
                 isAprilFools={isAprilFools}
               />
-              {/* <button
+              <div
+                style={{
+                  position: "relative",
+                  paddingBottom: "10px",
+                  paddingTop: "3px",
+                  height: "70px",
+                  background: "white",
+                }}
+              >
+                <h2
+                  style={{
+                    color: "green",
+                  }}
+                >
+                  The answer was {country?.name}, who was born in{" "}
+                  {country?.birth_year}. The passage is excerpted from{" "}
+                  {country?.title}.
+                </h2>
+              </div>
+              <a
+                className="underline w-full text-center block mt-4 flex justify-center"
+                href={constructWikiLink(country?.name)}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+                {t("showOnGoogleMaps")}
+              </a>
+              {isAprilFools ? (
+                <div className="w-full text-center block mt-4 flex flex-col justify-center text-2xl font-bold">
+                  <div>🐶 🚲 🌪 🏚</div>
+                  <div>Happy April Fools!</div>
+                  <div>👠 🤖 🦁 🎍</div>
+                </div>
+              ) : null}
+            </>
+          ) : (
+            <form onSubmit={handleSubmit}>
+              <div className="">
+                <CountryInput
+                  countryValue={countryValue}
+                  setCountryValue={setCountryValue}
+                  setCurrentGuess={setCurrentGuess}
+                  isAprilFools={isAprilFools}
+                />
+                {/* <button
                 className="border-2 uppercase my-0.5 hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-slate-800 dark:active:bg-slate-700"
                 type="submit"
               >
                 🌍 {t("guess")}
               </button> */}
-              <div className="text-left">
-                <button className="my-2 inline-block justify-end bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded items-center">
-                  {isAprilFools ? "🪄" : "📚"} <span>Guess</span>
-                </button>
+                <div className="text-left">
+                  <button className="my-2 inline-block justify-end bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded items-center">
+                    {isAprilFools ? "🪄" : "📚"} <span>Guess</span>
+                  </button>
+                </div>
               </div>
-            </div>
-          </form>
-        )}
+            </form>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
