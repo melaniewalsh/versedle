@@ -45,23 +45,45 @@ const AutoCompleteItemAprilFools = forwardRef<HTMLDivElement, ItemProps>(
 );
 AutoCompleteItemAprilFools.displayName = "Autocomplete Item April Fools";
 
+// export function CountryInput({
+//   countryValue,
+//   setCountryValue,
+//   setCurrentGuess,
+//   isAprilFools = false,
+// }: CountryInputProps) {
+//   const items = isAprilFools
+//     ? fictionalCountries.map((country) => ({
+//         name: country.name,
+//         value: `${country.name}`,
+//         id: country.code,
+//       }))
+//     : countries.map((country) => ({
+//         name: country.name,
+//         value: `${country.name}`,
+//         id: country.code,
+//       }));
+
 export function CountryInput({
   countryValue,
   setCountryValue,
   setCurrentGuess,
   isAprilFools = false,
 }: CountryInputProps) {
-  const items = isAprilFools
-    ? fictionalCountries.map((country) => ({
-        name: country.name,
-        value: `${country.name}`,
-        id: country.code,
-      }))
-    : countries.map((country) => ({
-        name: country.name,
-        value: `${country.name}`,
-        id: country.code,
-      }));
+  const items = (isAprilFools ? fictionalCountries : countries)
+    .map((country) => ({
+      name: country.name,
+      value: `${country.name}`,
+      id: country.code,
+    }))
+    .reduce<{ name: string; value: string; id: string }[]>((acc, current) => {
+      const x = acc.find((item) => item.name === current.name);
+      if (!x) {
+        return acc.concat([current]);
+      } else {
+        return acc;
+      }
+    }, []);
+
   return (
     <Autocomplete
       autoComplete="noautocompleteplzz"
