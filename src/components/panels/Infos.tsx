@@ -40,7 +40,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           <div className="my-2">
             Your guess,{" "}
             <span className="uppercase font-bold">Emily Dickinson</span>, was
-            born 45 years before the correct author.
+            born 45 years after the correct author.
           </div>
         </div>
         <div>
