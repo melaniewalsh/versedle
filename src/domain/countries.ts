@@ -77,7 +77,7 @@ export const countries: Country[] = [
     code: "WB",
   },
   {
-    name: "Wiliam Blake",
+    name: "William Blake",
     first_line:
       "Little Lamb who made thee \n         Dost thou know who made thee \nGave thee life & bid thee feed. \nBy the stream & o'er the mead;\nGave thee clothing of delight,\nSoftest clothing wooly bright;\nGave thee such a tender voice,\nMaking all the vales rejoice!",
     latitude: 42.546245,
@@ -147,7 +147,7 @@ export const countries: Country[] = [
     code: "CB",
   },
   {
-    name: "Lord Byron (George Gordon)",
+    name: "Lord Byron",
     first_line:
       "She walks in beauty, like the night\nOf cloudless climes and starry skies;\nAnd all that’s best of dark and bright\nMeet in her aspect and her eyes;\nThus mellowed to that tender light\nWhich heaven to gaudy day denies.",
     latitude: 42.546245,
@@ -156,16 +156,7 @@ export const countries: Country[] = [
     birth_year: 1788,
     code: "LB",
   },
-  {
-    name: "Percy Bysshe Shelley",
-    first_line:
-      "I met a traveller from an antique land,\nWho said—“Two vast and trunkless legs of stone\nStand in the desert. . . . Near them, on the sand,\nHalf sunk a shattered visage lies, whose frown,\nAnd wrinkled lip, and sneer of cold command,\nTell that its sculptor well those passions read\nWhich yet survive, stamped on these lifeless things,\nThe hand that mocked them, and the heart that fed;\nAnd on the pedestal, these words appear:\nMy name is Ozymandias, King of Kings;\nLook on my Works, ye Mighty, and despair!",
-    latitude: 42.546245,
-    longitude: 1.601554,
-    title: "Ozymandias",
-    birth_year: 1792,
-    code: "PS",
-  },
+  
   {
     name: "Lewis Carroll",
     first_line:
@@ -587,7 +578,7 @@ export const countries: Country[] = [
     code: "WS",
   },
   {
-    name: "Wiliam Shakespeare",
+    name: "William Shakespeare",
     first_line:
       "Shall I compare thee to a summer’s day?\nThou art more lovely and more temperate:\nRough winds do shake the darling buds of May,\nAnd summer’s lease hath all too short a date;\nSometime too hot the eye of heaven shines,\nAnd often is his gold complexion dimm'd;\nAnd every fair from fair sometime declines,\nBy chance or nature’s changing course untrimm'd;",
     latitude: 42.546245,
@@ -615,6 +606,16 @@ export const countries: Country[] = [
     title: "Falling Up",
     birth_year: 1930,
     code: "SS",
+  },
+  {
+    name: "Percy Shelley",
+    first_line:
+      "I met a traveller from an antique land,\nWho said—“Two vast and trunkless legs of stone\nStand in the desert. . . . Near them, on the sand,\nHalf sunk a shattered visage lies, whose frown,\nAnd wrinkled lip, and sneer of cold command,\nTell that its sculptor well those passions read\nWhich yet survive, stamped on these lifeless things,\nThe hand that mocked them, and the heart that fed;\nAnd on the pedestal, these words appear:\nMy name is Ozymandias, King of Kings;\nLook on my Works, ye Mighty, and despair!",
+    latitude: 42.546245,
+    longitude: 1.601554,
+    title: "Ozymandias",
+    birth_year: 1792,
+    code: "PS",
   },
   {
     name: "Gertrude Stein",
