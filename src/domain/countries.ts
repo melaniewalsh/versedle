@@ -243,7 +243,7 @@ export const countries: Country[] = [
     latitude: 42.546245,
     longitude: 1.601554,
     title: "I’m Nobody! Who are you? (260)",
-    birth_year: 1886,
+    birth_year: 1830,
     code: "ED",
   },
   {
