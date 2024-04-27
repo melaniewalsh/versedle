@@ -315,7 +315,7 @@ export function Game({ settingsData }: GameProps) {
             paddingBottom: "50%",
             paddingTop: "5px",
             maxHeight: "210px", // Set a maximum height (adjust the value as needed)
-            /*overflowY: "auto", // Add a scrollbar when content exceeds the maximum height*/
+            overflowY: "auto", // Add a scrollbar when content exceeds the maximum height
             background: "white",
           }}
         >

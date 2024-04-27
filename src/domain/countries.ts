@@ -84,7 +84,7 @@ export const countries: Country[] = [
     longitude: 1.601554,
     title: "The Lamb",
     birth_year: 1757,
-    code: "WB",
+    code: "WBL",
   },
   {
     name: "Anne Bradstreet",
@@ -156,7 +156,7 @@ export const countries: Country[] = [
     birth_year: 1788,
     code: "LB",
   },
-  
+
   {
     name: "Lewis Carroll",
     first_line:
@@ -245,7 +245,7 @@ export const countries: Country[] = [
     longitude: 1.601554,
     title: "I heard a Fly buzz - when I died -",
     birth_year: 1830,
-    code: "ED",
+    code: "EDF",
   },
   {
     name: "Emily Dickinson",
@@ -485,7 +485,7 @@ export const countries: Country[] = [
     longitude: 1.601554,
     title: "Paradise Lost: Book 1",
     birth_year: 1608,
-    code: "JM",
+    code: "JMD",
   },
   {
     name: "Toni Morrison",
@@ -545,7 +545,7 @@ export const countries: Country[] = [
     longitude: -61.796428,
     title: "An Essay on Man: Epistle I",
     birth_year: 1688,
-    code: "AP",
+    code: "APH",
   },
   {
     name: "Ezra Pound",
@@ -574,7 +574,7 @@ export const countries: Country[] = [
     latitude: 42.546245,
     longitude: 1.601554,
     title: "Sonnet 97: How like a winter hath my absence been",
-    birth_year: 1554,
+    birth_year: 1564,
     code: "WS",
   },
   {
@@ -605,7 +605,7 @@ export const countries: Country[] = [
     longitude: 1.601554,
     title: "Falling Up",
     birth_year: 1930,
-    code: "SS",
+    code: "SSS",
   },
   {
     name: "Percy Shelley",
@@ -635,7 +635,7 @@ export const countries: Country[] = [
     longitude: 1.601554,
     title: "Anecdote of the Jar",
     birth_year: 1879,
-    code: "WS",
+    code: "WSJ",
   },
   {
     name: "Samuel Taylor Coleridge",
@@ -665,7 +665,7 @@ export const countries: Country[] = [
     longitude: 1.601554,
     title: "Ulysses",
     birth_year: 1809,
-    code: "AT",
+    code: "ATP",
   },
   {
     name: "Walt Whitman",
@@ -735,7 +735,7 @@ export const countries: Country[] = [
     longitude: 1.601554,
     title: "Sailing to Byzantium",
     birth_year: 1865,
-    code: "WY",
+    code: "WYC",
   },
   {
     name: "William Butler Yeats",
