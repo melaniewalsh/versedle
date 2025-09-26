@@ -747,6 +747,37 @@ export const countries: Country[] = [
     birth_year: 1865,
     code: "TB",
   },
+  {
+    name: "Billy Collins",
+    first_line:
+      "One bright morning in a restaurant in Chicago\
+      as I waited for my eggs and toast,\
+      I opened the Tribune only to discover\
+      that I was the same age as Cheerios.\
+      \
+      Indeed, I was a few months older than Cheerios\
+      for today, the newspaper announced,\
+      was the seventieth birthday of Cheerios\
+      whereas mine had occurred earlier in the year.\
+      \
+      Already I could hear them whispering\
+      behind my stooped and threadbare back,\
+      Why that dude’s older than Cheerios\
+      the way they used to say\
+      \
+      Why that’s as old as the hills,\
+      only the hills are much older than Cheerios\
+      or any American breakfast cereal,\
+      and more noble and enduring are the hills,\
+      \
+      I surmised as a bar of sunlight illuminated my orange juice.\
+      ",
+    latitude: 42.546245,
+    longitude: 1.601554,
+    title: "Cheerios — Happy birthday, Pat Walsh!!!!",
+    birth_year: 1941,
+    code: "PW",
+  },
 ];
 
 export const fictionalCountries: Country[] = [];
