@@ -72,9 +72,9 @@ function App() {
         // style={{ background: "linear-gradient(#2c5363,#0f2027)" }}
       >
         <div className="w-full max-w-lg flex flex-col relative z-10 bg-white bg-opacity-75 md:bg-transparent">
-          <header className="border-b-2 px-3 py-2 border-gray-200 flex justify-between items-center relative">
+          <header className="border-b-2 px-3 py-2 border-gray-200 flex items-center relative justify-between">
             <button
-              className="mr-3 text-xl"
+              className="text-xl"
               type="button"
               onClick={() => setInfoOpen(true)}
             >
@@ -92,14 +92,19 @@ function App() {
               </svg>
             </button>
             <h1
-              className="absolute left-1/2 transform -translate-x-1/2 my-1"
-              style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+              className="absolute left-1/2 transform -translate-x-1/2 my-1 pr-6 md:pr-0"
+              style={{
+                fontFamily: "'Garamond', 'Georgia', serif",
+              }}
             >
               <b className="text-literaturdle-gold">VERSE</b>
               <b style={{ color: "black" }}>DLE</b>
             </h1>
             <div className="flex items-center gap-2">
-              <label className="flex items-center gap-1 text-xs cursor-pointer">
+              <label
+                className="flex items-center gap-1 text-xs cursor-pointer"
+                style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+              >
                 <span className={!settingsData.easyMode ? "font-bold" : ""}>
                   Hard
                 </span>
@@ -111,7 +116,7 @@ function App() {
                 >
                   <div
                     className={`absolute top-0 left-0 right-0 bottom-0 rounded-full transition-colors ${
-                      settingsData.easyMode ? "bg-gold" : "bg-gray-300"
+                      settingsData.easyMode ? "bg-green-500" : "bg-gold"
                     }`}
                   />
                   <div

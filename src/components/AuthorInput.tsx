@@ -99,7 +99,7 @@ export function AuthorInput({
       limit={100}
       itemComponent={AutoCompleteItem}
       data={items}
-      styles={{ dropdown: { maxHeight: 200, overflowY: `auto` } }}
+      styles={{ dropdown: { maxHeight: 300, overflowY: `auto` } }}
       filter={(value, item) =>
         item.value
           .toLowerCase()

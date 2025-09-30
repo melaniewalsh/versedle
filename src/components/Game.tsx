@@ -49,6 +49,7 @@ export function Game({ settingsData }: GameProps) {
   const authorInputRef = useRef<HTMLInputElement>(null);
 
   const [author, setAuthor] = useState<any>(null);
+  const [authorImage, setAuthorImage] = useState<string | null>(null);
   const [ipData, setIpData] = useState(null);
   const [won, setWon] = useState(false);
   const [currentGuess, setCurrentGuess] = useState<string>("");
@@ -290,6 +291,23 @@ export function Game({ settingsData }: GameProps) {
     }
   }, [guesses, ipData, won, author]);
 
+  // Fetch Wikipedia image when game ends
+  useEffect(() => {
+    if (gameEnded && author?.name && !authorImage) {
+      const authorName = author.name.replace(/ /g, "_");
+      fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${authorName}`)
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.thumbnail?.source) {
+            setAuthorImage(data.thumbnail.source);
+          }
+        })
+        .catch((error) => {
+          console.log("Could not fetch author image:", error);
+        });
+    }
+  }, [gameEnded, author, authorImage]);
+
   const first_line = author?.first_line;
   const birth_year = author?.birth_year;
 
@@ -371,6 +389,23 @@ export function Game({ settingsData }: GameProps) {
                   textAlign: "center",
                 }}
               >
+                {authorImage && (
+                  <div style={{ marginBottom: "15px" }}>
+                    <img
+                      src={authorImage}
+                      alt={author?.name}
+                      style={{
+                        width: "150px",
+                        height: "150px",
+                        objectFit: "cover",
+                        borderRadius: "8px",
+                        margin: "0 auto",
+                        display: "block",
+                        border: "2px solid #ddd",
+                      }}
+                    />
+                  </div>
+                )}
                 <div style={{ marginBottom: "15px" }}>
                   <p style={{ fontSize: "16px", marginBottom: "8px" }}>
                     The answer was
@@ -455,6 +490,7 @@ export function Game({ settingsData }: GameProps) {
                   <button
                     type="submit"
                     className="my-2 inline-block justify-end bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded items-center"
+                    style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
                   >
                     📚 <span>Guess</span>
                   </button>
