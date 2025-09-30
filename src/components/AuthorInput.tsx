@@ -1,15 +1,14 @@
 import React, { forwardRef, Dispatch, SetStateAction } from "react";
 import {
-  countries,
-  fictionalCountries,
-  sanitizeCountryName,
-} from "../domain/countries";
+  authors,
+  fictionalAuthors,
+  sanitizeAuthorName,
+} from "../domain/authors";
 import { Group, Text, Autocomplete } from "@mantine/core";
-import { flag } from "country-emoji";
 
-interface CountryInputProps {
-  setCountryValue: Dispatch<SetStateAction<string>>;
-  countryValue: string;
+interface AuthorInputProps {
+  setAuthorValue: Dispatch<SetStateAction<string>>;
+  authorValue: string;
   setCurrentGuess: (guess: string) => void;
   isAprilFools: boolean;
 }
@@ -63,17 +62,17 @@ AutoCompleteItemAprilFools.displayName = "Autocomplete Item April Fools";
 //         id: country.code,
 //       }));
 
-export function CountryInput({
-  countryValue,
-  setCountryValue,
+export function AuthorInput({
+  authorValue,
+  setAuthorValue,
   setCurrentGuess,
   isAprilFools = false,
-}: CountryInputProps) {
-  const items = (isAprilFools ? fictionalCountries : countries)
-    .map((country) => ({
-      name: country.name,
-      value: `${country.name}`,
-      id: country.code,
+}: AuthorInputProps) {
+  const items = (isAprilFools ? fictionalAuthors : authors)
+    .map((author) => ({
+      name: author.name,
+      value: `${author.name}`,
+      id: author.code,
     }))
     .reduce<{ name: string; value: string; id: string }[]>((acc, current) => {
       const x = acc.find((item) => item.name === current.name);
@@ -87,7 +86,6 @@ export function CountryInput({
   return (
     <Autocomplete
       autoComplete="noautocompleteplzz"
-      // Pick an author input buo
       placeholder="Pick an author"
       limit={100}
       itemComponent={
@@ -104,10 +102,13 @@ export function CountryInput({
         item.id.toLowerCase().includes(value.toLowerCase().trim())
       }
       onItemSubmit={(item) => {
-        setCurrentGuess(sanitizeCountryName(item.value));
+        setCurrentGuess(sanitizeAuthorName(item.value));
       }}
-      value={countryValue}
-      onChange={setCountryValue}
+      value={authorValue}
+      onChange={setAuthorValue}
     />
   );
 }
+
+// Backward compatibility export
+export const CountryInput = AuthorInput;

@@ -4,11 +4,11 @@ import {
   formatDistance,
   generateSquareCharacters,
 } from "../domain/geography";
-import { constructOecLink, constructWikiLink, Guess } from "../domain/guess";
+import { constructWikiLink, Guess } from "../domain/guess";
 import React, { useCallback, useEffect, useState } from "react";
 import CountUp from "react-countup";
 import { SettingsData } from "../hooks/useSettings";
-import { getCountryPrettyName } from "../domain/countries";
+import { getAuthorPrettyName } from "../domain/authors";
 
 const DIRECTION_ARROWS: Record<string, string> = {
   E: "➡️",
@@ -32,7 +32,7 @@ interface GuessRowProps {
   index: number;
   guess?: Guess;
   settingsData: SettingsData;
-  countryInputRef?: React.RefObject<HTMLInputElement>;
+  authorInputRef?: React.RefObject<HTMLInputElement>;
   isAprilFools?: boolean;
 }
 
@@ -40,7 +40,7 @@ export function GuessRow({
   index,
   guess,
   settingsData,
-  countryInputRef,
+  authorInputRef,
   isAprilFools = false,
 }: GuessRowProps) {
   const { distanceUnit, theme } = settingsData;
@@ -66,10 +66,10 @@ export function GuessRow({
   }, [guess]);
 
   const handleClickOnEmptyRow = useCallback(() => {
-    if (countryInputRef?.current != null) {
-      countryInputRef?.current.focus();
+    if (authorInputRef?.current != null) {
+      authorInputRef?.current.focus();
     }
-  }, [countryInputRef]);
+  }, [authorInputRef]);
 
   switch (animationState) {
     case "NOT_STARTED":
@@ -107,7 +107,7 @@ export function GuessRow({
         </>
       );
     case "ENDED": {
-      const countrySectionStyle = {
+      const authorSectionStyle = {
         display: "flex",
         justifyContent: "space-between",
         padding: "16px",
@@ -120,15 +120,15 @@ export function GuessRow({
                 ? "bg-oec-yellow rounded-lg flex items-center h-8 col-span-3 animate-reveal pl-2"
                 : "bg-gray-200 rounded-lg flex items-center h-8 col-span-3 animate-reveal pl-2"
             }
-            style={countrySectionStyle}
+            style={authorSectionStyle}
           >
             <p className="text-ellipsis overflow-hidden whitespace-nowrap">
-              {getCountryPrettyName(guess?.name, isAprilFools)}
+              {getAuthorPrettyName(guess?.name, isAprilFools)}
             </p>
             <p>
-              {guess?.country !== undefined ? (
+              {guess?.author !== undefined ? (
                 <a
-                  href={constructWikiLink(getCountryPrettyName(guess?.name))}
+                  href={constructWikiLink(getAuthorPrettyName(guess?.name))}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

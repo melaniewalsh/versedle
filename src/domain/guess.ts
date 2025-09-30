@@ -1,11 +1,11 @@
-import { Country, countryISOMapping } from "./countries";
+import { Author } from "./authors";
 import { Direction } from "./geography";
 
 export interface Guess {
   name: string;
   distance: number;
   direction: string;
-  country?: Country;
+  author?: Author;
 }
 
 export function loadAllGuesses(): Record<string, Guess[]> {
@@ -24,13 +24,6 @@ export function saveGuesses(dayString: string, guesses: Guess[]): void {
   );
 }
 
-export function constructOecLink(country: Country) {
-  const country3LetterCode = country?.code
-    ? countryISOMapping[country.code].toLowerCase()
-    : "";
-  return `https://oec.world/en/profile/country/${country3LetterCode}`;
-}
-
-export function constructWikiLink(country: string | undefined) {
-  return `https://en.wikipedia.org/wiki/${country}`;
+export function constructWikiLink(author: string | undefined) {
+  return `https://en.wikipedia.org/wiki/${author}`;
 }

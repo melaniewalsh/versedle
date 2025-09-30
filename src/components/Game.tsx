@@ -8,22 +8,20 @@ import React, {
 } from "react";
 import { toast } from "react-toastify";
 import {
-  getCountryName,
-  countryISOMapping,
-  getFictionalCountryByName,
-  getCountryByName,
+  getAuthorName,
+  getFictionalAuthorByName,
+  getAuthorByName,
   getBirthYearByName,
-} from "../domain/countries";
+} from "../domain/authors";
 import { useGuesses } from "../hooks/useGuesses";
-import { CountryInput } from "./CountryInput";
-import * as geolib from "geolib";
+import { AuthorInput } from "./AuthorInput";
 import { Share } from "./Share";
-import { constructOecLink, constructWikiLink, Guess } from "../domain/guess";
+import { constructWikiLink, Guess } from "../domain/guess";
 import { Guesses } from "./Guesses";
 import { useTranslation } from "react-i18next";
 import { SettingsData } from "../hooks/useSettings";
 import { useMode } from "../hooks/useMode";
-import { useCountry } from "../hooks/useCountry";
+import { useAuthor } from "../hooks/useAuthor";
 import axios from "axios";
 import Easter from "./Easter";
 
@@ -50,15 +48,13 @@ export function Game({ settingsData }: GameProps) {
   const dayString = useMemo(getDayString, []);
   const isAprilFools = dayString === "2022-04-01";
 
-  const countryInputRef = useRef<HTMLInputElement>(null);
-  const countryData = useCountry(`${dayString}`);
-  let country = countryData[0];
+  const authorInputRef = useRef<HTMLInputElement>(null);
+  const authorData = useAuthor(`${dayString}`);
+  let author = authorData[0];
 
   if (isAprilFools) {
-    country = {
+    author = {
       code: "AJ",
-      latitude: 42.546245,
-      longitude: 1.601554,
       name: "Land of Oz",
       birth_year: 150,
       first_line: "To be or not to be",
@@ -69,7 +65,7 @@ export function Game({ settingsData }: GameProps) {
   const [ipData, setIpData] = useState(null);
   const [won, setWon] = useState(false);
   const [currentGuess, setCurrentGuess] = useState<string>("");
-  const [countryValue, setCountryValue] = useState<string>("");
+  const [authorValue, setAuthorValue] = useState<string>("");
   const [displayedLines, setDisplayedLines] = useState<string[]>([]); // Initialize a state variable for displayed lines
 
   const [guesses, addGuess] = useGuesses(dayString);
@@ -115,44 +111,34 @@ export function Game({ settingsData }: GameProps) {
   }*/
 
   const displayLine = useCallback(() => {
-    if (country && country.first_line) {
-      const lines = country.first_line.split("\n");
+    if (author && author.first_line) {
+      const lines = author.first_line.split("\n");
       const newDisplayedLines = lines.slice(0, currentLine + 1);
       console.log(`These are the new displayed lines: ${newDisplayedLines}`);
       console.log(lines);
       setDisplayedLines(newDisplayedLines);
     }
-  }, [country, currentLine]);
+  }, [author, currentLine]);
 
   const displayLineTemp = useCallback(() => {
-    if (country && country.first_line) {
-      const lines = country.first_line.split("\n");
+    if (author && author.first_line) {
+      const lines = author.first_line.split("\n");
       const newDisplayedLines = lines.slice(0, currentLine + 1);
       console.log(`These are the new displayed lines: ${newDisplayedLines}`);
       console.log(lines);
       setDisplayedLines(newDisplayedLines);
     }
-  }, [country, currentLine]);
-
-  /*  const displayFullPassage = useCallback(() => {
-    if (country && country.first_line) {
-      const lines = country.first_line.split("\n");
-      const allDisplayedLines = lines.slice(0, lines.length);
-      console.log(`ALL LINES: ${allDisplayedLines}`);
-      console.log(lines);
-      setDisplayedLines(allDisplayedLines);
-    }
-  }, [country]);*/
+  }, [author, currentLine]);
 
   const displayFullPassage = useCallback(() => {
-    if (country && country.first_line) {
-      const lines = country.first_line.split("\n");
+    if (author && author.first_line) {
+      const lines = author.first_line.split("\n");
       const allDisplayedLines = lines.slice(0, lines.length);
       console.log(`ALL LINES: ${allDisplayedLines}`);
       console.log(lines);
       setDisplayedLines(allDisplayedLines);
     }
-  }, [country]);
+  }, [author]);
 
   const [hideImageMode, setHideImageMode] = useMode(
     "hideImageMode",
@@ -173,32 +159,30 @@ export function Game({ settingsData }: GameProps) {
   const handleSubmit = useCallback(
     (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
-      if (!country) return;
+      if (!author) return;
       const getIpData = async () => {
         const res = await axios.get("https://geolocation-db.com/json/");
         setIpData(res.data);
       };
-      const guessedCountry = isAprilFools
-        ? getFictionalCountryByName(currentGuess)
-        : getCountryByName(currentGuess);
+      const guessedAuthor = isAprilFools
+        ? getFictionalAuthorByName(currentGuess)
+        : getAuthorByName(currentGuess);
 
-      if (guessedCountry == null) {
+      if (guessedAuthor == null) {
         toast.error(t("unknownCountry"));
         return;
       }
 
       const newGuess = {
         name: currentGuess,
-        /*distance: geolib.getDistance(guessedCountry, country),*/
-        distance: Math.abs(guessedCountry.birth_year - country.birth_year),
-        direction: getDirection(guessedCountry.birth_year, country.birth_year),
-        /*direction: geolib.getCompassDirection(guessedCountry, country),*/
-        country: guessedCountry,
+        distance: Math.abs(guessedAuthor.birth_year - author.birth_year),
+        direction: getDirection(guessedAuthor.birth_year, author.birth_year),
+        author: guessedAuthor,
       };
 
       addGuess(newGuess);
       setCurrentGuess("");
-      setCountryValue("");
+      setAuthorValue("");
 
       if (newGuess.distance === 0) {
         displayFullPassage();
@@ -213,7 +197,7 @@ export function Game({ settingsData }: GameProps) {
     },
     [
       addGuess,
-      country,
+      author,
       currentLine,
       displayFullPassage,
       displayLineTemp,
@@ -225,7 +209,7 @@ export function Game({ settingsData }: GameProps) {
 
   useEffect(() => {
     displayLine();
-  }, [country, displayLine]);
+  }, [author, displayLine]);
 
   useEffect(() => {
     // Check if the game has ended and display the full passage if so
@@ -243,18 +227,18 @@ export function Game({ settingsData }: GameProps) {
       guesses.length === MAX_TRY_COUNT &&
       guesses[guesses.length - 1].distance > 0
     ) {
-      const countryName = country
-        ? getCountryName(i18n.resolvedLanguage, country)
+      const authorName = author
+        ? getAuthorName(i18n.resolvedLanguage, author)
         : "";
-      if (countryName) {
-        toast.info(countryName.toUpperCase(), {
+      if (authorName) {
+        toast.info(authorName.toUpperCase(), {
           autoClose: false,
           delay: 2000,
         });
       }
       getIpData();
     }
-  }, [country, guesses, displayFullPassage, i18n.resolvedLanguage]);
+  }, [author, guesses, displayFullPassage, i18n.resolvedLanguage]);
 
   useEffect(() => {
     if (ipData) {
@@ -263,7 +247,7 @@ export function Game({ settingsData }: GameProps) {
           date: new Date(),
           guesses,
           ip: ipData,
-          answer: country,
+          answer: author,
           won,
         })
         .catch(function (error) {
@@ -281,14 +265,14 @@ export function Game({ settingsData }: GameProps) {
           }
         });
     }
-  }, [guesses, ipData, won, country]);
+  }, [guesses, ipData, won, author]);
 
-  const first_line = country?.first_line;
-  const birth_year = country?.birth_year;
+  const first_line = author?.first_line;
+  const birth_year = author?.birth_year;
 
   console.log(first_line);
   console.log(birth_year);
-  console.log(country?.code);
+  console.log(author?.code);
 
   return (
     <>
@@ -336,7 +320,7 @@ export function Game({ settingsData }: GameProps) {
           rowCount={MAX_TRY_COUNT}
           guesses={guesses}
           settingsData={settingsData}
-          countryInputRef={countryInputRef}
+          authorInputRef={authorInputRef}
           isAprilFools={isAprilFools}
         />
         <div className="my-2">
@@ -364,14 +348,14 @@ export function Game({ settingsData }: GameProps) {
                     color: "green",
                   }}
                 >
-                  The answer was {country?.name}, who was born in{" "}
-                  {country?.birth_year}. The passage is excerpted from{" "}
-                  {country?.title}.
+                  The answer was {author?.name}, who was born in{" "}
+                  {author?.birth_year}. The passage is excerpted from{" "}
+                  {author?.title}.
                 </h2>
               </div>
               <a
                 className="underline w-full text-center block mt-4 flex justify-center"
-                href={constructWikiLink(country?.name)}
+                href={constructWikiLink(author?.name)}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -402,9 +386,9 @@ export function Game({ settingsData }: GameProps) {
           ) : (
             <form onSubmit={handleSubmit}>
               <div className="">
-                <CountryInput
-                  countryValue={countryValue}
-                  setCountryValue={setCountryValue}
+                <AuthorInput
+                  authorValue={authorValue}
+                  setAuthorValue={setAuthorValue}
                   setCurrentGuess={setCurrentGuess}
                   isAprilFools={isAprilFools}
                 />
