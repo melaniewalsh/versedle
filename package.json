@@ -1,6 +1,6 @@
 {
-  "name": "literaturdle",
-  "homepage": "https://melaniewalsh.github.io/literaturdle",
+  "name": "versedle",
+  "homepage": "https://melaniewalsh.github.io/versedle",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
