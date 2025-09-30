@@ -94,7 +94,7 @@ function App() {
             <h1
               className="absolute left-1/2 transform -translate-x-1/2 my-1 pr-6 md:pr-0"
               style={{
-                fontFamily: "'Garamond', 'Georgia', serif",
+                fontFamily: "'Baskerville', 'Georgia', serif",
               }}
             >
               <b className="text-literaturdle-gold">VERSE</b>
@@ -103,7 +103,7 @@ function App() {
             <div className="flex items-center gap-2">
               <label
                 className="flex items-center gap-1 text-xs cursor-pointer"
-                style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+                style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
               >
                 <span className={!settingsData.easyMode ? "font-bold" : ""}>
                   Hard

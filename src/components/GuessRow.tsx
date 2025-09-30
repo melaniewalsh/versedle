@@ -109,7 +109,7 @@ export function GuessRow({
         display: "flex",
         justifyContent: "space-between",
         padding: "16px",
-        fontFamily: "'Garamond', 'Georgia', serif",
+        fontFamily: "'Baskerville', 'Georgia', serif",
       };
       return (
         <>
@@ -155,12 +155,12 @@ export function GuessRow({
                 ? "bg-oec-yellow rounded-lg flex items-center justify-center h-8 col-span-3 animate-reveal relative z-50"
                 : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-3 animate-reveal relative z-50"
             }
-            style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+            style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
           >
             {guess && guess.distance === 0 ? (
               "🎉 Correct!"
             ) : guess && guess.distance === -1 ? (
-              <span className="whitespace-nowrap text-xs">
+              <span className="whitespace-nowrap text-[10px] md:text-xs">
                 <span className="font-bold">
                   Same birth year, wrong author!
                 </span>
@@ -199,7 +199,7 @@ export function GuessRow({
                 ? "bg-oec-yellow rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal animate-pop"
                 : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal animate-pop"
             }
-            style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+            style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
           >
             {`${proximity}%`}
           </div>

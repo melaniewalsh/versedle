@@ -126,7 +126,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           >
             Melanie Walsh
           </a>
-          . Source code on{" "}
+          . Texts selected by Anna Preus and Melanie Walsh. Source code on{" "}
           <a
             className="underline"
             href="https://github.com/melaniewalsh/literaturdle"

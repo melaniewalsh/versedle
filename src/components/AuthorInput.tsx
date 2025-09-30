@@ -87,9 +87,11 @@ export function AuthorInput({
       }
     }, []);
 
-  // Sort by birth year in easy mode
+  // Sort by birth year in easy mode, alphabetically in hard mode
   if (easyMode) {
     items = items.sort((a, b) => a.birthYear - b.birthYear);
+  } else {
+    items = items.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   return (

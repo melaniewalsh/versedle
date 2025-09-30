@@ -334,7 +334,7 @@ export function Game({ settingsData }: GameProps) {
         {/* <div className="my-1 mx-auto"> */}
         <h2
           className="font-bold text-center"
-          style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+          style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
         >
           Guess which author wrote these lines of verse!
         </h2>
@@ -349,7 +349,7 @@ export function Game({ settingsData }: GameProps) {
             borderRadius: "8px",
             boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
             border: "1px solid black",
-            fontFamily: "'Garamond', 'Georgia', serif",
+            fontFamily: "'Baskerville', 'Georgia', serif",
             fontSize: "15px",
             lineHeight: "1.6",
             marginBottom: "10px",
@@ -385,7 +385,7 @@ export function Game({ settingsData }: GameProps) {
                   border: "1px solid black",
                   padding: "20px",
                   marginBottom: "10px",
-                  fontFamily: "'Garamond', 'Georgia', serif",
+                  fontFamily: "'Baskerville', 'Georgia', serif",
                   textAlign: "center",
                 }}
               >
@@ -458,7 +458,7 @@ export function Game({ settingsData }: GameProps) {
                   borderRadius: "8px",
                   color: "#333",
                   textDecoration: "none",
-                  fontFamily: "'Garamond', 'Georgia', serif",
+                  fontFamily: "'Baskerville', 'Georgia', serif",
                   fontSize: "15px",
                   transition: "all 0.2s",
                 }}
@@ -490,7 +490,7 @@ export function Game({ settingsData }: GameProps) {
                   <button
                     type="submit"
                     className="my-2 inline-block justify-end bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded items-center"
-                    style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+                    style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
                   >
                     📚 <span>Guess</span>
                   </button>
@@ -502,7 +502,7 @@ export function Game({ settingsData }: GameProps) {
         {/* FAQ Section */}
         <div
           className="mt-8 space-y-4 pb-3"
-          style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+          style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
         >
           <div className="font-bold text-lg text-center">F.A.Q.</div>
 
