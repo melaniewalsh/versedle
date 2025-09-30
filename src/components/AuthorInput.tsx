@@ -1,48 +1,40 @@
 import React, { forwardRef, Dispatch, SetStateAction } from "react";
-import {
-  authors,
-  fictionalAuthors,
-  sanitizeAuthorName,
-} from "../domain/authors";
+import { authors, sanitizeAuthorName } from "../domain/authors";
 import { Group, Text, Autocomplete } from "@mantine/core";
 
 interface AuthorInputProps {
   setAuthorValue: Dispatch<SetStateAction<string>>;
   authorValue: string;
   setCurrentGuess: (guess: string) => void;
-  isAprilFools: boolean;
+  easyMode?: boolean;
 }
 
 interface ItemProps {
   value: string;
   id: string;
-  isAprilFools: boolean;
+  birthYear?: number;
+  deathYear?: number;
+  easyMode?: boolean;
 }
 
 const AutoCompleteItem = forwardRef<HTMLDivElement, ItemProps>(
-  ({ id, value, isAprilFools = false, ...others }: ItemProps, ref) => (
+  (
+    { id, value, birthYear, deathYear, easyMode = false, ...others }: ItemProps,
+    ref
+  ) => (
     <div ref={ref} {...others}>
       <Group noWrap>
         <div>
-          <Text>{value}</Text>
+          <Text>
+            {value}
+            {easyMode && birthYear ? ` (${birthYear}-${deathYear || ""})` : ""}
+          </Text>
         </div>
       </Group>
     </div>
   )
 );
 AutoCompleteItem.displayName = "Autocomplete Item";
-const AutoCompleteItemAprilFools = forwardRef<HTMLDivElement, ItemProps>(
-  ({ id, value, isAprilFools = false, ...others }: ItemProps, ref) => (
-    <div ref={ref} {...others}>
-      <Group noWrap>
-        <div>
-          <Text>{value}</Text>
-        </div>
-      </Group>
-    </div>
-  )
-);
-AutoCompleteItemAprilFools.displayName = "Autocomplete Item April Fools";
 
 // export function CountryInput({
 //   countryValue,
@@ -66,15 +58,27 @@ export function AuthorInput({
   authorValue,
   setAuthorValue,
   setCurrentGuess,
-  isAprilFools = false,
+  easyMode = false,
 }: AuthorInputProps) {
-  const items = (isAprilFools ? fictionalAuthors : authors)
+  let items = authors
     .map((author) => ({
       name: author.name,
       value: `${author.name}`,
       id: author.code,
+      birthYear: author.birth_year,
+      deathYear: author.death_year,
+      easyMode,
     }))
-    .reduce<{ name: string; value: string; id: string }[]>((acc, current) => {
+    .reduce<
+      {
+        name: string;
+        value: string;
+        id: string;
+        birthYear: number;
+        deathYear?: number;
+        easyMode: boolean;
+      }[]
+    >((acc, current) => {
       const x = acc.find((item) => item.name === current.name);
       if (!x) {
         return acc.concat([current]);
@@ -83,14 +87,17 @@ export function AuthorInput({
       }
     }, []);
 
+  // Sort by birth year in easy mode
+  if (easyMode) {
+    items = items.sort((a, b) => a.birthYear - b.birthYear);
+  }
+
   return (
     <Autocomplete
       autoComplete="noautocompleteplzz"
       placeholder="Pick an author"
       limit={100}
-      itemComponent={
-        isAprilFools ? AutoCompleteItemAprilFools : AutoCompleteItem
-      }
+      itemComponent={AutoCompleteItem}
       data={items}
       styles={{ dropdown: { maxHeight: 200, overflowY: `auto` } }}
       filter={(value, item) =>

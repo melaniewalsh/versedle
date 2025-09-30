@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <div className="absolute hidden md:block">
+      <div className="absolute hidden md:block" style={{ opacity: 0.15 }}>
         <img
           src="https://pngimg.com/d/book_PNG51067.png"
           alt="logo"
@@ -72,7 +72,7 @@ function App() {
         // style={{ background: "linear-gradient(#2c5363,#0f2027)" }}
       >
         <div className="w-full max-w-lg flex flex-col relative z-10 bg-white bg-opacity-75 md:bg-transparent">
-          <header className="border-b-2 px-3 border-gray-200 flex justify-between">
+          <header className="border-b-2 px-3 py-2 border-gray-200 flex justify-between items-center relative">
             <button
               className="mr-3 text-xl"
               type="button"
@@ -91,48 +91,62 @@ function App() {
                 />
               </svg>
             </button>
-            <h1 className="text-center my-1 flex-auto">
-              {/* <span className="text-red-600">TRADE</span>LE */}
-              <b className="text-literaturdle-gold">LITERATUR(E)</b>
-              <b className="text-black-300">DLE</b>
+            <h1
+              className="absolute left-1/2 transform -translate-x-1/2 my-1"
+              style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+            >
+              <b className="text-literaturdle-gold">VERSE</b>
+              <b style={{ color: "black" }}>DLE</b>
             </h1>
-            <button
-              className="ml-3 text-xl"
-              type="button"
-              onClick={() => setStatsOpen(true)}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
+            <div className="flex items-center gap-2">
+              <label className="flex items-center gap-1 text-xs cursor-pointer">
+                <span className={!settingsData.easyMode ? "font-bold" : ""}>
+                  Hard
+                </span>
+                <div
+                  className="relative inline-block w-10 h-5 transition duration-200 ease-in-out"
+                  onClick={() =>
+                    updateSettings({ easyMode: !settingsData.easyMode })
+                  }
+                >
+                  <div
+                    className={`absolute top-0 left-0 right-0 bottom-0 rounded-full transition-colors ${
+                      settingsData.easyMode ? "bg-gold" : "bg-gray-300"
+                    }`}
+                  />
+                  <div
+                    className={`absolute top-0.5 left-0.5 w-4 h-4 bg-white rounded-full shadow transition-transform ${
+                      settingsData.easyMode ? "translate-x-5" : "translate-x-0"
+                    }`}
+                  />
+                </div>
+                <span className={settingsData.easyMode ? "font-bold" : ""}>
+                  Easy
+                </span>
+              </label>
+              <button
+                className="text-xl"
+                type="button"
+                onClick={() => setStatsOpen(true)}
               >
-                <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
-              </svg>
-            </button>
-            {/* <button
-              className="ml-3 text-xl"
-              type="button"
-              onClick={() => setSettingsOpen(true)}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </button> */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                </svg>
+              </button>
+            </div>
           </header>
           <Game settingsData={settingsData} />
           <footer className="flex justify-center text-sm mt-8 mb-1"></footer>
         </div>
-        <div className="absolute bottom-0 right-0 z-0">
+        <div
+          className="absolute bottom-0 right-0 z-0"
+          style={{ opacity: 0.15 }}
+        >
           <img
             src="https://pngimg.com/d/book_PNG51067.png"
             alt="logo"

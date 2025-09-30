@@ -15,16 +15,6 @@ const DIRECTION_ARROWS: Record<string, string> = {
   W: "⬅️",
 };
 
-const DIRECTION_ARROWS_APRIL_FOOLS: Record<number, string> = {
-  0: "🐶",
-  1: "🌪",
-  2: "🏚",
-  3: "🚲",
-  4: "👠",
-  5: "🦁",
-  6: "🤖",
-};
-
 const SQUARE_ANIMATION_LENGTH = 250;
 type AnimationState = "NOT_STARTED" | "RUNNING" | "ENDED";
 
@@ -33,7 +23,6 @@ interface GuessRowProps {
   guess?: Guess;
   settingsData: SettingsData;
   authorInputRef?: React.RefObject<HTMLInputElement>;
-  isAprilFools?: boolean;
 }
 
 export function GuessRow({
@@ -41,11 +30,20 @@ export function GuessRow({
   guess,
   settingsData,
   authorInputRef,
-  isAprilFools = false,
 }: GuessRowProps) {
-  const { distanceUnit, theme } = settingsData;
+  const { distanceUnit, theme, easyMode } = settingsData;
   const proximity = guess != null ? computeProximityPercent(guess.distance) : 0;
   const squares = generateSquareCharacters(proximity, theme);
+
+  const getDisplayDistance = (distance: number) => {
+    if (easyMode) {
+      if (distance <= 10) {
+        return "<10";
+      }
+      return `~${Math.round(distance / 10) * 10}`;
+    }
+    return distance.toString();
+  };
 
   const [animationState, setAnimationState] =
     useState<AnimationState>("NOT_STARTED");
@@ -99,7 +97,7 @@ export function GuessRow({
           </div>
           <div className="border-2 h-8 col-span-1 animate-reveal">
             <CountUp
-              end={isAprilFools ? 100 : proximity}
+              end={proximity}
               suffix="%"
               duration={(SQUARE_ANIMATION_LENGTH * 5) / 1000}
             />
@@ -111,19 +109,20 @@ export function GuessRow({
         display: "flex",
         justifyContent: "space-between",
         padding: "16px",
+        fontFamily: "'Garamond', 'Georgia', serif",
       };
       return (
         <>
           <div
             className={
               guess?.distance === 0
-                ? "bg-oec-yellow rounded-lg flex items-center h-8 col-span-3 animate-reveal pl-2"
-                : "bg-gray-200 rounded-lg flex items-center h-8 col-span-3 animate-reveal pl-2"
+                ? "bg-oec-yellow rounded-lg flex items-center h-8 col-span-2 animate-reveal pl-1 text-sm"
+                : "bg-gray-200 rounded-lg flex items-center h-8 col-span-2 animate-reveal pl-1 text-sm"
             }
             style={authorSectionStyle}
           >
             <p className="text-ellipsis overflow-hidden whitespace-nowrap">
-              {getAuthorPrettyName(guess?.name, isAprilFools)}
+              {getAuthorPrettyName(guess?.name)}
             </p>
             <p>
               {guess?.author !== undefined ? (
@@ -153,15 +152,31 @@ export function GuessRow({
           <div
             className={
               guess?.distance === 0
-                ? "bg-oec-yellow rounded-lg flex items-center justify-center h-8 col-span-2 animate-reveal"
-                : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-2 animate-reveal"
+                ? "bg-oec-yellow rounded-lg flex items-center justify-center h-8 col-span-3 animate-reveal"
+                : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-3 animate-reveal"
             }
+            style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
           >
-            {guess && isAprilFools
-              ? "⁇"
-              : guess
-              ? `${guess.distance} years`
-              : null}
+            {guess && guess.distance === 0 ? (
+              "🎉 Correct!"
+            ) : guess && guess.distance === -1 ? (
+              <span className="whitespace-nowrap text-xs">
+                <span className="font-bold">
+                  Same birth year, wrong author!
+                </span>
+              </span>
+            ) : guess ? (
+              <span className="whitespace-nowrap text-xs">
+                <span>was born </span>
+                <span className="font-bold text-sm">
+                  {getDisplayDistance(guess.distance)}
+                </span>
+                <span>
+                  {" "}
+                  years {guess.direction === "E" ? "too early." : "too late."}
+                </span>
+              </span>
+            ) : null}
           </div>
           <div
             className={
@@ -172,8 +187,8 @@ export function GuessRow({
           >
             {guess?.distance === 0
               ? "🎉"
-              : guess && isAprilFools
-              ? "⁇"
+              : guess && guess.distance === -1
+              ? "❓"
               : guess
               ? DIRECTION_ARROWS[guess.direction]
               : null}
@@ -184,10 +199,9 @@ export function GuessRow({
                 ? "bg-oec-yellow rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal animate-pop"
                 : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal animate-pop"
             }
+            style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
           >
-            {isAprilFools
-              ? DIRECTION_ARROWS_APRIL_FOOLS[index]
-              : `${proximity}%`}
+            {`${proximity}%`}
           </div>
         </>
       );

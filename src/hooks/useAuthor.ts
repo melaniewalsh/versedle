@@ -1,6 +1,6 @@
 import { csv } from "d3-fetch";
 import { useEffect, useMemo, useState } from "react";
-import { authors, Author } from "../domain/authors";
+import { authors, Author, onAuthorsLoaded } from "../domain/authors";
 
 interface DateAuthor {
   country: string; // keeping 'country' key for backward compatibility with CSV
@@ -9,9 +9,16 @@ interface DateAuthor {
 
 export function useAuthor(dayString: string): [Author | undefined] {
   const [forcedAuthorCode, setForcedAuthorCode] = useState("");
+  const [authorsReady, setAuthorsReady] = useState(false);
 
   useEffect(() => {
-    csv("data.csv", (d) => {
+    onAuthorsLoaded(() => {
+      setAuthorsReady(true);
+    });
+  }, []);
+
+  useEffect(() => {
+    csv(`${process.env.PUBLIC_URL}/data.csv`, (d) => {
       return { country: d.country, date: d.date }; // CSV still uses 'country' column
     }).then((data) => {
       setForcedAuthorCode(
@@ -25,12 +32,13 @@ export function useAuthor(dayString: string): [Author | undefined] {
   }, [dayString]);
 
   const author = useMemo(() => {
+    if (!authorsReady) return undefined;
     const forcedAuthor =
       forcedAuthorCode !== ""
         ? authors.find((author) => author.code === forcedAuthorCode)
         : undefined;
     return forcedAuthor;
-  }, [forcedAuthorCode]);
+  }, [forcedAuthorCode, authorsReady]);
   return [author];
 }
 

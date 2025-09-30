@@ -7,9 +7,9 @@ import React, {
   useState,
 } from "react";
 import { toast } from "react-toastify";
+import { csv } from "d3-fetch";
 import {
   getAuthorName,
-  getFictionalAuthorByName,
   getAuthorByName,
   getBirthYearByName,
 } from "../domain/authors";
@@ -21,7 +21,6 @@ import { Guesses } from "./Guesses";
 import { useTranslation } from "react-i18next";
 import { SettingsData } from "../hooks/useSettings";
 import { useMode } from "../hooks/useMode";
-import { useAuthor } from "../hooks/useAuthor";
 import axios from "axios";
 import Easter from "./Easter";
 
@@ -46,22 +45,10 @@ interface GameProps {
 export function Game({ settingsData }: GameProps) {
   const { t, i18n } = useTranslation();
   const dayString = useMemo(getDayString, []);
-  const isAprilFools = dayString === "2022-04-01";
 
   const authorInputRef = useRef<HTMLInputElement>(null);
-  const authorData = useAuthor(`${dayString}`);
-  let author = authorData[0];
 
-  if (isAprilFools) {
-    author = {
-      code: "AJ",
-      name: "Land of Oz",
-      birth_year: 150,
-      first_line: "To be or not to be",
-      title: "Beloved",
-    };
-  }
-
+  const [author, setAuthor] = useState<any>(null);
   const [ipData, setIpData] = useState(null);
   const [won, setWon] = useState(false);
   const [currentGuess, setCurrentGuess] = useState<string>("");
@@ -69,6 +56,40 @@ export function Game({ settingsData }: GameProps) {
   const [displayedLines, setDisplayedLines] = useState<string[]>([]); // Initialize a state variable for displayed lines
 
   const [guesses, addGuess] = useGuesses(dayString);
+
+  useEffect(() => {
+    // Load today's author from both CSVs
+    console.log("Loading CSVs for dayString:", dayString);
+    Promise.all([
+      csv(`${process.env.PUBLIC_URL}/data.csv`),
+      csv(`${process.env.PUBLIC_URL}/authors.csv`),
+    ]).then(([dateData, authorsData]) => {
+      console.log("Date data loaded:", dateData);
+      console.log("Authors data loaded:", authorsData.length, "authors");
+      const todayEntry = dateData.find((d: any) => d.date === dayString);
+      console.log("Today's entry:", todayEntry);
+      if (todayEntry && todayEntry.country) {
+        const authorCode = todayEntry.country.toUpperCase();
+        console.log("Author code:", authorCode);
+        const authorEntry = authorsData.find((a: any) => a.code === authorCode);
+        console.log("Author entry found:", authorEntry);
+        if (authorEntry) {
+          const authorObj = {
+            code: authorEntry.code,
+            name: authorEntry.name,
+            birth_year: parseInt(authorEntry.birth_year || "0", 10),
+            death_year: authorEntry.death_year
+              ? parseInt(authorEntry.death_year, 10)
+              : undefined,
+            title: authorEntry.title,
+            first_line: authorEntry.first_line,
+          };
+          console.log("Setting author:", authorObj);
+          setAuthor(authorObj);
+        }
+      }
+    });
+  }, [dayString]);
 
   let currentLine = 0;
 
@@ -164,18 +185,21 @@ export function Game({ settingsData }: GameProps) {
         const res = await axios.get("https://geolocation-db.com/json/");
         setIpData(res.data);
       };
-      const guessedAuthor = isAprilFools
-        ? getFictionalAuthorByName(currentGuess)
-        : getAuthorByName(currentGuess);
+      const guessedAuthor = getAuthorByName(currentGuess);
 
       if (guessedAuthor == null) {
         toast.error(t("unknownCountry"));
         return;
       }
 
+      const isCorrect = guessedAuthor.code === author.code;
+      const yearDistance = Math.abs(
+        guessedAuthor.birth_year - author.birth_year
+      );
+
       const newGuess = {
         name: currentGuess,
-        distance: Math.abs(guessedAuthor.birth_year - author.birth_year),
+        distance: isCorrect ? 0 : yearDistance === 0 ? -1 : yearDistance,
         direction: getDirection(guessedAuthor.birth_year, author.birth_year),
         author: guessedAuthor,
       };
@@ -184,7 +208,7 @@ export function Game({ settingsData }: GameProps) {
       setCurrentGuess("");
       setAuthorValue("");
 
-      if (newGuess.distance === 0) {
+      if (isCorrect) {
         displayFullPassage();
         setWon(true);
         getIpData();
@@ -203,7 +227,6 @@ export function Game({ settingsData }: GameProps) {
       displayLineTemp,
       currentGuess,
       t,
-      isAprilFools,
     ]
   );
 
@@ -270,9 +293,10 @@ export function Game({ settingsData }: GameProps) {
   const first_line = author?.first_line;
   const birth_year = author?.birth_year;
 
-  console.log(first_line);
-  console.log(birth_year);
-  console.log(author?.code);
+  console.log("Full author object:", author);
+  console.log("First line:", first_line);
+  console.log("Birth year:", birth_year);
+  console.log("Author code:", author?.code);
 
   return (
     <>
@@ -290,17 +314,27 @@ export function Game({ settingsData }: GameProps) {
           </button>
         )}
         {/* <div className="my-1 mx-auto"> */}
-        <h2 className="font-bold text-center">
-          Guess which author wrote these lines!
+        <h2
+          className="font-bold text-center"
+          style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+        >
+          Guess which author wrote these lines of verse!
         </h2>
         <div
           style={{
             position: "relative",
-            paddingBottom: "50%",
-            paddingTop: "5px",
-            maxHeight: "210px", // Set a maximum height (adjust the value as needed)
-            overflowY: "auto", // Add a scrollbar when content exceeds the maximum height
-            background: "white",
+            padding: "10px",
+            minHeight: "210px",
+            maxHeight: "210px",
+            overflowY: "auto",
+            background: "#fefef8",
+            borderRadius: "8px",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+            border: "1px solid black",
+            fontFamily: "'Garamond', 'Georgia', serif",
+            fontSize: "15px",
+            lineHeight: "1.6",
+            marginBottom: "10px",
           }}
         >
           {displayedLines.map((line, index) => (
@@ -321,67 +355,92 @@ export function Game({ settingsData }: GameProps) {
           guesses={guesses}
           settingsData={settingsData}
           authorInputRef={authorInputRef}
-          isAprilFools={isAprilFools}
         />
         <div className="my-2">
           {gameEnded ? (
             <>
+              <div
+                style={{
+                  background: "#fefef8",
+                  borderRadius: "8px",
+                  boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+                  border: "1px solid black",
+                  padding: "20px",
+                  marginBottom: "10px",
+                  fontFamily: "'Garamond', 'Georgia', serif",
+                  textAlign: "center",
+                }}
+              >
+                <div style={{ marginBottom: "15px" }}>
+                  <p style={{ fontSize: "16px", marginBottom: "8px" }}>
+                    The answer was
+                  </p>
+                  <p
+                    style={{
+                      fontSize: "22px",
+                      fontWeight: "bold",
+                      color: "darkgoldenrod",
+                      marginBottom: "8px",
+                    }}
+                  >
+                    {author?.name}
+                  </p>
+                  <p style={{ fontSize: "15px", color: "#666" }}>
+                    ({author?.birth_year}
+                    {author?.death_year ? `–${author?.death_year}` : ""})
+                  </p>
+                </div>
+                <div style={{ marginTop: "15px" }}>
+                  <p style={{ fontSize: "14px", marginBottom: "5px" }}>
+                    Passage from
+                  </p>
+                  <p
+                    style={{
+                      fontSize: "17px",
+                      fontStyle: "italic",
+                      color: "#333",
+                    }}
+                  >
+                    {author?.title}
+                  </p>
+                </div>
+              </div>
               <Share
                 guesses={guesses}
                 dayString={dayString}
                 settingsData={settingsData}
                 hideImageMode={hideImageMode}
                 rotationMode={rotationMode}
-                isAprilFools={isAprilFools}
               />
-              <div
-                style={{
-                  position: "relative",
-                  paddingBottom: "10px",
-                  paddingTop: "3px",
-                  height: "70px",
-                  background: "white",
-                }}
-              >
-                <h2
-                  style={{
-                    color: "green",
-                  }}
-                >
-                  The answer was {author?.name}, who was born in{" "}
-                  {author?.birth_year}. The passage is excerpted from{" "}
-                  {author?.title}.
-                </h2>
-              </div>
               <a
-                className="underline w-full text-center block mt-4 flex justify-center"
+                style={{
+                  display: "block",
+                  textAlign: "center",
+                  padding: "10px 20px",
+                  marginTop: "10px",
+                  background: "#fefef8",
+                  border: "1px solid black",
+                  borderRadius: "8px",
+                  color: "#333",
+                  textDecoration: "none",
+                  fontFamily: "'Garamond', 'Georgia', serif",
+                  fontSize: "15px",
+                  transition: "all 0.2s",
+                }}
                 href={constructWikiLink(author?.name)}
                 target="_blank"
                 rel="noopener noreferrer"
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = "#f5f5e8";
+                  e.currentTarget.style.transform = "translateY(-2px)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = "#fefef8";
+                  e.currentTarget.style.transform = "translateY(0)";
+                }}
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>
-                {t("showOnGoogleMaps")}
+                Learn more on Wikipedia →
               </a>
-              {isAprilFools ? (
-                <div className="w-full text-center block mt-4 flex flex-col justify-center text-2xl font-bold">
-                  <div>🐶 🚲 🌪 🏚</div>
-                  <div>Happy April Fools!</div>
-                  <div>👠 🤖 🦁 🎍</div>
-                </div>
-              ) : null}
             </>
           ) : (
             <form onSubmit={handleSubmit}>
@@ -390,22 +449,121 @@ export function Game({ settingsData }: GameProps) {
                   authorValue={authorValue}
                   setAuthorValue={setAuthorValue}
                   setCurrentGuess={setCurrentGuess}
-                  isAprilFools={isAprilFools}
+                  easyMode={settingsData.easyMode}
                 />
-                {/* <button
-                className="border-2 uppercase my-0.5 hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-slate-800 dark:active:bg-slate-700"
-                type="submit"
-              >
-                🌍 {t("guess")}
-              </button> */}
                 <div className="text-left">
-                  <button className="my-2 inline-block justify-end bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded items-center">
-                    {isAprilFools ? "🪄" : "📚"} <span>Guess</span>
+                  <button
+                    type="submit"
+                    className="my-2 inline-block justify-end bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded items-center"
+                  >
+                    📚 <span>Guess</span>
                   </button>
                 </div>
               </div>
             </form>
           )}
+        </div>
+        {/* FAQ Section */}
+        <div
+          className="mt-8 space-y-4 pb-3"
+          style={{ fontFamily: "'Garamond', 'Georgia', serif" }}
+        >
+          <div className="font-bold text-lg text-center">F.A.Q.</div>
+
+          <details className="space-y-2">
+            <summary className="font-bold cursor-pointer">
+              What is Versedle?
+            </summary>
+            <div className="pl-4 pt-2">
+              Versedle is a daily literary puzzle game where you guess which
+              famous author wrote a given passage. A new Versedle puzzle is
+              available every day at midnight local time.
+            </div>
+          </details>
+
+          <details className="space-y-2">
+            <summary className="font-bold cursor-pointer">
+              How do you play Versedle?
+            </summary>
+            <div className="pl-4 pt-2 space-y-2">
+              <div>Playing Versedle is simple:</div>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>Read the literary passage displayed</li>
+                <li>
+                  Type your guess in the search box (must be a valid author
+                  name)
+                </li>
+                <li>
+                  After each guess, you&apos;ll receive feedback about how many
+                  years earlier or later the correct author was born
+                </li>
+                <li>You have 6 attempts to find the correct answer</li>
+                <li>Use the clues to narrow down your next guess</li>
+              </ul>
+            </div>
+          </details>
+
+          <details className="space-y-2">
+            <summary className="font-bold cursor-pointer">
+              When is a new Versedle game available?
+            </summary>
+            <div className="pl-4 pt-2">
+              A new Versedle puzzle is available every day at 0:00 AM (midnight)
+              in your device&apos;s local time zone. The game updates
+              automatically, so you&apos;ll see the new challenge when you visit
+              the site.
+            </div>
+          </details>
+
+          <details className="space-y-2">
+            <summary className="font-bold cursor-pointer">
+              What do the arrows and year distances mean?
+            </summary>
+            <div className="pl-4 pt-2">
+              The arrow shows whether the correct author was born earlier (⬅️)
+              or later (➡️) than your guess. The year distance tells you exactly
+              how many years apart they were born. For example, if you guess
+              &quot;Emily Dickinson&quot; and see &quot;45 years ➡️&quot;, the
+              correct author was born 45 years after Emily Dickinson.
+            </div>
+          </details>
+
+          <details className="space-y-2">
+            <summary className="font-bold cursor-pointer">
+              What is the proximity percentage?
+            </summary>
+            <div className="pl-4 pt-2">
+              The proximity percentage shows how close your guess is based on
+              birth years. If your guess is very far from the target (hundreds
+              of years apart), you&apos;ll get a low percentage. If you guess
+              the correct author, you&apos;ll get 100%. This percentage helps
+              gauge how close you are to the answer.
+            </div>
+          </details>
+
+          <details className="space-y-2">
+            <summary className="font-bold cursor-pointer">
+              What is Easy Mode?
+            </summary>
+            <div className="pl-4 pt-2">
+              Easy Mode provides additional hints to help you guess the correct
+              author. When enabled, the author dropdown will show birth and
+              death years for each author, and authors are sorted
+              chronologically by birth year.
+            </div>
+          </details>
+
+          <details className="space-y-2">
+            <summary className="font-bold cursor-pointer">
+              What is verse?
+            </summary>
+            <div className="pl-4 pt-2">
+              Verse typically refers to poetry and songs, though Versedle also
+              includes some prose passages. The name celebrates the literary
+              tradition of verse and the challenge of identifying authors
+              through their distinctive writing styles.
+            </div>
+          </details>
         </div>
       </div>
     </>

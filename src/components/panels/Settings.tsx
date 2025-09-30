@@ -59,6 +59,21 @@ export function Settings({
             {t("settings.theme")}
           </label>
         </div>
+        <div className="flex p-1">
+          <input
+            id="setting-easyMode"
+            type="checkbox"
+            className="h-8 w-8"
+            checked={settingsData.easyMode}
+            onChange={(e) => updateSettings({ easyMode: e.target.checked })}
+          />
+          <label
+            className="flex-1 ml-2 flex items-center"
+            htmlFor="setting-easyMode"
+          >
+            Easy Mode (show birth-death dates)
+          </label>
+        </div>
       </div>
     </Panel>
   );

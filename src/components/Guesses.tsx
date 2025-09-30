@@ -8,7 +8,6 @@ interface GuessesProps {
   guesses: Guess[];
   settingsData: SettingsData;
   authorInputRef?: React.RefObject<HTMLInputElement>;
-  isAprilFools?: boolean;
 }
 
 export function Guesses({
@@ -16,7 +15,6 @@ export function Guesses({
   guesses,
   settingsData,
   authorInputRef,
-  isAprilFools = false,
 }: GuessesProps) {
   return (
     <div>
@@ -28,7 +26,6 @@ export function Guesses({
             guess={guesses[index]}
             settingsData={settingsData}
             authorInputRef={authorInputRef}
-            isAprilFools={isAprilFools}
           />
         ))}
       </div>
