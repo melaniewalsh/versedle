@@ -15,7 +15,12 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
   return (
     <Panel title="How to play" isOpen={isOpen} close={close}>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
-        <div>Try to guess the VERSEDLE in 6 guesses!</div>
+        <div className=" font-bold">
+          Versedle is pronounced like &quot;Versatile&quot; or
+          &quot;Verse-a-dle&quot;—a play on the word &quot;verse,&quot; a
+          synonym for poetry.
+        </div>
+        <div>Try to guess the Versedle in 6 guesses!</div>
         <div>Each day you&apos;ll see a line by a famous literary author.</div>
         <div> Your goal is to guess the correct author of that line!</div>
         <div>
@@ -40,8 +45,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           <div className="my-2">
             Your guess,{" "}
             <span className="uppercase font-bold">Emily Dickinson</span>, was
-            born 45 years before the correct author — in other words, the
-            correct author was born 45 years after{" "}
+            born ~50 years before the correct author — in other words, the
+            correct author was born ~50 years after{" "}
             <span className="uppercase font-bold">Emily Dickinson</span>.
           </div>
         </div>
@@ -120,16 +125,16 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           Made by{" "}
           <a
             className="underline"
-            href="https://twitter.com/mellymeldubs"
+            href="https://melaniewalsh.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Melanie Walsh
           </a>
-          . Texts selected by Anna Preus and Melanie Walsh. Source code on{" "}
+          . Texts selected by Anna Preus and Melanie Walsh. Source code on .
           <a
             className="underline"
-            href="https://github.com/melaniewalsh/literaturdle"
+            href="https://github.com/melaniewalsh/versedle"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -146,9 +151,10 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             What is Versedle?
           </summary>
           <div className="pl-4 pt-2">
-            Versedle is a daily literary puzzle game where you guess which
-            famous author wrote a given passage. A new Versedle puzzle is
-            available every day at midnight local time.
+            Versedle (pronounced like &quot;Versatile&quot; or
+            &quot;Verse-a-dle&quot;) is a daily literary puzzle game where you
+            guess which famous author wrote a given passage. A new Versedle
+            puzzle is available every day at midnight local time.
           </div>
         </details>
 

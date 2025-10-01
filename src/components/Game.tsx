@@ -266,30 +266,19 @@ export function Game({ settingsData }: GameProps) {
 
   useEffect(() => {
     if (ipData) {
-      axios
-        .post("/tradle/score", {
-          date: new Date(),
-          guesses,
-          ip: ipData,
-          answer: author,
-          won,
-        })
-        .catch(function (error) {
-          if (error.response) {
-            // Request made and server responded
-            console.log(
-              `⚠️ ${error.response.status}: Unable to post tradle score.`
-            );
-          } else if (error.request) {
-            // The request was made but no response was received
-            console.log(error.request);
-          } else {
-            // Something happened in setting up the request that triggered an Error
-            console.log("Error", error.message);
-          }
+      // Send Google Analytics event when game ends
+      if (typeof window !== "undefined" && (window as any).gtag) {
+        (window as any).gtag("event", "game_complete", {
+          game_won: won,
+          num_guesses: guesses.length,
+          author_name: author?.name || "Unknown",
+          poem_title: author?.title || "Unknown",
+          game_mode: settingsData.easyMode ? "easy" : "hard",
+          date: dayString,
         });
+      }
     }
-  }, [guesses, ipData, won, author]);
+  }, [guesses, ipData, won, author, settingsData.easyMode, dayString]);
 
   // Fetch Wikipedia image when game ends
   useEffect(() => {
@@ -332,12 +321,9 @@ export function Game({ settingsData }: GameProps) {
           </button>
         )}
         {/* <div className="my-1 mx-auto"> */}
-        <h2
-          className="font-bold text-center"
-          style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
-        >
+        <h3 className=" text-center">
           Guess which author wrote these lines of verse!
-        </h2>
+        </h3>
         <div
           style={{
             position: "relative",
@@ -385,7 +371,6 @@ export function Game({ settingsData }: GameProps) {
                   border: "1px solid black",
                   padding: "20px",
                   marginBottom: "10px",
-                  fontFamily: "'Baskerville', 'Georgia', serif",
                   textAlign: "center",
                 }}
               >
@@ -406,7 +391,12 @@ export function Game({ settingsData }: GameProps) {
                     />
                   </div>
                 )}
-                <div style={{ marginBottom: "15px" }}>
+                <div
+                  style={{
+                    marginBottom: "15px",
+                    fontFamily: "'Baskerville', 'Georgia', serif",
+                  }}
+                >
                   <p style={{ fontSize: "16px", marginBottom: "8px" }}>
                     The answer was
                   </p>
@@ -425,7 +415,12 @@ export function Game({ settingsData }: GameProps) {
                     {author?.death_year ? `–${author?.death_year}` : ""})
                   </p>
                 </div>
-                <div style={{ marginTop: "15px" }}>
+                <div
+                  style={{
+                    marginTop: "15px",
+                    fontFamily: "'Baskerville', 'Georgia', serif",
+                  }}
+                >
                   <p style={{ fontSize: "14px", marginBottom: "5px" }}>
                     Passage from
                   </p>
@@ -458,7 +453,6 @@ export function Game({ settingsData }: GameProps) {
                   borderRadius: "8px",
                   color: "#333",
                   textDecoration: "none",
-                  fontFamily: "'Baskerville', 'Georgia', serif",
                   fontSize: "15px",
                   transition: "all 0.2s",
                 }}
@@ -490,7 +484,6 @@ export function Game({ settingsData }: GameProps) {
                   <button
                     type="submit"
                     className="my-2 inline-block justify-end bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded items-center"
-                    style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
                   >
                     📚 <span>Guess</span>
                   </button>
@@ -500,10 +493,7 @@ export function Game({ settingsData }: GameProps) {
           )}
         </div>
         {/* FAQ Section */}
-        <div
-          className="mt-8 space-y-4 pb-3"
-          style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
-        >
+        <div className="mt-8 space-y-4 pb-3">
           <div className="font-bold text-lg text-center">F.A.Q.</div>
 
           <details className="space-y-2">
@@ -511,9 +501,10 @@ export function Game({ settingsData }: GameProps) {
               What is Versedle?
             </summary>
             <div className="pl-4 pt-2">
-              Versedle is a daily literary puzzle game where you guess which
-              famous author wrote a given passage. A new Versedle puzzle is
-              available every day at midnight local time.
+              Versedle (pronounced like &quot;Versatile&quot; or
+              &quot;Verse-a-dle&quot;) is a daily literary puzzle game where you
+              guess which famous author wrote a given passage. A new Versedle
+              puzzle is available every day at midnight local time.
             </div>
           </details>
 

@@ -36,13 +36,10 @@ export function GuessRow({
   const squares = generateSquareCharacters(proximity, theme);
 
   const getDisplayDistance = (distance: number) => {
-    if (easyMode) {
-      if (distance <= 10) {
-        return "<10";
-      }
-      return `~${Math.round(distance / 10) * 10}`;
+    if (distance <= 10) {
+      return "<10";
     }
-    return distance.toString();
+    return `~${Math.round(distance / 10) * 10}`;
   };
 
   const [animationState, setAnimationState] =
@@ -109,71 +106,57 @@ export function GuessRow({
         display: "flex",
         justifyContent: "space-between",
         padding: "16px",
-        fontFamily: "'Baskerville', 'Georgia', serif",
       };
       return (
         <>
-          <div
+          <a
+            href={constructWikiLink(getAuthorPrettyName(guess?.name))}
+            target="_blank"
+            rel="noopener noreferrer"
             className={
               guess?.distance === 0
-                ? "bg-oec-yellow rounded-lg flex items-center h-8 col-span-2 animate-reveal pl-1 text-xs md:text-sm"
-                : "bg-gray-200 rounded-lg flex items-center h-8 col-span-2 animate-reveal pl-1 text-xs md:text-sm"
+                ? "rounded-lg flex items-center h-8 col-span-2 animate-reveal pl-1 text-xs md:text-sm cursor-pointer hover:opacity-80"
+                : "bg-gray-200 rounded-lg flex items-center h-8 col-span-2 animate-reveal pl-1 text-xs md:text-sm cursor-pointer hover:opacity-80"
             }
-            style={authorSectionStyle}
+            style={
+              guess?.distance === 0
+                ? {
+                    ...authorSectionStyle,
+                    backgroundColor: "rgb(228, 178, 59)",
+                  }
+                : authorSectionStyle
+            }
           >
             <p className="text-ellipsis overflow-hidden whitespace-nowrap">
               {getAuthorPrettyName(guess?.name)}
             </p>
-            <p>
-              {guess?.author !== undefined ? (
-                <a
-                  href={constructWikiLink(getAuthorPrettyName(guess?.name))}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
-                </a>
-              ) : null}
-            </p>
-          </div>
+          </a>
           <div
             className={
               guess?.distance === 0
-                ? "bg-oec-yellow rounded-lg flex items-center justify-center h-8 col-span-3 animate-reveal relative z-50"
+                ? "rounded-lg flex items-center justify-center h-8 col-span-3 animate-reveal relative z-50"
                 : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-3 animate-reveal relative z-50"
             }
-            style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
+            style={
+              guess?.distance === 0
+                ? { backgroundColor: "rgb(228, 178, 59)" }
+                : undefined
+            }
           >
             {guess && guess.distance === 0 ? (
-              "🎉 Correct!"
+              <span className="text-xs md:text-sm">🎉 Correct!</span>
             ) : guess && guess.distance === -1 ? (
-              <span className="whitespace-nowrap text-[10px] md:text-xs">
-                <span className="font-bold">
-                  Same birth year, wrong author!
-                </span>
+              <span className="whitespace-nowrap text-xs md:text-sm">
+                <span className="font-bold">Same birth year!</span>
               </span>
             ) : guess ? (
-              <span className="whitespace-nowrap text-[10px] md:text-xs">
-                <span>was born </span>
-                <span className="font-bold text-xs md:text-sm">
+              <span className="whitespace-nowrap text-xs md:text-sm">
+                <span className="font-bold">
                   {getDisplayDistance(guess.distance)}
                 </span>
                 <span>
                   {" "}
-                  years {guess.direction === "E" ? "too early." : "too late."}
+                  years {guess.direction === "E" ? "too early" : "too late"}
                 </span>
               </span>
             ) : null}
@@ -181,8 +164,13 @@ export function GuessRow({
           <div
             className={
               guess?.distance === 0
-                ? "bg-oec-yellow rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal"
+                ? "rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal"
                 : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal"
+            }
+            style={
+              guess?.distance === 0
+                ? { backgroundColor: "rgb(228, 178, 59)" }
+                : undefined
             }
           >
             {guess?.distance === 0
@@ -196,10 +184,14 @@ export function GuessRow({
           <div
             className={
               guess?.distance === 0
-                ? "bg-oec-yellow rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal animate-pop"
-                : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal animate-pop"
+                ? "rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal animate-pop text-xs md:text-sm"
+                : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-1 animate-reveal animate-pop text-xs md:text-sm"
             }
-            style={{ fontFamily: "'Baskerville', 'Georgia', serif" }}
+            style={
+              guess?.distance === 0
+                ? { backgroundColor: "rgb(228, 178, 59)" }
+                : undefined
+            }
           >
             {`${proximity}%`}
           </div>
