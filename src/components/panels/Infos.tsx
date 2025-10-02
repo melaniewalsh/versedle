@@ -57,7 +57,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
               {
                 name: "Sylvia Plath",
                 direction: "W",
-                distance: -1,
+                distance: 1,
               },
             ]}
             settingsData={settingsData}
@@ -65,7 +65,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           <div className="my-2">
             Your second guess,{" "}
             <span className="uppercase font-bold">Sylvia Plath</span>, is very,
-            very close!
+            very close — only 1 year off!
           </div>
         </div>
         <div>

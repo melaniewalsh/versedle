@@ -38,6 +38,7 @@
   },
   "scripts": {
     "gdoc": "node tasks/fetch-google.mjs",
+    "fetch-images": "node tasks/fetch-author-images.mjs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

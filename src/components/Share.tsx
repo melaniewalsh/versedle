@@ -51,7 +51,12 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString].join("\n");
+    return [
+      title,
+      guessString,
+      "",
+      "https://melaniewalsh.github.io/versedle/",
+    ].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
   return (

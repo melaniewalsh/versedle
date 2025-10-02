@@ -15,15 +15,37 @@ interface ItemProps {
   birthYear?: number;
   deathYear?: number;
   easyMode?: boolean;
+  imageUrl?: string;
 }
 
 const AutoCompleteItem = forwardRef<HTMLDivElement, ItemProps>(
   (
-    { id, value, birthYear, deathYear, easyMode = false, ...others }: ItemProps,
+    {
+      id,
+      value,
+      birthYear,
+      deathYear,
+      easyMode = false,
+      imageUrl,
+      ...others
+    }: ItemProps,
     ref
   ) => (
     <div ref={ref} {...others}>
       <Group noWrap>
+        {imageUrl && (
+          <img
+            src={imageUrl}
+            alt={value}
+            style={{
+              width: "24px",
+              height: "24px",
+              borderRadius: "50%",
+              objectFit: "cover",
+              flexShrink: 0,
+            }}
+          />
+        )}
         <div>
           <Text>
             {value}
@@ -68,6 +90,7 @@ export function AuthorInput({
       birthYear: author.birth_year,
       deathYear: author.death_year,
       easyMode,
+      imageUrl: author.image_url,
     }))
     .reduce<
       {
@@ -77,6 +100,7 @@ export function AuthorInput({
         birthYear: number;
         deathYear?: number;
         easyMode: boolean;
+        imageUrl?: string;
       }[]
     >((acc, current) => {
       const x = acc.find((item) => item.name === current.name);

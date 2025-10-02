@@ -65,13 +65,13 @@ export function GuessRow({
   /**
    * Format the year distance for display.
    * Rounds to nearest 10 years to avoid giving away the exact answer.
-   * Shows "<10" for very close guesses instead of the exact number.
+   * Shows "0-10" for very close guesses instead of the exact number.
    */
   const getDisplayDistance = (distance: number) => {
     if (distance <= 10) {
-      return "<10";
+      return "0-10";
     }
-    return `~${Math.round(distance / 10) * 10}`;
+    return `${Math.round(distance / 10) * 10}`;
   };
 
   // Track which animation state this row is in
@@ -172,8 +172,8 @@ export function GuessRow({
             rel="noopener noreferrer"
             className={
               guess?.distance === 0
-                ? "rounded-lg flex items-center h-8 col-span-2 animate-reveal pl-1 text-xs md:text-sm cursor-pointer hover:opacity-80"
-                : "bg-gray-200 rounded-lg flex items-center h-8 col-span-2 animate-reveal pl-1 text-xs md:text-sm cursor-pointer hover:opacity-80"
+                ? "rounded-lg flex items-center gap-1 h-8 col-span-3 animate-reveal pl-1 text-xs md:text-sm cursor-pointer hover:opacity-80"
+                : "bg-gray-200 rounded-lg flex items-center gap-1 h-8 col-span-3 animate-reveal pl-1 text-xs md:text-sm cursor-pointer hover:opacity-80"
             }
             style={
               guess?.distance === 0
@@ -184,18 +184,36 @@ export function GuessRow({
                 : authorSectionStyle
             }
           >
+            {guess?.author?.image_url && (
+              <img
+                src={guess.author.image_url}
+                alt={getAuthorPrettyName(guess?.name)}
+                className="w-6 h-6 rounded-full object-cover flex-shrink-0"
+              />
+            )}
             <p className="text-ellipsis overflow-hidden whitespace-nowrap">
-              {getAuthorShortName(
-                getAuthorPrettyName(guess?.name),
-                isMobile ? 12 : 15
-              )}
+              {getAuthorPrettyName(guess?.name)}
             </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-3 w-3 flex-shrink-0"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="black"
+              strokeWidth="2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
           </a>
           <div
             className={
               guess?.distance === 0
-                ? "rounded-lg flex items-center justify-center h-8 col-span-3 animate-reveal relative z-50"
-                : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-3 animate-reveal relative z-50"
+                ? "rounded-lg flex items-center justify-center h-8 col-span-2 animate-reveal relative z-50"
+                : "bg-gray-200 rounded-lg flex items-center justify-center h-8 col-span-2 animate-reveal relative z-50"
             }
             style={
               guess?.distance === 0
@@ -212,12 +230,9 @@ export function GuessRow({
             ) : guess ? (
               <span className="whitespace-nowrap text-xs md:text-sm">
                 <span className="font-bold">
-                  {getDisplayDistance(guess.distance)}
+                  {getDisplayDistance(guess.distance)} years
                 </span>
-                <span>
-                  {" "}
-                  years {guess.direction === "E" ? "too early" : "too late"}
-                </span>
+                <span> {guess.direction === "E" ? "early" : "late"}</span>
               </span>
             ) : null}
           </div>

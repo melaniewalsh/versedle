@@ -34,7 +34,7 @@ export function generateSquareCharacters(
   characters.fill("🟩", 0, greenSquareCount);
   characters.fill("🟨", greenSquareCount, greenSquareCount + yellowSquareCount);
   characters.fill(
-    theme === "light" ? "⬜" : "⬜",
+    theme === "light" ? "⬛" : "⬛",
     greenSquareCount + yellowSquareCount
   );
 

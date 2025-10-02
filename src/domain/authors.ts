@@ -25,6 +25,7 @@ export interface Author {
   first_line: string; // Opening line of the literary work
   name: string; // Full name of the author (e.g., "Emily Dickinson")
   title: string; // Title of the literary work
+  image_url?: string; // Wikipedia/Wikimedia image URL for the author's portrait
 }
 
 /**
@@ -51,6 +52,7 @@ csv(`${process.env.PUBLIC_URL}/authors.csv`).then((data) => {
     death_year: row.death_year ? parseInt(row.death_year, 10) : undefined,
     title: row.title,
     first_line: row.first_line,
+    image_url: row.image_url || undefined, // Optional image URL from CSV
   }));
   console.log("Authors loaded:", authors.length);
 
