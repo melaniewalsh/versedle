@@ -238,14 +238,18 @@ export function Game({ settingsData }: GameProps) {
     if (ipData) {
       // Send Google Analytics event when game ends
       if (typeof window !== "undefined" && (window as any).gtag) {
-        (window as any).gtag("event", "game_complete", {
-          game_won: won,
-          num_guesses: guesses.length,
-          author_name: author?.name || "Unknown",
-          poem_title: author?.title || "Unknown",
-          game_mode: settingsData.easyMode ? "easy" : "hard",
-          date: dayString,
-        });
+        (window as any).gtag(
+          "event",
+          won || guesses.length === MAX_TRY_COUNT ? "complete" : "not_complete",
+          {
+            game_won: won ? "won" : "lost",
+            num_guesses: guesses.length,
+            author_name: author?.name || "Unknown",
+            poem_title: author?.title || "Unknown",
+            game_mode: settingsData.easyMode ? "easy" : "hard",
+            date: dayString,
+          }
+        );
       }
     }
   }, [guesses, ipData, won, author, settingsData.easyMode, dayString]);
