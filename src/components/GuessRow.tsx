@@ -1,3 +1,18 @@
+/**
+ * GuessRow Component
+ *
+ * Displays a single row in the game that shows the player's guess and feedback.
+ * Each row goes through three states:
+ * 1. NOT_STARTED: Empty gray bar (before guessing)
+ * 2. RUNNING: Animated reveal of proximity squares
+ * 3. ENDED: Final display with author name, year distance, and direction arrow
+ *
+ * The feedback tells players:
+ * - How close they are (proximity percentage)
+ * - How many years apart the authors' birth years are
+ * - Whether to guess earlier (⬅️) or later (➡️) in time
+ */
+
 import {
   computeProximityPercent,
   Direction,
@@ -8,21 +23,29 @@ import { constructWikiLink, Guess } from "../domain/guess";
 import React, { useCallback, useEffect, useState } from "react";
 import CountUp from "react-countup";
 import { SettingsData } from "../hooks/useSettings";
-import { getAuthorPrettyName } from "../domain/authors";
+import { getAuthorPrettyName, getAuthorShortName } from "../domain/authors";
 
+/**
+ * Direction arrows shown to indicate whether to guess earlier or later authors.
+ * E (Earlier) = ➡️ means the correct author was born AFTER your guess
+ * W (Later/"West") = ⬅️ means the correct author was born BEFORE your guess
+ */
 const DIRECTION_ARROWS: Record<string, string> = {
   E: "➡️",
   W: "⬅️",
 };
 
+// How long each square takes to animate in (milliseconds)
 const SQUARE_ANIMATION_LENGTH = 250;
+
+// The three states a guess row can be in
 type AnimationState = "NOT_STARTED" | "RUNNING" | "ENDED";
 
 interface GuessRowProps {
-  index: number;
-  guess?: Guess;
-  settingsData: SettingsData;
-  authorInputRef?: React.RefObject<HTMLInputElement>;
+  index: number; // Which guess number this is (0-5 for 6 total guesses)
+  guess?: Guess; // The guess data (undefined if player hasn't guessed this row yet)
+  settingsData: SettingsData; // User's preferences (easy/hard mode, theme, etc.)
+  authorInputRef?: React.RefObject<HTMLInputElement>; // Reference to input field for focusing
 }
 
 export function GuessRow({
@@ -32,9 +55,18 @@ export function GuessRow({
   authorInputRef,
 }: GuessRowProps) {
   const { distanceUnit, theme, easyMode } = settingsData;
+
+  // Calculate how close the guess is (0-100%)
   const proximity = guess != null ? computeProximityPercent(guess.distance) : 0;
+
+  // Generate colored squares to visually show proximity (like Wordle)
   const squares = generateSquareCharacters(proximity, theme);
 
+  /**
+   * Format the year distance for display.
+   * Rounds to nearest 10 years to avoid giving away the exact answer.
+   * Shows "<10" for very close guesses instead of the exact number.
+   */
   const getDisplayDistance = (distance: number) => {
     if (distance <= 10) {
       return "<10";
@@ -42,9 +74,30 @@ export function GuessRow({
     return `~${Math.round(distance / 10) * 10}`;
   };
 
+  // Track which animation state this row is in
   const [animationState, setAnimationState] =
     useState<AnimationState>("NOT_STARTED");
 
+  /**
+   * Detect if user is on mobile to adjust name display.
+   * Mobile screens show shorter author names (12 char max vs 15 on desktop).
+   * Listens for window resize to handle device rotation.
+   */
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  /**
+   * Trigger animation when a new guess is made.
+   * Shows the animated square reveal, then transitions to final state.
+   * Total animation time = 250ms × 6 squares = 1.5 seconds
+   */
   useEffect(() => {
     if (guess == null) {
       return;
@@ -60,6 +113,10 @@ export function GuessRow({
     };
   }, [guess]);
 
+  /**
+   * When user clicks an empty row, focus the input field.
+   * This makes it easier to start typing without explicitly clicking the input.
+   */
   const handleClickOnEmptyRow = useCallback(() => {
     if (authorInputRef?.current != null) {
       authorInputRef?.current.focus();
@@ -122,13 +179,16 @@ export function GuessRow({
               guess?.distance === 0
                 ? {
                     ...authorSectionStyle,
-                    backgroundColor: "rgb(228, 178, 59)",
+                    backgroundColor: "rgb(253, 196, 62)",
                   }
                 : authorSectionStyle
             }
           >
             <p className="text-ellipsis overflow-hidden whitespace-nowrap">
-              {getAuthorPrettyName(guess?.name)}
+              {getAuthorShortName(
+                getAuthorPrettyName(guess?.name),
+                isMobile ? 12 : 15
+              )}
             </p>
           </a>
           <div
@@ -139,7 +199,7 @@ export function GuessRow({
             }
             style={
               guess?.distance === 0
-                ? { backgroundColor: "rgb(228, 178, 59)" }
+                ? { backgroundColor: "rgb(253, 196, 62)" }
                 : undefined
             }
           >
@@ -169,7 +229,7 @@ export function GuessRow({
             }
             style={
               guess?.distance === 0
-                ? { backgroundColor: "rgb(228, 178, 59)" }
+                ? { backgroundColor: "rgb(253, 196, 62)" }
                 : undefined
             }
           >
@@ -189,7 +249,7 @@ export function GuessRow({
             }
             style={
               guess?.distance === 0
-                ? { backgroundColor: "rgb(228, 178, 59)" }
+                ? { backgroundColor: "rgb(253, 196, 62)" }
                 : undefined
             }
           >

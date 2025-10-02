@@ -4,7 +4,6 @@ import { Game } from "./components/Game";
 import React, { useEffect, useState } from "react";
 import { Infos } from "./components/panels/Infos";
 import { useTranslation } from "react-i18next";
-import { InfosFr } from "./components/panels/InfosFr";
 import { Settings } from "./components/panels/Settings";
 import { useSettings } from "./hooks/useSettings";
 import { Stats } from "./components/panels/Stats";
@@ -43,19 +42,11 @@ function App() {
         autoClose={5000}
         bodyClassName="font-bold text-center"
       />
-      {i18n.resolvedLanguage === "fr" ? (
-        <InfosFr
-          isOpen={infoOpen}
-          close={() => setInfoOpen(false)}
-          settingsData={settingsData}
-        />
-      ) : (
-        <Infos
-          isOpen={infoOpen}
-          close={() => setInfoOpen(false)}
-          settingsData={settingsData}
-        />
-      )}
+      <Infos
+        isOpen={infoOpen}
+        close={() => setInfoOpen(false)}
+        settingsData={settingsData}
+      />
       <Settings
         isOpen={settingsOpen}
         close={() => setSettingsOpen(false)}
@@ -91,11 +82,14 @@ function App() {
                 />
               </svg>
             </button>
-            <h1 className="absolute left-1/2 transform -translate-x-1/2 my-1 pr-6 md:pr-0">
-              <b className="text-literaturdle-gold">VERS</b>
-              <b style={{ color: "green" }}>𝐄</b>
-              <b style={{ color: "black" }}>DLE</b>
-            </h1>
+            <div className="absolute left-1/2 transform -translate-x-1/2 my-1">
+              <img
+                src={`${process.env.PUBLIC_URL}/images/versedle-logo-title.png`}
+                alt="VERSEDLE"
+                className="h-7 md:pr-0"
+                style={{ paddingRight: "2.625rem" }}
+              />
+            </div>
             <div className="flex items-center gap-2">
               <label className="flex items-center gap-1 text-xs cursor-pointer">
                 <span className={!settingsData.easyMode ? "font-bold" : ""}>
@@ -108,9 +102,12 @@ function App() {
                   }
                 >
                   <div
-                    className={`absolute top-0 left-0 right-0 bottom-0 rounded-full transition-colors ${
-                      settingsData.easyMode ? "bg-green-500" : "bg-gold"
-                    }`}
+                    className="absolute top-0 left-0 right-0 bottom-0 rounded-full transition-colors"
+                    style={{
+                      backgroundColor: settingsData.easyMode
+                        ? "rgb(210, 167, 16)"
+                        : "rgb(16, 73, 59)",
+                    }}
                   />
                   <div
                     className={`absolute top-0.5 left-0.5 w-4 h-4 bg-white rounded-full shadow transition-transform ${

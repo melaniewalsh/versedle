@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { authors, Author, onAuthorsLoaded } from "../domain/authors";
 
 interface DateAuthor {
-  country: string; // keeping 'country' key for backward compatibility with CSV
+  author_code: string;
   date: string;
 }
 
@@ -19,13 +19,13 @@ export function useAuthor(dayString: string): [Author | undefined] {
 
   useEffect(() => {
     csv(`${process.env.PUBLIC_URL}/data.csv`, (d) => {
-      return { country: d.country, date: d.date }; // CSV still uses 'country' column
+      return { author_code: d.author_code, date: d.date };
     }).then((data) => {
       setForcedAuthorCode(
         data.length
           ? (
               data.find((el) => el.date === dayString) as DateAuthor
-            )?.country.toUpperCase() || ""
+            )?.author_code.toUpperCase() || ""
           : ""
       );
     });

@@ -1,7 +1,6 @@
 import { Guesses } from "../Guesses";
 import { Panel } from "./Panel";
 import React from "react";
-import { Tradele } from "../Tradele";
 import { formatDistance } from "../../domain/geography";
 import { SettingsData } from "../../hooks/useSettings";
 
@@ -25,7 +24,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         <div> Your goal is to guess the correct author of that line!</div>
         <div>
           After each guess, Versedle will tell you how many years later or
-          earlier the correct author was born.
+          earlier the correct author was born, and give you a new line of the
+          text.
         </div>
       </div>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
@@ -131,14 +131,32 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           >
             Melanie Walsh
           </a>
-          . Texts selected by Anna Preus and Melanie Walsh. Source code on .
+          . Texts selected by{" "}
+          <a
+            className="underline"
+            href="https://english.washington.edu/people/anna-preus"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Anna Preus
+          </a>{" "}
+          and Melanie Walsh. Source code on{" "}
           <a
             className="underline"
             href="https://github.com/melaniewalsh/versedle"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github
+            Github.
+          </a>{" "}
+          Check out the{" "}
+          <a
+            className="underline"
+            href="https://humanitiesdatalab.ds.lib.uw.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Humanities Data Lab.
           </a>
           .
         </div>
@@ -171,7 +189,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
               </li>
               <li>
                 After each guess, you&apos;ll receive feedback about how many
-                years earlier or later the correct author was born
+                years earlier or later the correct author was born, and get a
+                new line of text (if available)
               </li>
               <li>You have 6 attempts to find the correct answer</li>
               <li>Use the clues to narrow down your next guess</li>
@@ -197,10 +216,11 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           </summary>
           <div className="pl-4 pt-2">
             The arrow shows whether the correct author was born earlier (⬅️) or
-            later (➡️) than your guess. The year distance tells you exactly how
-            many years apart they were born. For example, if you guess
-            &quot;Emily Dickinson&quot; and see &quot;45 years ➡️&quot;, the
-            correct author was born 45 years after Emily Dickinson.
+            later (➡️) than your guess. The year distance tells you
+            approximately how many years apart they were born. For example, if
+            you guess &quot;Emily Dickinson&quot; and see &quot;~50 years
+            ➡️&quot;, the correct author was born ~50 years after Emily
+            Dickinson.
           </div>
         </details>
 
@@ -227,6 +247,20 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             years for each author, authors are sorted chronologically by birth
             year, and year distances are rounded to the nearest 10 years to make
             guessing easier.
+          </div>
+        </details>
+        <details className="space-y-2">
+          <summary className="font-bold cursor-pointer">
+            What is &quot;Verse&quot;?
+          </summary>
+          <div className="pl-4 pt-2">
+            Verse, as a general term, is often used as a synonym for poetry,
+            distinguishing it from prose. Verse refers to metrical writing,
+            which differs from regular language in its unique pattern of sounds
+            and rhythms. We also use the term verse when we talk about songs!
+            Versedle includes poetry, songs, and even some prose, too. The name
+            celebrates the literary tradition of verse and the challenge of
+            identifying authors through their distinctive writing styles.
           </div>
         </details>
       </div>

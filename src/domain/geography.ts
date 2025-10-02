@@ -18,11 +18,6 @@ export type Direction =
   | "NNW"
   | "N";
 
-/*export function computeProximityPercent(distance: number): number {
-  const proximity = Math.max(MAX_DISTANCE_ON_EARTH - distance, 0);
-  return Math.round((proximity / MAX_DISTANCE_ON_EARTH) * 100);
-}*/
-
 export function computeProximityPercent(distance: number): number {
   const proximity = Math.max(500 - Math.abs(distance), 0);
   return Math.floor((proximity / 500) * 100);

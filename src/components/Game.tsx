@@ -69,8 +69,8 @@ export function Game({ settingsData }: GameProps) {
       console.log("Authors data loaded:", authorsData.length, "authors");
       const todayEntry = dateData.find((d: any) => d.date === dayString);
       console.log("Today's entry:", todayEntry);
-      if (todayEntry && todayEntry.country) {
-        const authorCode = todayEntry.country.toUpperCase();
+      if (todayEntry && todayEntry.author_code) {
+        const authorCode = todayEntry.author_code.toUpperCase();
         console.log("Author code:", authorCode);
         const authorEntry = authorsData.find((a: any) => a.code === authorCode);
         console.log("Author entry found:", authorEntry);
@@ -101,36 +101,6 @@ export function Game({ settingsData }: GameProps) {
   }
 
   console.log(guesses.length);
-
-  /*function displayLine() {
-    if (country && country.first_line) {
-      const lines = country.first_line.split("\n"); // Split lines using line breaks
-      const newDisplayedLines = lines.slice(0, currentLine + 1); // Join the lines up to the current line
-      console.log(`These are the new displayed lines: ${newDisplayedLines}`);
-      console.log(lines);
-      setDisplayedLines(newDisplayedLines); // Update the displayed lines in state
-    }
-  }
-
-  function displayLineTemp() {
-    if (country && country.first_line) {
-      const lines = country.first_line.split("\n"); // Split lines using line breaks
-      const newDisplayedLines = lines.slice(0, currentLine + 1); // Join the lines up to the current line
-      console.log(`These are the new displayed lines: ${newDisplayedLines}`);
-      console.log(lines);
-      setDisplayedLines(newDisplayedLines); // Update the displayed lines in state
-    }
-  }
-
-  function displayFullPassage() {
-    if (country && country.first_line) {
-      const lines = country.first_line.split("\n"); // Split lines using line breaks
-      const newDisplayedLines = lines.slice(0, 6); // Join the lines up to the current line
-      console.log(`These are the new displayed lines: ${newDisplayedLines}`);
-      console.log(lines);
-      setDisplayedLines(newDisplayedLines); // Update the displayed lines in state
-    }
-  }*/
 
   const displayLine = useCallback(() => {
     if (author && author.first_line) {
@@ -193,14 +163,14 @@ export function Game({ settingsData }: GameProps) {
         return;
       }
 
-      const isCorrect = guessedAuthor.code === author.code;
+      const isCorrect = guessedAuthor.name === author.name;
       const yearDistance = Math.abs(
         guessedAuthor.birth_year - author.birth_year
       );
 
       const newGuess = {
         name: currentGuess,
-        distance: isCorrect ? 0 : yearDistance === 0 ? -1 : yearDistance,
+        distance: isCorrect ? 0 : yearDistance,
         direction: getDirection(guessedAuthor.birth_year, author.birth_year),
         author: guessedAuthor,
       };
@@ -321,8 +291,8 @@ export function Game({ settingsData }: GameProps) {
           </button>
         )}
         {/* <div className="my-1 mx-auto"> */}
-        <h3 className=" text-center">
-          Guess which author wrote these lines of verse!
+        <h3 className="text-center font-bold">
+          Which author wrote these lines of verse?
         </h3>
         <div
           style={{
@@ -397,41 +367,46 @@ export function Game({ settingsData }: GameProps) {
                     fontFamily: "'Baskerville', 'Georgia', serif",
                   }}
                 >
-                  <p style={{ fontSize: "16px", marginBottom: "8px" }}>
-                    The answer was
+                  <p style={{ fontSize: "16px", marginBottom: "-5px" }}>
+                    The answer was:
                   </p>
                   <p
                     style={{
                       fontSize: "22px",
                       fontWeight: "bold",
-                      color: "darkgoldenrod",
-                      marginBottom: "8px",
+                      color: "rgb(16 73 60)",
+                      marginBottom: "0px",
                     }}
                   >
                     {author?.name}
                   </p>
-                  <p style={{ fontSize: "15px", color: "#666" }}>
+                  <p
+                    style={{
+                      fontSize: "16px",
+                      marginTop: "-5px",
+                      /* color: "#666" */
+                    }}
+                  >
                     ({author?.birth_year}
                     {author?.death_year ? `–${author?.death_year}` : ""})
                   </p>
                 </div>
                 <div
                   style={{
-                    marginTop: "15px",
+                    marginTop: "16px",
                     fontFamily: "'Baskerville', 'Georgia', serif",
                   }}
                 >
-                  <p style={{ fontSize: "14px", marginBottom: "5px" }}>
-                    Passage from
+                  <p style={{ fontSize: "16px", marginBottom: "0px" }}>
+                    Excerpt from:
                   </p>
                   <p
                     style={{
                       fontSize: "17px",
-                      fontStyle: "italic",
                       color: "#333",
                     }}
                   >
-                    {author?.title}
+                    &quot;{author?.title}&quot;
                   </p>
                 </div>
               </div>
@@ -522,7 +497,8 @@ export function Game({ settingsData }: GameProps) {
                 </li>
                 <li>
                   After each guess, you&apos;ll receive feedback about how many
-                  years earlier or later the correct author was born
+                  years earlier or later the correct author was born, plus a new
+                  line of the text
                 </li>
                 <li>You have 6 attempts to find the correct answer</li>
                 <li>Use the clues to narrow down your next guess</li>
@@ -548,10 +524,11 @@ export function Game({ settingsData }: GameProps) {
             </summary>
             <div className="pl-4 pt-2">
               The arrow shows whether the correct author was born earlier (⬅️)
-              or later (➡️) than your guess. The year distance tells you exactly
-              how many years apart they were born. For example, if you guess
-              &quot;Emily Dickinson&quot; and see &quot;45 years ➡️&quot;, the
-              correct author was born 45 years after Emily Dickinson.
+              or later (➡️) than your guess. The year distance tells you
+              approximately how many years apart they were born. For example, if
+              you guess &quot;Emily Dickinson&quot; and see &quot;~50 years
+              ➡️&quot;, the correct author was born ~50 years after Emily
+              Dickinson.
             </div>
           </details>
 
@@ -582,13 +559,17 @@ export function Game({ settingsData }: GameProps) {
 
           <details className="space-y-2">
             <summary className="font-bold cursor-pointer">
-              What is verse?
+              What is &quot;Verse&quot;?
             </summary>
             <div className="pl-4 pt-2">
-              Verse typically refers to poetry and songs, though Versedle also
-              includes some prose passages. The name celebrates the literary
-              tradition of verse and the challenge of identifying authors
-              through their distinctive writing styles.
+              Verse, as a general term, is often used as a synonym for poetry,
+              distinguishing it from prose. Verse refers to metrical writing,
+              which differs from regular language in its unique pattern of
+              sounds and rhythms. We also use the term verse when we talk about
+              songs! Versedle includes poetry, songs, and even some prose, too.
+              The name celebrates the literary tradition of verse and the
+              challenge of identifying authors through their distinctive writing
+              styles.
             </div>
           </details>
         </div>

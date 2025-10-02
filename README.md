@@ -1,6 +1,6 @@
 # Versedle 📚
 
-Play **Versedle**, the literary Wordle, here: https://melaniewalsh.github.io/literaturdle/
+Play **Versedle**, the literary Wordle, here: https://melaniewalsh.github.io/versedle/
 
 Test your knowledge of famous literary lines and authors from across history — once every day!
 
@@ -17,9 +17,9 @@ To test and develop new features, make sure you meet the following requirements:
 | node.js  | >=14        |
 | npm      | >=8         |
 
-# To run a local copy of Versedle...
+## To run a local copy of Versedle...
 
-```
-npm ci
-npm start
+```bash
+npm ci        # Install dependencies
+npm start     # Start development server (opens at localhost:3000)
 ```

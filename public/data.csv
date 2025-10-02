@@ -1,4 +1,4 @@
-date,country,author_name,poem_title
+date,author_code,author_name,poem_title
 2024-03-28,AP,Edgar Allen Poe,Annabel Lee
 2024-03-29,WY,William Butler Yeats,The Second Coming
 2024-03-30,JM,John Milton,On the Morning of Christ's Nativity
@@ -552,79 +552,79 @@ date,country,author_name,poem_title
 2025-09-29,ATP,Alfred Lord Tennyson,Ulysses
 2025-09-30,GS,Gertrude Stein,Sacred Emily
 2025-10-01,FR,Robert Frost,Mending Wall
-2025-10-02,WW,William Wordsworth,I wandered Lonely as a Cloud
-2025-10-03,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2025-10-04,SP,Sylvia Plath,Lady Lazarus
-2025-10-05,MO,Mary Oliver,Wild Geese
-2025-10-06,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2025-10-07,TS,T.S. Eliot,The Waste Land
-2025-10-08,ST,Tupac Shakur,The Rose That Grew from Concrete
-2025-10-09,PS,Percy Shelley,Ozymandias
-2025-10-10,EC,E.E. Cummings,anyone lived in a pretty how town
-2025-10-11,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2025-10-12,wy,William Butler Yeats,The Second Coming
-2025-10-13,KG,Khalil Gibran,On Marriage
-2025-10-14,CK,Carole King,I Feel the Earth Move
-2025-10-15,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-10-16,MH,Gerard Manley Hopkins,God's Grandeur
-2025-10-17,AG,Toni Morrison,Beloved
-2025-10-18,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-10-19,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2025-10-20,WY,William Butler Yeats,The Second Coming
-2025-10-21,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2025-10-22,CB,Charles Bukowski,bluebird
-2025-10-23,EE,E.E. Cummings,[little tree]
-2025-10-24,WB,William Blake,The Tyger
-2025-10-25,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-10-26,LB,Lord Byron,She Walks in Beauty
-2025-10-27,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2025-10-28,SC,Samuel Taylor Coleridge,Kubla Khan
-2025-10-29,WBL,William Blake,The Lamb
-2025-10-30,AP,Edgar Allen Poe,Annabel Lee
-2025-10-31,JD,John Donne,A Valediction: Forbidding Mourning
-2025-11-01,EH,Emily Dickinson,“Hope” is the thing with feathers
-2025-11-02,JM,John Milton,On the Morning of Christ's Nativity
-2025-11-03,wb,William Blake,The Tyger
-2025-11-04,ma,Maya Angelou,Still I Rise
-2025-11-05,CM,Claude McKay,If We Must Die
-2025-11-06,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2025-11-07,OC,Walt Whitman,O Captain! My Captain!
-2025-11-08,CW,William Carlos Williams,The Red Wheelbarrow
-2025-11-09,AF,Jane Austen,Pride and Prejudice
-2025-11-10,WH,W.H. Auden,Musée des Beaux Arts
-2025-11-11,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2025-11-12,RB,Robert Browning,My Last Duchess
-2025-11-13,AB,Anne Bradstreet,To my dear and loving husband
-2025-11-14,WYC,William Butler Yeats,Sailing to Byzantium
-2025-11-15,bc,Billy Collins,Snow Day
-2025-11-16,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-11-17,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2025-11-18,EP,Ezra Pound,In a Station of the Metro
-2025-11-19,JK,John Keats,Ode on a Grecian Urn
-2025-11-20,LH,Langston Hughes,Harlem
-2025-11-21,AM,Andrew Marvell,To His Coy Mistress
-2025-11-22,GB,Gwendolyn Brooks,We Real Cool
-2025-11-23,gs,Gertrude Stein,Sacred Emily
-2025-11-24,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2025-11-25,WSJ,Wallace Stevens,Anecdote of the Jar
-2025-11-26,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2025-11-27,RN,Robert Frost,The Road Not Taken
-2025-11-28,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
-2025-11-29,CR,Christina Rossetti,Goblin Market
-2025-11-30,SSS,Shel Silverstein,Falling Up
-2025-12-01,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2025-12-02,au,W.H. Auden,Twelve Songs: IX
-2025-12-03,BG,Gwendolyn Brooks,The Bean Eaters
-2025-12-04,TB,William Butler Yeats,"Easter, 1916"
-2025-12-05,WA,Walt Whitman,Song of Myself
-2025-12-06,AE,Charles Dickens,A Tale of Two Cities
-2025-12-07,PL,Paul Laurence Dunbar,We Wear the Mask
-2025-12-08,LC,Lewis Carroll,The Jabberwocky
-2025-12-09,JMD,John Milton,Paradise Lost: Book 1
-2025-12-10,GA,Allen Ginsberg,A Supermarket in California
-2025-12-11,ATP,Alfred Lord Tennyson,Ulysses
-2025-12-12,GS,Gertrude Stein,Sacred Emily
-2025-12-13,,,
+2025-10-02,ESM,Edna St. Vincent Millay,First Fig
+2025-10-03,WW,William Wordsworth,I wandered Lonely as a Cloud
+2025-10-04,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
+2025-10-05,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
+2025-10-06,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
+2025-10-07,SS,William Shakespeare,Shall I compare thee to a summer’s day?
+2025-10-08,WY,William Butler Yeats,The Second Coming
+2025-10-09,ST,Tupac Shakur,The Rose That Grew from Concrete
+2025-10-10,PS,Percy Shelley,Ozymandias
+2025-10-11,EC,E.E. Cummings,anyone lived in a pretty how town
+2025-10-12,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
+2025-10-13,wy,William Butler Yeats,The Second Coming
+2025-10-14,KG,Khalil Gibran,On Marriage
+2025-10-15,CK,Carole King,I Feel the Earth Move
+2025-10-16,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
+2025-10-17,MH,Gerard Manley Hopkins,God's Grandeur
+2025-10-18,AG,Toni Morrison,Beloved
+2025-10-19,SP,Sylvia Plath,Lady Lazarus
+2025-10-20,MO,Mary Oliver,Wild Geese
+2025-10-21,TS,T.S. Eliot,The Waste Land
+2025-10-22,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
+2025-10-23,CB,Charles Bukowski,bluebird
+2025-10-24,EE,E.E. Cummings,[little tree]
+2025-10-25,WB,William Blake,The Tyger
+2025-10-26,CR,Christina Rossetti,Goblin Market
+2025-10-27,LB,Lord Byron,She Walks in Beauty
+2025-10-28,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
+2025-10-29,SC,Samuel Taylor Coleridge,Kubla Khan
+2025-10-30,WBL,William Blake,The Lamb
+2025-10-31,AP,Edgar Allen Poe,Annabel Lee
+2025-11-01,JD,John Donne,A Valediction: Forbidding Mourning
+2025-11-02,EH,Emily Dickinson,“Hope” is the thing with feathers
+2025-11-03,JM,John Milton,On the Morning of Christ's Nativity
+2025-11-04,wb,William Blake,The Tyger
+2025-11-05,ma,Maya Angelou,Still I Rise
+2025-11-06,CM,Claude McKay,If We Must Die
+2025-11-07,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
+2025-11-08,OC,Walt Whitman,O Captain! My Captain!
+2025-11-09,CW,William Carlos Williams,The Red Wheelbarrow
+2025-11-10,AF,Jane Austen,Pride and Prejudice
+2025-11-11,WH,W.H. Auden,Musée des Beaux Arts
+2025-11-12,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
+2025-11-13,RB,Robert Browning,My Last Duchess
+2025-11-14,AB,Anne Bradstreet,To my dear and loving husband
+2025-11-15,WYC,William Butler Yeats,Sailing to Byzantium
+2025-11-16,bc,Billy Collins,Snow Day
+2025-11-17,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
+2025-11-18,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
+2025-11-19,EP,Ezra Pound,In a Station of the Metro
+2025-11-20,JK,John Keats,Ode on a Grecian Urn
+2025-11-21,LH,Langston Hughes,Harlem
+2025-11-22,AM,Andrew Marvell,To His Coy Mistress
+2025-11-23,GB,Gwendolyn Brooks,We Real Cool
+2025-11-24,gs,Gertrude Stein,Sacred Emily
+2025-11-25,RF,Robert Frost,Stopping By Woods on a Snowy Evening
+2025-11-26,WSJ,Wallace Stevens,Anecdote of the Jar
+2025-11-27,HS,John Donne,"Holy Sonnets: Death, be not proud"
+2025-11-28,RN,Robert Frost,The Road Not Taken
+2025-11-29,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
+2025-11-30,CR,Christina Rossetti,Goblin Market
+2025-12-01,SSS,Shel Silverstein,Falling Up
+2025-12-02,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
+2025-12-03,au,W.H. Auden,Twelve Songs: IX
+2025-12-04,BG,Gwendolyn Brooks,The Bean Eaters
+2025-12-05,TB,William Butler Yeats,"Easter, 1916"
+2025-12-06,WA,Walt Whitman,Song of Myself
+2025-12-07,AE,Charles Dickens,A Tale of Two Cities
+2025-12-08,PL,Paul Laurence Dunbar,We Wear the Mask
+2025-12-09,LC,Lewis Carroll,The Jabberwocky
+2025-12-10,JMD,John Milton,Paradise Lost: Book 1
+2025-12-11,GA,Allen Ginsberg,A Supermarket in California
+2025-12-12,ATP,Alfred Lord Tennyson,Ulysses
+2025-12-13,GS,Gertrude Stein,Sacred Emily
 2025-12-14,PR,Prince,Purple Rain
 2025-12-15,TS,T.S. Eliot,The Waste Land
 2025-12-16,,,
