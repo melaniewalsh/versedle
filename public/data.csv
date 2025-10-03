@@ -1,534 +1,4 @@
 date,author_code,author_name,poem_title
-2024-03-28,AP,Edgar Allen Poe,Annabel Lee
-2024-03-29,WY,William Butler Yeats,The Second Coming
-2024-03-30,JM,John Milton,On the Morning of Christ's Nativity
-2024-03-31,WY,William Butler Yeats,The Second Coming
-2024-04-01,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
-2024-04-02,TB,William Butler Yeats,"Easter, 1916"
-2024-04-03,BG,Gwendolyn Brooks,The Bean Eaters
-2024-04-04,LH,Langston Hughes,Harlem
-2024-04-05,wy,William Butler Yeats,The Second Coming
-2024-04-06,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2024-04-07,EE,E.E. Cummings,[little tree]
-2024-04-08,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2024-04-09,gs,Gertrude Stein,Sacred Emily
-2024-04-10,JK,John Keats,Ode on a Grecian Urn
-2024-04-11,EC,E.E. Cummings,anyone lived in a pretty how town
-2024-04-12,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2024-04-13,EP,Ezra Pound,In a Station of the Metro
-2024-04-14,wb,William Blake,The Tyger
-2024-04-15,GA,Allen Ginsberg,A Supermarket in California
-2024-04-16,ma,Maya Angelou,Still I Rise
-2024-04-17,WY,William Butler Yeats,The Second Coming
-2024-04-18,AP,Edgar Allen Poe,Annabel Lee
-2024-04-19,av,,
-2024-04-20,EH,Emily Dickinson,“Hope” is the thing with feathers
-2024-04-21,WB,William Blake,The Tyger
-2024-04-22,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2024-04-23,SP,Sylvia Plath,Lady Lazarus
-2024-04-24,bc,Billy Collins,Snow Day
-2024-04-25,PS,Percy Shelley,Ozymandias
-2024-04-26,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2024-04-27,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2024-04-28,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2024-04-29,LB,Lord Byron,She Walks in Beauty
-2024-04-30,SC,Samuel Taylor Coleridge,Kubla Khan
-2024-05-01,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2024-05-02,MH,Gerard Manley Hopkins,God's Grandeur
-2024-05-03,WSJ,Wallace Stevens,Anecdote of the Jar
-2024-05-04,RN,Robert Frost,The Road Not Taken
-2024-05-05,CW,William Carlos Williams,The Red Wheelbarrow
-2024-05-06,WA,Walt Whitman,Song of Myself
-2024-05-07,AM,Andrew Marvell,To His Coy Mistress
-2024-05-08,OC,Walt Whitman,O Captain! My Captain!
-2024-05-09,AF,Jane Austen,Pride and Prejudice
-2024-05-10,CM,Claude McKay,If We Must Die
-2024-05-11,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2024-05-12,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2024-05-13,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2024-05-14,WA,Walt Whitman,Song of Myself
-2024-05-15,WBL,William Blake,The Lamb
-2024-05-16,AG,Toni Morrison,Beloved
-2024-05-17,TS,T.S. Eliot,The Waste Land
-2024-05-18,SSS,Shel Silverstein,Falling Up
-2024-05-19,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2024-05-20,JMD,John Milton,Paradise Lost: Book 1
-2024-05-21,GB,Gwendolyn Brooks,We Real Cool
-2024-05-22,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2024-05-23,RB,Robert Browning,My Last Duchess
-2024-05-24,ATP,Alfred Lord Tennyson,Ulysses
-2024-05-25,KG,Khalil Gibran,On Marriage
-2024-05-26,EP,Ezra Pound,In a Station of the Metro
-2024-05-27,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2024-05-28,FR,Robert Frost,Mending Wall
-2024-05-29,CB,Charles Bukowski,bluebird
-2024-05-30,WYC,William Butler Yeats,Sailing to Byzantium
-2024-05-31,LC,Lewis Carroll,The Jabberwocky
-2024-06-01,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2024-06-02,LB,Lord Byron,She Walks in Beauty
-2024-06-03,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2024-06-04,CR,Christina Rossetti,Goblin Market
-2024-06-05,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2024-06-06,JD,John Donne,A Valediction: Forbidding Mourning
-2024-06-07,PL,Paul Laurence Dunbar,We Wear the Mask
-2024-06-08,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2024-06-09,PS,Percy Shelley,Ozymandias
-2024-06-10,WW,William Wordsworth,I wandered Lonely as a Cloud
-2024-06-11,ST,Tupac Shakur,The Rose That Grew from Concrete
-2024-06-12,GS,Gertrude Stein,Sacred Emily
-2024-06-13,CR,Christina Rossetti,Goblin Market
-2024-06-14,OC,Walt Whitman,O Captain! My Captain!
-2024-06-15,CW,William Carlos Williams,The Red Wheelbarrow
-2024-06-16,AF,Jane Austen,Pride and Prejudice
-2024-06-17,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2024-06-18,AB,Anne Bradstreet,To my dear and loving husband
-2024-06-19,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2024-06-20,au,W.H. Auden,Twelve Songs: IX
-2024-06-21,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2024-06-22,bc,Billy Collins,Snow Day
-2024-06-23,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2024-06-24,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2024-06-25,AE,Charles Dickens,A Tale of Two Cities
-2024-06-26,WH,W.H. Auden,Musée des Beaux Arts
-2024-06-27,LH,Langston Hughes,Harlem
-2024-06-28,AM,Andrew Marvell,To His Coy Mistress
-2024-06-29,ST,Tupac Shakur,The Rose That Grew from Concrete
-2024-06-30,gs,Gertrude Stein,Sacred Emily
-2024-07-01,ad,,
-2024-07-02,WSJ,Wallace Stevens,Anecdote of the Jar
-2024-07-03,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2024-07-04,GS,Gertrude Stein,Sacred Emily
-2024-07-05,PS,Percy Shelley,Ozymandias
-2024-07-06,PPS,,
-2024-07-07,SSS,Shel Silverstein,Falling Up
-2024-07-08,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2024-07-09,au,W.H. Auden,Twelve Songs: IX
-2024-07-10,BG,Gwendolyn Brooks,The Bean Eaters
-2024-07-11,TB,William Butler Yeats,"Easter, 1916"
-2024-07-12,WA,Walt Whitman,Song of Myself
-2024-07-13,PPS,,
-2024-07-14,PL,Paul Laurence Dunbar,We Wear the Mask
-2024-07-15,LC,Lewis Carroll,The Jabberwocky
-2024-07-16,JMD,John Milton,Paradise Lost: Book 1
-2024-07-17,GA,Allen Ginsberg,A Supermarket in California
-2024-07-18,ATP,Alfred Lord Tennyson,Ulysses
-2024-07-19,GS,Gertrude Stein,Sacred Emily
-2024-07-20,FR,Robert Frost,Mending Wall
-2024-07-21,TS,T.S. Eliot,The Waste Land
-2024-07-22,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2024-07-23,SP,Sylvia Plath,Lady Lazarus
-2024-07-24,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2024-07-25,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2024-07-26,WW,William Wordsworth,I wandered Lonely as a Cloud
-2024-07-27,ST,Tupac Shakur,The Rose That Grew from Concrete
-2024-07-28,PS,Percy Shelley,Ozymandias
-2024-07-29,EC,E.E. Cummings,anyone lived in a pretty how town
-2024-07-30,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2024-07-31,wy,William Butler Yeats,The Second Coming
-2024-08-01,KG,Khalil Gibran,On Marriage
-2024-08-02,AE,Charles Dickens,A Tale of Two Cities
-2024-08-03,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2024-08-04,MH,Gerard Manley Hopkins,God's Grandeur
-2024-08-05,AG,Toni Morrison,Beloved
-2024-08-06,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2024-08-07,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2024-08-08,WY,William Butler Yeats,The Second Coming
-2024-08-09,av,,
-2024-08-10,CB,Charles Bukowski,bluebird
-2024-08-11,EE,E.E. Cummings,[little tree]
-2024-08-12,WB,William Blake,The Tyger
-2024-08-13,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2024-08-14,LB,Lord Byron,She Walks in Beauty
-2024-08-15,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2024-08-16,SC,Samuel Taylor Coleridge,Kubla Khan
-2024-08-17,WBL,William Blake,The Lamb
-2024-08-18,AP,Edgar Allen Poe,Annabel Lee
-2024-08-19,JD,John Donne,A Valediction: Forbidding Mourning
-2024-08-20,EH,Emily Dickinson,“Hope” is the thing with feathers
-2024-08-21,JM,John Milton,On the Morning of Christ's Nativity
-2024-08-22,wb,William Blake,The Tyger
-2024-08-23,ma,Maya Angelou,Still I Rise
-2024-08-24,CM,Claude McKay,If We Must Die
-2024-08-25,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2024-08-26,OC,Walt Whitman,O Captain! My Captain!
-2024-08-27,CW,William Carlos Williams,The Red Wheelbarrow
-2024-08-28,AF,Jane Austen,Pride and Prejudice
-2024-08-29,WH,W.H. Auden,Musée des Beaux Arts
-2024-08-30,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2024-08-31,RB,Robert Browning,My Last Duchess
-2024-09-01,AB,Anne Bradstreet,To my dear and loving husband
-2024-09-02,WYC,William Butler Yeats,Sailing to Byzantium
-2024-09-03,bc,Billy Collins,Snow Day
-2024-09-04,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2024-09-05,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2024-09-06,EP,Ezra Pound,In a Station of the Metro
-2024-09-07,JK,John Keats,Ode on a Grecian Urn
-2024-09-08,LH,Langston Hughes,Harlem
-2024-09-09,AM,Andrew Marvell,To His Coy Mistress
-2024-09-10,GB,Gwendolyn Brooks,We Real Cool
-2024-09-11,gs,Gertrude Stein,Sacred Emily
-2024-09-12,ad,,
-2024-09-13,WSJ,Wallace Stevens,Anecdote of the Jar
-2024-09-14,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2024-09-15,RN,Robert Frost,The Road Not Taken
-2024-09-16,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
-2024-09-17,CR,Christina Rossetti,Goblin Market
-2024-09-18,SSS,Shel Silverstein,Falling Up
-2024-09-19,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2024-09-20,au,W.H. Auden,Twelve Songs: IX
-2024-09-21,BG,Gwendolyn Brooks,The Bean Eaters
-2024-09-22,TB,William Butler Yeats,"Easter, 1916"
-2024-09-23,WA,Walt Whitman,Song of Myself
-2024-09-24,PPS,,
-2024-09-25,PL,Paul Laurence Dunbar,We Wear the Mask
-2024-09-26,LC,Lewis Carroll,The Jabberwocky
-2024-09-27,JMD,John Milton,Paradise Lost: Book 1
-2024-09-28,GA,Allen Ginsberg,A Supermarket in California
-2024-09-29,ATP,Alfred Lord Tennyson,Ulysses
-2024-09-30,GS,Gertrude Stein,Sacred Emily
-2024-10-01,FR,Robert Frost,Mending Wall
-2024-10-02,TS,T.S. Eliot,The Waste Land
-2024-10-03,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2024-10-04,SP,Sylvia Plath,Lady Lazarus
-2024-10-05,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2024-10-06,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2024-10-07,WW,William Wordsworth,I wandered Lonely as a Cloud
-2024-10-08,ST,Tupac Shakur,The Rose That Grew from Concrete
-2024-10-09,PS,Percy Shelley,Ozymandias
-2024-10-10,EC,E.E. Cummings,anyone lived in a pretty how town
-2024-10-11,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2024-10-12,wy,William Butler Yeats,The Second Coming
-2024-10-13,KG,Khalil Gibran,On Marriage
-2024-10-14,AE,Charles Dickens,A Tale of Two Cities
-2024-10-15,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2024-10-16,MH,Gerard Manley Hopkins,God's Grandeur
-2024-10-17,AG,Toni Morrison,Beloved
-2024-10-18,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2024-10-19,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2024-10-20,WY,William Butler Yeats,The Second Coming
-2024-10-21,av,,
-2024-10-22,CB,Charles Bukowski,bluebird
-2024-10-23,EE,E.E. Cummings,[little tree]
-2024-10-24,WB,William Blake,The Tyger
-2024-10-25,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2024-10-26,LB,Lord Byron,She Walks in Beauty
-2024-10-27,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2024-10-28,SC,Samuel Taylor Coleridge,Kubla Khan
-2024-10-29,WBL,William Blake,The Lamb
-2024-10-30,AP,Edgar Allen Poe,Annabel Lee
-2024-10-31,JD,John Donne,A Valediction: Forbidding Mourning
-2024-11-01,EH,Emily Dickinson,“Hope” is the thing with feathers
-2024-11-02,JM,John Milton,On the Morning of Christ's Nativity
-2024-11-03,wb,William Blake,The Tyger
-2024-11-04,ma,Maya Angelou,Still I Rise
-2024-11-05,CM,Claude McKay,If We Must Die
-2024-11-06,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2024-11-07,OC,Walt Whitman,O Captain! My Captain!
-2024-11-08,CW,William Carlos Williams,The Red Wheelbarrow
-2024-11-09,AF,Jane Austen,Pride and Prejudice
-2024-11-10,WH,W.H. Auden,Musée des Beaux Arts
-2024-11-11,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2024-11-12,RB,Robert Browning,My Last Duchess
-2024-11-13,AB,Anne Bradstreet,To my dear and loving husband
-2024-11-14,WYC,William Butler Yeats,Sailing to Byzantium
-2024-11-15,bc,Billy Collins,Snow Day
-2024-11-16,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2024-11-17,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2024-11-18,EP,Ezra Pound,In a Station of the Metro
-2024-11-19,JK,John Keats,Ode on a Grecian Urn
-2024-11-20,LH,Langston Hughes,Harlem
-2024-11-21,AM,Andrew Marvell,To His Coy Mistress
-2024-11-22,GB,Gwendolyn Brooks,We Real Cool
-2024-11-23,gs,Gertrude Stein,Sacred Emily
-2024-11-24,ad,,
-2024-11-25,WSJ,Wallace Stevens,Anecdote of the Jar
-2024-11-26,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2024-11-27,RN,Robert Frost,The Road Not Taken
-2024-11-28,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
-2024-11-29,CR,Christina Rossetti,Goblin Market
-2024-11-30,SSS,Shel Silverstein,Falling Up
-2024-12-01,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2024-12-02,au,W.H. Auden,Twelve Songs: IX
-2024-12-03,BG,Gwendolyn Brooks,The Bean Eaters
-2024-12-04,TB,William Butler Yeats,"Easter, 1916"
-2024-12-05,WA,Walt Whitman,Song of Myself
-2024-12-06,PPS,,
-2024-12-07,PL,Paul Laurence Dunbar,We Wear the Mask
-2024-12-08,LC,Lewis Carroll,The Jabberwocky
-2024-12-09,JMD,John Milton,Paradise Lost: Book 1
-2024-12-10,GA,Allen Ginsberg,A Supermarket in California
-2024-12-11,ATP,Alfred Lord Tennyson,Ulysses
-2024-12-12,GS,Gertrude Stein,Sacred Emily
-2024-12-13,FR,Robert Frost,Mending Wall
-2024-12-14,TS,T.S. Eliot,The Waste Land
-2024-12-15,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2024-12-16,SP,Sylvia Plath,Lady Lazarus
-2024-12-17,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2024-12-18,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2024-12-19,WW,William Wordsworth,I wandered Lonely as a Cloud
-2024-12-20,ST,Tupac Shakur,The Rose That Grew from Concrete
-2024-12-21,PS,Percy Shelley,Ozymandias
-2024-12-22,EC,E.E. Cummings,anyone lived in a pretty how town
-2024-12-23,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2024-12-24,wy,William Butler Yeats,The Second Coming
-2024-12-25,KG,Khalil Gibran,On Marriage
-2024-12-26,AE,Charles Dickens,A Tale of Two Cities
-2024-12-27,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2024-12-28,MH,Gerard Manley Hopkins,God's Grandeur
-2024-12-29,AG,Toni Morrison,Beloved
-2024-12-30,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2024-12-31,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2025-01-01,WY,William Butler Yeats,The Second Coming
-2025-01-02,av,,
-2025-01-03,CB,Charles Bukowski,bluebird
-2025-01-04,EE,E.E. Cummings,[little tree]
-2025-01-05,WB,William Blake,The Tyger
-2025-01-06,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-01-07,LB,Lord Byron,She Walks in Beauty
-2025-01-08,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2025-01-09,SC,Samuel Taylor Coleridge,Kubla Khan
-2025-01-10,WBL,William Blake,The Lamb
-2025-01-11,AP,Edgar Allen Poe,Annabel Lee
-2025-01-12,JD,John Donne,A Valediction: Forbidding Mourning
-2025-01-13,EH,Emily Dickinson,“Hope” is the thing with feathers
-2025-01-14,JM,John Milton,On the Morning of Christ's Nativity
-2025-01-15,wb,William Blake,The Tyger
-2025-01-16,ma,Maya Angelou,Still I Rise
-2025-01-17,CM,Claude McKay,If We Must Die
-2025-01-18,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2025-01-19,OC,Walt Whitman,O Captain! My Captain!
-2025-01-20,CW,William Carlos Williams,The Red Wheelbarrow
-2025-01-21,AF,Jane Austen,Pride and Prejudice
-2025-01-22,WH,W.H. Auden,Musée des Beaux Arts
-2025-01-23,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2025-01-24,RB,Robert Browning,My Last Duchess
-2025-01-25,AB,Anne Bradstreet,To my dear and loving husband
-2025-01-26,WYC,William Butler Yeats,Sailing to Byzantium
-2025-01-27,bc,Billy Collins,Snow Day
-2025-01-28,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-01-29,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2025-01-30,EP,Ezra Pound,In a Station of the Metro
-2025-01-31,JK,John Keats,Ode on a Grecian Urn
-2025-02-01,LH,Langston Hughes,Harlem
-2025-02-02,AM,Andrew Marvell,To His Coy Mistress
-2025-02-03,GB,Gwendolyn Brooks,We Real Cool
-2025-02-04,gs,Gertrude Stein,Sacred Emily
-2025-02-05,ad,,
-2025-02-06,WSJ,Wallace Stevens,Anecdote of the Jar
-2025-02-07,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2025-02-08,RN,Robert Frost,The Road Not Taken
-2025-02-09,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
-2025-02-10,CR,Christina Rossetti,Goblin Market
-2025-02-11,SSS,Shel Silverstein,Falling Up
-2025-02-12,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2025-02-13,au,W.H. Auden,Twelve Songs: IX
-2025-02-14,BG,Gwendolyn Brooks,The Bean Eaters
-2025-02-15,TB,William Butler Yeats,"Easter, 1916"
-2025-02-16,WA,Walt Whitman,Song of Myself
-2025-02-17,PPS,,
-2025-02-18,PL,Paul Laurence Dunbar,We Wear the Mask
-2025-02-19,LC,Lewis Carroll,The Jabberwocky
-2025-02-20,JMD,John Milton,Paradise Lost: Book 1
-2025-02-21,GA,Allen Ginsberg,A Supermarket in California
-2025-02-22,ATP,Alfred Lord Tennyson,Ulysses
-2025-02-23,GS,Gertrude Stein,Sacred Emily
-2025-02-24,FR,Robert Frost,Mending Wall
-2025-02-25,TS,T.S. Eliot,The Waste Land
-2025-02-26,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2025-02-27,SP,Sylvia Plath,Lady Lazarus
-2025-02-28,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2025-03-01,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2025-03-02,WW,William Wordsworth,I wandered Lonely as a Cloud
-2025-03-03,ST,Tupac Shakur,The Rose That Grew from Concrete
-2025-03-04,PS,Percy Shelley,Ozymandias
-2025-03-05,EC,E.E. Cummings,anyone lived in a pretty how town
-2025-03-06,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2025-03-07,wy,William Butler Yeats,The Second Coming
-2025-03-08,KG,Khalil Gibran,On Marriage
-2025-03-09,AE,Charles Dickens,A Tale of Two Cities
-2025-03-10,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-03-11,MH,Gerard Manley Hopkins,God's Grandeur
-2025-03-12,AG,Toni Morrison,Beloved
-2025-03-13,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-03-14,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2025-03-15,WY,William Butler Yeats,The Second Coming
-2025-03-16,av,,
-2025-03-17,CB,Charles Bukowski,bluebird
-2025-03-18,EE,E.E. Cummings,[little tree]
-2025-03-19,WB,William Blake,The Tyger
-2025-03-20,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-03-21,LB,Lord Byron,She Walks in Beauty
-2025-03-22,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2025-03-23,SC,Samuel Taylor Coleridge,Kubla Khan
-2025-03-24,WBL,William Blake,The Lamb
-2025-03-25,AP,Edgar Allen Poe,Annabel Lee
-2025-03-26,JD,John Donne,A Valediction: Forbidding Mourning
-2025-03-27,EH,Emily Dickinson,“Hope” is the thing with feathers
-2025-03-28,JM,John Milton,On the Morning of Christ's Nativity
-2025-03-29,wb,William Blake,The Tyger
-2025-03-30,ma,Maya Angelou,Still I Rise
-2025-03-31,CM,Claude McKay,If We Must Die
-2025-04-01,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2025-04-02,OC,Walt Whitman,O Captain! My Captain!
-2025-04-03,CW,William Carlos Williams,The Red Wheelbarrow
-2025-04-04,AF,Jane Austen,Pride and Prejudice
-2025-04-05,WH,W.H. Auden,Musée des Beaux Arts
-2025-04-06,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2025-04-07,RB,Robert Browning,My Last Duchess
-2025-04-08,AB,Anne Bradstreet,To my dear and loving husband
-2025-04-09,WYC,William Butler Yeats,Sailing to Byzantium
-2025-04-10,bc,Billy Collins,Snow Day
-2025-04-11,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-04-12,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2025-04-13,EP,Ezra Pound,In a Station of the Metro
-2025-04-14,JK,John Keats,Ode on a Grecian Urn
-2025-04-15,LH,Langston Hughes,Harlem
-2025-04-16,AM,Andrew Marvell,To His Coy Mistress
-2025-04-17,GB,Gwendolyn Brooks,We Real Cool
-2025-04-18,gs,Gertrude Stein,Sacred Emily
-2025-04-19,ad,,
-2025-04-20,WSJ,Wallace Stevens,Anecdote of the Jar
-2025-04-21,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2025-04-22,RN,Robert Frost,The Road Not Taken
-2025-04-23,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
-2025-04-24,CR,Christina Rossetti,Goblin Market
-2025-04-25,SSS,Shel Silverstein,Falling Up
-2025-04-26,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2025-04-27,au,W.H. Auden,Twelve Songs: IX
-2025-04-28,BG,Gwendolyn Brooks,The Bean Eaters
-2025-04-29,TB,William Butler Yeats,"Easter, 1916"
-2025-04-30,WA,Walt Whitman,Song of Myself
-2025-05-01,PPS,,
-2025-05-02,PL,Paul Laurence Dunbar,We Wear the Mask
-2025-05-03,LC,Lewis Carroll,The Jabberwocky
-2025-05-04,JMD,John Milton,Paradise Lost: Book 1
-2025-05-05,GA,Allen Ginsberg,A Supermarket in California
-2025-05-06,ATP,Alfred Lord Tennyson,Ulysses
-2025-05-07,GS,Gertrude Stein,Sacred Emily
-2025-05-08,FR,Robert Frost,Mending Wall
-2025-05-09,TS,T.S. Eliot,The Waste Land
-2025-05-10,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2025-05-11,SP,Sylvia Plath,Lady Lazarus
-2025-05-12,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2025-05-13,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2025-05-14,WW,William Wordsworth,I wandered Lonely as a Cloud
-2025-05-15,ST,Tupac Shakur,The Rose That Grew from Concrete
-2025-05-16,PS,Percy Shelley,Ozymandias
-2025-05-17,EC,E.E. Cummings,anyone lived in a pretty how town
-2025-05-18,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2025-05-19,wy,William Butler Yeats,The Second Coming
-2025-05-20,KG,Khalil Gibran,On Marriage
-2025-05-21,AE,Charles Dickens,A Tale of Two Cities
-2025-05-22,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-05-23,MH,Gerard Manley Hopkins,God's Grandeur
-2025-05-24,AG,Toni Morrison,Beloved
-2025-05-25,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-05-26,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2025-05-27,WY,William Butler Yeats,The Second Coming
-2025-05-28,av,,
-2025-05-29,CB,Charles Bukowski,bluebird
-2025-05-30,EE,E.E. Cummings,[little tree]
-2025-05-31,WB,William Blake,The Tyger
-2025-06-01,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-06-02,LB,Lord Byron,She Walks in Beauty
-2025-06-03,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2025-06-04,SC,Samuel Taylor Coleridge,Kubla Khan
-2025-06-05,WBL,William Blake,The Lamb
-2025-06-06,AP,Edgar Allen Poe,Annabel Lee
-2025-06-07,JD,John Donne,A Valediction: Forbidding Mourning
-2025-06-08,EH,Emily Dickinson,“Hope” is the thing with feathers
-2025-06-09,JM,John Milton,On the Morning of Christ's Nativity
-2025-06-10,wb,William Blake,The Tyger
-2025-06-11,ma,Maya Angelou,Still I Rise
-2025-06-12,CM,Claude McKay,If We Must Die
-2025-06-13,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2025-06-14,OC,Walt Whitman,O Captain! My Captain!
-2025-06-15,CW,William Carlos Williams,The Red Wheelbarrow
-2025-06-16,AF,Jane Austen,Pride and Prejudice
-2025-06-17,WH,W.H. Auden,Musée des Beaux Arts
-2025-06-18,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2025-06-19,RB,Robert Browning,My Last Duchess
-2025-06-20,AB,Anne Bradstreet,To my dear and loving husband
-2025-06-21,WYC,William Butler Yeats,Sailing to Byzantium
-2025-06-22,bc,Billy Collins,Snow Day
-2025-06-23,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-06-24,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2025-06-25,EP,Ezra Pound,In a Station of the Metro
-2025-06-26,JK,John Keats,Ode on a Grecian Urn
-2025-06-27,LH,Langston Hughes,Harlem
-2025-06-28,AM,Andrew Marvell,To His Coy Mistress
-2025-06-29,GB,Gwendolyn Brooks,We Real Cool
-2025-06-30,gs,Gertrude Stein,Sacred Emily
-2025-07-01,ad,,
-2025-07-02,WSJ,Wallace Stevens,Anecdote of the Jar
-2025-07-03,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2025-07-04,RN,Robert Frost,The Road Not Taken
-2025-07-05,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
-2025-07-06,CR,Christina Rossetti,Goblin Market
-2025-07-07,SSS,Shel Silverstein,Falling Up
-2025-07-08,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2025-07-09,au,W.H. Auden,Twelve Songs: IX
-2025-07-10,BG,Gwendolyn Brooks,The Bean Eaters
-2025-07-11,TB,William Butler Yeats,"Easter, 1916"
-2025-07-12,WA,Walt Whitman,Song of Myself
-2025-07-13,PPS,,
-2025-07-14,PL,Paul Laurence Dunbar,We Wear the Mask
-2025-07-15,LC,Lewis Carroll,The Jabberwocky
-2025-07-16,JMD,John Milton,Paradise Lost: Book 1
-2025-07-17,GA,Allen Ginsberg,A Supermarket in California
-2025-07-18,ATP,Alfred Lord Tennyson,Ulysses
-2025-07-19,GS,Gertrude Stein,Sacred Emily
-2025-07-20,FR,Robert Frost,Mending Wall
-2025-07-21,TS,T.S. Eliot,The Waste Land
-2025-07-22,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2025-07-23,SP,Sylvia Plath,Lady Lazarus
-2025-07-24,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2025-07-25,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2025-07-26,WW,William Wordsworth,I wandered Lonely as a Cloud
-2025-07-27,ST,Tupac Shakur,The Rose That Grew from Concrete
-2025-07-28,PS,Percy Shelley,Ozymandias
-2025-07-29,EC,E.E. Cummings,anyone lived in a pretty how town
-2025-07-30,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2025-07-31,wy,William Butler Yeats,The Second Coming
-2025-08-01,KG,Khalil Gibran,On Marriage
-2025-08-02,AE,Charles Dickens,A Tale of Two Cities
-2025-08-03,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-08-04,MH,Gerard Manley Hopkins,God's Grandeur
-2025-08-05,AG,Toni Morrison,Beloved
-2025-08-06,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-08-07,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2025-08-08,WY,William Butler Yeats,The Second Coming
-2025-08-09,av,,
-2025-08-10,CB,Charles Bukowski,bluebird
-2025-08-11,EE,E.E. Cummings,[little tree]
-2025-08-12,WB,William Blake,The Tyger
-2025-08-13,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-08-14,LB,Lord Byron,She Walks in Beauty
-2025-08-15,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2025-08-16,SC,Samuel Taylor Coleridge,Kubla Khan
-2025-08-17,WBL,William Blake,The Lamb
-2025-08-18,AP,Edgar Allen Poe,Annabel Lee
-2025-08-19,JD,John Donne,A Valediction: Forbidding Mourning
-2025-08-20,EH,Emily Dickinson,“Hope” is the thing with feathers
-2025-08-21,JM,John Milton,On the Morning of Christ's Nativity
-2025-08-22,wb,William Blake,The Tyger
-2025-08-23,ma,Maya Angelou,Still I Rise
-2025-08-24,CM,Claude McKay,If We Must Die
-2025-08-25,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2025-08-26,OC,Walt Whitman,O Captain! My Captain!
-2025-08-27,CW,William Carlos Williams,The Red Wheelbarrow
-2025-08-28,AF,Jane Austen,Pride and Prejudice
-2025-08-29,WH,W.H. Auden,Musée des Beaux Arts
-2025-08-30,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2025-08-31,RB,Robert Browning,My Last Duchess
-2025-09-01,AB,Anne Bradstreet,To my dear and loving husband
-2025-09-02,WYC,William Butler Yeats,Sailing to Byzantium
-2025-09-03,bc,Billy Collins,Snow Day
-2025-09-04,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-09-05,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2025-09-06,EP,Ezra Pound,In a Station of the Metro
-2025-09-07,JK,John Keats,Ode on a Grecian Urn
-2025-09-08,LH,Langston Hughes,Harlem
 2025-09-09,AM,Andrew Marvell,To His Coy Mistress
 2025-09-10,GB,Gwendolyn Brooks,We Real Cool
 2025-09-11,gs,Gertrude Stein,Sacred Emily
@@ -539,7 +9,7 @@ date,author_code,author_name,poem_title
 2025-09-16,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
 2025-09-17,CR,Christina Rossetti,Goblin Market
 2025-09-18,SSS,Shel Silverstein,Falling Up
-2025-09-19,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
+2025-09-19,EBB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
 2025-09-20,au,W.H. Auden,Twelve Songs: IX
 2025-09-21,BG,Gwendolyn Brooks,The Bean Eaters
 2025-09-22,TB,William Butler Yeats,"Easter, 1916"
@@ -554,152 +24,156 @@ date,author_code,author_name,poem_title
 2025-10-01,FR,Robert Frost,Mending Wall
 2025-10-02,ESM,Edna St. Vincent Millay,First Fig
 2025-10-03,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2025-10-04,WW,William Wordsworth,I wandered Lonely as a Cloud
-2025-10-05,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2025-10-06,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2025-10-07,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2025-10-08,WY,William Butler Yeats,The Second Coming
-2025-10-09,ST,Tupac Shakur,The Rose That Grew from Concrete
-2025-10-10,PS,Percy Shelley,Ozymandias
-2025-10-11,EC,E.E. Cummings,anyone lived in a pretty how town
-2025-10-12,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2025-10-13,wy,William Butler Yeats,The Second Coming
-2025-10-14,KG,Khalil Gibran,On Marriage
-2025-10-15,CK,Carole King,I Feel the Earth Move
-2025-10-16,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-10-17,MH,Gerard Manley Hopkins,God's Grandeur
-2025-10-18,AG,Toni Morrison,Beloved
-2025-10-19,SP,Sylvia Plath,Lady Lazarus
-2025-10-20,MO,Mary Oliver,Wild Geese
-2025-10-21,TS,T.S. Eliot,The Waste Land
-2025-10-22,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2025-10-23,CB,Charles Bukowski,bluebird
-2025-10-24,EE,E.E. Cummings,[little tree]
-2025-10-25,WB,William Blake,The Tyger
-2025-10-26,CR,Christina Rossetti,Goblin Market
-2025-10-27,LB,Lord Byron,She Walks in Beauty
-2025-10-28,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2025-10-29,SC,Samuel Taylor Coleridge,Kubla Khan
-2025-10-30,WBL,William Blake,The Lamb
-2025-10-31,AP,Edgar Allen Poe,Annabel Lee
-2025-11-01,JD,John Donne,A Valediction: Forbidding Mourning
-2025-11-02,EH,Emily Dickinson,“Hope” is the thing with feathers
-2025-11-03,JM,John Milton,On the Morning of Christ's Nativity
-2025-11-04,wb,William Blake,The Tyger
-2025-11-05,ma,Maya Angelou,Still I Rise
-2025-11-06,CM,Claude McKay,If We Must Die
-2025-11-07,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2025-11-08,OC,Walt Whitman,O Captain! My Captain!
-2025-11-09,CW,William Carlos Williams,The Red Wheelbarrow
-2025-11-10,AF,Jane Austen,Pride and Prejudice
-2025-11-11,WH,W.H. Auden,Musée des Beaux Arts
-2025-11-12,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2025-11-13,RB,Robert Browning,My Last Duchess
-2025-11-14,AB,Anne Bradstreet,To my dear and loving husband
-2025-11-15,WYC,William Butler Yeats,Sailing to Byzantium
-2025-11-16,bc,Billy Collins,Snow Day
-2025-11-17,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-11-18,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2025-11-19,EP,Ezra Pound,In a Station of the Metro
-2025-11-20,JK,John Keats,Ode on a Grecian Urn
-2025-11-21,LH,Langston Hughes,Harlem
-2025-11-22,AM,Andrew Marvell,To His Coy Mistress
-2025-11-23,GB,Gwendolyn Brooks,We Real Cool
-2025-11-24,gs,Gertrude Stein,Sacred Emily
-2025-11-25,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2025-11-26,WSJ,Wallace Stevens,Anecdote of the Jar
-2025-11-27,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2025-11-28,RN,Robert Frost,The Road Not Taken
-2025-11-29,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
-2025-11-30,CR,Christina Rossetti,Goblin Market
-2025-12-01,SSS,Shel Silverstein,Falling Up
-2025-12-02,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2025-12-03,au,W.H. Auden,Twelve Songs: IX
-2025-12-04,BG,Gwendolyn Brooks,The Bean Eaters
-2025-12-05,TB,William Butler Yeats,"Easter, 1916"
-2025-12-06,WA,Walt Whitman,Song of Myself
-2025-12-07,AE,Charles Dickens,A Tale of Two Cities
-2025-12-08,PL,Paul Laurence Dunbar,We Wear the Mask
-2025-12-09,LC,Lewis Carroll,The Jabberwocky
-2025-12-10,JMD,John Milton,Paradise Lost: Book 1
-2025-12-11,GA,Allen Ginsberg,A Supermarket in California
-2025-12-12,ATP,Alfred Lord Tennyson,Ulysses
-2025-12-13,GS,Gertrude Stein,Sacred Emily
-2025-12-14,PR,Prince,Purple Rain
-2025-12-15,TS,T.S. Eliot,The Waste Land
-2025-12-16,,,
-2025-12-17,SP,Sylvia Plath,Lady Lazarus
-2025-12-18,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2025-12-19,SS,William Shakespeare,Shall I compare thee to a summer’s day?
-2025-12-20,WW,William Wordsworth,I wandered Lonely as a Cloud
-2025-12-21,ST,Tupac Shakur,The Rose That Grew from Concrete
-2025-12-22,PS,Percy Shelley,Ozymandias
-2025-12-23,EC,E.E. Cummings,anyone lived in a pretty how town
-2025-12-24,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
-2025-12-25,wy,William Butler Yeats,The Second Coming
-2025-12-26,KG,Khalil Gibran,On Marriage
-2025-12-27,AE,Charles Dickens,A Tale of Two Cities
-2025-12-28,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2025-12-29,MH,Gerard Manley Hopkins,God's Grandeur
-2025-12-30,AG,Toni Morrison,Beloved
-2025-12-31,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
-2026-01-01,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
-2026-01-02,WY,William Butler Yeats,The Second Coming
-2026-01-03,CB,Charles Bukowski,bluebird
-2026-01-04,EE,E.E. Cummings,[little tree]
-2026-01-05,WB,William Blake,The Tyger
-2026-01-06,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
-2026-01-07,LB,Lord Byron,She Walks in Beauty
-2026-01-08,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
-2026-01-09,SC,Samuel Taylor Coleridge,Kubla Khan
-2026-01-10,WBL,William Blake,The Lamb
-2026-01-11,AP,Edgar Allen Poe,Annabel Lee
-2026-01-12,JD,John Donne,A Valediction: Forbidding Mourning
-2026-01-13,EH,Emily Dickinson,“Hope” is the thing with feathers
-2026-01-14,JM,John Milton,On the Morning of Christ's Nativity
-2026-01-15,wb,William Blake,The Tyger
-2026-01-16,ma,Maya Angelou,Still I Rise
-2026-01-17,CM,Claude McKay,If We Must Die
-2026-01-18,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
-2026-01-19,OC,Walt Whitman,O Captain! My Captain!
-2026-01-20,CW,William Carlos Williams,The Red Wheelbarrow
-2026-01-21,AF,Jane Austen,Pride and Prejudice
-2026-01-22,WH,W.H. Auden,Musée des Beaux Arts
-2026-01-23,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
-2026-01-24,RB,Robert Browning,My Last Duchess
-2026-01-25,AB,Anne Bradstreet,To my dear and loving husband
-2026-01-26,WYC,William Butler Yeats,Sailing to Byzantium
-2026-01-27,bc,Billy Collins,Snow Day
-2026-01-28,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
-2026-01-29,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
-2026-01-30,EP,Ezra Pound,In a Station of the Metro
-2026-01-31,JK,John Keats,Ode on a Grecian Urn
-2026-02-01,LH,Langston Hughes,Harlem
-2026-02-02,AM,Andrew Marvell,To His Coy Mistress
-2026-02-03,GB,Gwendolyn Brooks,We Real Cool
-2026-02-04,gs,Gertrude Stein,Sacred Emily
-2026-02-05,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2026-02-06,WSJ,Wallace Stevens,Anecdote of the Jar
-2026-02-07,HS,John Donne,"Holy Sonnets: Death, be not proud"
-2026-02-08,RN,Robert Frost,The Road Not Taken
-2026-02-09,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
-2026-02-10,CR,Christina Rossetti,Goblin Market
-2026-02-11,SSS,Shel Silverstein,Falling Up
-2026-02-12,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
-2026-02-13,au,W.H. Auden,Twelve Songs: IX
-2026-02-14,BG,Gwendolyn Brooks,The Bean Eaters
-2026-02-15,TB,William Butler Yeats,"Easter, 1916"
-2026-02-16,WA,Walt Whitman,Song of Myself
-2026-02-17,FR,Robert Frost,Mending Wall
-2026-02-18,PL,Paul Laurence Dunbar,We Wear the Mask
-2026-02-19,LC,Lewis Carroll,The Jabberwocky
-2026-02-20,JMD,John Milton,Paradise Lost: Book 1
-2026-02-21,GA,Allen Ginsberg,A Supermarket in California
-2026-02-22,ATP,Alfred Lord Tennyson,Ulysses
-2026-02-23,GS,Gertrude Stein,Sacred Emily
-2026-02-24,FR,Robert Frost,Mending Wall
-2026-02-25,TS,T.S. Eliot,The Waste Land
-2026-02-26,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
-2026-02-27,SP,Sylvia Plath,Lady Lazarus
-2026-02-28,RF,Robert Frost,Stopping By Woods on a Snowy Evening
-2026-03-01,SS,William Shakespeare,Shall I compare thee to a summer’s day?
+2025-10-04,SH,Seamus Heaney,Digging
+2025-10-05,GB,Gwendolyn Brooks,We Real Cool
+2025-10-06,WW,William Wordsworth,I wandered Lonely as a Cloud
+2025-10-07,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
+2025-10-08,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
+2025-10-09,SS,William Shakespeare,Shall I compare thee to a summer’s day?
+2025-10-10,WY,William Butler Yeats,The Second Coming
+2025-10-11,LH,Langston Hughes,Harlem
+2025-10-12,PS,Percy Shelley,Ozymandias
+2025-10-13,EC,E.E. Cummings,anyone lived in a pretty how town
+2025-10-14,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
+2025-10-15,wy,William Butler Yeats,The Second Coming
+2025-10-16,EB,Elizabeth Bishop,One Art
+2025-10-17,KG,Khalil Gibran,On Marriage
+2025-10-18,CK,Carole King,I Feel the Earth Move
+2025-10-19,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
+2025-10-20,MH,Gerard Manley Hopkins,God's Grandeur
+2025-10-21,AG,Toni Morrison,Beloved
+2025-10-22,SP,Sylvia Plath,Lady Lazarus
+2025-10-23,MO,Mary Oliver,Wild Geese
+2025-10-24,TS,T.S. Eliot,The Waste Land
+2025-10-25,PLA,Philip Larkin,This Be The Verse
+2025-10-26,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
+2025-10-27,CB,Charles Bukowski,bluebird
+2025-10-28,EE,E.E. Cummings,[little tree]
+2025-10-29,WB,William Blake,The Tyger
+2025-10-30,CR,Christina Rossetti,Goblin Market
+2025-10-31,LB,Lord Byron,She Walks in Beauty
+2025-11-01,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
+2025-11-02,SC,Samuel Taylor Coleridge,Kubla Khan
+2025-11-03,WBL,William Blake,The Lamb
+2025-11-04,AP,Edgar Allen Poe,Annabel Lee
+2025-11-05,JD,John Donne,A Valediction: Forbidding Mourning
+2025-11-06,EH,Emily Dickinson,“Hope” is the thing with feathers
+2025-11-07,JM,John Milton,On the Morning of Christ's Nativity
+2025-11-08,DT,Dylan Thomas,Do Not Go Gentle Into That Good Night
+2025-11-09,ma,Maya Angelou,Still I Rise
+2025-11-10,CM,Claude McKay,If We Must Die
+2025-11-11,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
+2025-11-12,OC,Walt Whitman,O Captain! My Captain!
+2025-11-13,CW,William Carlos Williams,The Red Wheelbarrow
+2025-11-14,AF,Jane Austen,Pride and Prejudice
+2025-11-15,WH,W.H. Auden,Musée des Beaux Arts
+2025-11-16,SPH,Sappho,"[""I asked myself""]"
+2025-11-17,RB,Robert Browning,My Last Duchess
+2025-11-18,AB,Anne Bradstreet,To my dear and loving husband
+2025-11-19,WYC,William Butler Yeats,Sailing to Byzantium
+2025-11-20,bc,Billy Collins,Snow Day
+2025-11-21,ST,Tupac Shakur,The Rose That Grew from Concrete
+2025-11-22,WAM,W.H. Auden,In Memory of W.B. Yeats
+2025-11-23,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
+2025-11-24,EP,Ezra Pound,In a Station of the Metro
+2025-11-25,JK,John Keats,Ode on a Grecian Urn
+2025-11-26,LH,Langston Hughes,Weary Blues
+2025-11-27,AM,Andrew Marvell,To His Coy Mistress
+2025-11-28,RHA,Robert Hayden,Those Winter Sundays
+2025-11-29,gs,Gertrude Stein,Sacred Emily
+2025-11-30,RF,Robert Frost,Stopping By Woods on a Snowy Evening
+2025-12-01,WSJ,Wallace Stevens,Anecdote of the Jar
+2025-12-02,HS,John Donne,"Holy Sonnets: Death, be not proud"
+2025-12-03,RN,Robert Frost,The Road Not Taken
+2025-12-04,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
+2025-12-05,CR,Christina Rossetti,Goblin Market
+2025-12-06,SSS,Shel Silverstein,Falling Up
+2025-12-07,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
+2025-12-08,au,W.H. Auden,Twelve Songs: IX
+2025-12-09,BG,Gwendolyn Brooks,The Bean Eaters
+2025-12-10,TB,William Butler Yeats,"Easter, 1916"
+2025-12-11,WA,Walt Whitman,Song of Myself
+2025-12-12,AE,Charles Dickens,A Tale of Two Cities
+2025-12-13,PL,Paul Laurence Dunbar,We Wear the Mask
+2025-12-14,LC,Lewis Carroll,The Jabberwocky
+2025-12-15,JMD,John Milton,Paradise Lost: Book 1
+2025-12-16,GA,Allen Ginsberg,A Supermarket in California
+2025-12-17,ATP,Alfred Lord Tennyson,Ulysses
+2025-12-18,GS,Gertrude Stein,Sacred Emily
+2025-12-19,PR,Prince,Purple Rain
+2025-12-20,TS,T.S. Eliot,The Waste Land
+2025-12-21,LYL,Li-Young Lee,Persimmons
+2025-12-22,RK,Rupi Kaur,milk and honey
+2025-12-23,THG,Ted Hughes,The Thought-Fox
+2025-12-24,DSM,Danez Smith,dear white america
+2025-12-25,,,
+2025-12-26,,,
+2025-12-27,,,
+2025-12-28,,,
+2025-12-29,,,
+2025-12-30,,,
+2025-12-31,,,
+2026-01-01,,,
+2026-01-02,,,
+2026-01-03,,,
+2026-01-04,,,
+2026-01-05,,,
+2026-01-06,,,
+2026-01-07,,,
+2026-01-08,,,
+2026-01-09,,,
+2026-01-10,ed,Emily Dickinson,I’m Nobody! Who are you? (260)
+2026-01-11,LB,Lord Byron,She Walks in Beauty
+2026-01-12,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
+2026-01-13,SC,Samuel Taylor Coleridge,Kubla Khan
+2026-01-14,WBL,William Blake,The Lamb
+2026-01-15,AP,Edgar Allen Poe,Annabel Lee
+2026-01-16,JD,John Donne,A Valediction: Forbidding Mourning
+2026-01-17,EH,Emily Dickinson,“Hope” is the thing with feathers
+2026-01-18,JM,John Milton,On the Morning of Christ's Nativity
+2026-01-19,wb,William Blake,The Tyger
+2026-01-20,ma,Maya Angelou,Still I Rise
+2026-01-21,CM,Claude McKay,If We Must Die
+2026-01-22,HL,Henry Wadsworth Longfellow,The Song of Hiawatha
+2026-01-23,OC,Walt Whitman,O Captain! My Captain!
+2026-01-24,CW,William Carlos Williams,The Red Wheelbarrow
+2026-01-25,AF,Jane Austen,Pride and Prejudice
+2026-01-26,WH,W.H. Auden,Musée des Beaux Arts
+2026-01-27,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
+2026-01-28,RB,Robert Browning,My Last Duchess
+2026-01-29,AB,Anne Bradstreet,To my dear and loving husband
+2026-01-30,WYC,William Butler Yeats,Sailing to Byzantium
+2026-01-31,bc,Billy Collins,Snow Day
+2026-02-01,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
+2026-02-02,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
+2026-02-03,EP,Ezra Pound,In a Station of the Metro
+2026-02-04,JK,John Keats,Ode on a Grecian Urn
+2026-02-05,LH,Langston Hughes,Harlem
+2026-02-06,AM,Andrew Marvell,To His Coy Mistress
+2026-02-07,GB,Gwendolyn Brooks,We Real Cool
+2026-02-08,gs,Gertrude Stein,Sacred Emily
+2026-02-09,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
+2026-02-10,WSJ,Wallace Stevens,Anecdote of the Jar
+2026-02-11,HS,John Donne,"Holy Sonnets: Death, be not proud"
+2026-02-12,RN,Robert Frost,The Road Not Taken
+2026-02-13,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
+2026-02-14,CR,Christina Rossetti,Goblin Market
+2026-02-15,SSS,Shel Silverstein,Falling Up
+2026-02-16,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
+2026-02-17,au,W.H. Auden,Twelve Songs: IX
+2026-02-18,BG,Gwendolyn Brooks,The Bean Eaters
+2026-02-19,TB,William Butler Yeats,"Easter, 1916"
+2026-02-20,WA,Walt Whitman,Song of Myself
+2026-02-21,FR,Robert Frost,Mending Wall
+2026-02-22,PL,Paul Laurence Dunbar,We Wear the Mask
+2026-02-23,LC,Lewis Carroll,The Jabberwocky
+2026-02-24,JMD,John Milton,Paradise Lost: Book 1
+2026-02-25,GA,Allen Ginsberg,A Supermarket in California
+2026-02-26,ATP,Alfred Lord Tennyson,Ulysses
+2026-02-27,GS,Gertrude Stein,Sacred Emily
+2026-02-28,FR,Robert Frost,Mending Wall
+2026-03-01,TS,T.S. Eliot,The Waste Land
+,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
+,SP,Sylvia Plath,Lady Lazarus
+,RF,Robert Frost,Stopping By Woods on a Snowy Evening
+,SS,William Shakespeare,Shall I compare thee to a summer’s day?

@@ -38,8 +38,8 @@ const AutoCompleteItem = forwardRef<HTMLDivElement, ItemProps>(
             src={imageUrl}
             alt={value}
             style={{
-              width: "24px",
-              height: "24px",
+              width: "40px",
+              height: "40px",
               borderRadius: "50%",
               objectFit: "cover",
               flexShrink: 0,
@@ -49,7 +49,17 @@ const AutoCompleteItem = forwardRef<HTMLDivElement, ItemProps>(
         <div>
           <Text>
             {value}
-            {easyMode && birthYear ? ` (${birthYear}-${deathYear || ""})` : ""}
+            {easyMode && birthYear
+              ? ` (${
+                  birthYear < 0 ? `${Math.abs(birthYear)} BCE` : birthYear
+                }-${
+                  deathYear
+                    ? deathYear < 0
+                      ? `${Math.abs(deathYear)} BCE`
+                      : deathYear
+                    : ""
+                })`
+              : ""}
           </Text>
         </div>
       </Group>

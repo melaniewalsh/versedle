@@ -25,5 +25,9 @@ export function saveGuesses(dayString: string, guesses: Guess[]): void {
 }
 
 export function constructWikiLink(author: string | undefined) {
+  // Handle special cases where the author name needs disambiguation
+  if (author === "Prince") {
+    return `https://en.wikipedia.org/wiki/Prince_(musician)`;
+  }
   return `https://en.wikipedia.org/wiki/${author}`;
 }

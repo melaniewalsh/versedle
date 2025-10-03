@@ -184,13 +184,6 @@ export function GuessRow({
                 : authorSectionStyle
             }
           >
-            {guess?.author?.image_url && (
-              <img
-                src={guess.author.image_url}
-                alt={getAuthorPrettyName(guess?.name)}
-                className="w-6 h-6 rounded-full object-cover flex-shrink-0"
-              />
-            )}
             <p className="text-ellipsis overflow-hidden whitespace-nowrap">
               {getAuthorPrettyName(guess?.name)}
             </p>
