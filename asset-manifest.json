@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/versedle/static/css/main.bcfc73ab.css",
-    "main.js": "/versedle/static/js/main.5eec75b1.js",
+    "main.js": "/versedle/static/js/main.58e97238.js",
     "index.html": "/versedle/index.html",
     "main.bcfc73ab.css.map": "/versedle/static/css/main.bcfc73ab.css.map",
-    "main.5eec75b1.js.map": "/versedle/static/js/main.5eec75b1.js.map"
+    "main.58e97238.js.map": "/versedle/static/js/main.58e97238.js.map"
   },
   "entrypoints": [
     "static/css/main.bcfc73ab.css",
-    "static/js/main.5eec75b1.js"
+    "static/js/main.58e97238.js"
   ]
 }
