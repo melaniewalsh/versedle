@@ -105,7 +105,22 @@ export function Game({ settingsData }: GameProps) {
   const displayLine = useCallback(() => {
     if (author && author.first_line) {
       const lines = author.first_line.split("\n");
-      const newDisplayedLines = lines.slice(0, currentLine + 1);
+      // Count non-blank lines to determine how many to show
+      let nonBlankCount = 0;
+      let displayUpToIndex = -1;
+
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].trim() !== "") {
+          nonBlankCount++;
+          if (nonBlankCount === currentLine + 1) {
+            displayUpToIndex = i;
+            break;
+          }
+        }
+      }
+
+      const newDisplayedLines =
+        displayUpToIndex >= 0 ? lines.slice(0, displayUpToIndex + 1) : [];
       console.log(`These are the new displayed lines: ${newDisplayedLines}`);
       console.log(lines);
       setDisplayedLines(newDisplayedLines);
@@ -115,7 +130,22 @@ export function Game({ settingsData }: GameProps) {
   const displayLineTemp = useCallback(() => {
     if (author && author.first_line) {
       const lines = author.first_line.split("\n");
-      const newDisplayedLines = lines.slice(0, currentLine + 1);
+      // Count non-blank lines to determine how many to show
+      let nonBlankCount = 0;
+      let displayUpToIndex = -1;
+
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].trim() !== "") {
+          nonBlankCount++;
+          if (nonBlankCount === currentLine + 1) {
+            displayUpToIndex = i;
+            break;
+          }
+        }
+      }
+
+      const newDisplayedLines =
+        displayUpToIndex >= 0 ? lines.slice(0, displayUpToIndex + 1) : [];
       console.log(`These are the new displayed lines: ${newDisplayedLines}`);
       console.log(lines);
       setDisplayedLines(newDisplayedLines);
@@ -143,10 +173,7 @@ export function Game({ settingsData }: GameProps) {
     settingsData.rotationMode
   );
 
-  const gameEnded =
-    guesses.length === MAX_TRY_COUNT ||
-    guesses[guesses.length - 1]?.distance === 0 ||
-    won;
+  const gameEnded = guesses.length === MAX_TRY_COUNT || won;
 
   const handleSubmit = useCallback(
     (e: React.FormEvent<HTMLFormElement>) => {
@@ -168,9 +195,12 @@ export function Game({ settingsData }: GameProps) {
         guessedAuthor.birth_year - author.birth_year
       );
 
+      // Use -1 for same birth year but different author, 0 only for correct answer
+      const distance = isCorrect ? 0 : yearDistance === 0 ? -1 : yearDistance;
+
       const newGuess = {
         name: currentGuess,
-        distance: isCorrect ? 0 : yearDistance,
+        distance: distance,
         direction: getDirection(guessedAuthor.birth_year, author.birth_year),
         author: guessedAuthor,
       };
@@ -235,24 +265,29 @@ export function Game({ settingsData }: GameProps) {
   }, [author, guesses, displayFullPassage, i18n.resolvedLanguage]);
 
   useEffect(() => {
-    if (ipData) {
+    if (ipData && gameEnded) {
       // Send Google Analytics event when game ends
       if (typeof window !== "undefined" && (window as any).gtag) {
-        (window as any).gtag(
-          "event",
-          won || guesses.length === MAX_TRY_COUNT ? "complete" : "not_complete",
-          {
-            game_won: won ? "won" : "lost",
-            num_guesses: guesses.length,
-            author_name: author?.name || "Unknown",
-            poem_title: author?.title || "Unknown",
-            game_mode: settingsData.easyMode ? "easy" : "hard",
-            date: dayString,
-          }
-        );
+        (window as any).gtag("event", "game_complete", {
+          game_won: won ? "won" : "lost",
+          num_guesses: guesses.length,
+          author_name: author?.name || "Unknown",
+          poem_title: author?.title || "Unknown",
+          game_mode: settingsData.easyMode ? "easy" : "hard",
+          date: dayString,
+        });
       }
     }
-  }, [guesses, ipData, won, author, settingsData.easyMode, dayString]);
+  }, [
+    ipData,
+    gameEnded,
+    won,
+    guesses.length,
+    author?.name,
+    author?.title,
+    settingsData.easyMode,
+    dayString,
+  ]);
 
   // Fetch Wikipedia image when game ends
   useEffect(() => {
