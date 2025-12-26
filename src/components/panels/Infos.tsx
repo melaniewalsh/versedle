@@ -156,7 +156,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Humanities Data Lab.
+            Humanities Data Lab
           </a>
           .
         </div>

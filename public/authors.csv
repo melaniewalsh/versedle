@@ -1,4 +1,4 @@
-code,name,birth_year,death_year,title,first_line,image_url
+code,name,birth_year,death_year,title,first_line,image_url,poem_link
 APH,Alexander Pope,1688,1744,An Essay on Man: Epistle I,"Hope springs eternal in the human breast:
 Man never is, but always to be blest:
 The soul, uneasy and confin'd from home,
@@ -6,14 +6,37 @@ Rests and expatiates in a life to come.
 Lo! the poor Indian, whose untutor'd mind
 Sees God in clouds, or hears him in the wind;
 His soul, proud science never taught to stray
-Far as the solar walk, or milky way;",https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Alexander_Pope_by_Michael_Dahl.jpg/330px-Alexander_Pope_by_Michael_Dahl.jpg
+Far as the solar walk, or milky way;",https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Alexander_Pope_by_Michael_Dahl.jpg/330px-Alexander_Pope_by_Michael_Dahl.jpg,https://www.poetryfoundation.org/poems/44899/an-essay-on-man-epistle-i
 AT,Alfred Lord Tennyson,1809,1892,In Memoriam A.H.H. 1849,"The heart that never plighted troth
       But stagnates in the weeds of sloth,
 Nor any want-begotten rest.
 I hold it true, whate’er befall,
       I feel it, when I sorrow most;
       ‘Tis better to have loved and lost
-Than never to have loved at all.",https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg/330px-Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg
+Than never to have loved at all.",https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg/330px-Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg,
+ALT,Alfred Lord Tennyson,1809,1892,"In Memoriam, [Ring out, wild bells]","The year is dying in the night;
+Ring out, wild bells, and let him die.
+
+Ring out the old, ring in the new,
+   Ring, happy bells, across the snow:
+   The year is going, let him go;
+Ring out the false, ring in the true.",https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg/330px-Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg,https://poets.org/poem/memoriam-ring-out-wild-bells
+RBU,Robert Burns,1759,1796,Auld Lang Syne,"Should auld acquaintance be forgot,
+And never brought to mind?
+Should auld acquaintance be forgot,
+And auld lang syne!
+
+     Chorus:
+For auld lang syne, my dear,
+     For auld lang syne.
+     We’ll tak a cup o’ kindness yet,
+     For auld lang syne.",https://poets.org/sites/default/files/images/biographies/rburns.jpg,https://poets.org/poem/auld-lang-syne
+ESR,Edna St. Vincent Millay,1892,1950,Recuerdo,"We were very tired, we were very merry—
+We had gone back and forth all night on the ferry;
+And you ate an apple, and I ate a pear,
+From a dozen of each we had bought somewhere;
+And the sky went wan, and the wind came cold,
+And the sun rose dripping, a bucketful of gold.",https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg/330px-Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg,https://www.poetryfoundation.org/poetrymagazine/poems/14404/recuerdo
 ATP,Alfred Lord Tennyson,1809,1892,Ulysses,"It little profits that an idle king,
 By this still hearth, among these barren crags,
 Match'd with an aged wife, I mete and dole
@@ -23,14 +46,14 @@ I cannot rest from travel: I will drink
 Life to the lees: All times I have enjoy'd
 Greatly, have suffer'd greatly, both with those
 That loved me, and alone, on shore, and when
-Thro' scudding drifts the rainy Hyades",https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg/330px-Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg
+Thro' scudding drifts the rainy Hyades",https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg/330px-Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg,
 AG,Allen Ginsberg,1927,1997,Howl,"I saw the best minds of my generation destroyed by madness, starving hysterical naked,
 dragging themselves through the negro streets at dawn looking for an angry fix,
 angelheaded hipsters burning for the ancient heavenly connection to the starry dynamo in the machinery of night,
 who poverty and tatters and hollow-eyed and high sat up smoking in the supernatural darkness of cold-water flats floating across the tops of cities contemplating jazz,
 who bared their brains to Heaven under the El and saw Mohammedan angels staggering on tenement roofs illuminated,
 who passed through universities with radiant cool eyes hallucinating Arkansas and Blake-light tragedy among the scholars of war,
-who were expelled from the academies for crazy & publishing obscene odes on the windows of the skull,",https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Allen_Ginsberg_1979_-_cropped.jpg/330px-Allen_Ginsberg_1979_-_cropped.jpg
+who were expelled from the academies for crazy & publishing obscene odes on the windows of the skull,",https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Allen_Ginsberg_1979_-_cropped.jpg/330px-Allen_Ginsberg_1979_-_cropped.jpg,
 GA,Allen Ginsberg,1927,1997,A Supermarket in California,"What thoughts I have of you tonight, Walt Whitman, for I walked down the sidestreets under the trees with a headache self-conscious looking at the full moon.
          In my hungry fatigue, and shopping for images, I went into the neon fruit supermarket, dreaming of your enumerations!
          What peaches and what penumbras! Whole families shopping at night! Aisles full of husbands! Wives in the avocados, babies in the tomatoes!—and you, Garcia Lorca, what were you doing down by the watermelons?
@@ -38,7 +61,7 @@ GA,Allen Ginsberg,1927,1997,A Supermarket in California,"What thoughts I have of
          I saw you, Walt Whitman, childless, lonely old grubber, poking among the meats in the refrigerator and eyeing the grocery boys.
          I heard you asking questions of each: Who killed the pork chops? What price bananas? Are you my Angel?
          I wandered in and out of the brilliant stacks of cans following you, and followed in my imagination by the store detective.
-         We strode down the open corridors together in our solitary fancy tasting artichokes, possessing every frozen delicacy, and never passing the cashier.",https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Allen_Ginsberg_1979_-_cropped.jpg/330px-Allen_Ginsberg_1979_-_cropped.jpg
+         We strode down the open corridors together in our solitary fancy tasting artichokes, possessing every frozen delicacy, and never passing the cashier.",https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Allen_Ginsberg_1979_-_cropped.jpg/330px-Allen_Ginsberg_1979_-_cropped.jpg,
 AM,Andrew Marvell,1621,1678,To His Coy Mistress,"Had we but world enough and time,
 This coyness, lady, were no crime.
 We would sit down, and think which way
@@ -47,13 +70,13 @@ Thou by the Indian Ganges’ side
 Shouldst rubies find; I by the tide
 Of Humber would complain. I would
 Love you ten years before the flood,
-And you should, if you please, refuse",https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Portrait_of_Andrew_Marvell.jpg/330px-Portrait_of_Andrew_Marvell.jpg
+And you should, if you please, refuse",https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Portrait_of_Andrew_Marvell.jpg/330px-Portrait_of_Andrew_Marvell.jpg,
 AB,Anne Bradstreet,1612,1672,To my dear and loving husband,"If ever two were one, then surely we.
 If ever man were loved by wife, then thee.
 If ever wife was happy in a man,
 Compare with me, ye women, if you can.
 I prize thy love more than whole mines of gold,
-Or all the riches that the East doth hold.",https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Frontispiece_for_An_Account_of_Anne_Bradstreet_The_Puritan_Poetess%2C_and_Kindred_Topics%2C_edited_by_Colonel_Luther_Caldwell_%28Boston%2C_1898%29_%28cropped%29.jpg/330px-Frontispiece_for_An_Account_of_Anne_Bradstreet_The_Puritan_Poetess%2C_and_Kindred_Topics%2C_edited_by_Colonel_Luther_Caldwell_%28Boston%2C_1898%29_%28cropped%29.jpg
+Or all the riches that the East doth hold.",https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Frontispiece_for_An_Account_of_Anne_Bradstreet_The_Puritan_Poetess%2C_and_Kindred_Topics%2C_edited_by_Colonel_Luther_Caldwell_%28Boston%2C_1898%29_%28cropped%29.jpg/330px-Frontispiece_for_An_Account_of_Anne_Bradstreet_The_Puritan_Poetess%2C_and_Kindred_Topics%2C_edited_by_Colonel_Luther_Caldwell_%28Boston%2C_1898%29_%28cropped%29.jpg,
 BJ,Ben Jonson,1572,1637,"To the Memory of My Beloved the Author, Mr. William Shakespeare","I therefore will begin. Soul of the age!
 The applause, delight, the wonder of our stage!
 My Shakespeare, rise! I will not lodge thee by
@@ -61,14 +84,14 @@ Chaucer, or Spenser, or bid Beaumont lie
 A little further, to make thee a room:
 Thou art a monument without a tomb,
 And art alive still while thy book doth live
-And we have wits to read and praise to give.",https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Benjamin_Jonson_by_Abraham_van_Blyenberch.jpg/330px-Benjamin_Jonson_by_Abraham_van_Blyenberch.jpg
+And we have wits to read and praise to give.",https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Benjamin_Jonson_by_Abraham_van_Blyenberch.jpg/330px-Benjamin_Jonson_by_Abraham_van_Blyenberch.jpg,
 BC,Billy Collins,1941,,Snow Day,"But for now I am a willing prisoner in this house,
 a sympathizer with the anarchic cause of snow.
 I will make a pot of tea
 and listen to the plastic radio on the counter,
 as glad as anyone to hear the news
 that the Kiddie Corner School is closed,
-the Ding-Dong School, closed.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Billy_Collins_2015.jpg/330px-Billy_Collins_2015.jpg
+the Ding-Dong School, closed.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Billy_Collins_2015.jpg/330px-Billy_Collins_2015.jpg,
 PW,Billy Collins,1941,,Cheerios,"One bright morning in a restaurant in Chicago
 as I waited for my eggs and toast,
 I opened the Tribune only to discover
@@ -90,7 +113,7 @@ or any American breakfast cereal,
 and more noble and enduring are the hills,
 
 I surmised as a bar of sunlight illuminated my orange juice.
-",https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Billy_Collins_2015.jpg/330px-Billy_Collins_2015.jpg
+",https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Billy_Collins_2015.jpg/330px-Billy_Collins_2015.jpg,
 CB,Charles Bukowski,1920,1994,bluebird,"there’s a bluebird in my heart that 
 wants to get out 
 but I’m too tough for him, 
@@ -106,13 +129,13 @@ and the whores and the bartenders
 and the grocery clerks 
 never know that 
 he’s 
-in there.",https://upload.wikimedia.org/wikipedia/en/e/e2/Charles_Bukowski_smoking.jpg
+in there.",https://upload.wikimedia.org/wikipedia/en/e/e2/Charles_Bukowski_smoking.jpg,
 AE,Charles Dickens,1812,1870,A Tale of Two Cities,"It was the best of times, it was the worst of times,
     it was the age of wisdom, it was the age of foolishness,
     it was the epoch of belief, it was the epoch of incredulity,
     it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair,
     we had everything before us, we had nothing before us,
-    we were all going direct to Heaven, we were all going direct the other way--in short, the period was so far like the present period that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dickens_Gurney_head.jpg/330px-Dickens_Gurney_head.jpg
+    we were all going direct to Heaven, we were all going direct the other way--in short, the period was so far like the present period that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dickens_Gurney_head.jpg/330px-Dickens_Gurney_head.jpg,
 CR,Christina Rossetti,1830,1894,Goblin Market,"Morning and evening
 Maids heard the goblins cry:
 “Come buy our orchard fruits,
@@ -120,7 +143,7 @@ Come buy, come buy:
 Apples and quinces,
 Lemons and oranges,
 Plump unpeck’d cherries,
-Melons and raspberries,",https://upload.wikimedia.org/wikipedia/commons/4/4f/Christina_Rossetti_3.jpg
+Melons and raspberries,",https://upload.wikimedia.org/wikipedia/commons/4/4f/Christina_Rossetti_3.jpg,
 CM,Claude McKay,1889,1948,If We Must Die,"If we must die, let it not be like hogs
 Hunted and penned in an inglorious spot,
 While round us bark the mad and hungry dogs,
@@ -128,14 +151,14 @@ Making their mock at our accursèd lot.
 If we must die, O let us nobly die,
 So that our precious blood may not be shed
 In vain; then even the monsters we defy
-Shall be constrained to honor us though dead!",https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_McKay_James_L._Allen_Portrait_Edit.jpg/330px-Claude_McKay_James_L._Allen_Portrait_Edit.jpg
+Shall be constrained to honor us though dead!",https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_McKay_James_L._Allen_Portrait_Edit.jpg/330px-Claude_McKay_James_L._Allen_Portrait_Edit.jpg,
 DD,Don DeLillo,1936,,White Noise,"The station wagons arrived at noon, a long shining line that coursed through the west campus.
     In single file they eased around the orange I-beam sculpture and moved toward the dormitories.
     The roofs of the station wagons were loaded down with carefully secured suitcases full of light and heavy clothing;
     with boxes of blankets, boots and shoes, stationery and books, sheets, pillows, quilts; with rolled-up rugs and sleeping bags;
     with bicycles, skis, rucksacks, English and Western saddles, inflated rafts.
     As cars slowed to a crawl and stopped, students sprang out and raced to the rear doors to begin removing the objects inside; the stereo sets, radios, personal computers; small refrigerators and table ranges; the cartons of phonograph records and cassettes; the hairdryers and styling irons;
-    the tennis rackets, soccer balls, hockey and lacrosse sticks, bows and arrows; the controlled substances, the birth control pills and devices; the junk food still in shopping bags--onion-and-garlic chips, nacho thins, peanut creme patties, Waffelos and Kabooms, fruit chews and toffee popcorn; the Dum-Dum pops, the Mystic mints.",https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Don_DeLillo%2C_author.jpg/330px-Don_DeLillo%2C_author.jpg
+    the tennis rackets, soccer balls, hockey and lacrosse sticks, bows and arrows; the controlled substances, the birth control pills and devices; the junk food still in shopping bags--onion-and-garlic chips, nacho thins, peanut creme patties, Waffelos and Kabooms, fruit chews and toffee popcorn; the Dum-Dum pops, the Mystic mints.",https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Don_DeLillo%2C_author.jpg/330px-Don_DeLillo%2C_author.jpg,
 EE,E.E. Cummings,1894,1962,[little tree],"little tree
 little silent Christmas tree
 you are so little
@@ -147,30 +170,30 @@ because you smell so sweetly
 
 i will kiss your cool bark
 and hug you safe and tight
-just as your mother would,",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/E._E._Cummings_NYWTS.jpg/330px-E._E._Cummings_NYWTS.jpg
+just as your mother would,",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/E._E._Cummings_NYWTS.jpg/330px-E._E._Cummings_NYWTS.jpg,
 EC,E.E. Cummings,1894,1962,anyone lived in a pretty how town,"anyone lived in a pretty how town
 (with up so floating many bells down)
 spring summer autumn winter
 he sang his didn’t he danced his did.
 
 Women and men(both little and small)
-cared for anyone not at all",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/E._E._Cummings_NYWTS.jpg/330px-E._E._Cummings_NYWTS.jpg
+cared for anyone not at all",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/E._E._Cummings_NYWTS.jpg/330px-E._E._Cummings_NYWTS.jpg,
 AP,Edgar Allen Poe,1809,1849,Annabel Lee,"It was many and many a year ago,
    In a kingdom by the sea,
 That a maiden there lived whom you may know
    By the name of Annabel Lee;
 And this maiden she lived with no other thought
-   Than to love and be loved by me.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg/330px-Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg
+   Than to love and be loved by me.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg/330px-Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg,
 EP,Edgar Allen Poe,1809,1849,The Raven,"Once upon a midnight dreary, while I pondered, weak and weary,
 Over many a quaint and curious volume of forgotten lore—
     While I nodded, nearly napping, suddenly there came a tapping,
 As of some one gently rapping, rapping at my chamber door.
 “’Tis some visitor,” I muttered, “tapping at my chamber door—
-            Only this and nothing more.”",https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg/330px-Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg
+            Only this and nothing more.”",https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg/330px-Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg,
 ESM,Edna St. Vincent Millay,1892,1950,First Fig,"My candle burns at both ends;
     It will not last the night;
 But ah, my foes, and oh, my friends—
-    It gives a lovely light!",https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg/330px-Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg
+    It gives a lovely light!",https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg/330px-Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg,
 EM,Edna St. Vincent Millay,1892,1950,"What lips my lips have kissed, and where, and why","What lips my lips have kissed, and where, and why,
 I have forgotten, and what arms have lain
 Under my head till morning; but the rain
@@ -178,7 +201,7 @@ Is full of ghosts tonight, that tap and sigh
 Upon the glass and listen for reply,
 And in my heart there stirs a quiet pain
 For unremembered lads that not again
-Will turn to me at midnight with a cry.",https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg/330px-Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg
+Will turn to me at midnight with a cry.",https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg/330px-Edna_St._Vincent_Millay_1933_by_Carl_van_Vechten_Retouched.jpg,
 EBB,Elizabeth Barrett Browning,1806,1861,How Do I Love Thee? (Sonnet 43),"How do I love thee? Let me count the ways.
 I love thee to the depth and breadth and height
 My soul can reach, when feeling out of sight
@@ -192,7 +215,7 @@ In my old griefs, and with my childhood’s faith.
 I love thee with a love I seemed to lose
 With my lost saints. I love thee with the breath,
 Smiles, tears, of all my life; and, if God choose,
-I shall but love thee better after death.",https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Elizabeth_Barrett_Browning.jpg/330px-Elizabeth_Barrett_Browning.jpg
+I shall but love thee better after death.",https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Elizabeth_Barrett_Browning.jpg/330px-Elizabeth_Barrett_Browning.jpg,
 EB,Elizabeth Bishop,1911,1979,One Art,"The art of losing isn’t hard to master;
 so many things seem filled with the intent
 to be lost that their loss is no disaster.
@@ -203,7 +226,7 @@ The art of losing isn’t hard to master.
 
 Then practice losing farther, losing faster:
 places, and names, and where it was you meant
-to travel. None of these will bring disaster.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Elizabeth_Bishop%2C_1934_yearbook_portrait.jpg/330px-Elizabeth_Bishop%2C_1934_yearbook_portrait.jpg
+to travel. None of these will bring disaster.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Elizabeth_Bishop%2C_1934_yearbook_portrait.jpg/330px-Elizabeth_Bishop%2C_1934_yearbook_portrait.jpg,
 ED,Emily Dickinson,1830,1886,I’m Nobody! Who are you? (260),"I’m Nobody! Who are you?
 Are you – Nobody – too?
 Then there’s a pair of us!
@@ -211,7 +234,7 @@ Don't tell! they'd advertise – you know!
 How dreary – to be – Somebody!
 How public – like a Frog –
 To tell one’s name – the livelong June –
-To an admiring Bog!",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png
+To an admiring Bog!",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png,
 EDF,Emily Dickinson,1830,1886,I heard a Fly buzz - when I died -,"I heard a Fly buzz - when I died -
 The Stillness in the Room
 Was like the Stillness in the Air -
@@ -220,7 +243,7 @@ Between the Heaves of Storm -
 The Eyes around - had wrung them dry -
 And Breaths were gathering firm
 For that last Onset - when the King
-Be witnessed - in the Room -",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png
+Be witnessed - in the Room -",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png,
 EH,Emily Dickinson,1830,1886,“Hope” is the thing with feathers,"“Hope” is the thing with feathers -
 That perches in the soul -
 And sings the tune without the words -
@@ -229,7 +252,7 @@ And never stops - at all -
 And sweetest - in the Gale - is heard -
 And sore must be the storm -
 That could abash the little Bird
-That kept so many warm -",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png
+That kept so many warm -",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png,
 WR,Ernest Dowson,1867,1900,Vitae Summa Brevis Spem Nos Vetat Incohare Longam,"They are not long, the weeping and the laughter,
 Love and desire and hate:
 I think they have no portion in us after
@@ -238,10 +261,10 @@ We pass the gate.
 They are not long, the days of wine and roses:
 Out of a misty dream
 Our path emerges for a while, then closes
-Within a dream.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ernest_Dowson.jpg/330px-Ernest_Dowson.jpg
+Within a dream.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ernest_Dowson.jpg/330px-Ernest_Dowson.jpg,
 EP,Ezra Pound,1885,1972,In a Station of the Metro,"In a Station of the Metro 
 The apparition of these faces in the crowd:
-Petals on a wet, black bough.",https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Ezra_Pound_by_Alvin_Langdon_Coburn%2C_1913.jpg/330px-Ezra_Pound_by_Alvin_Langdon_Coburn%2C_1913.jpg
+Petals on a wet, black bough.",https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Ezra_Pound_by_Alvin_Langdon_Coburn%2C_1913.jpg/330px-Ezra_Pound_by_Alvin_Langdon_Coburn%2C_1913.jpg,
 GC,Geoffrey Chaucer,1340,1400,"The Canterbury Tales, Prologue","Whan that Aprille with his shoures soote,
 The droghte of March hath perced to the roote,
 And bathed every veyne in swich licóur
@@ -249,7 +272,7 @@ Of which vertú engendred is the flour;
 Whan Zephirus eek with his swete breeth
 Inspired hath in every holt and heeth
 The tendre croppes, and the yonge sonne
-Hath in the Ram his halfe cours y-ronne,",https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg/330px-Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg
+Hath in the Ram his halfe cours y-ronne,",https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg/330px-Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg,
 MH,Gerard Manley Hopkins,1844,1889,God's Grandeur,"The world is charged with the grandeur of God.
     It will flame out, like shining from shook foil;
     It gathers to a greatness, like the ooze of oil
@@ -257,7 +280,7 @@ Crushed. Why do men then now not reck his rod?
 Generations have trod, have trod, have trod;
     And all is seared with trade; bleared, smeared with toil;
     And wears man's smudge and shares man's smell: the soil
-Is bare now, nor can foot feel, being shod.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/GerardManleyHopkins.jpg/330px-GerardManleyHopkins.jpg
+Is bare now, nor can foot feel, being shod.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/GerardManleyHopkins.jpg/330px-GerardManleyHopkins.jpg,
 GS,Gertrude Stein,1874,1946,Sacred Emily,"Color mahogany.
 Color mahogany center.
 Rose is a rose is a rose is a rose.
@@ -267,7 +290,7 @@ Loveliness extreme.
 Sweetest ice-cream.
 Page ages page ages page ages.
 Wiped Wiped wire wire.
-Sweeter than peaches and pears and cream.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Gertrude_Stein_1935-01-04.jpg/330px-Gertrude_Stein_1935-01-04.jpg
+Sweeter than peaches and pears and cream.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Gertrude_Stein_1935-01-04.jpg/330px-Gertrude_Stein_1935-01-04.jpg,
 GB,Gwendolyn Brooks,1917,2000,We Real Cool,"We real cool. We   
 Left school. We
 
@@ -278,7 +301,7 @@ Sing sin. We
 Thin gin. We
 
 Jazz June. We   
-Die soon.",https://upload.wikimedia.org/wikipedia/en/8/89/Gwendolyn_Brooks_USPS_postage_stamp.jpg
+Die soon.",https://upload.wikimedia.org/wikipedia/en/8/89/Gwendolyn_Brooks_USPS_postage_stamp.jpg,
 BG,Gwendolyn Brooks,1917,2000,The Bean Eaters,"They eat beans mostly, this old yellow pair.   
 Dinner is a casual affair.
 Plain chipware on a plain and creaking wood,   
@@ -287,7 +310,7 @@ Tin flatware.
 Two who are Mostly Good.
 Two who have lived their day,
 But keep on putting on their clothes   
-And putting things away.",https://upload.wikimedia.org/wikipedia/en/8/89/Gwendolyn_Brooks_USPS_postage_stamp.jpg
+And putting things away.",https://upload.wikimedia.org/wikipedia/en/8/89/Gwendolyn_Brooks_USPS_postage_stamp.jpg,
 HL,Henry Wadsworth Longfellow,1807,1882,The Song of Hiawatha,"By the shore of Gitche Gumee,
 By the shining Big-Sea-Water,
 At the doorway of his wigwam,
@@ -299,13 +322,13 @@ And before him, through the sunshine,
 Westward toward the neighboring forest
 Passed in golden swarms the Ahmo,
 Passed the bees, the honey-makers,
-Burning, singing in the sunshine.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Henry_Wadsworth_Longfellow%2C_photographed_by_Julia_Margaret_Cameron_in_1868.jpg/330px-Henry_Wadsworth_Longfellow%2C_photographed_by_Julia_Margaret_Cameron_in_1868.jpg
+Burning, singing in the sunshine.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Henry_Wadsworth_Longfellow%2C_photographed_by_Julia_Margaret_Cameron_in_1868.jpg/330px-Henry_Wadsworth_Longfellow%2C_photographed_by_Julia_Margaret_Cameron_in_1868.jpg,
 AF,Jane Austen,1775,1817,Pride and Prejudice,"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
 However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters.
 ""My dear Mr. Bennet,"" said his lady to him one day, ""have you heard that Netherfield Park is let at last?""
 Mr. Bennet replied that he had not.
 ""But it is,"" returned she; ""for Mrs. Long has just been here, and she told me all about it.""
-Mr. Bennet made no answer.",https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CassandraAusten-JaneAusten%28c.1810%29_hires.jpg/330px-CassandraAusten-JaneAusten%28c.1810%29_hires.jpg
+Mr. Bennet made no answer.",https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CassandraAusten-JaneAusten%28c.1810%29_hires.jpg/330px-CassandraAusten-JaneAusten%28c.1810%29_hires.jpg,
 JD,John Donne,1572,1631,A Valediction: Forbidding Mourning,"Our two souls therefore, which are one,
    Though I must go, endure not yet
 A breach, but an expansion,
@@ -323,7 +346,7 @@ It leans and hearkens after it,
 Such wilt thou be to me, who must,
    Like th' other foot, obliquely run;
 Thy firmness makes my circle just,
-   And makes me end where I begun.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/John_Donne_by_Isaac_Oliver.jpg/330px-John_Donne_by_Isaac_Oliver.jpg
+   And makes me end where I begun.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/John_Donne_by_Isaac_Oliver.jpg/330px-John_Donne_by_Isaac_Oliver.jpg,
 HS,John Donne,1572,1631,"Holy Sonnets: Death, be not proud","Death, be not proud, though some have called thee
 Mighty and dreadful, for thou art not so;
 For those whom thou think'st thou dost overthrow
@@ -331,21 +354,21 @@ Die not, poor Death, nor yet canst thou kill me.
 From rest and sleep, which but thy pictures be,
 Much pleasure; then from thee much more must flow,
 And soonest our best men with thee do go,
-Rest of their bones, and soul's delivery.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/John_Donne_by_Isaac_Oliver.jpg/330px-John_Donne_by_Isaac_Oliver.jpg
+Rest of their bones, and soul's delivery.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/John_Donne_by_Isaac_Oliver.jpg/330px-John_Donne_by_Isaac_Oliver.jpg,
 JK,John Keats,1795,1821,Ode on a Grecian Urn,"Thou, silent form, dost tease us out of thought
 As doth eternity: Cold Pastoral!
          When old age shall this generation waste,
                 Thou shalt remain, in midst of other woe
 Than ours, a friend to man, to whom thou say'st,
          ""Beauty is truth, truth beauty,—that is all
-                Ye know on earth, and all ye need to know.",https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/John_Keats_by_William_Hilton.jpg/330px-John_Keats_by_William_Hilton.jpg
+                Ye know on earth, and all ye need to know.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Keats_by_William_Hilton_circa_1822_02.jpg/500px-John_Keats_by_William_Hilton_circa_1822_02.jpg,
 JM,John Milton,1608,1674,On the Morning of Christ's Nativity,"This is the month, and this the happy morn,
       Wherein the Son of Heav'n's eternal King,
 Of wedded Maid, and Virgin Mother born,
       Our great redemption from above did bring;
       For so the holy sages once did sing,
             That he our deadly forfeit should release,
-            And with his Father work us a perpetual peace.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/John_Milton_Christ%27s_College.jpg/330px-John_Milton_Christ%27s_College.jpg
+            And with his Father work us a perpetual peace.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/John_Milton_Christ%27s_College.jpg/330px-John_Milton_Christ%27s_College.jpg,
 JMD,John Milton,1608,1674,Paradise Lost: Book 1,"OF Mans First Disobedience, and the Fruit
 Of that Forbidden Tree, whose mortal tast
 Brought Death into the World, and all our woe,
@@ -353,7 +376,7 @@ With loss of Eden, till one greater Man
 Restore us, and regain the blissful Seat,
 Sing Heav'nly Muse, that on the secret top
 Of Oreb, or of Sinai, didst inspire
-That Shepherd, who first taught the chosen Seed,",https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/John_Milton_Christ%27s_College.jpg/330px-John_Milton_Christ%27s_College.jpg
+That Shepherd, who first taught the chosen Seed,",https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/John_Milton_Christ%27s_College.jpg/330px-John_Milton_Christ%27s_College.jpg,
 KG,Khalil Gibran,1883,1931,On Marriage,"Love one another, but make not a bond
 of love:
      Let it rather be a moving sea between
@@ -365,7 +388,7 @@ not from the same loaf.
      Sing and dance together and be joyous,
 but let each one of you be alone,
      Even as the strings of a lute are alone
-though they quiver with the same music.",https://upload.wikimedia.org/wikipedia/commons/3/34/Kahlil_Gibran_1913.jpg
+though they quiver with the same music.",https://upload.wikimedia.org/wikipedia/commons/3/34/Kahlil_Gibran_1913.jpg,
 LH,Langston Hughes,1902,1967,Harlem,"What happens to a dream deferred?
 
       Does it dry up
@@ -379,7 +402,7 @@ LH,Langston Hughes,1902,1967,Harlem,"What happens to a dream deferred?
       Maybe it just sags
       like a heavy load.
 
-      Or does it explode?",https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg/330px-Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg
+      Or does it explode?",https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg/330px-Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg,
 HL,Langston Hughes,1902,1967,The Weary Blues,"Thump, thump, thump, went his foot on the floor.
 He played a few chords then he sang some more—
 “I got the Weary Blues
@@ -392,20 +415,20 @@ And far into the night he crooned that tune.
 The stars went out and so did the moon.
 The singer stopped playing and went to bed
 While the Weary Blues echoed through his head.
-He slept like a rock or a man that’s dead.",https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg/330px-Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg
+He slept like a rock or a man that’s dead.",https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg/330px-Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg,
 LC,Lewis Carroll,1832,1898,The Jabberwocky,"’Twas brillig, and the slithy toves
       Did gyre and gimble in the wabe:
 All mimsy were the borogoves,
       And the mome raths outgrabe.
 
 “Beware the Jabberwock, my son!
-      The jaws that bite, the claws that catch!",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/LewisCarrollSelfPhoto.jpg/330px-LewisCarrollSelfPhoto.jpg
+      The jaws that bite, the claws that catch!",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/LewisCarrollSelfPhoto.jpg/330px-LewisCarrollSelfPhoto.jpg,
 LB,Lord Byron,1788,1824,She Walks in Beauty,"She walks in beauty, like the night
 Of cloudless climes and starry skies;
 And all that’s best of dark and bright
 Meet in her aspect and her eyes;
 Thus mellowed to that tender light
-Which heaven to gaudy day denies.",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Byron_1813_by_Phillips.jpg/330px-Byron_1813_by_Phillips.jpg
+Which heaven to gaudy day denies.",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Byron_1813_by_Phillips.jpg/330px-Byron_1813_by_Phillips.jpg,
 MA,Maya Angelou,1928,2014,Still I Rise,"Leaving behind nights of terror and fear
 I rise
 Into a daybreak that's wondrously clear
@@ -414,7 +437,14 @@ Bringing the gifts that my ancestors gave,
 I am the dream and the hope of the slave.
 I rise
 I rise
-I rise.",https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angelou_at_Clinton_inauguration_%28cropped_2%29.jpg/330px-Angelou_at_Clinton_inauguration_%28cropped_2%29.jpg
+I rise.",https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angelou_at_Clinton_inauguration_%28cropped_2%29.jpg/330px-Angelou_at_Clinton_inauguration_%28cropped_2%29.jpg,
+PLS,Paul Laurence Dunbar,1872,1906,Sympathy,"I know why the caged bird sings, ah me,
+    When his wing is bruised and his bosom sore,—
+When he beats his bars and he would be free;
+It is not a carol of joy or glee,
+    But a prayer that he sends from his heart’s deep core,   
+But a plea, that upward to Heaven he flings—
+I know why the caged bird sings!",https://upload.wikimedia.org/wikipedia/commons/a/af/Paul_Laurence_Dunbar_circa_1890.jpg,https://www.poetryfoundation.org/poems/46459/sympathy-56d22658afbc0
 PL,Paul Laurence Dunbar,1872,1906,We Wear the Mask,"We wear the mask that grins and lies,
 It hides our cheeks and shades our eyes,—
 This debt we pay to human guile;
@@ -424,7 +454,7 @@ And mouth with myriad subtleties.
 Why should the world be over-wise,
 In counting all our tears and sighs?
 Nay, let them only see us, while
-       We wear the mask.",https://upload.wikimedia.org/wikipedia/commons/a/af/Paul_Laurence_Dunbar_circa_1890.jpg
+       We wear the mask.",https://upload.wikimedia.org/wikipedia/commons/a/af/Paul_Laurence_Dunbar_circa_1890.jpg,
 PS,Percy Shelley,1792,1822,Ozymandias,"I met a traveller from an antique land,
 Who said—“Two vast and trunkless legs of stone
 Stand in the desert. . . . Near them, on the sand,
@@ -435,7 +465,7 @@ Which yet survive, stamped on these lifeless things,
 The hand that mocked them, and the heart that fed;
 And on the pedestal, these words appear:
 My name is Ozymandias, King of Kings;
-Look on my Works, ye Mighty, and despair!",https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Percy_Bysshe_Shelley_by_Alfred_Clint.jpg/330px-Percy_Bysshe_Shelley_by_Alfred_Clint.jpg
+Look on my Works, ye Mighty, and despair!",https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Percy_Bysshe_Shelley_by_Alfred_Clint.jpg/330px-Percy_Bysshe_Shelley_by_Alfred_Clint.jpg,
 RB,Robert Browning,1812,1889,My Last Duchess,"That’s my last Duchess painted on the wall,
 Looking as if she were alive. I call
 That piece a wonder, now; Fra Pandolf’s hands
@@ -445,7 +475,7 @@ Will’t please you sit and look at her? I said
 Strangers like you that pictured countenance,
 The depth and passion of its earnest glance,
 But to myself they turned (since none puts by
-The curtain I have drawn for you, but I)",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg/330px-Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg
+The curtain I have drawn for you, but I)",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg/330px-Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg,
 RF,Robert Frost,1874,1963,Stopping By Woods on a Snowy Evening,"He gives his harness bells a shake
 To ask if there is some mistake.
 The only other sound's the sweep
@@ -454,7 +484,7 @@ Of easy wind and downy flake.
 The woods are lovely, dark and deep.
 But I have promises to keep,
 And miles to go before I sleep,
-And miles to go before I sleep.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg
+And miles to go before I sleep.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg,
 FR,Robert Frost,1874,1963,Mending Wall,"He is all pine and I am apple orchard.
 My apple trees will never get across
 And eat the cones under his pines, I tell him.
@@ -462,7 +492,7 @@ He only says, ‘Good fences make good neighbors.’
 Spring is the mischief in me, and I wonder
 If I could put a notion in his head:
 ‘Why do they make good neighbors? Isn’t it
-Where there are cows? But here there are no cows.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg
+Where there are cows? But here there are no cows.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg,
 RN,Robert Frost,1874,1963,The Road Not Taken,"Yet knowing how way leads on to way,
 I doubted if I should ever come back.
 
@@ -470,7 +500,7 @@ I shall be telling this with a sigh
 Somewhere ages and ages hence:
 Two roads diverged in a wood, and I—
 I took the one less traveled by,
-And that has made all the difference.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg
+And that has made all the difference.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg,
 SC,Samuel Taylor Coleridge,1772,1834,Kubla Khan,"In Xanadu did Kubla Khan
 A stately pleasure-dome decree:
 Where Alph, the sacred river, ran
@@ -479,7 +509,16 @@ Through caverns measureless to man
 So twice five miles of fertile ground
 With walls and towers were girdled round;
 And there were gardens bright with sinuous rills,
-Where blossomed many an incense-bearing tree;",https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SamuelTaylorColeridge.jpg/330px-SamuelTaylorColeridge.jpg
+Where blossomed many an incense-bearing tree;",https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SamuelTaylorColeridge.jpg/330px-SamuelTaylorColeridge.jpg,
+SCM,Samuel Taylor Coleridge,1772,1834,The Rime of the Ancient Mariner,"Water, water, every where,
+And all the boards did shrink;
+Water, water, every where,
+Nor any drop to drink.
+
+The very deep did rot: O Christ!
+That ever this should be!
+Yea, slimy things did crawl with legs
+Upon the slimy sea.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SamuelTaylorColeridge.jpg/330px-SamuelTaylorColeridge.jpg,https://www.poetryfoundation.org/poems/43997/the-rime-of-the-ancient-mariner-text-of-1834
 SSS,Shel Silverstein,1930,1999,Falling Up,"I tripped on my shoelace
 And I fell up—
 Up to the roof tops,
@@ -493,7 +532,7 @@ When I looked around,
 
 I got sick to my stomach
 
-And I threw down.",https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Portrait_of_Shel_Silverstein_in_c._1964_by_Jerry_Yulsman.jpg/330px-Portrait_of_Shel_Silverstein_in_c._1964_by_Jerry_Yulsman.jpg
+And I threw down.",https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Portrait_of_Shel_Silverstein_in_c._1964_by_Jerry_Yulsman.jpg/330px-Portrait_of_Shel_Silverstein_in_c._1964_by_Jerry_Yulsman.jpg,
 SP,Sylvia Plath,1932,1963,Lady Lazarus,"A cake of soap,
 A wedding ring,
 A gold filling.
@@ -502,7 +541,7 @@ Beware
 Beware.
 Out of the ash
 I rise with my red hair
-And I eat men like air.",https://upload.wikimedia.org/wikipedia/commons/d/d0/Sylvia_Plath.jpg
+And I eat men like air.",https://upload.wikimedia.org/wikipedia/commons/d/d0/Sylvia_Plath.jpg,
 PS,Sylvia Plath,1932,1963,Daddy,"Daddy, I have had to kill you.   
 You died before I had time——
 Marble-heavy, a bag full of God,   
@@ -513,7 +552,15 @@ And a head in the freakish Atlantic
 Where it pours bean green over blue   
 In the waters off beautiful Nauset.   
 I used to pray to recover you.
-Ach, du.",https://upload.wikimedia.org/wikipedia/commons/d/d0/Sylvia_Plath.jpg
+Ach, du.",https://upload.wikimedia.org/wikipedia/commons/d/d0/Sylvia_Plath.jpg,
+TEH,T.S. Eliot,1888,1965,The Hollow Men,"For Thine is 
+Life is
+For Thine is the
+
+This is the way the world ends 
+This is the way the world ends 
+This is the way the world ends 
+Not with a bang but a whimper.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg/330px-Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg,https://poets.org/poem/hollow-men
 TE,T.S. Eliot,1888,1965,The Love Song of J. Alfred Prufrock,"I grow old ... I grow old ...
 I shall wear the bottoms of my trousers rolled.
 Shall I part my hair behind?   Do I dare to eat a peach?
@@ -525,20 +572,20 @@ Combing the white hair of the waves blown back
 When the wind blows the water white and black.
 We have lingered in the chambers of the sea
 By sea-girls wreathed with seaweed red and brown
-Till human voices wake us, and we drown.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg/330px-Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg
+Till human voices wake us, and we drown.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg/330px-Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg,
 TS,T.S. Eliot,1888,1965,The Waste Land,"April is the cruellest month, breeding
 Lilacs out of the dead land, mixing
 Memory and desire, stirring
 Dull roots with spring rain.
 Winter kept us warm, covering
 Earth in forgetful snow, feeding
-A little life with dried tubers.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg/330px-Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg
+A little life with dried tubers.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg/330px-Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg,
 AG,Toni Morrison,1931,2019,Beloved,"“Your love is too thick,” he said, thinking,
     That bitch is looking at me; she is right over my head looking down through the floor at me.
     “Too thick?”she said, thinking of the Clearing where Baby Suggs’ commands knocked the pods off horse chestnuts.
     “Love is or it ain’t. Thin love ain’t love at all.”
     “Yeah. It didn’t work, did it? Did it work?” he asked.
-“It worked,” she said.",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Toni_Morrison.jpg/330px-Toni_Morrison.jpg
+“It worked,” she said.",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Toni_Morrison.jpg/330px-Toni_Morrison.jpg,
 ST,Tupac Shakur,1971,1996,The Rose That Grew from Concrete,"Did you hear about the rose that grew
 from a crack in the concrete?
 Proving nature's law is wrong it
@@ -546,7 +593,7 @@ learned to walk with out having feet.
 Funny it seems, but by keeping its dreams,
 it learned to breathe fresh air.
 Long live the rose that grew from concrete
-when no one else ever cared.",https://upload.wikimedia.org/wikipedia/commons/2/22/Tupac_Shakur_driver%27s_license_photo_%281996%29_%28cropped%29.png
+when no one else ever cared.",https://upload.wikimedia.org/wikipedia/commons/2/22/Tupac_Shakur_driver%27s_license_photo_%281996%29_%28cropped%29.png,
 AU,W.H. Auden,1907,1973,Twelve Songs: IX,"Stop all the clocks, cut off the telephone,
 Prevent the dog from barking with a juicy bone,
 Silence the pianos and with muffled drum
@@ -560,7 +607,7 @@ Let the traffic policemen wear black cotton gloves.
 He was my North, my South, my East and West,
 My working week and my Sunday rest,
 My noon, my midnight, my talk, my song;
-I thought that love would last for ever: I was wrong.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/AudenVanVechten1939.jpg/330px-AudenVanVechten1939.jpg
+I thought that love would last for ever: I was wrong.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/AudenVanVechten1939.jpg/330px-AudenVanVechten1939.jpg,
 WH,W.H. Auden,1907,1973,Musée des Beaux Arts,"About suffering they were never wrong,
 The Old Masters: how well they understood
 Its human position; how it takes place
@@ -574,7 +621,26 @@ They never forgot
 That even the dreadful martyrdom must run its course
 Anyhow in a corner, some untidy spot
 Where the dogs go on with their doggy life and the torturer's horse
-Scratches its innocent behind on a tree.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/AudenVanVechten1939.jpg/330px-AudenVanVechten1939.jpg
+Scratches its innocent behind on a tree.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/AudenVanVechten1939.jpg/330px-AudenVanVechten1939.jpg,
+WSJT,Wallace Stevens,1879,1955,The Snow Man,"One must have a mind of winter
+To regard the frost and the boughs
+Of the pine-trees crusted with snow;
+
+And have been cold a long time
+To behold the junipers shagged with ice,
+The spruces rough in the distant glitter
+
+Of the January sun; and not to think
+Of any misery in the sound of the wind,
+In the sound of a few leaves,
+
+Which is the sound of the land
+Full of the same wind
+That is blowing in the same bare place
+
+For the listener, who listens in the snow,
+And, nothing himself, beholds
+Nothing that is not there and the nothing that is.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Wallace_Stevens%2C_1948.jpg/960px-Wallace_Stevens%2C_1948.jpg,https://poets.org/poem/snow-man
 WSJ,Wallace Stevens,1879,1955,Anecdote of the Jar,"I placed a jar in Tennessee,   
 And round it was, upon a hill.   
 It made the slovenly wilderness   
@@ -583,7 +649,7 @@ Surround that hill.
 The wilderness rose up to it,
 And sprawled around, no longer wild.   
 The jar was round upon the ground   
-And tall and of a port in air.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Wallace_Stevens%2C_1948.jpg/330px-Wallace_Stevens%2C_1948.jpg
+And tall and of a port in air.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Wallace_Stevens%2C_1948.jpg/330px-Wallace_Stevens%2C_1948.jpg,
 WA,Walt Whitman,1819,1892,Song of Myself,"I celebrate myself, and sing myself,
 And what I assume you shall assume,
 For every atom belonging to me as good belongs to you.
@@ -594,7 +660,7 @@ I lean and loafe at my ease observing a spear of summer grass.
 My tongue, every atom of my blood, form’d from this soil, this air,
 Born here of parents born here from parents the same, and their parents the same,
 I, now thirty-seven years old in perfect health begin,
-Hoping to cease not till death.",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/330px-Walt_Whitman_-_George_Collins_Cox.jpg
+Hoping to cease not till death.",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/330px-Walt_Whitman_-_George_Collins_Cox.jpg,
 OC,Walt Whitman,1819,1892,O Captain! My Captain!,"O Captain! my Captain! our fearful trip is done,
 The ship has weather’d every rack, the prize we sought is won,
 The port is near, the bells I hear, the people all exulting,
@@ -602,7 +668,7 @@ While follow eyes the steady keel, the vessel grim and daring;
                          But O heart! heart! heart!
                             O the bleeding drops of red,
                                Where on the deck my Captain lies,
-                                  Fallen cold and dead.",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/330px-Walt_Whitman_-_George_Collins_Cox.jpg
+                                  Fallen cold and dead.",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/330px-Walt_Whitman_-_George_Collins_Cox.jpg,
 WB,William Blake,1757,1827,The Tyger,"Tyger Tyger, burning bright,
 In the forests of the night;
 What immortal hand or eye,
@@ -610,7 +676,7 @@ Could frame thy fearful symmetry?
 In what distant deeps or skies.
 Burnt the fire of thine eyes?
 On what wings dare he aspire?
-What the hand, dare seize the fire?",https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/330px-William_Blake_by_Thomas_Phillips.jpg
+What the hand, dare seize the fire?",https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/330px-William_Blake_by_Thomas_Phillips.jpg,
 WBL,William Blake,1757,1827,The Lamb,"Little Lamb who made thee 
          Dost thou know who made thee 
 Gave thee life & bid thee feed. 
@@ -618,7 +684,7 @@ By the stream & o'er the mead;
 Gave thee clothing of delight,
 Softest clothing wooly bright;
 Gave thee such a tender voice,
-Making all the vales rejoice!",https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/330px-William_Blake_by_Thomas_Phillips.jpg
+Making all the vales rejoice!",https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/330px-William_Blake_by_Thomas_Phillips.jpg,
 WY,William Butler Yeats,1865,1939,The Second Coming,"Turning and turning in the widening gyre
 The falcon cannot hear the falconer;
 Things fall apart; the centre cannot hold;
@@ -626,19 +692,19 @@ Mere anarchy is loosed upon the world,
 The blood-dimmed tide is loosed, and everywhere
 The ceremony of innocence is drowned;
 The best lack all conviction, while the worst
-Are full of passionate intensity.",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg
+Are full of passionate intensity.",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg,
 WYC,William Butler Yeats,1865,1939,Sailing to Byzantium,"That is no country for old men. The young
 In one another's arms, birds in the trees,
 —Those dying generations—at their song,
 The salmon-falls, the mackerel-crowded seas,
 Fish, flesh, or fowl, commend all summer long
-Whatever is begotten, born, and dies.",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg
+Whatever is begotten, born, and dies.",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg,
 TB,William Butler Yeats,1865,1939,"Easter, 1916","MacDonagh and MacBride   
 And Connolly and Pearse
 Now and in time to be,
 Wherever green is worn,
 Are changed, changed utterly:   
-A terrible beauty is born.",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg
+A terrible beauty is born.",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg,
 CW,William Carlos Williams,1883,1963,The Red Wheelbarrow,"so much depends
 upon
 
@@ -649,7 +715,7 @@ glazed with rain
 water
 
 beside the white
-chickens",https://upload.wikimedia.org/wikipedia/commons/d/d3/William_Carlos_Williams_by_Man_Ray.jpg
+chickens",https://upload.wikimedia.org/wikipedia/commons/d/d3/William_Carlos_Williams_by_Man_Ray.jpg,
 WC,William Carlos Williams,1883,1963,This Is Just To Say,"I have eaten
 the plums
 that were in
@@ -658,7 +724,17 @@ the icebox
 and which
 you were probably
 saving
-for breakfast",https://upload.wikimedia.org/wikipedia/commons/d/d3/William_Carlos_Williams_by_Man_Ray.jpg
+for breakfast",https://upload.wikimedia.org/wikipedia/commons/d/d3/William_Carlos_Williams_by_Man_Ray.jpg,https://www.poetryfoundation.org/poems/56159/this-is-just-to-say
+WSM,William Shakespeare,1564,1616,Macbeth,"Tomorrow, and tomorrow, and tomorrow,
+Creeps in this petty pace from day to day,
+To the last syllable of recorded time;
+And all our yesterdays have lighted fools
+The way to dusty death. Out, out, brief candle!
+Life's but a walking shadow, a poor player,
+That struts and frets his hour upon the stage,
+And then is heard no more. It is a tale
+Told by an idiot, full of sound and fury,
+Signifying nothing.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg,https://www.poetryfoundation.org/poems/56964/speech-tomorrow-and-tomorrow-and-tomorrow
 WS,William Shakespeare,1564,1616,Sonnet 97: How like a winter hath my absence been,"How like a winter hath my absence been
 From thee, the pleasure of the fleeting year!
 What freezings have I felt, what dark days seen!
@@ -672,7 +748,7 @@ But hope of orphans and unfather'd fruit;
 For summer and his pleasures wait on thee,
 And thou away, the very birds are mute;
 Or if they sing, 'tis with so dull a cheer
-That leaves look pale, dreading the winter's near.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg
+That leaves look pale, dreading the winter's near.",https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg,
 SS,William Shakespeare,1564,1616,Shall I compare thee to a summer’s day?,"Shall I compare thee to a summer’s day?
 Thou art more lovely and more temperate:
 Rough winds do shake the darling buds of May,
@@ -680,13 +756,13 @@ And summer’s lease hath all too short a date;
 Sometime too hot the eye of heaven shines,
 And often is his gold complexion dimm'd;
 And every fair from fair sometime declines,
-By chance or nature’s changing course untrimm'd;",https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg
+By chance or nature’s changing course untrimm'd;",https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg,
 WW,William Wordsworth,1770,1850,I wandered Lonely as a Cloud,"I wandered lonely as a cloud
 That floats on high o'er vales and hills,
 When all at once I saw a crowd,
 A host, of golden daffodils;
 Beside the lake, beneath the trees,
-Fluttering and dancing in the breeze.",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg/330px-Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg
+Fluttering and dancing in the breeze.",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg/330px-Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg,
 MO,Mary Oliver,1935,2019,Wild Geese,"You do not have to be good.
 You do not have to walk on your knees
 for a hundred miles through the desert repenting.
@@ -704,12 +780,12 @@ Whoever you are, no matter how lonely,
 the world offers itself to your imagination,
 calls to you like the wild geese, harsh and exciting -
 over and over announcing your place
-in the family of things.",https://upload.wikimedia.org/wikipedia/en/4/4d/Mary_Oliver.jpg
+in the family of things.",https://upload.wikimedia.org/wikipedia/en/4/4d/Mary_Oliver.jpg,
 BTL,The Beatles,1960,1970,All You Need Is Love,"There's nothing you can do that can't be done
 Nothing you can sing that can't be sung
 Nothing you can say, but you can learn
 How to play the game
-It's easy",https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Beatles_members_at_New_York_City_in_1964.jpg/330px-The_Beatles_members_at_New_York_City_in_1964.jpg
+It's easy",https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Beatles_members_at_New_York_City_in_1964.jpg/330px-The_Beatles_members_at_New_York_City_in_1964.jpg,
 CK,Carole King,1942,,I Feel the Earth Move,"I feel the Earth move under my feet
 I feel the sky tumblin' down
 I feel my heart start to tremblin'
@@ -717,7 +793,7 @@ Whenever you're around
 Ooh, baby, when I see your face
 Mellow as the month of May
 Oh, darlin', I can't stand it
-When you look at me that way",https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Carole_King_2002_%28cropped%29.jpg/330px-Carole_King_2002_%28cropped%29.jpg
+When you look at me that way",https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Carole_King_2002_%28cropped%29.jpg/330px-Carole_King_2002_%28cropped%29.jpg,
 PR,Prince,1958,2016,Prince,"I never meant to cause you any sorrow
 I never meant to cause you any pain
 I only wanted one time to see you laughing
@@ -725,8 +801,16 @@ I only wanted to see you laughing in the purple rain
 Purple rain, purple rain
 Purple rain, purple rain
 Purple rain, purple rain
-I only wanted to see you bathing in the purple rain",https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Prince_1981.jpg/330px-Prince_1981.jpg
-AMG,Amanda Gorman,1998,,,,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Amanda_Gorman_2021_%283x4_crop%29.jpg/330px-Amanda_Gorman_2021_%283x4_crop%29.jpg
+I only wanted to see you bathing in the purple rain",https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Prince_1981.jpg/330px-Prince_1981.jpg,
+AMG,Amanda Gorman,1998,,The Hill We Climb,"And every known nook of our nation and every corner called our country, our people diverse and beautiful, will emerge battered and beautiful.
+
+When day comes, we step out of the shade aflame and unafraid.
+
+The new dawn blooms as we free it.
+
+For there is always light, if only we’re brave enough to see it.
+
+If only we’re brave enough to be it.",https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Amanda_Gorman_2021_%283x4_crop%29.jpg/330px-Amanda_Gorman_2021_%283x4_crop%29.jpg,https://www.cnbc.com/2021/01/20/amanda-gormans-inaugural-poem-the-hill-we-climb-full-text.html
 AR,Adrienne Rich,1929,2012,Aunt Jennifer's Tigers,"Aunt Jennifer's tigers prance across a screen,
 Bright topaz denizens of a world of green.
 They do not fear the men beneath the tree;
@@ -740,7 +824,7 @@ Sits heavily upon Aunt Jennifer's hand.
 When Aunt is dead, her terrified hands will lie
 Still ringed with ordeals she was mastered by.
 The tigers in the panel that she made
-Will go on prancing, proud and unafraid.",https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Adrienne_Rich_%28cropped%29.jpg/330px-Adrienne_Rich_%28cropped%29.jpg
+Will go on prancing, proud and unafraid.",https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Adrienne_Rich_%28cropped%29.jpg/330px-Adrienne_Rich_%28cropped%29.jpg,https://writing.upenn.edu/~afilreis/88v/rich-jennifer-tiger.html
 SH,Seamus Heaney,1939,2013,Digging,"Between my finger and my thumb   
 The squat pen rests; snug as a gun.
 
@@ -751,7 +835,7 @@ My father, digging. I look down
 Till his straining rump among the flowerbeds   
 Bends low, comes up twenty years away   
 Stooping in rhythm through potato drills   
-Where he was digging.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Seamus_Heaney%2C_Irish_poet%2C_brightened_%28cropped%29.jpg/330px-Seamus_Heaney%2C_Irish_poet%2C_brightened_%28cropped%29.jpg
+Where he was digging.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Seamus_Heaney%2C_Irish_poet%2C_brightened_%28cropped%29.jpg/330px-Seamus_Heaney%2C_Irish_poet%2C_brightened_%28cropped%29.jpg,
 DT,Dylan Thomas,1914,1953,Do Not Get Gentle Into That Good Night,"Do not go gentle into that good night,
 Old age should burn and rave at close of day;
 Rage, rage against the dying of the light.
@@ -762,18 +846,18 @@ Do not go gentle into that good night.
 
 Good men, the last wave by, crying how bright
 Their frail deeds might have danced in a green bay,
-Rage, rage against the dying of the light.",https://upload.wikimedia.org/wikipedia/en/b/bc/Dylan_Thomas_photo.jpg
+Rage, rage against the dying of the light.",https://upload.wikimedia.org/wikipedia/en/b/bc/Dylan_Thomas_photo.jpg,
 RK,Rupi Kaur,1992,,milk and honey,"the world gives you
 so much pain
 and here you are
 making gold out of it
-there is nothing purer than that",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Rupi_Kaur_by_Baljit_Singh.jpg/330px-Rupi_Kaur_by_Baljit_Singh.jpg
+there is nothing purer than that",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Rupi_Kaur_by_Baljit_Singh.jpg/330px-Rupi_Kaur_by_Baljit_Singh.jpg,
 SPH,Sappho,-630,-570,"[""I asked myself""]","I asked myself
  
 What, Sappho, can
 you give one who
 has everything,
-like Aphrodite?",https://upload.wikimedia.org/wikipedia/commons/3/39/Malarz_Safony_-_Kalpis_wykonana_technik%C4%85_Six_%28cropped%29.jpg
+like Aphrodite?",https://upload.wikimedia.org/wikipedia/commons/3/39/Malarz_Safony_-_Kalpis_wykonana_technik%C4%85_Six_%28cropped%29.jpg,
 PLA,Philip Larkin,1922,1985,This Be the Verse,"They fuck you up, your mum and dad.   
     They may not mean to, but they do.   
 They fill you with the faults they had
@@ -787,7 +871,7 @@ Who half the time were soppy-stern
 Man hands on misery to man.
     It deepens like a coastal shelf.
 Get out as early as you can,
-    And don’t have any kids yourself.",https://upload.wikimedia.org/wikipedia/en/4/48/Philip_Larkin_in_a_library.gif
+    And don’t have any kids yourself.",https://upload.wikimedia.org/wikipedia/en/4/48/Philip_Larkin_in_a_library.gif,
 LCL,Lucille Clifton,1936,2010,homage to my hips,"these hips are big hips
 they need space to
 move around in.
@@ -802,7 +886,7 @@ these hips are mighty hips.
 these hips are magic hips.
 i have known them
 to put a spell on a man and
-spin him like a top!",https://upload.wikimedia.org/wikipedia/en/e/e9/Lucille_clifton.jpg
+spin him like a top!",https://upload.wikimedia.org/wikipedia/en/e/e9/Lucille_clifton.jpg,https://www.poetryfoundation.org/poems/49487/homage-to-my-hips
 LYL,Li-Young Lee,1957,,Persimmons,"In sixth grade Mrs. Walker
 slapped the back of my head
 and made me stand in the corner
@@ -810,7 +894,7 @@ for not knowing the difference
 between persimmon and precision.
 How to choose
 
-persimmons. This is precision.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Li-Young_Lee_7271417.jpg/330px-Li-Young_Lee_7271417.jpg
+persimmons. This is precision.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Li-Young_Lee_7271417.jpg/330px-Li-Young_Lee_7271417.jpg,
 WAM,W.H. Auden,1907,1973,In Memory of W. B. Yeats,"You were silly like us; your gift survived it all:
 The parish of rich women, physical decay,
 Yourself. Mad Ireland hurt you into poetry.
@@ -820,7 +904,7 @@ In the valley of its making where executives
 Would never want to tamper, flows on south
 From ranches of isolation and the busy griefs,
 Raw towns that we believe and die in; it survives,
-A way of happening, a mouth.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/AudenVanVechten1939.jpg/330px-AudenVanVechten1939.jpg
+A way of happening, a mouth.",https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/AudenVanVechten1939.jpg/330px-AudenVanVechten1939.jpg,
 RHA,Robert Hayden,1913,1980,Those Winter Sundays,"Sundays too my father got up early
 and put his clothes on in the blueblack cold,
 then with cracked hands that ached
@@ -836,7 +920,7 @@ Speaking indifferently to him,
 who had driven out the cold
 and polished my good shoes as well.
 What did I know, what did I know
-of love’s austere and lonely offices?",https://upload.wikimedia.org/wikipedia/en/4/4d/Robert_Hayden.jpg
+of love’s austere and lonely offices?",https://upload.wikimedia.org/wikipedia/en/4/4d/Robert_Hayden.jpg,
 THG,Ted Hughes,1930,1998,The Thought-Fox,"Across clearings, an eye,
 A widening deepening greenness,
 Brilliantly, concentratedly,
@@ -845,10 +929,10 @@ Coming about its own business
 Till, with a sudden sharp hot stink of fox
 It enters the dark hole of the head.
 The window is starless still; the clock ticks,
-The page is printed.",https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Ted_Hughes.jpeg/330px-Ted_Hughes.jpeg
-,Danez Smith,1989,,dear white america,"i’ve left Earth in search of darker planets, a solar system revolving too near
+The page is printed.",https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Ted_Hughes.jpeg/330px-Ted_Hughes.jpeg,
+DSM,Danez Smith,1989,,dear white america,"i’ve left Earth in search of darker planets, a solar system revolving too near
 a black hole. i’ve left in search of a new God. i do not trust the God you
  have given us. my grandmother’s hallelujah is only outdone by the fear she
  nurses every time the blood-fat summer swallows another child who used
  to sing in the choir. take your God back. though his songs are beautiful,
- his miracles are inconsistent. i want the fate of Lazarus for Renisha, want",https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Danez_Smith_at_LA_Times_Festival_of_Books_2025_%28cropped%29.jpg/330px-Danez_Smith_at_LA_Times_Festival_of_Books_2025_%28cropped%29.jpg
+ his miracles are inconsistent. i want the fate of Lazarus for Renisha, want",https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Danez_Smith_at_LA_Times_Festival_of_Books_2025_%28cropped%29.jpg/330px-Danez_Smith_at_LA_Times_Festival_of_Books_2025_%28cropped%29.jpg,

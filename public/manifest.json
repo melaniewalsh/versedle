@@ -1,6 +1,6 @@
 {
-  "short_name": "Literaturdle",
-  "name": "Literaturdle",
+  "short_name": "Versedle",
+  "name": "Versedle",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "literaturdle-logo.png",
+      "src": "versedle-logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "literaturdle-logo.png",
+      "src": "versedle-logo.pngg",
       "type": "image/png",
       "sizes": "512x512"
     }

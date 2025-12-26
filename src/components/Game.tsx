@@ -84,9 +84,15 @@ export function Game({ settingsData }: GameProps) {
               : undefined,
             title: authorEntry.title,
             first_line: authorEntry.first_line,
+            image_url: authorEntry.image_url,
+            poem_link: authorEntry.poem_link,
           };
           console.log("Setting author:", authorObj);
           setAuthor(authorObj);
+          // Set author image from CSV data
+          if (authorEntry.image_url) {
+            setAuthorImage(authorEntry.image_url);
+          }
         }
       }
     });
@@ -289,23 +295,6 @@ export function Game({ settingsData }: GameProps) {
     dayString,
   ]);
 
-  // Fetch Wikipedia image when game ends
-  useEffect(() => {
-    if (gameEnded && author?.name && !authorImage) {
-      const authorName = author.name.replace(/ /g, "_");
-      fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${authorName}`)
-        .then((response) => response.json())
-        .then((data) => {
-          if (data.thumbnail?.source) {
-            setAuthorImage(data.thumbnail.source);
-          }
-        })
-        .catch((error) => {
-          console.log("Could not fetch author image:", error);
-        });
-    }
-  }, [gameEnded, author, authorImage]);
-
   const first_line = author?.first_line;
   const birth_year = author?.birth_year;
 
@@ -449,13 +438,34 @@ export function Game({ settingsData }: GameProps) {
                   </p>
                 </div>
               </div>
-              <Share
-                guesses={guesses}
-                dayString={dayString}
-                settingsData={settingsData}
-                hideImageMode={hideImageMode}
-                rotationMode={rotationMode}
-              />
+              <a
+                style={{
+                  display: "block",
+                  textAlign: "center",
+                  padding: "10px 20px",
+                  marginTop: "10px",
+                  background: "rgb(16, 73, 59)",
+                  border: "1px solid black",
+                  borderRadius: "8px",
+                  color: "white",
+                  textDecoration: "none",
+                  fontSize: "15px",
+                  transition: "all 0.2s",
+                }}
+                href={author?.poem_link}
+                target="_blank"
+                rel="noopener noreferrer"
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = "rgb(16, 73, 59)";
+                  e.currentTarget.style.transform = "translateY(-2px)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = "rgb(16, 73, 59)";
+                  e.currentTarget.style.transform = "translateY(0)";
+                }}
+              >
+                Read this poem →
+              </a>
               <a
                 style={{
                   display: "block",
@@ -482,8 +492,15 @@ export function Game({ settingsData }: GameProps) {
                   e.currentTarget.style.transform = "translateY(0)";
                 }}
               >
-                Learn more on Wikipedia →
+                Learn more about this author →
               </a>
+              <Share
+                guesses={guesses}
+                dayString={dayString}
+                settingsData={settingsData}
+                hideImageMode={hideImageMode}
+                rotationMode={rotationMode}
+              />
             </>
           ) : (
             <form onSubmit={handleSubmit}>
