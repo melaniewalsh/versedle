@@ -59,24 +59,49 @@ export function Share({
     ].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
+  const guessSquares = useMemo(() => {
+    return guesses
+      .map((guess) => {
+        const percent = computeProximityPercent(guess.distance);
+        return generateSquareCharacters(percent, theme).join("");
+      })
+      .join("\n");
+  }, [guesses, theme]);
+
   return (
     <CopyToClipboard
       text={shareText}
       onCopy={() =>
-        toast("Score copied to clipboard!", {
-          position: "top-center",
-          autoClose: 2000,
-          hideProgressBar: true,
-          closeButton: false,
-          style: {
-            background: "#fefef8",
-            color: "#333",
-            border: "1px solid black",
-            borderRadius: "8px",
-            fontSize: "14px",
-            boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
-          },
-        })
+        toast(
+          <div style={{ textAlign: "center" }}>
+            <div style={{ fontWeight: "600", marginBottom: "8px" }}>
+              Score copied to clipboard!
+            </div>
+            <div
+              style={{
+                fontSize: "20px",
+                lineHeight: "1.2",
+                whiteSpace: "pre-line",
+              }}
+            >
+              {guessSquares}
+            </div>
+          </div>,
+          {
+            position: "top-center",
+            autoClose: 2000,
+            hideProgressBar: true,
+            closeButton: false,
+            style: {
+              background: "#fefef8",
+              color: "#333",
+              border: "1px solid black",
+              borderRadius: "8px",
+              fontSize: "14px",
+              boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+            },
+          }
+        )
       }
       options={{
         format: "text/plain",
