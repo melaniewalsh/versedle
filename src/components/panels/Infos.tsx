@@ -1,7 +1,6 @@
 import { Guesses } from "../Guesses";
 import { Panel } from "./Panel";
 import React from "react";
-import { formatDistance } from "../../domain/geography";
 import { SettingsData } from "../../hooks/useSettings";
 
 interface InfosProps {
@@ -14,11 +13,23 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
   return (
     <Panel title="How to play" isOpen={isOpen} close={close}>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
-        <div className=" font-bold">
-          Versedle is pronounced like &quot;Versatile&quot; or
-          &quot;Verse-a-dle&quot;—a play on the word &quot;verse,&quot; a
-          synonym for poetry.
+        <div>
+          <strong>PRAISE FROM THE INTERNET</strong>
         </div>
+        <div>
+          <em>
+            &ldquo;Winning is rarely the best outcome of Versedle.&rdquo; —{" "}
+            <a
+              className="underline"
+              href="https://bsky.app/profile/emath.bsky.social/post/3m4jc6o5xjc2f"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Elephant Mastodon
+            </a>
+          </em>
+        </div>
+        <div className=" font-bold">HOW TO PLAY</div>
         <div>Try to guess the Versedle in 6 guesses!</div>
         <div>Each day you&apos;ll see a line by a famous literary author.</div>
         <div> Your goal is to guess the correct author of that line!</div>

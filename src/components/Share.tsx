@@ -55,7 +55,7 @@ export function Share({
       title,
       guessString,
       "",
-      "https://melaniewalsh.github.io/versedle/",
+      "https://versedle.com/",
     ].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
