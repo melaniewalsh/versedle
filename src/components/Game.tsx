@@ -505,7 +505,9 @@ export function Game({ settingsData }: GameProps) {
                   e.currentTarget.style.transform = "translateY(0)";
                 }}
               >
-                {author?.poem_link?.includes("wikipedia.org") ? "Read more about this work →" : "Read this poem →"}
+                {author?.poem_link?.includes("wikipedia.org")
+                  ? "Read more about this work →"
+                  : "Read this poem →"}
               </a>
               <a
                 style={{
