@@ -25,7 +25,26 @@ import axios from "axios";
 import Easter from "./Easter";
 
 function getDayString() {
+  // Check for date parameter in URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const dateParam = urlParams.get("date");
+  if (dateParam && /^\d{4}-\d{2}-\d{2}$/.test(dateParam)) {
+    return dateParam;
+  }
   return DateTime.now().toFormat("yyyy-MM-dd");
+}
+
+function generatePastDates(numDays: number) {
+  const dates = [];
+  const today = DateTime.now();
+  for (let i = 0; i < numDays; i++) {
+    const date = today.minus({ days: i });
+    const value = date.toFormat("yyyy-MM-dd");
+    const label =
+      i === 0 ? "Today" : i === 1 ? "Yesterday" : date.toFormat("MMMM d, yyyy");
+    dates.push({ value, label });
+  }
+  return dates;
 }
 
 function getDirection(birth_year: number, birth_year2: number) {
@@ -45,6 +64,20 @@ interface GameProps {
 export function Game({ settingsData }: GameProps) {
   const { t, i18n } = useTranslation();
   const dayString = useMemo(getDayString, []);
+  const availableDates = useMemo(() => generatePastDates(7), []);
+
+  const handleDateChange = useCallback(
+    (e: React.ChangeEvent<HTMLSelectElement>) => {
+      const newDate = e.target.value;
+      const todayString = DateTime.now().toFormat("yyyy-MM-dd");
+      if (newDate === todayString) {
+        window.location.href = window.location.pathname;
+      } else {
+        window.location.href = `${window.location.pathname}?date=${newDate}`;
+      }
+    },
+    []
+  );
 
   const authorInputRef = useRef<HTMLInputElement>(null);
 
@@ -57,6 +90,14 @@ export function Game({ settingsData }: GameProps) {
   const [displayedLines, setDisplayedLines] = useState<string[]>([]); // Initialize a state variable for displayed lines
 
   const [guesses, addGuess] = useGuesses(dayString);
+
+  // Check if game was already won on load (for page refresh)
+  useEffect(() => {
+    const alreadyWon = guesses.some((guess) => guess.distance === 0);
+    if (alreadyWon) {
+      setWon(true);
+    }
+  }, [guesses]);
 
   useEffect(() => {
     // Load today's author from both CSVs
@@ -320,7 +361,7 @@ export function Game({ settingsData }: GameProps) {
         )}
         {/* <div className="my-1 mx-auto"> */}
         <h3 className="text-center font-bold">
-          Which author wrote these lines of verse?
+          Which author wrote these lines?
         </h3>
         <div
           style={{
@@ -464,7 +505,7 @@ export function Game({ settingsData }: GameProps) {
                   e.currentTarget.style.transform = "translateY(0)";
                 }}
               >
-                Read this poem →
+                {author?.poem_link?.includes("wikipedia.org") ? "Read more about this work →" : "Read this poem →"}
               </a>
               <a
                 style={{
@@ -628,6 +669,82 @@ export function Game({ settingsData }: GameProps) {
               styles.
             </div>
           </details>
+        </div>
+        {/* Play Another Game Footer */}
+        <div
+          style={{
+            padding: "1rem 0",
+            marginTop: "1.5rem",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "flex-start",
+              gap: "0.75rem",
+            }}
+          >
+            <label
+              htmlFor="date-select"
+              style={{
+                fontSize: "0.9rem",
+                color: "black",
+              }}
+            >
+              Play another game:
+            </label>
+            <select
+              id="date-select"
+              value={dayString}
+              onChange={handleDateChange}
+              style={{
+                fontSize: "0.9rem",
+                padding: "0.3rem 0.5rem",
+                border: "1px solid rgba(0, 0, 0, 0.2)",
+                borderRadius: "4px",
+                background: "white",
+                color: "#333",
+                cursor: "pointer",
+              }}
+            >
+              {availableDates.map((dateOption) => (
+                <option key={dateOption.value} value={dateOption.value}>
+                  {dateOption.label}
+                </option>
+              ))}
+            </select>
+          </div>
+          {/* Rhymedle Banner */}
+          <a
+            href="https://melaniewalsh.github.io/Rhymedle/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "block",
+              marginTop: "1.5rem",
+              padding: "0.75rem 1rem",
+              background: "linear-gradient(135deg, #f39c12 0%, #e67e22 100%)",
+              border: "1px solid #d35400",
+              borderRadius: "8px",
+              textDecoration: "none",
+              transition: "all 0.2s",
+              fontSize: "0.95rem",
+              fontWeight: "600",
+              color: "white",
+              textAlign: "center",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-2px)";
+              e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.15)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0)";
+              e.currentTarget.style.boxShadow = "none";
+            }}
+          >
+            Try a new game, Rhymedle! →
+          </a>
         </div>
       </div>
     </>
