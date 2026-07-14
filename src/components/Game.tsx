@@ -382,9 +382,14 @@ export function Game({ settingsData }: GameProps) {
             marginBottom: "10px",
           }}
         >
-          {displayedLines.map((line, index) => (
-            <div key={index} dangerouslySetInnerHTML={{ __html: line }} />
-          ))}
+          {displayedLines.map((line, index) =>
+            line.trim() === "" ? (
+              // Preserve stanza breaks as a visible gap (empty divs collapse to 0 height)
+              <div key={index} style={{ height: "0.8em" }} aria-hidden="true" />
+            ) : (
+              <div key={index} dangerouslySetInnerHTML={{ __html: line }} />
+            )
+          )}
         </div>
         {rotationMode && !hideImageMode && !gameEnded && (
           <button
