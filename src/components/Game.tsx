@@ -166,8 +166,9 @@ export function Game({ settingsData }: GameProps) {
         }
       }
 
+      // If the poem has fewer non-blank lines than guesses, show the whole poem
       const newDisplayedLines =
-        displayUpToIndex >= 0 ? lines.slice(0, displayUpToIndex + 1) : [];
+        displayUpToIndex >= 0 ? lines.slice(0, displayUpToIndex + 1) : lines;
       console.log(`These are the new displayed lines: ${newDisplayedLines}`);
       console.log(lines);
       setDisplayedLines(newDisplayedLines);
@@ -191,8 +192,9 @@ export function Game({ settingsData }: GameProps) {
         }
       }
 
+      // If the poem has fewer non-blank lines than guesses, show the whole poem
       const newDisplayedLines =
-        displayUpToIndex >= 0 ? lines.slice(0, displayUpToIndex + 1) : [];
+        displayUpToIndex >= 0 ? lines.slice(0, displayUpToIndex + 1) : lines;
       console.log(`These are the new displayed lines: ${newDisplayedLines}`);
       console.log(lines);
       setDisplayedLines(newDisplayedLines);

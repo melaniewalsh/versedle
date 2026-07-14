@@ -1,760 +1,760 @@
-date,author_code,author_name,poem_title,
-2025-09-09,AM,Andrew Marvell,To His Coy Mistress,
-2025-09-10,GB,Gwendolyn Brooks,We Real Cool,
-2025-09-11,gs,Gertrude Stein,Sacred Emily,
-2025-09-12,ad,,,
-2025-09-13,WSJ,Wallace Stevens,Anecdote of the Jar,
-2025-09-14,HS,John Donne,"Holy Sonnets: Death, be not proud",
-2025-09-15,RN,Robert Frost,The Road Not Taken,
-2025-09-16,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue",
-2025-09-17,CR,Christina Rossetti,Goblin Market,
-2025-09-18,SSS,Shel Silverstein,Falling Up,
-2025-09-19,EBB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43),
-2025-09-20,au,W.H. Auden,Twelve Songs: IX,
-2025-09-21,BG,Gwendolyn Brooks,The Bean Eaters,
-2025-09-22,TB,William Butler Yeats,"Easter, 1916",
-2025-09-23,WA,Walt Whitman,Song of Myself,
-2025-09-24,PPS,,,
-2025-09-25,PL,Paul Laurence Dunbar,We Wear the Mask,
-2025-09-26,PW,Billy Collins,Cheerios,
-2025-09-27,JMD,John Milton,Paradise Lost: Book 1,
-2025-09-28,GA,Allen Ginsberg,A Supermarket in California,
-2025-09-29,ATP,Alfred Lord Tennyson,Ulysses,
-2025-09-30,GS,Gertrude Stein,Sacred Emily,
-2025-10-01,FR,Robert Frost,Mending Wall,
-2025-10-02,ESM,Edna St. Vincent Millay,First Fig,
-2025-10-03,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock,
-2025-10-04,SH,Seamus Heaney,Digging,
-2025-10-05,GB,Gwendolyn Brooks,We Real Cool,
-2025-10-06,WW,William Wordsworth,I wandered Lonely as a Cloud,
-2025-10-07,ED,Emily Dickinson,I’m Nobody! Who are you? (260),
-2025-10-08,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why",
-2025-10-09,SS,William Shakespeare,Shall I compare thee to a summer’s day?,
-2025-10-10,WY,William Butler Yeats,The Second Coming,
-2025-10-11,LH,Langston Hughes,Harlem,
-2025-10-12,PS,Percy Shelley,Ozymandias,
-2025-10-13,EC,E.E. Cummings,anyone lived in a pretty how town,
-2025-10-14,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam,
-2025-10-15,OC,Walt Whitman,O Captain! My Captain!,
-2025-10-16,EB,Elizabeth Bishop,One Art,
-2025-10-17,KG,Khalil Gibran,On Marriage,
-2025-10-18,CK,Carole King,I Feel the Earth Move,
-2025-10-19,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849,
-2025-10-20,MH,Gerard Manley Hopkins,God's Grandeur,
-2025-10-21,AG,Toni Morrison,Beloved,
-2025-10-22,SP,Sylvia Plath,Lady Lazarus,
-2025-10-23,MO,Mary Oliver,Wild Geese,
-2025-10-24,TS,T.S. Eliot,The Waste Land,
-2025-10-25,PLA,Philip Larkin,This Be The Verse,
-2025-10-26,EDF,Emily Dickinson,I heard a Fly buzz - when I died -,
-2025-10-27,CB,Charles Bukowski,bluebird,
-2025-10-28,EE,E.E. Cummings,[little tree],
-2025-10-29,WB,William Blake,The Tyger,
-2025-10-30,CR,Christina Rossetti,Goblin Market,
-2025-10-31,LB,Lord Byron,She Walks in Beauty,
-2025-11-01,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been,
-2025-11-02,SC,Samuel Taylor Coleridge,Kubla Khan,
-2025-11-03,WBL,William Blake,The Lamb,
-2025-11-04,AP,Edgar Allen Poe,Annabel Lee,
-2025-11-05,JD,John Donne,A Valediction: Forbidding Mourning,
-2025-11-06,EH,Emily Dickinson,“Hope” is the thing with feathers,
-2025-11-07,JM,John Milton,On the Morning of Christ's Nativity,
-2025-11-08,DT,Dylan Thomas,Do Not Go Gentle Into That Good Night,
-2025-11-09,ma,Maya Angelou,Still I Rise,
-2025-11-10,CM,Claude McKay,If We Must Die,
-2025-11-11,HL,Henry Wadsworth Longfellow,The Song of Hiawatha,
-2025-11-12,OC,Walt Whitman,O Captain! My Captain!,
-2025-11-13,CW,William Carlos Williams,The Red Wheelbarrow,
-2025-11-14,AF,Jane Austen,Pride and Prejudice,
-2025-11-15,WH,W.H. Auden,Musée des Beaux Arts,
-2025-11-16,SPH,Sappho,"[""I asked myself""]",
-2025-11-17,RB,Robert Browning,My Last Duchess,
-2025-11-18,AB,Anne Bradstreet,To my dear and loving husband,
-2025-11-19,WYC,William Butler Yeats,Sailing to Byzantium,
-2025-11-20,bc,Billy Collins,Snow Day,
-2025-11-21,ST,Tupac Shakur,The Rose That Grew from Concrete,
-2025-11-22,WAM,W.H. Auden,In Memory of W.B. Yeats,
-2025-11-23,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare",
-2025-11-24,EP,Ezra Pound,In a Station of the Metro,
-2025-11-25,JK,John Keats,Ode on a Grecian Urn,
-2025-11-26,LH,Langston Hughes,Weary Blues,
-2025-11-27,AM,Andrew Marvell,To His Coy Mistress,
-2025-11-28,RHA,Robert Hayden,Those Winter Sundays,
-2025-11-29,gs,Gertrude Stein,Sacred Emily,
-2025-11-30,RF,Robert Frost,Stopping By Woods on a Snowy Evening,
-2025-12-01,WSJ,Wallace Stevens,Anecdote of the Jar,
-2025-12-02,HS,John Donne,"Holy Sonnets: Death, be not proud",
-2025-12-03,RN,Robert Frost,The Road Not Taken,
-2025-12-04,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue",
-2025-12-05,CR,Christina Rossetti,Goblin Market,
-2025-12-06,SSS,Shel Silverstein,Falling Up,
-2025-12-07,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43),
-2025-12-08,au,W.H. Auden,Twelve Songs: IX,
-2025-12-09,BG,Gwendolyn Brooks,The Bean Eaters,
-2025-12-10,TB,William Butler Yeats,"Easter, 1916",
-2025-12-11,WA,Walt Whitman,Song of Myself,
-2025-12-12,AE,Charles Dickens,A Tale of Two Cities,
-2025-12-13,PL,Paul Laurence Dunbar,We Wear the Mask,
-2025-12-14,LC,Lewis Carroll,The Jabberwocky,
-2025-12-15,JMD,John Milton,Paradise Lost: Book 1,
-2025-12-16,GA,Allen Ginsberg,A Supermarket in California,
-2025-12-17,ATP,Alfred Lord Tennyson,Ulysses,
-2025-12-18,DSM,Danez Smith,dear white america,
-2025-12-19,PR,Prince,Purple Rain,
-2025-12-20,TS,T.S. Eliot,The Waste Land,
-2025-12-21,LYL,Li-Young Lee,Persimmons,
-2025-12-22,RK,Rupi Kaur,milk and honey,
-2025-12-23,THG,Ted Hughes,The Thought-Fox,
-2025-12-24,bc,Billy Collins,Snow Day,
-2025-12-25,EE,E.E. Cummings,[little tree],
-2025-12-26,WSJT,Wallace Stevens,The Snow Man,
-2025-12-27,WC,William Carlos Williams,This Is Just to Say,
-2025-12-28,AR,Adrienne Rich,Aunt Jennifer's Tigers,
-2025-12-29,APH,Alexander Pope,An Essay on Man,
-2025-12-30,LCL,Lucille Clifton,homage to my hips,
-2025-12-31,ALT,Alfred Lord Tennyson,"In Memoriam [Ring out, wild bells]",
-2026-01-01,RBU,Robert Burns,Auld Lang Syne,
-2026-01-02,AMG,Amanda Gorman,The Hill We Climb,
-2026-01-03,ESR,Edna St. Vincent Millay,Recuerdo,
-2026-01-04,PLS,Paul Laurence Dunbar,Sympathy,
-2026-01-05,WSM,William Shakespeare,Macbeth,
-2026-01-06,SCM,Samuel Taylor Coleridge,The Rime of the Ancient Mariner,
-2026-01-07,TEH,T.S. Eliot,The Hollow Men,*****
-2026-01-08,HL,Henry Wadsworth Longfellow,The Song of Hiawatha,
-2026-01-09,OC,Walt Whitman,O Captain! My Captain!,
-2026-01-10,CW,William Carlos Williams,The Red Wheelbarrow,
-2026-01-11,AF,Jane Austen,Pride and Prejudice,
-2026-01-12,WH,W.H. Auden,Musée des Beaux Arts,
-2026-01-13,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why",
-2026-01-14,RB,Robert Browning,My Last Duchess,
-2026-01-15,AB,Anne Bradstreet,To my dear and loving husband,
-2026-01-16,WYC,William Butler Yeats,Sailing to Byzantium,
-2026-01-17,bc,Billy Collins,Snow Day,
-2026-01-18,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849,
-2026-01-19,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare",
-2026-01-20,EP,Ezra Pound,In a Station of the Metro,
-2026-01-21,JK,John Keats,Ode on a Grecian Urn,
-2026-01-22,LH,Langston Hughes,Harlem,
-2026-01-23,AM,Andrew Marvell,To His Coy Mistress,
-2026-01-24,GB,Gwendolyn Brooks,We Real Cool,
-2026-01-25,gs,Gertrude Stein,Sacred Emily,
-2026-01-26,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock,
-2026-01-27,WSJ,Wallace Stevens,Anecdote of the Jar,
-2026-01-28,HS,John Donne,"Holy Sonnets: Death, be not proud",
-2026-01-29,RN,Robert Frost,The Road Not Taken,
-2026-01-30,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue",
-2026-01-31,CR,Christina Rossetti,Goblin Market,
-2026-02-01,SSS,Shel Silverstein,Falling Up,
-2026-02-02,EB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43),
-2026-02-03,au,W.H. Auden,Twelve Songs: IX,
-2026-02-04,BG,Gwendolyn Brooks,The Bean Eaters,
-2026-02-05,TB,William Butler Yeats,"Easter, 1916",
-2026-02-06,WA,Walt Whitman,Song of Myself,
-2026-02-07,FR,Robert Frost,Mending Wall,
-2026-02-08,PL,Paul Laurence Dunbar,We Wear the Mask,
-2026-02-09,LC,Lewis Carroll,The Jabberwocky,
-2026-02-10,JMD,John Milton,Paradise Lost: Book 1,
-2026-02-11,GA,Allen Ginsberg,A Supermarket in California,
-2026-02-12,ATP,Alfred Lord Tennyson,Ulysses,
-2026-02-13,GS,Gertrude Stein,Sacred Emily,
-2026-02-14,FR,Robert Frost,Mending Wall,
-2026-02-15,TS,T.S. Eliot,The Waste Land,
-2026-02-16,WSJ,Wallace Stevens,Anecdote of the Jar,
-2026-02-17,FO,Frank O'Hara,Having a Coke With You,
-2026-02-18,THG,Ted Hughes,The Thought-Fox,
-2026-02-19,SS,Stevie Smith,Not Waving But Drowning,
-2026-02-20,SSNW,Stevie Smith,Not Waving But Drowning,
-2026-02-21,LB,Lord Byron,She Walks in Beauty,
-2026-02-22,MM,Marianne Moore,Poetry,
-2026-02-23,SAC,Sandra Cisneros,The House on Mango Street,
-2026-02-24,TZ,Tristan Tzara,To Make a Dadaist Poem,
-2026-02-25,RNFI,Robert Frost,Fire and Ice,
-2026-02-26,JD,John Donne,A Valediction: Forbidding Mourning,
-2026-02-27,SC,Samuel Taylor Coleridge,Kubla Khan,
-2026-02-28,ma,Maya Angelou,Still I Rise,
-2026-03-01,EB,Elizabeth Bishop,One Art,
-2026-03-02,NM,John Donne,Devotions upon Emergent Occasions,
-2026-03-03,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock,
-2026-03-04,RF,Robert Frost,Stopping By Woods on a Snowy Evening,
-2026-03-05,MMO,Marianne Moore,An Octopus,
-2026-03-06,HLD,Langston Hughes,Dreams,
-2026-03-07,PTR,Paul Tran,The Cave,
-2026-03-08,WSMV,William Shakespeare,The Merchant of Venice,
-2026-03-09,JWJ,James Weldon Johnson,The Creation,
-2026-03-10,ECC,E.E. Cummings,[i carry your heart with me(i carry it in],
-2026-03-11,SSB,Shel Silverstein,Masks,
-2026-03-12,ESL,Edna St. Vincent Millay,Love Is Not All,
-2026-03-13,DP,John Donne,"Death, be not proud",
-2026-03-14,CBS,Charles Bukowski,so you want to be a writer?,
-2026-03-15,PW,Billy Collins,Cheerios,
-2026-03-16,PS,Percy Shelley,Ozymandias,
-2026-03-17,MOH,Mary Oliver,Happiness,
-2026-03-18,ESM,Edna St. Vincent Millay,First Fig,
-2026-03-19,SSSI,Shel Silverstein,Sick,
-2026-03-20,CK,Carole King,I Feel the Earth Move,
-2026-03-21,KG,Khalil Gibran,On Marriage,
-2026-03-22,MH,Gerard Manley Hopkins,God's Grandeur,
-2026-03-23,AG,Toni Morrison,Beloved,
-2026-03-24,SP,Sylvia Plath,Lady Lazarus,
-2026-03-25,PLA,Philip Larkin,This Be The Verse,
-2026-03-26,EDF,Emily Dickinson,I heard a Fly buzz - when I died -,
-2026-03-27,CB,Charles Bukowski,bluebird,
-2026-03-28,WB,William Blake,The Tyger,
-2026-03-29,EC,E.E. Cummings,anyone lived in a pretty how town,
-2026-03-30,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam,
-2026-03-31,WW,William Wordsworth,I wandered Lonely as a Cloud,
-2026-04-01,ED,Emily Dickinson,I’m Nobody! Who are you? (260),
-2026-04-02,LH,Langston Hughes,Weary Blues,
-2026-04-03,EB,Elizabeth Bishop,One Art,
-2026-04-04,WBL,William Blake,The Lamb,
-2026-04-05,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why",
-2026-04-06,RHA,Robert Hayden,Those Winter Sundays,
-2026-04-07,AR,Adrienne Rich,Aunt Jennifer's Tigers,
-2026-04-08,JD,John Donne,A Valediction: Forbidding Mourning,
-2026-04-09,LB,Lord Byron,She Walks in Beauty,
-2026-04-10,CM,Claude McKay,If We Must Die,
-2026-04-11,EE,E.E. Cummings,[little tree],
-2026-04-12,LYL,Li-Young Lee,Persimmons,
-2026-04-13,RK,Rupi Kaur,milk and honey,
-2026-04-14,THG,Ted Hughes,The Thought-Fox,
-2026-04-15,WC,William Carlos Williams,This Is Just to Say,
-2026-04-16,MA,Maya Angelou,Still I Rise,
-2026-04-17,SPH,Sappho,"[""I asked myself""]",
-2026-04-18,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam,
-2026-04-19,PS,Percy Shelley,Ozymandias,
-2026-04-20,CW,William Carlos Williams,The Red Wheelbarrow,
-2026-04-21,PLA,Philip Larkin,This Be The Verse,
-2026-04-22,MH,Gerard Manley Hopkins,God's Grandeur,
-2026-04-23,MO,Mary Oliver,Wild Geese,
-2026-04-24,JK,John Keats,Ode on a Grecian Urn,
-2026-04-25,WY,William Butler Yeats,The Second Coming,
-2026-04-26,CB,Charles Bukowski,bluebird,
-2026-04-27,ESR,Edna St. Vincent Millay,Recuerdo,
-2026-04-28,AP,Edgar Allen Poe,Annabel Lee,
-2026-04-29,AUL,Audre Lorde,A Litany for Survival,
-2026-04-30,JH,Joy Harjo,Remember,
-2026-05-01,WBE,Wendell Berry,The Peace of Wild Things,
-2026-05-02,OV,Ocean Vuong,Someday I'll Love Ocean Vuong,
-2026-05-03,DD,Don DeLillo,White Noise,
-2026-05-04,BTL,The Beatles,All You Need Is Love,
-2026-05-05,WBL,William Blake,The Lamb,
-2026-05-06,ST,Tupac Shakur,The Rose That Grew from Concrete,
-2026-05-07,AE,Charles Dickens,A Tale of Two Cities,
-2026-05-08,DSM,Danez Smith,dear white america,
-2026-05-09,SH,Seamus Heaney,Digging,
-2026-05-10,PR,Prince,Prince,
-2026-05-11,HL,Henry Wadsworth Longfellow,The Song of Hiawatha,
-2026-05-12,AR,Adrienne Rich,Aunt Jennifer's Tigers,
-2026-05-13,ED,Emily Dickinson,I’m Nobody! Who are you? (260),
-2026-05-14,AF,Jane Austen,Pride and Prejudice,
-2026-05-15,CK,Carole King,I Feel the Earth Move,
-2026-05-16,RK,Rupi Kaur,milk and honey,
-2026-05-17,LH,Langston Hughes,Weary Blues,
-2026-05-18,LB,Lord Byron,She Walks in Beauty,
-2026-05-19,RB,Robert Browning,My Last Duchess,
-2026-05-20,CB,Charles Bukowski,bluebird,
-2026-05-21,WY,William Butler Yeats,The Second Coming,
-2026-05-22,MO,Mary Oliver,Wild Geese,
-2026-05-23,AG,Toni Morrison,Beloved,
-2026-05-24,PS,Percy Shelley,Ozymandias,
-2026-05-25,WW,William Wordsworth,I wandered Lonely as a Cloud,
-2026-05-26,EB,Elizabeth Bishop,One Art,
-2026-05-27,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam,
-2026-05-28,KG,Khalil Gibran,On Marriage,
-2026-05-29,EDF,Emily Dickinson,I heard a Fly buzz - when I died -,
-2026-05-30,THG,Ted Hughes,The Thought-Fox,
-2026-05-31,PW,Billy Collins,Cheerios,
-2026-06-01,DT,Dylan Thomas,Do Not Go Gentle Into That Good Night,
-2026-06-02,SP,Sylvia Plath,Lady Lazarus,
-2026-06-03,MA,Maya Angelou,Still I Rise,
-2026-06-04,LCL,Lucille Clifton,homage to my hips,
-2026-06-05,PLS,Paul Laurence Dunbar,Sympathy,
-2026-06-06,AMG,Amanda Gorman,The Hill We Climb,
-2026-06-07,SC,Samuel Taylor Coleridge,Kubla Khan,
-2026-06-08,EBB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43),
-2026-06-09,APh,Alexander Pope,An Essay on Man,
-2026-06-10,RBU,Robert Burns,Auld Lang Syne,
-2026-06-11,WAM,W.H. Auden,In Memory of W.B. Yeats,
-2026-06-12,LYL,Li-Young Lee,Persimmons,
-2026-06-13,RF,Robert Frost,Stopping By Woods on a Snowy Evening,
-2026-06-14,JM,John Milton,On the Morning of Christ's Nativity,
-2026-06-15,SS,Stevie Smith,Not Waving But Drowning,
-2026-06-16,FO,Frank O'Hara,Having a Coke With You,
-2026-06-17,MM,Marianne Moore,Poetry,
-2026-06-18,JWJ,James Weldon Johnson,The Creation,
-2026-06-19,TS,T.S. Eliot,The Hollow Men,
-2026-06-20,EC,E.E. Cummings,anyone lived in a pretty how town,
-2026-06-21,WC,William Carlos Williams,This Is Just to Say,
-2026-06-22,SPH,Sappho,"[""I asked myself""]",
-2026-06-23,JK,John Keats,Ode on a Grecian Urn,
-2026-06-24,MH,Gerard Manley Hopkins,God's Grandeur,
-2026-06-25,,,,
-2026-06-26,WB,William Blake,The Tyger,
-2026-06-27,ESM,Edna St. Vincent Millay,First Fig,
-2026-06-28,,,,
-2026-06-29,,,,
-2026-06-30,,,,
-2026-07-01,,,,
-2026-07-02,,,,
-2026-07-03,,,,
-2026-07-04,,,,
-2026-07-05,RHA,Robert Hayden,Those Winter Sundays,
-2026-07-06,,,,
-2026-07-07,,,,
-2026-07-08,,,,
-2026-07-09,,,,
-2026-07-10,,,,
-2026-07-11,,,,
-2026-07-12,,,,
-2026-07-13,,,,
-2026-07-14,,,,
-2026-07-15,,,,
-2026-07-16,,,,
-2026-07-17,,,,
-2026-07-18,,,,
-2026-07-19,,,,
-2026-07-20,,,,
-2026-07-21,,,,
-2026-07-22,,,,
-2026-07-23,,,,
-2026-07-24,,,,
-2026-07-25,,,,
-2026-07-26,,,,
-2026-07-27,AP,Edgar Allen Poe,Annabel Lee,
-2026-07-28,,,,
-2026-07-29,,,,
-2026-07-30,,,,
-2026-07-31,,,,
-2026-08-01,,,,
-2026-08-02,PLA,Philip Larkin,This Be The Verse,
-2026-08-03,,,,
-2026-08-04,CM,Claude McKay,If We Must Die,
-2026-08-05,,,,
-2026-08-06,,,,
-2026-08-07,SH,Seamus Heaney,Digging,
-2026-08-08,,,,
-2026-08-09,,,,
-2026-08-10,AR,Adrienne Rich,Aunt Jennifer's Tigers,
-2026-08-11,,,,
-2026-08-12,,,,
-2026-08-13,,,,
-2026-08-14,,,,
-2026-08-15,LH,Langston Hughes,Weary Blues,
-2026-08-16,,,,
-2026-08-17,,,,
-2026-08-18,CB,Charles Bukowski,bluebird,
-2026-08-19,,,,
-2026-08-20,MO,Mary Oliver,Wild Geese,
-2026-08-21,,,,
-2026-08-22,PS,Percy Shelley,Ozymandias,
-2026-08-23,,,,
-2026-08-24,,,,
-2026-08-25,,,,
-2026-08-26,KG,Khalil Gibran,On Marriage,
-2026-08-27,,,,
-2026-08-28,,,,
-2026-08-29,,,,
-2026-08-30,,,,
-2026-08-31,,,,
-2026-09-01,,,,
-2026-09-02,,,,
-2026-09-03,,,,
-2026-09-04,,,,
-2026-09-05,,,,
-2026-09-06,,,,
-2026-09-07,,,,
-2026-09-08,,,,
-2026-09-09,,,,
-2026-09-10,,,,
-2026-09-11,,,,
-2026-09-12,,,,
-2026-09-13,,,,
-2026-09-14,,,,
-2026-09-15,,,,
-2026-09-16,,,,
-2026-09-17,,,,
-2026-09-18,,,,
-2026-09-19,,,,
-2026-09-20,,,,
-2026-09-21,,,,
-2026-09-22,,,,
-2026-09-23,,,,
-2026-09-24,,,,
-2026-09-25,ESM,Edna St. Vincent Millay,First Fig,
-2026-09-26,,,,
-2026-09-27,,,,
-2026-09-28,,,,
-2026-09-29,,,,
-2026-09-30,,,,
-2026-10-01,PLA,Philip Larkin,This Be The Verse,
-2026-10-02,,,,
-2026-10-03,CM,Claude McKay,If We Must Die,
-2026-10-04,,,,
-2026-10-05,,,,
-2026-10-06,,,,
-2026-10-07,,,,
-2026-10-08,,,,
-2026-10-09,,,,
-2026-10-10,,,,
-2026-10-11,,,,
-2026-10-12,,,,
-2026-10-13,,,,
-2026-10-14,,,,
-2026-10-15,,,,
-2026-10-16,,,,
-2026-10-17,,,,
-2026-10-18,,,,
-2026-10-19,,,,
-2026-10-20,,,,
-2026-10-21,,,,
-2026-10-22,,,,
-2026-10-23,,,,
-2026-10-24,,,,
-2026-10-25,,,,
-2026-10-26,,,,
-2026-10-27,,,,
-2026-10-28,,,,
-2026-10-29,,,,
-2026-10-30,,,,
-2026-10-31,,,,
-2026-11-01,,,,
-2026-11-02,,,,
-2026-11-03,,,,
-2026-11-04,,,,
-2026-11-05,SH,Seamus Heaney,Digging,
-2026-11-06,,,,
-2026-11-07,,,,
-2026-11-08,,,,
-2026-11-09,,,,
-2026-11-10,,,,
-2026-11-11,,,,
-2026-11-12,,,,
-2026-11-13,,,,
-2026-11-14,,,,
-2026-11-15,,,,
-2026-11-16,,,,
-2026-11-17,,,,
-2026-11-18,,,,
-2026-11-19,,,,
-2026-11-20,,,,
-2026-11-21,,,,
-2026-11-22,,,,
-2026-11-23,,,,
-2026-11-24,KG,Khalil Gibran,On Marriage,
-2026-11-25,ESR,Edna St. Vincent Millay,Recuerdo,
-2026-11-26,,,,
-2026-11-27,,,,
-2026-11-28,,,,
-2026-11-29,,,,
-2026-11-30,,,,
-2026-12-01,,,,
-2026-12-02,,,,
-2026-12-03,,,,
-2026-12-04,,,,
-2026-12-05,,,,
-2026-12-06,,,,
-2026-12-07,,,,
-2026-12-08,,,,
-2026-12-09,,,,
-2026-12-10,,,,
-2026-12-11,,,,
-2026-12-12,,,,
-2026-12-13,,,,
-2026-12-14,,,,
-2026-12-15,,,,
-2026-12-16,,,,
-2026-12-17,,,,
-2026-12-18,,,,
-2026-12-19,,,,
-2026-12-20,,,,
-2026-12-21,,,,
-2026-12-22,,,,
-2026-12-23,,,,
-2026-12-24,,,,
-2026-12-25,,,,
-2026-12-26,,,,
-2026-12-27,,,,
-2026-12-28,,,,
-2026-12-29,,,,
-2026-12-30,,,,
-2026-12-31,,,,
-2027-01-01,,,,
-2027-01-02,,,,
-2027-01-03,,,,
-2027-01-04,,,,
-2027-01-05,,,,
-2027-01-06,,,,
-2027-01-07,,,,
-2027-01-08,,,,
-2027-01-09,,,,
-2027-01-10,,,,
-2027-01-11,,,,
-2027-01-12,,,,
-2027-01-13,,,,
-2027-01-14,,,,
-2027-01-15,,,,
-2027-01-16,,,,
-2027-01-17,,,,
-2027-01-18,,,,
-2027-01-19,,,,
-2027-01-20,,,,
-2027-01-21,,,,
-2027-01-22,,,,
-2027-01-23,,,,
-2027-01-24,,,,
-2027-01-25,,,,
-2027-01-26,,,,
-2027-01-27,,,,
-2027-01-28,,,,
-2027-01-29,,,,
-2027-01-30,,,,
-2027-01-31,,,,
-2027-02-01,,,,
-2027-02-02,,,,
-2027-02-03,,,,
-2027-02-04,,,,
-2027-02-05,,,,
-2027-02-06,,,,
-2027-02-07,,,,
-2027-02-08,,,,
-2027-02-09,,,,
-2027-02-10,,,,
-2027-02-11,,,,
-2027-02-12,,,,
-2027-02-13,,,,
-2027-02-14,,,,
-2027-02-15,,,,
-2027-02-16,,,,
-2027-02-17,,,,
-2027-02-18,,,,
-2027-02-19,,,,
-2027-02-20,,,,
-2027-02-21,,,,
-2027-02-22,,,,
-2027-02-23,,,,
-2027-02-24,,,,
-2027-02-25,,,,
-2027-02-26,,,,
-2027-02-27,,,,
-2027-02-28,,,,
-2027-03-01,,,,
-2027-03-02,,,,
-2027-03-03,,,,
-2027-03-04,,,,
-2027-03-05,,,,
-2027-03-06,,,,
-2027-03-07,,,,
-2027-03-08,,,,
-2027-03-09,,,,
-2027-03-10,,,,
-2027-03-11,,,,
-2027-03-12,,,,
-2027-03-13,,,,
-2027-03-14,,,,
-2027-03-15,,,,
-2027-03-16,,,,
-2027-03-17,,,,
-2027-03-18,,,,
-2027-03-19,,,,
-2027-03-20,,,,
-2027-03-21,,,,
-2027-03-22,,,,
-2027-03-23,,,,
-2027-03-24,,,,
-2027-03-25,,,,
-2027-03-26,,,,
-2027-03-27,,,,
-2027-03-28,,,,
-2027-03-29,,,,
-2027-03-30,,,,
-2027-03-31,,,,
-2027-04-01,,,,
-2027-04-02,,,,
-2027-04-03,,,,
-2027-04-04,,,,
-2027-04-05,,,,
-2027-04-06,,,,
-2027-04-07,,,,
-2027-04-08,,,,
-2027-04-09,,,,
-2027-04-10,,,,
-2027-04-11,,,,
-2027-04-12,,,,
-2027-04-13,,,,
-2027-04-14,,,,
-2027-04-15,,,,
-2027-04-16,,,,
-2027-04-17,,,,
-2027-04-18,,,,
-2027-04-19,,,,
-2027-04-20,,,,
-2027-04-21,,,,
-2027-04-22,,,,
-2027-04-23,,,,
-2027-04-24,,,,
-2027-04-25,,,,
-2027-04-26,,,,
-2027-04-27,,,,
-2027-04-28,,,,
-2027-04-29,,,,
-2027-04-30,,,,
-2027-05-01,,,,
-2027-05-02,,,,
-2027-05-03,,,,
-2027-05-04,,,,
-2027-05-05,,,,
-2027-05-06,,,,
-2027-05-07,,,,
-2027-05-08,,,,
-2027-05-09,,,,
-2027-05-10,,,,
-2027-05-11,,,,
-2027-05-12,,,,
-2027-05-13,,,,
-2027-05-14,,,,
-2027-05-15,,,,
-2027-05-16,,,,
-2027-05-17,,,,
-2027-05-18,,,,
-2027-05-19,,,,
-2027-05-20,,,,
-2027-05-21,,,,
-2027-05-22,,,,
-2027-05-23,,,,
-2027-05-24,,,,
-2027-05-25,,,,
-2027-05-26,,,,
-2027-05-27,,,,
-2027-05-28,,,,
-2027-05-29,,,,
-2027-05-30,,,,
-2027-05-31,,,,
-2027-06-01,,,,
-2027-06-02,,,,
-2027-06-03,,,,
-2027-06-04,,,,
-2027-06-05,,,,
-2027-06-06,,,,
-2027-06-07,,,,
-2027-06-08,,,,
-2027-06-09,,,,
-2027-06-10,,,,
-2027-06-11,,,,
-2027-06-12,,,,
-2027-06-13,,,,
-2027-06-14,,,,
-2027-06-15,,,,
-2027-06-16,,,,
-2027-06-17,,,,
-2027-06-18,,,,
-2027-06-19,,,,
-2027-06-20,,,,
-2027-06-21,,,,
-2027-06-22,,,,
-2027-06-23,,,,
-2027-06-24,,,,
-2027-06-25,,,,
-2027-06-26,,,,
-2027-06-27,,,,
-2027-06-28,,,,
-2027-06-29,,,,
-2027-06-30,,,,
-2027-07-01,,,,
-2027-07-02,,,,
-2027-07-03,,,,
-2027-07-04,,,,
-2027-07-05,,,,
-2027-07-06,,,,
-2027-07-07,,,,
-2027-07-08,,,,
-2027-07-09,,,,
-2027-07-10,,,,
-2027-07-11,,,,
-2027-07-12,,,,
-2027-07-13,,,,
-2027-07-14,,,,
-2027-07-15,,,,
-2027-07-16,,,,
-2027-07-17,,,,
-2027-07-18,,,,
-2027-07-19,,,,
-2027-07-20,,,,
-2027-07-21,,,,
-2027-07-22,,,,
-2027-07-23,,,,
-2027-07-24,,,,
-2027-07-25,,,,
-2027-07-26,,,,
-2027-07-27,,,,
-2027-07-28,,,,
-2027-07-29,,,,
-2027-07-30,,,,
-2027-07-31,,,,
-2027-08-01,,,,
-2027-08-02,,,,
-2027-08-03,,,,
-2027-08-04,,,,
-2027-08-05,,,,
-2027-08-06,,,,
-2027-08-07,,,,
-2027-08-08,,,,
-2027-08-09,,,,
-2027-08-10,,,,
-2027-08-11,,,,
-2027-08-12,,,,
-2027-08-13,,,,
-2027-08-14,,,,
-2027-08-15,,,,
-2027-08-16,,,,
-2027-08-17,,,,
-2027-08-18,,,,
-2027-08-19,,,,
-2027-08-20,,,,
-2027-08-21,,,,
-2027-08-22,,,,
-2027-08-23,,,,
-2027-08-24,,,,
-2027-08-25,,,,
-2027-08-26,,,,
-2027-08-27,,,,
-2027-08-28,,,,
-2027-08-29,,,,
-2027-08-30,,,,
-2027-08-31,,,,
-2027-09-01,,,,
-2027-09-02,,,,
-2027-09-03,,,,
-2027-09-04,,,,
-2027-09-05,,,,
-2027-09-06,,,,
-2027-09-07,,,,
-2027-09-08,,,,
-2027-09-09,,,,
-2027-09-10,,,,
-2027-09-11,,,,
-2027-09-12,,,,
-2027-09-13,,,,
-2027-09-14,,,,
-2027-09-15,,,,
-2027-09-16,,,,
-2027-09-17,,,,
-2027-09-18,,,,
-2027-09-19,,,,
-2027-09-20,,,,
-2027-09-21,,,,
-2027-09-22,,,,
-2027-09-23,,,,
-2027-09-24,,,,
-2027-09-25,,,,
-2027-09-26,,,,
-2027-09-27,,,,
-2027-09-28,,,,
-2027-09-29,,,,
-2027-09-30,,,,
-2027-10-01,,,,
-2027-10-02,,,,
-2027-10-03,,,,
-2027-10-04,,,,
-2027-10-05,,,,
-2027-10-06,,,,
-2027-10-07,,,,
+date,author_code,author_name,poem_title
+2025-09-09,AM,Andrew Marvell,To His Coy Mistress
+2025-09-10,GB,Gwendolyn Brooks,We Real Cool
+2025-09-11,gs,Gertrude Stein,Sacred Emily
+2025-09-12,ad,,
+2025-09-13,WSJ,Wallace Stevens,Anecdote of the Jar
+2025-09-14,HS,John Donne,"Holy Sonnets: Death, be not proud"
+2025-09-15,RN,Robert Frost,The Road Not Taken
+2025-09-16,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
+2025-09-17,CR,Christina Rossetti,Goblin Market
+2025-09-18,SSS,Shel Silverstein,Falling Up
+2025-09-19,EBB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
+2025-09-20,au,W.H. Auden,Twelve Songs: IX
+2025-09-21,BG,Gwendolyn Brooks,The Bean Eaters
+2025-09-22,TB,William Butler Yeats,"Easter, 1916"
+2025-09-23,WA,Walt Whitman,Song of Myself
+2025-09-24,PPS,,
+2025-09-25,PL,Paul Laurence Dunbar,We Wear the Mask
+2025-09-26,PW,Billy Collins,Cheerios
+2025-09-27,JMD,John Milton,Paradise Lost: Book 1
+2025-09-28,GA,Allen Ginsberg,A Supermarket in California
+2025-09-29,ATP,Alfred Lord Tennyson,Ulysses
+2025-09-30,GS,Gertrude Stein,Sacred Emily
+2025-10-01,FR,Robert Frost,Mending Wall
+2025-10-02,ESM,Edna St. Vincent Millay,First Fig
+2025-10-03,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
+2025-10-04,SH,Seamus Heaney,Digging
+2025-10-05,GB,Gwendolyn Brooks,We Real Cool
+2025-10-06,WW,William Wordsworth,I wandered Lonely as a Cloud
+2025-10-07,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
+2025-10-08,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
+2025-10-09,SS,William Shakespeare,Shall I compare thee to a summer’s day?
+2025-10-10,WY,William Butler Yeats,The Second Coming
+2025-10-11,LH,Langston Hughes,Harlem
+2025-10-12,PS,Sylvia Plath,Daddy
+2025-10-13,EC,E.E. Cummings,anyone lived in a pretty how town
+2025-10-14,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
+2025-10-15,OC,Walt Whitman,O Captain! My Captain!
+2025-10-16,EB,Elizabeth Bishop,One Art
+2025-10-17,KG,Khalil Gibran,On Marriage
+2025-10-18,CK,Carole King,I Feel the Earth Move
+2025-10-19,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
+2025-10-20,MH,Gerard Manley Hopkins,God's Grandeur
+2025-10-21,AG,Toni Morrison,Beloved
+2025-10-22,SP,Sylvia Plath,Lady Lazarus
+2025-10-23,MO,Mary Oliver,Wild Geese
+2025-10-24,TS,T.S. Eliot,The Waste Land
+2025-10-25,PLA,Philip Larkin,This Be the Verse
+2025-10-26,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
+2025-10-27,CB,Charles Bukowski,bluebird
+2025-10-28,EE,E.E. Cummings,[little tree]
+2025-10-29,WB,William Blake,The Tyger
+2025-10-30,CR,Christina Rossetti,Goblin Market
+2025-10-31,LB,Lord Byron,She Walks in Beauty
+2025-11-01,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
+2025-11-02,SC,Samuel Taylor Coleridge,Kubla Khan
+2025-11-03,WBL,William Blake,The Lamb
+2025-11-04,AP,Edgar Allen Poe,Annabel Lee
+2025-11-05,JD,John Donne,A Valediction: Forbidding Mourning
+2025-11-06,EH,Emily Dickinson,“Hope” is the thing with feathers
+2025-11-07,JM,John Milton,On the Morning of Christ's Nativity
+2025-11-08,DT,Dylan Thomas,Do Not Get Gentle Into That Good Night
+2025-11-09,ma,Maya Angelou,Still I Rise
+2025-11-10,CM,Claude McKay,If We Must Die
+2025-11-11,HL,Langston Hughes,The Weary Blues
+2025-11-12,OC,Walt Whitman,O Captain! My Captain!
+2025-11-13,CW,William Carlos Williams,The Red Wheelbarrow
+2025-11-14,AF,Jane Austen,Pride and Prejudice
+2025-11-15,WH,W.H. Auden,Musée des Beaux Arts
+2025-11-16,SPH,Sappho,"[I asked myself""]"""
+2025-11-17,RB,Robert Browning,My Last Duchess
+2025-11-18,AB,Anne Bradstreet,To my dear and loving husband
+2025-11-19,WYC,William Butler Yeats,Sailing to Byzantium
+2025-11-20,bc,Billy Collins,Snow Day
+2025-11-21,ST,Tupac Shakur,The Rose That Grew from Concrete
+2025-11-22,WAM,W.H. Auden,In Memory of W. B. Yeats
+2025-11-23,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
+2025-11-24,EP,Ezra Pound,In a Station of the Metro
+2025-11-25,JK,John Keats,Ode on a Grecian Urn
+2025-11-26,LH,Langston Hughes,Harlem
+2025-11-27,AM,Andrew Marvell,To His Coy Mistress
+2025-11-28,RHA,Robert Hayden,Those Winter Sundays
+2025-11-29,gs,Gertrude Stein,Sacred Emily
+2025-11-30,RF,Robert Frost,Stopping By Woods on a Snowy Evening
+2025-12-01,WSJ,Wallace Stevens,Anecdote of the Jar
+2025-12-02,HS,John Donne,"Holy Sonnets: Death, be not proud"
+2025-12-03,RN,Robert Frost,The Road Not Taken
+2025-12-04,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
+2025-12-05,CR,Christina Rossetti,Goblin Market
+2025-12-06,SSS,Shel Silverstein,Falling Up
+2025-12-07,EB,Elizabeth Bishop,One Art
+2025-12-08,au,W.H. Auden,Twelve Songs: IX
+2025-12-09,BG,Gwendolyn Brooks,The Bean Eaters
+2025-12-10,TB,William Butler Yeats,"Easter, 1916"
+2025-12-11,WA,Walt Whitman,Song of Myself
+2025-12-12,AE,Charles Dickens,A Tale of Two Cities
+2025-12-13,PL,Paul Laurence Dunbar,We Wear the Mask
+2025-12-14,LC,Lewis Carroll,The Jabberwocky
+2025-12-15,JMD,John Milton,Paradise Lost: Book 1
+2025-12-16,GA,Allen Ginsberg,A Supermarket in California
+2025-12-17,ATP,Alfred Lord Tennyson,Ulysses
+2025-12-18,DSM,Danez Smith,dear white america
+2025-12-19,PR,Prince,Prince
+2025-12-20,TS,T.S. Eliot,The Waste Land
+2025-12-21,LYL,Li-Young Lee,Persimmons
+2025-12-22,RK,Rupi Kaur,milk and honey
+2025-12-23,THG,Ted Hughes,The Thought-Fox
+2025-12-24,bc,Billy Collins,Snow Day
+2025-12-25,EE,E.E. Cummings,[little tree]
+2025-12-26,WSJT,Wallace Stevens,The Snow Man
+2025-12-27,WC,William Carlos Williams,This Is Just To Say
+2025-12-28,AR,Adrienne Rich,Aunt Jennifer's Tigers
+2025-12-29,APH,Alexander Pope,An Essay on Man: Epistle I
+2025-12-30,LCL,Lucille Clifton,homage to my hips
+2025-12-31,ALT,Alfred Lord Tennyson,"In Memoriam, [Ring out, wild bells]"
+2026-01-01,RBU,Robert Burns,Auld Lang Syne
+2026-01-02,AMG,Amanda Gorman,The Hill We Climb
+2026-01-03,ESR,Edna St. Vincent Millay,Recuerdo
+2026-01-04,PLS,Paul Laurence Dunbar,Sympathy
+2026-01-05,WSM,William Shakespeare,Macbeth
+2026-01-06,SCM,Samuel Taylor Coleridge,The Rime of the Ancient Mariner
+2026-01-07,TEH,T.S. Eliot,The Hollow Men
+2026-01-08,HL,Langston Hughes,The Weary Blues
+2026-01-09,OC,Walt Whitman,O Captain! My Captain!
+2026-01-10,CW,William Carlos Williams,The Red Wheelbarrow
+2026-01-11,AF,Jane Austen,Pride and Prejudice
+2026-01-12,WH,W.H. Auden,Musée des Beaux Arts
+2026-01-13,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
+2026-01-14,RB,Robert Browning,My Last Duchess
+2026-01-15,AB,Anne Bradstreet,To my dear and loving husband
+2026-01-16,WYC,William Butler Yeats,Sailing to Byzantium
+2026-01-17,bc,Billy Collins,Snow Day
+2026-01-18,at,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
+2026-01-19,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
+2026-01-20,EP,Ezra Pound,In a Station of the Metro
+2026-01-21,JK,John Keats,Ode on a Grecian Urn
+2026-01-22,LH,Langston Hughes,Harlem
+2026-01-23,AM,Andrew Marvell,To His Coy Mistress
+2026-01-24,GB,Gwendolyn Brooks,We Real Cool
+2026-01-25,gs,Gertrude Stein,Sacred Emily
+2026-01-26,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
+2026-01-27,WSJ,Wallace Stevens,Anecdote of the Jar
+2026-01-28,HS,John Donne,"Holy Sonnets: Death, be not proud"
+2026-01-29,RN,Robert Frost,The Road Not Taken
+2026-01-30,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
+2026-01-31,CR,Christina Rossetti,Goblin Market
+2026-02-01,SSS,Shel Silverstein,Falling Up
+2026-02-02,EB,Elizabeth Bishop,One Art
+2026-02-03,au,W.H. Auden,Twelve Songs: IX
+2026-02-04,BG,Gwendolyn Brooks,The Bean Eaters
+2026-02-05,TB,William Butler Yeats,"Easter, 1916"
+2026-02-06,WA,Walt Whitman,Song of Myself
+2026-02-07,FR,Robert Frost,Mending Wall
+2026-02-08,PL,Paul Laurence Dunbar,We Wear the Mask
+2026-02-09,LC,Lewis Carroll,The Jabberwocky
+2026-02-10,JMD,John Milton,Paradise Lost: Book 1
+2026-02-11,GA,Allen Ginsberg,A Supermarket in California
+2026-02-12,ATP,Alfred Lord Tennyson,Ulysses
+2026-02-13,GS,Gertrude Stein,Sacred Emily
+2026-02-14,FR,Robert Frost,Mending Wall
+2026-02-15,TS,T.S. Eliot,The Waste Land
+2026-02-16,WSJ,Wallace Stevens,Anecdote of the Jar
+2026-02-17,FO,Frank O'Hara,Having a Coke With You
+2026-02-18,THG,Ted Hughes,The Thought-Fox
+2026-02-19,SS,William Shakespeare,Shall I compare thee to a summer’s day?
+2026-02-20,SSNW,Stevie Smith,Not Waving But Drowning
+2026-02-21,LB,Lord Byron,She Walks in Beauty
+2026-02-22,MM,Marianne Moore,Poetry
+2026-02-23,SAC,Sandra Cisneros,The House on Mango Street
+2026-02-24,TZ,Tristan Tzara,To Make A Dadist Poem
+2026-02-25,RNFI,Robert Frost,Fire and Ice
+2026-02-26,JD,John Donne,A Valediction: Forbidding Mourning
+2026-02-27,SC,Samuel Taylor Coleridge,Kubla Khan
+2026-02-28,ma,Maya Angelou,Still I Rise
+2026-03-01,EB,Elizabeth Bishop,One Art
+2026-03-02,NM,John Donne,Devotions upon Emergent Occasions
+2026-03-03,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
+2026-03-04,RF,Robert Frost,Stopping By Woods on a Snowy Evening
+2026-03-05,MMO,Marianne Moore,An Octopus
+2026-03-06,HLD,Langston Hughes,Dreams
+2026-03-07,PTR,Paul Tran,The Cave
+2026-03-08,WSMV,William Shakespeare,The Merchant of Venice
+2026-03-09,JWJ,James Weldon Johnson,The Creation
+2026-03-10,ECC,E.E. Cummings,[i carry your heart with me(i carry it in]
+2026-03-11,SSB,Shel Silverstein,Masks
+2026-03-12,ESL,Edna St. Vincent Millay,Love Is Not All
+2026-03-13,DP,John Donne,"Death, be not proud"
+2026-03-14,CBS,Charles Bukowski,so you want to be a writer?
+2026-03-15,PW,Billy Collins,Cheerios
+2026-03-16,PS,Sylvia Plath,Daddy
+2026-03-17,MOH,Mary Oliver,Happiness
+2026-03-18,ESM,Edna St. Vincent Millay,First Fig
+2026-03-19,SSSI,Shel Silverstein,Sick
+2026-03-20,CK,Carole King,I Feel the Earth Move
+2026-03-21,KG,Khalil Gibran,On Marriage
+2026-03-22,MH,Gerard Manley Hopkins,God's Grandeur
+2026-03-23,AG,Toni Morrison,Beloved
+2026-03-24,SP,Sylvia Plath,Lady Lazarus
+2026-03-25,PLA,Philip Larkin,This Be the Verse
+2026-03-26,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
+2026-03-27,CB,Charles Bukowski,bluebird
+2026-03-28,WB,William Blake,The Tyger
+2026-03-29,EC,E.E. Cummings,anyone lived in a pretty how town
+2026-03-30,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
+2026-03-31,WW,William Wordsworth,I wandered Lonely as a Cloud
+2026-04-01,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
+2026-04-02,LH,Langston Hughes,Harlem
+2026-04-03,EB,Elizabeth Bishop,One Art
+2026-04-04,WBL,William Blake,The Lamb
+2026-04-05,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
+2026-04-06,RHA,Robert Hayden,Those Winter Sundays
+2026-04-07,AR,Adrienne Rich,Aunt Jennifer's Tigers
+2026-04-08,JD,John Donne,A Valediction: Forbidding Mourning
+2026-04-09,LB,Lord Byron,She Walks in Beauty
+2026-04-10,CM,Claude McKay,If We Must Die
+2026-04-11,EE,E.E. Cummings,[little tree]
+2026-04-12,LYL,Li-Young Lee,Persimmons
+2026-04-13,RK,Rupi Kaur,milk and honey
+2026-04-14,THG,Ted Hughes,The Thought-Fox
+2026-04-15,WC,William Carlos Williams,This Is Just To Say
+2026-04-16,MA,Maya Angelou,Still I Rise
+2026-04-17,SPH,Sappho,"[I asked myself""]"""
+2026-04-18,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
+2026-04-19,PS,Sylvia Plath,Daddy
+2026-04-20,CW,William Carlos Williams,The Red Wheelbarrow
+2026-04-21,PLA,Philip Larkin,This Be the Verse
+2026-04-22,MH,Gerard Manley Hopkins,God's Grandeur
+2026-04-23,MO,Mary Oliver,Wild Geese
+2026-04-24,JK,John Keats,Ode on a Grecian Urn
+2026-04-25,WY,William Butler Yeats,The Second Coming
+2026-04-26,CB,Charles Bukowski,bluebird
+2026-04-27,ESR,Edna St. Vincent Millay,Recuerdo
+2026-04-28,AP,Edgar Allen Poe,Annabel Lee
+2026-04-29,AUL,Audre Lorde,A Litany for Survival
+2026-04-30,JH,Joy Harjo,Remember
+2026-05-01,WBE,Wendell Berry,The Peace of Wild Things
+2026-05-02,OV,Ocean Vuong,Someday I'll Love Ocean Vuong
+2026-05-03,DD,Don DeLillo,White Noise
+2026-05-04,BTL,The Beatles,All You Need Is Love
+2026-05-05,WBL,William Blake,The Lamb
+2026-05-06,ST,Tupac Shakur,The Rose That Grew from Concrete
+2026-05-07,AE,Charles Dickens,A Tale of Two Cities
+2026-05-08,DSM,Danez Smith,dear white america
+2026-05-09,SH,Seamus Heaney,Digging
+2026-05-10,PR,Prince,Prince
+2026-05-11,HL,Langston Hughes,The Weary Blues
+2026-05-12,AR,Adrienne Rich,Aunt Jennifer's Tigers
+2026-05-13,ED,Emily Dickinson,I’m Nobody! Who are you? (260)
+2026-05-14,AF,Jane Austen,Pride and Prejudice
+2026-05-15,CK,Carole King,I Feel the Earth Move
+2026-05-16,RK,Rupi Kaur,milk and honey
+2026-05-17,LH,Langston Hughes,Harlem
+2026-05-18,LB,Lord Byron,She Walks in Beauty
+2026-05-19,RB,Robert Browning,My Last Duchess
+2026-05-20,CB,Charles Bukowski,bluebird
+2026-05-21,WY,William Butler Yeats,The Second Coming
+2026-05-22,MO,Mary Oliver,Wild Geese
+2026-05-23,AG,Toni Morrison,Beloved
+2026-05-24,PS,Sylvia Plath,Daddy
+2026-05-25,WW,William Wordsworth,I wandered Lonely as a Cloud
+2026-05-26,EB,Elizabeth Bishop,One Art
+2026-05-27,WR,Ernest Dowson,Vitae Summa Brevis Spem Nos Vetat Incohare Longam
+2026-05-28,KG,Khalil Gibran,On Marriage
+2026-05-29,EDF,Emily Dickinson,I heard a Fly buzz - when I died -
+2026-05-30,THG,Ted Hughes,The Thought-Fox
+2026-05-31,PW,Billy Collins,Cheerios
+2026-06-01,DT,Dylan Thomas,Do Not Get Gentle Into That Good Night
+2026-06-02,SP,Sylvia Plath,Lady Lazarus
+2026-06-03,MA,Maya Angelou,Still I Rise
+2026-06-04,LCL,Lucille Clifton,homage to my hips
+2026-06-05,PLS,Paul Laurence Dunbar,Sympathy
+2026-06-06,AMG,Amanda Gorman,The Hill We Climb
+2026-06-07,SC,Samuel Taylor Coleridge,Kubla Khan
+2026-06-08,EBB,Elizabeth Barrett Browning,How Do I Love Thee? (Sonnet 43)
+2026-06-09,APh,Alexander Pope,An Essay on Man: Epistle I
+2026-06-10,RBU,Robert Burns,Auld Lang Syne
+2026-06-11,WAM,W.H. Auden,In Memory of W. B. Yeats
+2026-06-12,LYL,Li-Young Lee,Persimmons
+2026-06-13,RF,Robert Frost,Stopping By Woods on a Snowy Evening
+2026-06-14,JM,John Milton,On the Morning of Christ's Nativity
+2026-06-15,SS,William Shakespeare,Shall I compare thee to a summer’s day?
+2026-06-16,FO,Frank O'Hara,Having a Coke With You
+2026-06-17,MM,Marianne Moore,Poetry
+2026-06-18,JWJ,James Weldon Johnson,The Creation
+2026-06-19,TS,T.S. Eliot,The Waste Land
+2026-06-20,EC,E.E. Cummings,anyone lived in a pretty how town
+2026-06-21,WC,William Carlos Williams,This Is Just To Say
+2026-06-22,SPH,Sappho,"[I asked myself""]"""
+2026-06-23,JK,John Keats,Ode on a Grecian Urn
+2026-06-24,MH,Gerard Manley Hopkins,God's Grandeur
+2026-06-25,SAC,Sandra Cisneros,The House on Mango Street
+2026-06-26,WB,William Blake,The Tyger
+2026-06-27,ESM,Edna St. Vincent Millay,First Fig
+2026-06-28,TE,T.S. Eliot,The Love Song of J. Alfred Prufrock
+2026-06-29,HS,John Donne,"Holy Sonnets: Death, be not proud"
+2026-06-30,ZFROST5,Robert Frost,"'Out, Out—'"
+2026-07-01,ZTOOM1,Jean Toomer,Reapers
+2026-07-02,BG,Gwendolyn Brooks,The Bean Eaters
+2026-07-03,ZDICK1,Emily Dickinson,Because I could not stop for Death (479)
+2026-07-04,ZKEATS3,John Keats,La Belle Dame sans Merci: A Ballad
+2026-07-05,RHA,Robert Hayden,Those Winter Sundays
+2026-07-06,ZYEATS4,William Butler Yeats,He Wishes for the Cloths of Heaven
+2026-07-07,GA,Allen Ginsberg,A Supermarket in California
+2026-07-08,ZBYRON2,Lord Byron,So We'll Go No More a Roving
+2026-07-09,FR,Robert Frost,Mending Wall
+2026-07-10,ECC,E.E. Cummings,[i carry your heart with me(i carry it in]
+2026-07-11,PL,Paul Laurence Dunbar,We Wear the Mask
+2026-07-12,ZYEATS3,William Butler Yeats,The Wild Swans at Coole
+2026-07-13,AUL,Audre Lorde,A Litany for Survival
+2026-07-14,RN,Robert Frost,The Road Not Taken
+2026-07-15,ZCRANE1,Stephen Crane,A Man Said to the Universe
+2026-07-16,ZROB1,Edwin Arlington Robinson,Richard Cory
+2026-07-17,ZFROST2,Robert Frost,Nothing Gold Can Stay
+2026-07-18,ZSTEV2,Robert Louis Stevenson,The Swing
+2026-07-19,ZSAND1,Carl Sandburg,Chicago
+2026-07-20,ZSHEL3,Percy Shelley,"Music, When Soft Voices Die (To —)"
+2026-07-21,EP,Ezra Pound,In a Station of the Metro
+2026-07-22,ZWORD3,William Wordsworth,My Heart Leaps Up
+2026-07-23,CW,William Carlos Williams,The Red Wheelbarrow
+2026-07-24,WSJ,Wallace Stevens,Anecdote of the Jar
+2026-07-25,ZWORD1,William Wordsworth,The World Is Too Much with Us
+2026-07-26,ZMARL1,Christopher Marlowe,The Passionate Shepherd to His Love
+2026-07-27,AP,Edgar Allen Poe,Annabel Lee
+2026-07-28,ZSTEV1,Robert Louis Stevenson,Requiem
+2026-07-29,ZPOE2,Edgar Allen Poe,A Dream Within a Dream
+2026-07-30,ZROSS4,Christina Rossetti,In the Bleak Midwinter
+2026-07-31,ZMCKAY2,Claude McKay,America
+2026-08-01,ZYEATS2,William Butler Yeats,When You Are Old
+2026-08-02,PLA,Philip Larkin,This Be the Verse
+2026-08-03,ZHOP3,Gerard Manley Hopkins,Spring and Fall
+2026-08-04,CM,Claude McKay,If We Must Die
+2026-08-05,ZTENN3,Alfred Lord Tennyson,The Lady of Shalott
+2026-08-06,ZCRANE2,Stephen Crane,In the Desert
+2026-08-07,SH,Seamus Heaney,Digging
+2026-08-08,ZHARDY3,Thomas Hardy,Neutral Tones
+2026-08-09,ZKEATS1,John Keats,Ode to a Nightingale
+2026-08-10,AR,Adrienne Rich,Aunt Jennifer's Tigers
+2026-08-11,ZGRAY1,Thomas Gray,Elegy Written in a Country Churchyard
+2026-08-12,SSNW,Stevie Smith,Not Waving But Drowning
+2026-08-13,BC,Billy Collins,Snow Day
+2026-08-14,ZDICK4,Emily Dickinson,There's a certain Slant of light (320)
+2026-08-15,LH,Langston Hughes,Harlem
+2026-08-16,ZDONNE3,John Donne,Holy Sonnet 14: Batter my heart
+2026-08-17,MOH,Mary Oliver,Happiness
+2026-08-18,CB,Charles Bukowski,bluebird
+2026-08-19,ZKEATS2,John Keats,To Autumn
+2026-08-20,MO,Mary Oliver,Wild Geese
+2026-08-21,ZSAND3,Carl Sandburg,Grass
+2026-08-22,PS,Sylvia Plath,Daddy
+2026-08-23,ALT,Alfred Lord Tennyson,"In Memoriam, [Ring out, wild bells]"
+2026-08-24,ZTEAS1,Sara Teasdale,There Will Come Soft Rains
+2026-08-25,SSB,Shel Silverstein,Masks
+2026-08-26,KG,Khalil Gibran,On Marriage
+2026-08-27,ZWHEAT1,Phillis Wheatley,On Being Brought from Africa to America
+2026-08-28,ZWORD2,William Wordsworth,"Composed upon Westminster Bridge, September 3, 1802"
+2026-08-29,ZLAZ1,Emma Lazarus,The New Colossus
+2026-08-30,GB,Gwendolyn Brooks,We Real Cool
+2026-08-31,ZHARDY2,Thomas Hardy,The Man He Killed
+2026-09-01,TZ,Tristan Tzara,To Make A Dadist Poem
+2026-09-02,ZBYRON3,Lord Byron,The Destruction of Sennacherib
+2026-09-03,ZSHEL1,Percy Shelley,Ode to the West Wind
+2026-09-04,ZLOVE1,Richard Lovelace,"To Lucasta, Going to the Wars"
+2026-09-05,ZLEAR1,Edward Lear,The Owl and the Pussy-Cat
+2026-09-06,ZBROW1,Robert Browning,Porphyria's Lover
+2026-09-07,ZKEATS5,John Keats,On First Looking into Chapman's Homer
+2026-09-08,JH,Joy Harjo,Remember
+2026-09-09,RNFI,Robert Frost,Fire and Ice
+2026-09-10,JMD,John Milton,Paradise Lost: Book 1
+2026-09-11,ZMCKAY1,Claude McKay,The Tropics in New York
+2026-09-12,ZROSS2,Christina Rossetti,A Birthday
+2026-09-13,ZBROOKE1,Rupert Brooke,The Soldier
+2026-09-14,ZDICK6,Emily Dickinson,"""Hope"" is the thing with feathers"
+2026-09-15,ZSPEN1,Edmund Spenser,Sonnet 75: One day I wrote her name upon the strand
+2026-09-16,ATP,Alfred Lord Tennyson,Ulysses
+2026-09-17,AM,Andrew Marvell,To His Coy Mistress
+2026-09-18,AT,Alfred Lord Tennyson,In Memoriam A.H.H. 1849
+2026-09-19,ZROSS3,Christina Rossetti,"Song (When I am dead, my dearest)"
+2026-09-20,HLD,Langston Hughes,Dreams
+2026-09-21,GC,Geoffrey Chaucer,"The Canterbury Tales, Prologue"
+2026-09-22,AB,Anne Bradstreet,To my dear and loving husband
+2026-09-23,ZDICK5,Emily Dickinson,Success is counted sweetest (112)
+2026-09-24,ZCARR1,Lewis Carroll,The Walrus and the Carpenter
+2026-09-25,ESM,Edna St. Vincent Millay,First Fig
+2026-09-26,ZKIP1,Rudyard Kipling,If—
+2026-09-27,MMO,Marianne Moore,An Octopus
+2026-09-28,ZHENL1,William Ernest Henley,Invictus
+2026-09-29,ZARN1,Matthew Arnold,Dover Beach
+2026-09-30,ZMILT1,John Milton,When I Consider How My Light Is Spent (On His Blindness)
+2026-10-01,PLA,Philip Larkin,This Be the Verse
+2026-10-02,SSS,Shel Silverstein,Falling Up
+2026-10-03,CM,Claude McKay,If We Must Die
+2026-10-04,ZSHAK4,William Shakespeare,"Sonnet 29: When, in disgrace with fortune and men's eyes"
+2026-10-05,ZTENN2,Alfred Lord Tennyson,Crossing the Bar
+2026-10-06,ZSHEL2,Percy Shelley,To a Skylark
+2026-10-07,ZBYRON1,Lord Byron,When We Two Parted
+2026-10-08,WSJT,Wallace Stevens,The Snow Man
+2026-10-09,ZWHIT2,Walt Whitman,When I Heard the Learn'd Astronomer
+2026-10-10,ZKEATS4,John Keats,When I Have Fears That I May Cease to Be
+2026-10-11,ZSHAK2,William Shakespeare,Sonnet 130: My mistress' eyes are nothing like the sun
+2026-10-12,CBS,Charles Bukowski,so you want to be a writer?
+2026-10-13,WBL,William Blake,The Lamb
+2026-10-14,ZHOP2,Gerard Manley Hopkins,The Windhover
+2026-10-15,ZHERR1,Robert Herrick,"To the Virgins, to Make Much of Time"
+2026-10-16,GS,Gertrude Stein,Sacred Emily
+2026-10-17,WSM,William Shakespeare,Macbeth
+2026-10-18,PTR,Paul Tran,The Cave
+2026-10-19,TB,William Butler Yeats,"Easter, 1916"
+2026-10-20,ZHOWE1,Julia Ward Howe,Battle Hymn of the Republic
+2026-10-21,JD,John Donne,A Valediction: Forbidding Mourning
+2026-10-22,ESL,Edna St. Vincent Millay,Love Is Not All
+2026-10-23,ZHOUS3,A.E. Housman,"Loveliest of Trees, the Cherry Now"
+2026-10-24,ZYEATS1,William Butler Yeats,The Lake Isle of Innisfree
+2026-10-25,ZDONNE2,John Donne,The Sun Rising
+2026-10-26,ZTENN4,Alfred Lord Tennyson,"Break, Break, Break"
+2026-10-27,ZBLAKE3,William Blake,A Poison Tree
+2026-10-28,ZMCCRAE1,John McCrae,In Flanders Fields
+2026-10-29,BTL,The Beatles,All You Need Is Love
+2026-10-30,ZHOUS1,A.E. Housman,When I Was One-and-Twenty
+2026-10-31,OC,Walt Whitman,O Captain! My Captain!
+2026-11-01,ZDONNE1,John Donne,The Flea
+2026-11-02,ZCOL1,Samuel Taylor Coleridge,Frost at Midnight
+2026-11-03,ZBLAKE1,William Blake,London
+2026-11-04,ZFROST1,Robert Frost,Birches
+2026-11-05,SH,Seamus Heaney,Digging
+2026-11-06,ZWORD4,William Wordsworth,She Dwelt among the Untrodden Ways
+2026-11-07,EH,Emily Dickinson,“Hope” is the thing with feathers
+2026-11-08,WYC,William Butler Yeats,Sailing to Byzantium
+2026-11-09,DD,Don DeLillo,White Noise
+2026-11-10,ZPOE3,Edgar Allen Poe,To Helen
+2026-11-11,ZOWEN2,Wilfred Owen,Anthem for Doomed Youth
+2026-11-12,ZSHAK3,William Shakespeare,Sonnet 73: That time of year thou mayst in me behold
+2026-11-13,ZBLAKE4,William Blake,The Chimney Sweeper (Songs of Innocence)
+2026-11-14,ZWHIT3,Walt Whitman,A Noiseless Patient Spider
+2026-11-15,OV,Ocean Vuong,Someday I'll Love Ocean Vuong
+2026-11-16,ZTENN1,Alfred Lord Tennyson,The Charge of the Light Brigade
+2026-11-17,NM,John Donne,Devotions upon Emergent Occasions
+2026-11-18,EE,E.E. Cummings,[little tree]
+2026-11-19,ZHUGH3,Langston Hughes,"I, Too"
+2026-11-20,CR,Christina Rossetti,Goblin Market
+2026-11-21,BJ,Ben Jonson,"To the Memory of My Beloved the Author, Mr. William Shakespeare"
+2026-11-22,ZDICK3,Emily Dickinson,"I felt a Funeral, in my Brain (340)"
+2026-11-23,WBE,Wendell Berry,The Peace of Wild Things
+2026-11-24,KG,Khalil Gibran,On Marriage
+2026-11-25,ESR,Edna St. Vincent Millay,Recuerdo
+2026-11-26,ZBROW3,Robert Browning,"Home-Thoughts, from Abroad"
+2026-11-27,EM,Edna St. Vincent Millay,"What lips my lips have kissed, and where, and why"
+2026-11-28,ZBROW2,Robert Browning,Meeting at Night
+2026-11-29,ZHUGH2,Langston Hughes,Mother to Son
+2026-11-30,WSMV,William Shakespeare,The Merchant of Venice
+2026-12-01,ZFROST4,Robert Frost,After Apple-Picking
+2026-12-02,WA,Walt Whitman,Song of Myself
+2026-12-03,ZFROST3,Robert Frost,Acquainted with the Night
+2026-12-04,ZWHIT1,Walt Whitman,I Hear America Singing
+2026-12-05,ZROB2,Edwin Arlington Robinson,Miniver Cheevy
+2026-12-06,ZHOP1,Gerard Manley Hopkins,Pied Beauty
+2026-12-07,ZBLAKE2,William Blake,The Sick Rose
+2026-12-08,ZYEATS5,William Butler Yeats,The Song of Wandering Aengus
+2026-12-09,ZCULL1,Countee Cullen,Yet Do I Marvel
+2026-12-10,ZJONS1,Ben Jonson,Song: To Celia
+2026-12-11,AU,W.H. Auden,Twelve Songs: IX
+2026-12-12,ZHUGH1,Langston Hughes,The Negro Speaks of Rivers
+2026-12-13,SSSI,Shel Silverstein,Sick
+2026-12-14,ZSAND2,Carl Sandburg,Fog
+2026-12-15,SCM,Samuel Taylor Coleridge,The Rime of the Ancient Mariner
+2026-12-16,LC,Lewis Carroll,The Jabberwocky
+2026-12-17,ZOWEN1,Wilfred Owen,Dulce et Decorum Est
+2026-12-18,WS,William Shakespeare,Sonnet 97: How like a winter hath my absence been
+2026-12-19,DP,John Donne,"Death, be not proud"
+2026-12-20,ZSHAK1,William Shakespeare,Sonnet 116: Let me not to the marriage of true minds
+2026-12-21,ZCULL2,Countee Cullen,Incident
+2026-12-22,ZDICK2,Emily Dickinson,Wild nights - Wild nights! (269)
+2026-12-23,WH,W.H. Auden,Musée des Beaux Arts
+2026-12-24,ZROSS1,Christina Rossetti,Remember
+2026-12-25,TEH,T.S. Eliot,The Hollow Men
+2026-12-26,ZKILM1,Joyce Kilmer,Trees
+2026-12-27,ZMARV1,Andrew Marvell,The Garden
+2026-12-28,ZPOE1,Edgar Allen Poe,The Bells
+2026-12-29,ZHOUS2,A.E. Housman,To an Athlete Dying Young
+2026-12-30,ZTEAS2,Sara Teasdale,Barter
+2026-12-31,ZHARDY1,Thomas Hardy,The Darkling Thrush
+2027-01-01,,,
+2027-01-02,,,
+2027-01-03,,,
+2027-01-04,,,
+2027-01-05,,,
+2027-01-06,,,
+2027-01-07,,,
+2027-01-08,,,
+2027-01-09,,,
+2027-01-10,,,
+2027-01-11,,,
+2027-01-12,,,
+2027-01-13,,,
+2027-01-14,,,
+2027-01-15,,,
+2027-01-16,,,
+2027-01-17,,,
+2027-01-18,,,
+2027-01-19,,,
+2027-01-20,,,
+2027-01-21,,,
+2027-01-22,,,
+2027-01-23,,,
+2027-01-24,,,
+2027-01-25,,,
+2027-01-26,,,
+2027-01-27,,,
+2027-01-28,,,
+2027-01-29,,,
+2027-01-30,,,
+2027-01-31,,,
+2027-02-01,,,
+2027-02-02,,,
+2027-02-03,,,
+2027-02-04,,,
+2027-02-05,,,
+2027-02-06,,,
+2027-02-07,,,
+2027-02-08,,,
+2027-02-09,,,
+2027-02-10,,,
+2027-02-11,,,
+2027-02-12,,,
+2027-02-13,,,
+2027-02-14,,,
+2027-02-15,,,
+2027-02-16,,,
+2027-02-17,,,
+2027-02-18,,,
+2027-02-19,,,
+2027-02-20,,,
+2027-02-21,,,
+2027-02-22,,,
+2027-02-23,,,
+2027-02-24,,,
+2027-02-25,,,
+2027-02-26,,,
+2027-02-27,,,
+2027-02-28,,,
+2027-03-01,,,
+2027-03-02,,,
+2027-03-03,,,
+2027-03-04,,,
+2027-03-05,,,
+2027-03-06,,,
+2027-03-07,,,
+2027-03-08,,,
+2027-03-09,,,
+2027-03-10,,,
+2027-03-11,,,
+2027-03-12,,,
+2027-03-13,,,
+2027-03-14,,,
+2027-03-15,,,
+2027-03-16,,,
+2027-03-17,,,
+2027-03-18,,,
+2027-03-19,,,
+2027-03-20,,,
+2027-03-21,,,
+2027-03-22,,,
+2027-03-23,,,
+2027-03-24,,,
+2027-03-25,,,
+2027-03-26,,,
+2027-03-27,,,
+2027-03-28,,,
+2027-03-29,,,
+2027-03-30,,,
+2027-03-31,,,
+2027-04-01,,,
+2027-04-02,,,
+2027-04-03,,,
+2027-04-04,,,
+2027-04-05,,,
+2027-04-06,,,
+2027-04-07,,,
+2027-04-08,,,
+2027-04-09,,,
+2027-04-10,,,
+2027-04-11,,,
+2027-04-12,,,
+2027-04-13,,,
+2027-04-14,,,
+2027-04-15,,,
+2027-04-16,,,
+2027-04-17,,,
+2027-04-18,,,
+2027-04-19,,,
+2027-04-20,,,
+2027-04-21,,,
+2027-04-22,,,
+2027-04-23,,,
+2027-04-24,,,
+2027-04-25,,,
+2027-04-26,,,
+2027-04-27,,,
+2027-04-28,,,
+2027-04-29,,,
+2027-04-30,,,
+2027-05-01,,,
+2027-05-02,,,
+2027-05-03,,,
+2027-05-04,,,
+2027-05-05,,,
+2027-05-06,,,
+2027-05-07,,,
+2027-05-08,,,
+2027-05-09,,,
+2027-05-10,,,
+2027-05-11,,,
+2027-05-12,,,
+2027-05-13,,,
+2027-05-14,,,
+2027-05-15,,,
+2027-05-16,,,
+2027-05-17,,,
+2027-05-18,,,
+2027-05-19,,,
+2027-05-20,,,
+2027-05-21,,,
+2027-05-22,,,
+2027-05-23,,,
+2027-05-24,,,
+2027-05-25,,,
+2027-05-26,,,
+2027-05-27,,,
+2027-05-28,,,
+2027-05-29,,,
+2027-05-30,,,
+2027-05-31,,,
+2027-06-01,,,
+2027-06-02,,,
+2027-06-03,,,
+2027-06-04,,,
+2027-06-05,,,
+2027-06-06,,,
+2027-06-07,,,
+2027-06-08,,,
+2027-06-09,,,
+2027-06-10,,,
+2027-06-11,,,
+2027-06-12,,,
+2027-06-13,,,
+2027-06-14,,,
+2027-06-15,,,
+2027-06-16,,,
+2027-06-17,,,
+2027-06-18,,,
+2027-06-19,,,
+2027-06-20,,,
+2027-06-21,,,
+2027-06-22,,,
+2027-06-23,,,
+2027-06-24,,,
+2027-06-25,,,
+2027-06-26,,,
+2027-06-27,,,
+2027-06-28,,,
+2027-06-29,,,
+2027-06-30,,,
+2027-07-01,,,
+2027-07-02,,,
+2027-07-03,,,
+2027-07-04,,,
+2027-07-05,,,
+2027-07-06,,,
+2027-07-07,,,
+2027-07-08,,,
+2027-07-09,,,
+2027-07-10,,,
+2027-07-11,,,
+2027-07-12,,,
+2027-07-13,,,
+2027-07-14,,,
+2027-07-15,,,
+2027-07-16,,,
+2027-07-17,,,
+2027-07-18,,,
+2027-07-19,,,
+2027-07-20,,,
+2027-07-21,,,
+2027-07-22,,,
+2027-07-23,,,
+2027-07-24,,,
+2027-07-25,,,
+2027-07-26,,,
+2027-07-27,,,
+2027-07-28,,,
+2027-07-29,,,
+2027-07-30,,,
+2027-07-31,,,
+2027-08-01,,,
+2027-08-02,,,
+2027-08-03,,,
+2027-08-04,,,
+2027-08-05,,,
+2027-08-06,,,
+2027-08-07,,,
+2027-08-08,,,
+2027-08-09,,,
+2027-08-10,,,
+2027-08-11,,,
+2027-08-12,,,
+2027-08-13,,,
+2027-08-14,,,
+2027-08-15,,,
+2027-08-16,,,
+2027-08-17,,,
+2027-08-18,,,
+2027-08-19,,,
+2027-08-20,,,
+2027-08-21,,,
+2027-08-22,,,
+2027-08-23,,,
+2027-08-24,,,
+2027-08-25,,,
+2027-08-26,,,
+2027-08-27,,,
+2027-08-28,,,
+2027-08-29,,,
+2027-08-30,,,
+2027-08-31,,,
+2027-09-01,,,
+2027-09-02,,,
+2027-09-03,,,
+2027-09-04,,,
+2027-09-05,,,
+2027-09-06,,,
+2027-09-07,,,
+2027-09-08,,,
+2027-09-09,,,
+2027-09-10,,,
+2027-09-11,,,
+2027-09-12,,,
+2027-09-13,,,
+2027-09-14,,,
+2027-09-15,,,
+2027-09-16,,,
+2027-09-17,,,
+2027-09-18,,,
+2027-09-19,,,
+2027-09-20,,,
+2027-09-21,,,
+2027-09-22,,,
+2027-09-23,,,
+2027-09-24,,,
+2027-09-25,,,
+2027-09-26,,,
+2027-09-27,,,
+2027-09-28,,,
+2027-09-29,,,
+2027-09-30,,,
+2027-10-01,,,
+2027-10-02,,,
+2027-10-03,,,
+2027-10-04,,,
+2027-10-05,,,
+2027-10-06,,,
+2027-10-07,,,

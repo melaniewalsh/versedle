@@ -1110,20 +1110,720 @@ AUL,Audre Lorde,1934,1992,A Litany for Survival,"For those of us who live at the
 standing upon the constant edges of decision
 crucial and alone
 for those of us who cannot indulge
-the passing dreams of choice",https://upload.wikimedia.org/wikipedia/commons/c/c2/Audre_Lorde.jpg,https://www.poetryfoundation.org/poems/147275/a-litany-for-survival
+the passing dreams of choice
+who love in doorways coming and going",https://upload.wikimedia.org/wikipedia/commons/c/c2/Audre_Lorde.jpg,https://www.poetryfoundation.org/poems/147275/a-litany-for-survival
 JH,Joy Harjo,1951,,Remember,"Remember the sky that you were born under,
 know each of the star's stories.
 Remember the moon, know who she is.
 Remember the sun's birth at dawn, that is the
-strongest point of time.",https://upload.wikimedia.org/wikipedia/commons/0/02/Joy_Harjo.jpg,https://poets.org/poem/remember-0
+strongest point of time. Remember sundown
+and the giving away to night.",https://upload.wikimedia.org/wikipedia/commons/0/02/Joy_Harjo.jpg,https://poets.org/poem/remember-0
 WBE,Wendell Berry,1934,,The Peace of Wild Things,"When despair for the world grows in me
 and I wake in the night at the least sound
 in fear of what my life and my children's lives may be,
 I go and lie down where the wood drake
-rests in his beauty on the water, and the great heron feeds.",https://upload.wikimedia.org/wikipedia/commons/3/38/Wberry.jpg,https://onbeing.org/poetry/the-peace-of-wild-things/
+rests in his beauty on the water, and the great heron feeds.
+I come into the peace of wild things",https://upload.wikimedia.org/wikipedia/commons/3/38/Wberry.jpg,https://onbeing.org/poetry/the-peace-of-wild-things/
 OV,Ocean Vuong,1988,,Someday I'll Love Ocean Vuong,"The most beautiful part of your body
 is wherever your mother's shadow falls.
 Here's the house with childhood
 whittled down to a single red trip wire.
 Don't worry. Just call it horizon
 & you'll never reach it.",https://upload.wikimedia.org/wikipedia/commons/7/7e/Ocean_vuong_8045064_%2848458986647%29_%28cropped%29.jpg,https://poetryarchive.org/poem/someday-ill-love-ocean-vuong/
+ZDICK1,Emily Dickinson,1830,1886,Because I could not stop for Death (479),"Because I could not stop for Death,
+He kindly stopped for me;
+The carriage held but just ourselves
+And Immortality.
+We slowly drove, he knew no haste,
+And I had put away",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png,https://en.wikisource.org/wiki/Poems_(Dickinson)/The_Chariot
+ZDICK2,Emily Dickinson,1830,1886,Wild nights - Wild nights! (269),"Wild nights! Wild nights!
+Were I with thee,
+Wild nights should be
+Our luxury!
+
+Futile the winds
+To a heart in port,—",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png,https://en.wikisource.org/wiki/Poems:_Second_Series_(Dickinson)/Wild_nights!_Wild_nights!
+ZDICK3,Emily Dickinson,1830,1886,"I felt a Funeral, in my Brain (340)","I felt a funeral in my brain,
+And mourners, to and fro,
+Kept treading, treading, till it seemed
+That sense was breaking through.
+
+And when they all were seated,
+A service like a drum",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png,https://en.wikisource.org/wiki/Poems:_Third_Series/I_felt_a_funeral_in_my_brain
+ZDICK4,Emily Dickinson,1830,1886,There's a certain Slant of light (320),"There's a certain slant of light,
+On winter afternoons,
+That oppresses, like the weight
+Of cathedral tunes.
+Heavenly hurt it gives us;
+We can find no scar,",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png,https://en.wikisource.org/wiki/Poems_(Dickinson)/There%27s_a_certain_slant_of_light
+ZDICK5,Emily Dickinson,1830,1886,Success is counted sweetest (112),"Success is counted sweetest
+By those who ne'er succeed.
+To comprehend a nectar
+Requires sorest need.
+Not one of all the purple host
+Who took the flag to-day",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png,https://en.wikisource.org/wiki/Poems_(Dickinson)/Success
+ZDICK6,Emily Dickinson,1830,1886,"""Hope"" is the thing with feathers (254)","Hope is the thing with feathers
+That perches in the soul,
+And sings the tune without the words,
+And never stops at all,
+And sweetest in the gale is heard;
+And sore must be the storm",https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Black-white_photograph_of_Emily_Dickinson2.png/330px-Black-white_photograph_of_Emily_Dickinson2.png,https://en.wikisource.org/wiki/Poems:_Second_Series_(Dickinson)/Hope
+ZWHIT1,Walt Whitman,1819,1892,I Hear America Singing,"I hear America singing, the varied carols I hear,
+Those of mechanics, each one singing his as it should be blithe and strong,
+The carpenter singing his as he measures his plank or beam,
+The mason singing his as he makes ready for work, or leaves off work,
+The boatman singing what belongs to him in his boat, the deckhand singing on the steamboat deck,
+The shoemaker singing as he sits on his bench, the hatter singing as he stands,",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/330px-Walt_Whitman_-_George_Collins_Cox.jpg,https://en.wikisource.org/wiki/I_Hear_America_Singing
+ZWHIT2,Walt Whitman,1819,1892,When I Heard the Learn'd Astronomer,"When I heard the learn'd astronomer,
+When the proofs, the figures, were ranged in columns before me,
+When I was shown the charts and diagrams, to add, divide, and measure them,
+When I sitting heard the astronomer where he lectured with much applause in the lecture-room,
+How soon unaccountable I became tired and sick,
+Till rising and gliding out I wander'd off by myself,",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/330px-Walt_Whitman_-_George_Collins_Cox.jpg,https://poets.org/poem/when-i-heard-learnd-astronomer
+ZWHIT3,Walt Whitman,1819,1892,A Noiseless Patient Spider,"A noiseless patient spider,
+I mark'd where on a little promontory it stood isolated,
+Mark'd how to explore the vacant vast surrounding,
+It launch'd forth filament, filament, filament, out of itself,
+Ever unreeling them, ever tirelessly speeding them.
+
+And you O my soul where you stand,",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/330px-Walt_Whitman_-_George_Collins_Cox.jpg,https://poets.org/poem/noiseless-patient-spider
+ZFROST1,Robert Frost,1874,1963,Birches,"When I see birches bend to left and right
+Across the lines of straighter darker trees,
+I like to think some boy's been swinging them.
+But swinging doesn't bend them down to stay.
+Ice-storms do that. Often you must have seen them
+Loaded with ice a sunny winter morning",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg,https://en.wikisource.org/wiki/Mountain_Interval/Birches
+ZFROST2,Robert Frost,1874,1963,Nothing Gold Can Stay,"Nature's first green is gold,
+Her hardest hue to hold.
+Her early leaf's a flower;
+But only so an hour.
+Then leaf subsides to leaf.
+So Eden sank to grief,",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg,https://poets.org/anthology/nothing-gold-can-stay
+ZFROST3,Robert Frost,1874,1963,Acquainted with the Night,"I have been one acquainted with the night.
+I have walked out in rain—and back in rain.
+I have outwalked the furthest city light.
+
+I have looked down the saddest city lane.
+I have passed by the watchman on his beat
+And dropped my eyes, unwilling to explain.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg,https://poets.org/poem/acquainted-night
+ZFROST4,Robert Frost,1874,1963,After Apple-Picking,"My long two-pointed ladder's sticking through a tree
+Toward heaven still,
+And there's a barrel that I didn't fill
+Beside it, and there may be two or three
+Apples I didn't pick upon some bough.
+But I am done with apple-picking now.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg,https://poets.org/poem/after-apple-picking
+ZFROST5,Robert Frost,1874,1963,"'Out, Out—'","The buzz-saw snarled and rattled in the yard
+And made dust and dropped stove-length sticks of wood,
+Sweet-scented stuff when the breeze drew across it.
+And from there those that lifted eyes could count
+Five mountain ranges one behind the other
+Under the sunset far into Vermont.",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robert_Frost_NYWTS_4.jpg/330px-Robert_Frost_NYWTS_4.jpg,https://www.gutenberg.org/cache/epub/29345/pg29345.txt
+ZWORD1,William Wordsworth,1770,1850,The World Is Too Much with Us,"The world is too much with us; late and soon,
+Getting and spending, we lay waste our powers:
+Little we see in nature that is ours;
+We have given our hearts away, a sordid boon!
+This Sea that bares her bosom to the moon;
+The Winds that will be howling at all hours",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg/330px-Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg,"https://en.wikisource.org/wiki/Poems,_in_Two_Volumes_(Wordsworth,_1807)/Volume_1/The_world_is_too_much_with_us;_late_and_soon"
+ZWORD2,William Wordsworth,1770,1850,"Composed upon Westminster Bridge, September 3, 1802","Earth has not anything to show more fair:
+Dull would he be of soul who could pass by
+A sight so touching in its majesty:
+This City now doth, like a garment, wear
+The beauty of the morning; silent, bare,
+Ships, towers, domes, theatres, and temples lie",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg/330px-Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg,https://poets.org/poem/composed-upon-westminster-bridge-september-3-1802
+ZWORD3,William Wordsworth,1770,1850,My Heart Leaps Up,"My heart leaps up when I behold
+   A rainbow in the sky:
+So was it when my life began;
+So is it now I am a man;
+So be it when I shall grow old,
+   Or let me die!",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg/330px-Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg,https://poets.org/poem/my-heart-leaps
+ZWORD4,William Wordsworth,1770,1850,She Dwelt among the Untrodden Ways,"She dwelt among the untrodden ways
+Beside the springs of Dove,
+A Maid whom there were none to praise
+And very few to love:
+
+A violet by a mossy stone
+Half hidden from the eye!",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg/330px-Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg,https://poets.org/poem/she-dwelt-among-untrodden-ways
+ZKEATS1,John Keats,1795,1821,Ode to a Nightingale,"My heart aches, and a drowsy numbness pains
+My sense, as though of hemlock I had drunk,
+Or emptied some dull opiate to the drains
+One minute past, and Lethe-wards had sunk:
+'Tis not through envy of thy happy lot,
+But being too happy in thine happiness,—",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Keats_by_William_Hilton_circa_1822_02.jpg/500px-John_Keats_by_William_Hilton_circa_1822_02.jpg,https://poets.org/poem/ode-nightingale
+ZKEATS2,John Keats,1795,1821,To Autumn,"Season of mists and mellow fruitfulness!
+Close bosom-friend of the maturing sun;
+Conspiring with him how to load and bless
+With fruit the vines that round the thatch-eaves run;
+To bend with apples the moss'd cottage-trees,
+And fill all fruit with ripeness to the core;",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Keats_by_William_Hilton_circa_1822_02.jpg/500px-John_Keats_by_William_Hilton_circa_1822_02.jpg,https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/To_Autumn
+ZKEATS3,John Keats,1795,1821,La Belle Dame sans Merci: A Ballad,"O what can ail thee, knight-at-arms,
+Alone and palely loitering?
+The sedge has wither'd from the lake,
+And no birds sing.
+
+O what can ail thee, knight-at-arms,
+So haggard and so woe-begone?",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Keats_by_William_Hilton_circa_1822_02.jpg/500px-John_Keats_by_William_Hilton_circa_1822_02.jpg,https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/La_Belle_Dame_sans_Merci
+ZKEATS4,John Keats,1795,1821,When I Have Fears That I May Cease to Be,"When I have fears that I may cease to be
+Before my pen has glean'd my teeming brain,
+Before high pilèd books, in charactry,
+Hold like rich garners the full-ripen'd grain;
+When I behold, upon the night's starr'd face,
+Huge cloudy symbols of a high romance,",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Keats_by_William_Hilton_circa_1822_02.jpg/500px-John_Keats_by_William_Hilton_circa_1822_02.jpg,https://en.wikisource.org/wiki/The_complete_poetical_works_and_letters_of_John_Keats/Sonnet:_%27When_I_have_fears_that_I_may_cease_to_be%27
+ZKEATS5,John Keats,1795,1821,On First Looking into Chapman's Homer,"Much have I travell'd in the realms of gold,
+And many goodly states and kingdoms seen;
+Round many western islands have I been
+Which bards in fealty to Apollo hold.
+Oft of one wide expanse had I been told
+That deep-brow'd Homer ruled as his demesne:",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/John_Keats_by_William_Hilton_circa_1822_02.jpg/500px-John_Keats_by_William_Hilton_circa_1822_02.jpg,https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/On_first_Looking_into_Chapman%27s_Homer
+ZSHEL1,Percy Shelley,1792,1822,Ode to the West Wind,"O wild West Wind, thou breath of Autumn's being,
+Thou, from whose unseen presence the leaves dead
+Are driven, like ghosts from an enchanter fleeing,
+
+Yellow, and black, and pale, and hectic red,
+Pestilence-stricken multitudes: O thou,
+Who chariotest to their dark wintry bed",https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Percy_Bysshe_Shelley_by_Alfred_Clint.jpg/330px-Percy_Bysshe_Shelley_by_Alfred_Clint.jpg,https://poets.org/poem/ode-west-wind
+ZSHEL2,Percy Shelley,1792,1822,To a Skylark,"Hail to thee, blithe Spirit!
+Bird thou never wert,
+That from Heaven, or near it,
+Pourest thy full heart
+In profuse strains of unpremeditated art.
+
+Higher still and higher",https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Percy_Bysshe_Shelley_by_Alfred_Clint.jpg/330px-Percy_Bysshe_Shelley_by_Alfred_Clint.jpg,"https://en.wikisource.org/wiki/The_Complete_Poetical_Works_of_Percy_Bysshe_Shelley_(ed._Hutchinson,_1914)/To_a_Skylark"
+ZSHEL3,Percy Shelley,1792,1822,"Music, When Soft Voices Die (To —)","Music, when soft voices die,
+Vibrates in the memory—
+Odours, when sweet violets sicken,
+Live within the sense they quicken.
+
+Rose leaves, when the rose is dead,
+Are heaped for the beloved's bed;",https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Percy_Bysshe_Shelley_by_Alfred_Clint.jpg/330px-Percy_Bysshe_Shelley_by_Alfred_Clint.jpg,"https://en.wikisource.org/wiki/The_Complete_Poetical_Works_of_Percy_Bysshe_Shelley_(ed._Hutchinson,_1914)/To_%E2%80%94%E2%80%94._%27Music,_when_soft_voices_die%27"
+ZBYRON1,Lord Byron,1788,1824,When We Two Parted,"When we two parted
+In silence and tears,
+Half broken-hearted
+To sever for years,
+Pale grew thy cheek and cold,
+Colder thy kiss;",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Byron_1813_by_Phillips.jpg/330px-Byron_1813_by_Phillips.jpg,https://en.wikisource.org/wiki/When_We_Two_Parted
+ZBYRON2,Lord Byron,1788,1824,So We'll Go No More a Roving,"So, we'll go no more a roving
+So late into the night,
+Though the heart be still as loving,
+And the moon be still as bright.
+
+For the sword outwears its sheath,
+And the soul wears out the breast,",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Byron_1813_by_Phillips.jpg/330px-Byron_1813_by_Phillips.jpg,https://poets.org/poem/so-well-go-no-more-roving
+ZBYRON3,Lord Byron,1788,1824,The Destruction of Sennacherib,"The Assyrian came down like the wolf on the fold,
+And his cohorts were gleaming in purple and gold;
+And the sheen of their spears was like stars on the sea,
+When the blue wave rolls nightly on deep Galilee.
+
+Like the leaves of the forest when Summer is green,
+That host with their banners at sunset were seen:",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Byron_1813_by_Phillips.jpg/330px-Byron_1813_by_Phillips.jpg,"https://en.wikisource.org/wiki/Hebrew_Melodies_(Byron,_1815)/The_destruction_of_Semnacherib"
+ZBLAKE1,William Blake,1757,1827,London,"I wander thro' each charter'd street,
+Near where the charter'd Thames does flow,
+And mark in every face I meet,
+Marks of weakness, marks of woe.
+
+In every cry of every Man,
+In every Infant's cry of fear,",https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/330px-William_Blake_by_Thomas_Phillips.jpg,https://en.wikisource.org/wiki/London_(Songs_of_Experience)
+ZBLAKE2,William Blake,1757,1827,The Sick Rose,"O Rose, thou art sick:
+The invisible worm,
+That flies in the night
+In the howling storm,
+
+Has found out thy bed
+Of crimson joy;",https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/330px-William_Blake_by_Thomas_Phillips.jpg,https://poets.org/poem/sick-rose
+ZBLAKE3,William Blake,1757,1827,A Poison Tree,"I was angry with my friend:
+I told my wrath, my wrath did end.
+I was angry with my foe:
+I told it not, my wrath did grow.
+
+And I watered it in fears
+Night and morning with my tears,",https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/330px-William_Blake_by_Thomas_Phillips.jpg,https://poets.org/poem/poison-tree
+ZBLAKE4,William Blake,1757,1827,The Chimney Sweeper (Songs of Innocence),"When my mother died I was very young,
+And my father sold me while yet my tongue
+Could scarcely cry ‘Weep! weep! weep! weep!’
+So your chimneys I sweep, and in soot I sleep.
+
+There’s little Tom Dacre, who cried when his head,
+That curled like a lamb’s back, was shaved; so I said,",https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/330px-William_Blake_by_Thomas_Phillips.jpg,https://www.gutenberg.org/cache/epub/1934/pg1934.txt
+ZCOL1,Samuel Taylor Coleridge,1772,1834,Frost at Midnight,"The Frost performs its secret ministry,
+Unhelp'd by any wind. The owlet's cry
+Came loud—and hark, again! loud as before.
+The inmates of my cottage, all at rest,
+Have left me to that solitude, which suits
+Abstruser musings: save that at my side",https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SamuelTaylorColeridge.jpg/330px-SamuelTaylorColeridge.jpg,https://en.wikisource.org/wiki/Sibylline_Leaves_(Coleridge)/Frost_at_Midnight
+ZROSS1,Christina Rossetti,1830,1894,Remember,"Remember me when I am gone away,
+Gone far away into the silent land;
+When you can no more hold me by the hand,
+Nor I half turn to go yet turning stay.
+Remember me when no more day by day
+You tell me of our future that you planned:",https://upload.wikimedia.org/wikipedia/commons/4/4f/Christina_Rossetti_3.jpg,https://poets.org/poem/remember
+ZROSS2,Christina Rossetti,1830,1894,A Birthday,"My heart is like a singing bird
+Whose nest is in a water'd shoot;
+My heart is like an apple-tree
+Whose boughs are bent with thick-set fruit;
+My heart is like a rainbow shell
+That paddles in a halcyon sea;",https://upload.wikimedia.org/wikipedia/commons/4/4f/Christina_Rossetti_3.jpg,https://poets.org/poem/birthday
+ZROSS3,Christina Rossetti,1830,1894,"Song (When I am dead, my dearest)","When I am dead, my dearest,
+    Sing no sad songs for me;
+Plant thou no roses at my head,
+    Nor shady cypress tree:
+Be the green grass above me
+    With showers and dewdrops wet;",https://upload.wikimedia.org/wikipedia/commons/4/4f/Christina_Rossetti_3.jpg,https://poets.org/poem/song-when-i-am-dead-my-dearest
+ZROSS4,Christina Rossetti,1830,1894,In the Bleak Midwinter,"In the bleak mid-winter
+Frosty wind made moan,
+Earth stood hard as iron,
+Water like a stone;
+Snow had fallen, snow on snow,
+Snow on snow,",https://upload.wikimedia.org/wikipedia/commons/4/4f/Christina_Rossetti_3.jpg,https://en.wikisource.org/wiki/Our_American_Holidays_-_Christmas/A_Christmas_Carol_(Rossetti)
+ZTENN1,Alfred Lord Tennyson,1809,1892,The Charge of the Light Brigade,"Half a league, half a league,
+Half a league onward,
+All in the valley of Death
+Rode the six hundred.
+'Forward, the Light Brigade!
+Charge for the guns!' he said:",https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg/330px-Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg,https://poets.org/poem/charge-light-brigade
+ZTENN2,Alfred Lord Tennyson,1809,1892,Crossing the Bar,"Sunset and evening star,
+And one clear call for me!
+And may there be no moaning of the bar,
+When I put out to sea,
+
+But such a tide as moving seems asleep,
+Too full for sound and foam,",https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg/330px-Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg,https://poets.org/poem/crossing-bar
+ZTENN3,Alfred Lord Tennyson,1809,1892,The Lady of Shalott,"On either side the river lie
+Long fields of barley and of rye,
+That clothe the wold and meet the sky;
+And thro' the field the road runs by
+To many-tower'd Camelot:
+And up and down the people go,",https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg/330px-Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg,https://en.wikisource.org/wiki/The_Lady_of_Shalott_(1842)
+ZTENN4,Alfred Lord Tennyson,1809,1892,"Break, Break, Break","Break, break, break,
+On thy cold gray stones, O Sea!
+And I would that my tongue could utter
+The thoughts that arise in me.
+
+O well for the fisherman's boy,
+That he shouts with his sister at play!",https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg/330px-Alfred%2C_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg,"https://en.wikisource.org/wiki/Poems_(Tennyson,_1843)/Volume_2/Break,_break,_break"
+ZBROW1,Robert Browning,1812,1889,Porphyria's Lover,"The rain set early in to-night,
+The sullen wind was soon awake,
+It tore the elm-tops down for spite,
+And did its worst to vex the lake:
+I listened with heart fit to break.
+When glided in Porphyria; straight",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg/330px-Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg,https://poets.org/poem/porphyrias-lover
+ZBROW2,Robert Browning,1812,1889,Meeting at Night,"The grey sea and the long black land;
+And the yellow half-moon large and low;
+And the startled little waves that leap
+In fiery ringlets from their sleep,
+As I gain the cove with pushing prow,
+And quench its speed i' the slushy sand.",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg/330px-Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg,https://en.wikisource.org/wiki/Dramatic_Romances_and_Lyrics/Night_and_Morning
+ZBROW3,Robert Browning,1812,1889,"Home-Thoughts, from Abroad","Oh, to be in England
+Now that April's there,
+And whoever wakes in England
+Sees, some morning, unaware,
+That the lowest boughs and the brushwood sheaf
+Round the elm-tree bole are in tiny leaf,",https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg/330px-Robert_Browning_by_Herbert_Rose_Barraud%2C_circa_1888.jpg,"https://en.wikisource.org/wiki/The_Hundred_Best_Poems_(lyrical)_in_the_English_language_-_second_series/Home_Thoughts,_from_Abroad"
+ZARN1,Matthew Arnold,1822,1888,Dover Beach,"The sea is calm to-night.
+The tide is full, the moon lies fair
+Upon the straits; on the French coast, the light
+Gleams and is gone; the cliffs of England stand,
+Glimmering and vast, out in the tranquil bay.
+Come to the window, sweet is the night-air!",https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Matthew_Arnold.jpg/330px-Matthew_Arnold.jpg,https://en.wikisource.org/wiki/The_poetical_works_of_Matthew_Arnold/Dover_Beach
+ZHOP1,Gerard Manley Hopkins,1844,1889,Pied Beauty,"Glory be to God for dappled things—
+For skies of couple-colour as a brinded cow;
+For rose-moles all in stipple upon trout that swim:
+Fresh-firecoal chestnut-falls; finches' wings;
+Landscape plotted and pieced—fold, fallow, and plough;
+And áll trádes, their gear and tackle and trim.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/GerardManleyHopkins.jpg/330px-GerardManleyHopkins.jpg,https://en.wikisource.org/wiki/Pied_Beauty
+ZHOP2,Gerard Manley Hopkins,1844,1889,The Windhover,"I caught this morning morning's minion, king-
+dom of daylight's dauphin, dapple-dawn-drawn Falcon, in his riding
+Of the rolling level underneath him steady air, and striding
+High there, how he rung upon the rein of a wimpling wing
+In his ecstasy! then off, off forth on swing,
+As a skate's heel sweeps smooth on a bow-bend: the hurl and gliding",https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/GerardManleyHopkins.jpg/330px-GerardManleyHopkins.jpg,https://poets.org/poem/windhover
+ZHOP3,Gerard Manley Hopkins,1844,1889,Spring and Fall,"Márgarét, are you gríeving
+Over Goldengrove unleaving?
+Leáves, líke the things of man, you
+With your fresh thoughts care for, can you?
+Áh! ás the heart grows older
+It will come to such sights colder",https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/GerardManleyHopkins.jpg/330px-GerardManleyHopkins.jpg,https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/Spring_and_Fall
+ZYEATS1,William Butler Yeats,1865,1939,The Lake Isle of Innisfree,"I will arise and go now, and go to Innisfree,
+And a small cabin build there, of clay and wattles made:
+Nine bean-rows will I have there, a hive for the honey-bee,
+And live alone in the bee-loud glade.
+
+And I shall have some peace there, for peace comes dropping slow,
+Dropping from the veils of the morning to where the cricket sings;",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg,https://en.wikisource.org/wiki/The_Lake_Isle_of_Innisfree
+ZYEATS2,William Butler Yeats,1865,1939,When You Are Old,"When you are old and grey and full of sleep,
+And nodding by the fire, take down this book,
+And slowly read, and dream of the soft look
+Your eyes had once, and of their shadows deep;
+
+How many loved your moments of glad grace,
+And loved your beauty with love false or true,",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg,https://poets.org/poem/when-you-are-old
+ZYEATS3,William Butler Yeats,1865,1939,The Wild Swans at Coole,"The trees are in their autumn beauty,
+The woodland paths are dry,
+Under the October twilight the water
+Mirrors a still sky;
+Upon the brimming water among the stones
+Are nine and fifty swans.",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg,https://poets.org/poem/wild-swans-coole
+ZYEATS4,William Butler Yeats,1865,1939,He Wishes for the Cloths of Heaven,"Had I the heavens' embroidered cloths,
+Enwrought with golden and silver light,
+The blue and the dim and the dark cloths
+Of night and light and the half-light,
+
+I would spread the cloths under your feet:
+But I, being poor, have only my dreams;",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg,https://en.wikisource.org/wiki/He_wishes_for_the_Cloths_of_Heaven
+ZYEATS5,William Butler Yeats,1865,1939,The Song of Wandering Aengus,"I went out to the hazel wood,
+Because a fire was in my head,
+And cut and peeled a hazel wand,
+And hooked a berry to a thread;
+And when white moths were on the wing,
+And moth-like stars were flickering out,",https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yeats_Boughton.jpg/330px-Yeats_Boughton.jpg,https://en.wikisource.org/wiki/The_Wind_Among_the_Reeds/The_Song_of_Wandering_Aengus
+ZPOE1,Edgar Allen Poe,1809,1849,The Bells,"Hear the sledges with the bells—
+Silver bells!
+What a world of merriment their melody foretells!
+How they tinkle, tinkle, tinkle,
+In the icy air of night!
+While the stars that oversprinkle",https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg/330px-Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg,https://poets.org/poem/bells
+ZPOE2,Edgar Allen Poe,1809,1849,A Dream Within a Dream,"Take this kiss upon the brow!
+And, in parting from you now,
+Thus much let me avow:
+You are not wrong who deem
+That my days have been a dream;
+Yet if hope has flown away",https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg/330px-Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg,https://poets.org/poem/dream-within-dream
+ZPOE3,Edgar Allen Poe,1809,1849,To Helen,"Helen, thy beauty is to me
+Like those Nicean barks of yore,
+That gently, o'er a perfumed sea,
+The weary, wayworn wanderer bore
+To his own native shore.
+
+On desperate seas long wont to roam,",https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg/330px-Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg,"https://en.wikisource.org/wiki/The_Bells_and_other_poems/To_Helen_(Helen,_thy_beauty_is_to_me)"
+ZHOUS1,A.E. Housman,1859,1936,When I Was One-and-Twenty,"When I was one-and-twenty
+I heard a wise man say,
+'Give crowns and pounds and guineas
+But not your heart away;
+Give pearls away and rubies
+But keep your fancy free.'",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Alfred_Edward_Housman.jpg/330px-Alfred_Edward_Housman.jpg,https://en.wikisource.org/wiki/A_Shropshire_Lad/XIII
+ZHOUS2,A.E. Housman,1859,1936,To an Athlete Dying Young,"The time you won your town the race
+We chaired you through the market-place;
+Man and boy stood cheering by,
+And home we brought you shoulder-high.
+
+To-day, the road all runners come,
+Shoulder-high we bring you home,",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Alfred_Edward_Housman.jpg/330px-Alfred_Edward_Housman.jpg,https://en.wikisource.org/wiki/A_Shropshire_Lad/XIX
+ZHOUS3,A.E. Housman,1859,1936,"Loveliest of Trees, the Cherry Now","Loveliest of trees, the cherry now
+Is hung with bloom along the bough,
+And stands about the woodland ride
+Wearing white for Eastertide.
+
+Now, of my threescore years and ten,
+Twenty will not come again,",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Alfred_Edward_Housman.jpg/330px-Alfred_Edward_Housman.jpg,https://en.wikisource.org/wiki/A_Shropshire_Lad/II
+ZKIP1,Rudyard Kipling,1865,1936,If—,"If you can keep your head when all about you
+Are losing theirs and blaming it on you;
+If you can trust yourself when all men doubt you,
+But make allowance for their doubting too:
+If you can wait and not be tired by waiting,
+Or being lied about, don't deal in lies,",https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Rudyard_Kipling_%28portrait%29.jpg/330px-Rudyard_Kipling_%28portrait%29.jpg,https://en.wikisource.org/wiki/If%E2%80%94
+ZHARDY1,Thomas Hardy,1840,1928,The Darkling Thrush,"I leant upon a coppice gate
+When Frost was spectre-gray,
+And Winter's dregs made desolate
+The weakening eye of day.
+The tangled bine-stems scored the sky
+Like strings of broken lyres,",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Thomas_Hardy_Restored_Portrait_1910%E2%80%931915_%283x4_cropped%29.jpg/330px-Thomas_Hardy_Restored_Portrait_1910%E2%80%931915_%283x4_cropped%29.jpg,https://en.wikisource.org/wiki/The_Darkling_Thrush
+ZHARDY2,Thomas Hardy,1840,1928,The Man He Killed,"'Had he and I but met
+By some old ancient inn,
+We should have sat us down to wet
+Right many a nipperkin!
+
+'But ranged as infantry,
+And staring face to face,",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Thomas_Hardy_Restored_Portrait_1910%E2%80%931915_%283x4_cropped%29.jpg/330px-Thomas_Hardy_Restored_Portrait_1910%E2%80%931915_%283x4_cropped%29.jpg,https://en.wikisource.org/wiki/The_Man_He_Killed
+ZHARDY3,Thomas Hardy,1840,1928,Neutral Tones,"We stood by a pond that winter day,
+And the sun was white, as though chidden of God,
+And a few leaves lay on the starving sod,
+—They had fallen from an ash, and were gray.
+
+Your eyes on me were as eyes that rove
+Over tedious riddles solved years ago:",https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Thomas_Hardy_Restored_Portrait_1910%E2%80%931915_%283x4_cropped%29.jpg/330px-Thomas_Hardy_Restored_Portrait_1910%E2%80%931915_%283x4_cropped%29.jpg,https://en.wikisource.org/wiki/Wessex_Poems_and_Other_Verses/Neutral_Tones
+ZSTEV1,Robert Louis Stevenson,1850,1894,Requiem,"Under the wide and starry sky,
+    Dig the grave and let me lie.
+Glad did I live and gladly die,
+    And I laid me down with a will.
+
+This be the verse you grave for me:
+    Here he lies where he longed to be;",https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg/330px-Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg,https://poets.org/poem/requiem
+ZSTEV2,Robert Louis Stevenson,1850,1894,The Swing,"How do you like to go up in a swing,
+Up in the air so blue?
+Oh, I do think it the pleasantest thing
+Ever a child can do!
+
+Up in the air and over the wall,
+Till I can see so wide,",https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg/330px-Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg,https://en.wikisource.org/wiki/A_Child%27s_Garden_of_Verses/The_Swing
+ZOWEN1,Wilfred Owen,1893,1918,Dulce et Decorum Est,"Bent double, like old beggars under sacks,
+Knock-kneed, coughing like hags, we cursed through sludge,
+Till on the haunting flares we turned our backs
+And towards our distant rest began to trudge.
+Men marched asleep. Many had lost their boots
+But limped on, blood-shod. All went lame; all blind;",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Wilfred_Owen_%C3%A0_l%27Arrouaise.jpg/330px-Wilfred_Owen_%C3%A0_l%27Arrouaise.jpg,https://en.wikisource.org/wiki/Poems_by_Wilfred_Owen/Dulce_et_Decorum_est
+ZOWEN2,Wilfred Owen,1893,1918,Anthem for Doomed Youth,"What passing-bells for these who die as cattle?
+Only the monstrous anger of the guns.
+Only the stuttering rifles' rapid rattle
+Can patter out their hasty orisons.
+No mockeries now for them; no prayers nor bells;
+Nor any voice of mourning save the choirs,",https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Wilfred_Owen_%C3%A0_l%27Arrouaise.jpg/330px-Wilfred_Owen_%C3%A0_l%27Arrouaise.jpg,https://poets.org/poem/anthem-doomed-youth
+ZBROOKE1,Rupert Brooke,1887,1915,The Soldier,"If I should die, think only this of me:
+That there's some corner of a foreign field
+That is for ever England. There shall be
+In that rich earth a richer dust concealed;
+A dust whom England bore, shaped, made aware,
+Gave, once, her flowers to love, her ways to roam,",https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Frontispiece_%28cropped%29_to_Collected_poems_of_Rupert_Brooke_with_a_Memoir_1918.jpg/330px-Frontispiece_%28cropped%29_to_Collected_poems_of_Rupert_Brooke_with_a_Memoir_1918.jpg,https://en.wikisource.org/wiki/1914_and_other_poems/The_Soldier
+ZMCCRAE1,John McCrae,1872,1918,In Flanders Fields,"In Flanders fields the poppies blow
+Between the crosses, row on row,
+That mark our place; and in the sky
+The larks, still bravely singing, fly
+Scarce heard amid the guns below.
+
+We are the Dead. Short days ago",https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/John_McCrae_in_uniform_circa_1914.jpg/330px-John_McCrae_in_uniform_circa_1914.jpg,https://en.wikisource.org/wiki/In_Flanders_Fields_and_Other_Poems/In_Flanders_Fields
+ZSAND1,Carl Sandburg,1878,1967,Chicago,"Hog Butcher for the World,
+Tool Maker, Stacker of Wheat,
+Player with Railroads and the Nation's Freight Handler;
+Stormy, husky, brawling,
+City of the Big Shoulders:
+
+They tell me you are wicked and I believe them, for I have seen your painted women under the gas lamps luring the farm boys.",https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Carl_Sandburg_NYWTS.jpg/330px-Carl_Sandburg_NYWTS.jpg,https://en.wikisource.org/wiki/Chicago_Poems/Chicago
+ZSAND2,Carl Sandburg,1878,1967,Fog,"The fog comes
+on little cat feet.
+
+It sits looking
+over harbor and city
+on silent haunches
+and then moves on.",https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Carl_Sandburg_NYWTS.jpg/330px-Carl_Sandburg_NYWTS.jpg,https://poets.org/poem/fog
+ZSAND3,Carl Sandburg,1878,1967,Grass,"Pile the bodies high at Austerlitz and Waterloo.
+Shovel them under and let me work—
+I am the grass; I cover all.
+And pile them high at Gettysburg
+And pile them high at Ypres and Verdun.
+Shovel them under and let me work.",https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Carl_Sandburg_NYWTS.jpg/330px-Carl_Sandburg_NYWTS.jpg,https://en.wikisource.org/wiki/Cornhuskers/Grass
+ZTEAS1,Sara Teasdale,1884,1933,There Will Come Soft Rains,"There will come soft rains and the smell of the ground,
+And swallows circling with their shimmering sound;
+
+And frogs in the pools singing at night,
+And wild plum-trees in tremulous white;
+
+Robins will wear their feathery fire
+Whistling their whims on a low fence-wire;",https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Sara_Teasdale._Photograph_by_Gerhard_Sisters%2C_ca._1910_Missouri_History_Museum_Photograph_and_Print_Collection._Portraits_n21492.jpg/330px-Sara_Teasdale._Photograph_by_Gerhard_Sisters%2C_ca._1910_Missouri_History_Museum_Photograph_and_Print_Collection._Portraits_n21492.jpg,https://en.wikisource.org/wiki/Flame_and_Shadow/%22There_Will_Come_Soft_Rains%22
+ZTEAS2,Sara Teasdale,1884,1933,Barter,"Life has loveliness to sell,
+All beautiful and splendid things,
+Blue waves whitened on a cliff,
+Soaring fire that sways and sings,
+And children's faces looking up
+Holding wonder in a cup.",https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Sara_Teasdale._Photograph_by_Gerhard_Sisters%2C_ca._1910_Missouri_History_Museum_Photograph_and_Print_Collection._Portraits_n21492.jpg/330px-Sara_Teasdale._Photograph_by_Gerhard_Sisters%2C_ca._1910_Missouri_History_Museum_Photograph_and_Print_Collection._Portraits_n21492.jpg,https://poets.org/poem/barter
+ZROB1,Edwin Arlington Robinson,1869,1935,Richard Cory,"Whenever Richard Cory went down town,
+We people on the pavement looked at him:
+He was a gentleman from sole to crown,
+Clean favored and imperially slim.
+
+And he was always quietly arrayed,
+And he was always human when he talked,",https://upload.wikimedia.org/wikipedia/commons/0/08/Edwin_Arlington_Robinson.jpg,https://poets.org/poem/richard-cory
+ZROB2,Edwin Arlington Robinson,1869,1935,Miniver Cheevy,"Miniver Cheevy, child of scorn,
+Grew lean while he assailed the seasons;
+He wept that he was ever born,
+And he had reasons.
+
+Miniver loved the days of old
+When swords were bright and steeds were prancing;",https://upload.wikimedia.org/wikipedia/commons/0/08/Edwin_Arlington_Robinson.jpg,https://en.wikisource.org/wiki/Miniver_Cheevy
+ZHUGH1,Langston Hughes,1901,1967,The Negro Speaks of Rivers,"I've known rivers:
+I've known rivers ancient as the world and older than the flow of human blood in human veins.
+
+My soul has grown deep like the rivers.
+
+I bathed in the Euphrates when dawns were young.
+I built my hut near the Congo and it lulled me to sleep.
+I looked upon the Nile and raised the pyramids above it.",https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg/330px-Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg,https://poets.org/poem/negro-speaks-rivers
+ZHUGH2,Langston Hughes,1901,1967,Mother to Son,"Well, son, I'll tell you:
+Life for me ain't been no crystal stair.
+It's had tacks in it,
+And splinters,
+And boards torn up,
+And places with no carpet on the floor—",https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg/330px-Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg,https://poets.org/poem/mother-son
+ZHUGH3,Langston Hughes,1901,1967,"I, Too","I, too, sing America.
+
+I am the darker brother.
+They send me to eat in the kitchen
+When company comes,
+But I laugh,
+And eat well,",https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg/330px-Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg,https://poets.org/poem/i-too
+ZCULL1,Countee Cullen,1903,1946,Yet Do I Marvel,"I doubt not God is good, well-meaning, kind,
+And did He stoop to quibble could tell why
+The little buried mole continues blind,
+Why flesh that mirrors Him must some day die,
+Make plain the reason tortured Tantalus
+Is baited by the fickle fruit, declare",https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Countee_Cullen_headshot.png/330px-Countee_Cullen_headshot.png,https://poets.org/poem/yet-do-i-marvel
+ZCULL2,Countee Cullen,1903,1946,Incident,"Once riding in old Baltimore,
+Heart-filled, head-filled with glee,
+I saw a Baltimorean
+Keep looking straight at me.
+
+Now I was eight and very small,
+And he was no whit bigger,",https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Countee_Cullen_headshot.png/330px-Countee_Cullen_headshot.png,https://poets.org/poem/incident
+ZMCKAY1,Claude McKay,1889,1948,The Tropics in New York,"Bananas ripe and green, and ginger-root,
+Cocoa in pods and alligator pears,
+And tangerines and mangoes and grape fruit,
+Fit for the highest prize at parish fairs,
+
+Set in the window, bringing memories
+Of fruit-trees laden by low-singing rills,",https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_McKay_James_L._Allen_Portrait_Edit.jpg/330px-Claude_McKay_James_L._Allen_Portrait_Edit.jpg,https://en.wikisource.org/wiki/Harlem_Shadows/The_Tropics_in_New_York
+ZMCKAY2,Claude McKay,1889,1948,America,"Although she feeds me bread of bitterness,
+And sinks into my throat her tiger's tooth,
+Stealing my breath of life, I will confess
+I love this cultured hell that tests my youth!
+Her vigor flows like tides into my blood,
+Giving me strength erect against her hate.",https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_McKay_James_L._Allen_Portrait_Edit.jpg/330px-Claude_McKay_James_L._Allen_Portrait_Edit.jpg,https://en.wikisource.org/wiki/Harlem_Shadows/America
+ZTOOM1,Jean Toomer,1894,1967,Reapers,"Black reapers with the sound of steel on stones
+Are sharpening scythes. I see them place the hones
+In their hip-pockets as a thing that's done,
+And start their silent swinging, one by one.
+Black horses drive a mower through the weeds,
+And there, a field rat, startled, squealing bleeds,",https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Jean_Toomer_1934_portrait.jpg/330px-Jean_Toomer_1934_portrait.jpg,https://poets.org/poem/reapers
+ZDONNE1,John Donne,1572,1631,The Flea,"Mark but this flea, and mark in this,
+How little that which thou deniest me is;
+It suck'd me first, and now sucks thee,
+And in this flea our two bloods mingled be.
+Thou know'st that this cannot be said
+A sin, nor shame, nor loss of maidenhead;",https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/John_Donne_by_Isaac_Oliver.jpg/330px-John_Donne_by_Isaac_Oliver.jpg,https://en.wikisource.org/wiki/The_Flea
+ZDONNE2,John Donne,1572,1631,The Sun Rising,"Busy old fool, unruly Sun,
+Why dost thou thus,
+Through windows, and through curtains, call on us?
+Must to thy motions lovers' seasons run?
+Saucy pedantic wretch, go chide
+Late school-boys and sour prentices,",https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/John_Donne_by_Isaac_Oliver.jpg/330px-John_Donne_by_Isaac_Oliver.jpg,https://poets.org/poem/sun-rising
+ZDONNE3,John Donne,1572,1631,Holy Sonnet 14: Batter my heart,"Batter my heart, three-person'd God; for you
+As yet but knock; breathe, shine, and seek to mend;
+That I may rise, and stand, o'erthrow me, and bend
+Your force, to break, blow, burn, and make me new.
+I, like an usurp'd town, to another due,
+Labour to admit you, but O, to no end.",https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/John_Donne_by_Isaac_Oliver.jpg/330px-John_Donne_by_Isaac_Oliver.jpg,https://en.wikisource.org/wiki/Holy_Sonnets/Holy_Sonnet_14
+ZSHAK1,William Shakespeare,1564,1616,Sonnet 116: Let me not to the marriage of true minds,"Let me not to the marriage of true minds
+Admit impediments.  Love is not love
+Which alters when it alteration finds,
+Or bends with the remover to remove:
+O, no! it is an ever-fixed mark
+That looks on tempests and is never shaken;",https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg,https://en.wikisource.org/wiki/Shakespeare%27s_Sonnets_(1883)/Sonnet_116
+ZSHAK2,William Shakespeare,1564,1616,Sonnet 130: My mistress' eyes are nothing like the sun,"My mistress' eyes are nothing like the sun;
+Coral is far more red, than her lips red:
+If snow be white, why then her breasts are dun;
+If hairs be wires, black wires grow on her head.
+I have seen roses damask'd, red and white,
+But no such roses see I in her cheeks;",https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg,https://www.gutenberg.org/cache/epub/1041/pg1041.txt
+ZSHAK3,William Shakespeare,1564,1616,Sonnet 73: That time of year thou mayst in me behold,"That time of year thou mayst in me behold
+When yellow leaves, or none, or few, do hang
+Upon those boughs which shake against the cold,
+Bare ruin'd choirs, where late the sweet birds sang.
+In me thou see'st the twilight of such day
+As after sunset fadeth in the west,",https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg,https://en.wikisource.org/wiki/Shakespeare%27s_Sonnets_(1883)/Sonnet_73
+ZSHAK4,William Shakespeare,1564,1616,"Sonnet 29: When, in disgrace with fortune and men's eyes","When, in disgrace with fortune and men's eyes,
+I all alone beweep my outcast state,
+And trouble deaf heaven with my bootless cries,
+And look upon myself and curse my fate,
+Wishing me like to one more rich in hope,
+Featur'd like him, like him with friends possess'd,",https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg,https://en.wikisource.org/wiki/Shakespeare%27s_Sonnets_(1883)/Sonnet_29
+ZMARL1,Christopher Marlowe,1564,1593,The Passionate Shepherd to His Love,"Come live with me and be my love,
+And we will all the pleasures prove
+That valleys, groves, hills, and fields,
+Woods, or steepy mountain yields.
+And we will sit upon the rocks,
+Seeing the shepherds feed their flocks,",https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Christopher_Marlowe.jpg/330px-Christopher_Marlowe.jpg,https://en.wikisource.org/wiki/The_Golden_Treasury_of_English_Songs_and_Lyrics/Book_1/Poem_5
+ZHERR1,Robert Herrick,1591,1674,"To the Virgins, to Make Much of Time","Gather ye rosebuds while ye may,
+Old time is still a-flying:
+And this same flower that smiles to-day
+To-morrow will be dying.
+
+The glorious lamp of heaven, the sun,
+The higher he's a-getting,",,"https://en.wikisource.org/wiki/The_Hesperides_%26_Noble_Numbers/Hesperides/To_the_Virgins,_to_Make_Much_of_Time"
+ZLOVE1,Richard Lovelace,1617,1657,"To Lucasta, Going to the Wars","Tell me not, Sweet, I am unkind,
+That from the nunnery
+Of thy chaste breast and quiet mind
+To war and arms I fly.
+
+True, a new mistress now I chase,
+The first foe in the field;",,https://poets.org/poem/lucasta-going-wars
+ZJONS1,Ben Jonson,1572,1637,Song: To Celia,"Drink to me only with thine eyes,
+And I will pledge with mine;
+Or leave a kiss but in the cup
+And I'll not look for wine.
+The thirst that from the soul doth rise
+Doth ask a drink divine;",https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Benjamin_Jonson_by_Abraham_van_Blyenberch.jpg/330px-Benjamin_Jonson_by_Abraham_van_Blyenberch.jpg,https://en.wikisource.org/wiki/Oxford_Book_of_English_Verse_1250-1900/To_Celia
+ZGRAY1,Thomas Gray,1716,1771,Elegy Written in a Country Churchyard,"The curfew tolls the knell of parting day,
+The lowing herd wind slowly o'er the lea,
+The ploughman homeward plods his weary way,
+And leaves the world to darkness and to me.
+Now fades the glimmering landscape on the sight,
+And all the air a solemn stillness holds,",https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/PortraitThomasGrayByJohnGilesEccart1747to1748.jpg/330px-PortraitThomasGrayByJohnGilesEccart1747to1748.jpg,https://en.wikisource.org/wiki/Poems_That_Every_Child_Should_Know/Elegy_Written_in_a_Country_Churchyard
+ZMILT1,John Milton,1608,1674,When I Consider How My Light Is Spent (On His Blindness),"When I consider how my light is spent,
+Ere half my days in this dark world and wide,
+And that one talent which is death to hide
+Lodged with me useless, though my soul more bent
+To serve therewith my Maker, and present
+My true account, lest He returning chide;",https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/John_Milton_Christ%27s_College.jpg/330px-John_Milton_Christ%27s_College.jpg,https://poets.org/poem/when-i-consider-how-my-light-spent
+ZMARV1,Andrew Marvell,1621,1678,The Garden,"How vainly men themselves amaze
+To win the Palm, the Oke, or Bayes;
+And their uncessant Labours see
+Crown'd from some single Herb or Tree,
+Whose short and narrow verged Shade
+Does prudently their Toyles upbraid;",https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Portrait_of_Andrew_Marvell.jpg/330px-Portrait_of_Andrew_Marvell.jpg,https://en.wikisource.org/wiki/Miscellaneous_Poems_(Marvell)/The_Garden
+ZSPEN1,Edmund Spenser,1552,1599,Sonnet 75: One day I wrote her name upon the strand,"One day I wrote her name upon the strand,
+but came the waves and washed it away:
+again I wrote it with a second hand,
+but came the tide, and made my pains his prey.
+Vain man, said she, that dost in vain assay,
+a mortal thing so to immortalize,",https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Edmund_Spenser_oil_painting.JPG/330px-Edmund_Spenser_oil_painting.JPG,https://en.wikisource.org/wiki/Sonnet_75_(Spenser)
+ZLAZ1,Emma Lazarus,1849,1887,The New Colossus,"Not like the brazen giant of Greek fame,
+With conquering limbs astride from land to land;
+Here at our sea-washed, sunset gates shall stand
+A mighty woman with a torch, whose flame
+Is the imprisoned lightning, and her name
+Mother of Exiles. From her beacon-hand",https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Emmalazarusengraving.jpg/330px-Emmalazarusengraving.jpg,https://en.wikisource.org/wiki/The_New_Colossus
+ZCRANE1,Stephen Crane,1871,1900,A Man Said to the Universe,"A man said to the universe:
+""Sir I exist!""
+""However,"" replied the universe,
+""The fact has not created in me
+A sense of obligation.""",https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/SCrane2.JPG/330px-SCrane2.JPG,https://en.wikisource.org/wiki/War_is_Kind_%26_Other_Lines/A_Man_Said_to_the_Universe
+ZCRANE2,Stephen Crane,1871,1900,In the Desert,"In the desert
+I saw a creature, naked, bestial,
+Who, squatting upon the ground,
+Held his heart in his hands,
+And ate of it.
+I said, ""Is it good, friend?""",https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/SCrane2.JPG/330px-SCrane2.JPG,https://poets.org/poem/desert
+ZKILM1,Joyce Kilmer,1886,1918,Trees,"I think that I shall never see
+A poem lovely as a tree.
+
+A tree whose hungry mouth is prest
+Against the earth's sweet flowing breast;
+
+A tree that looks at God all day,
+And lifts her leafy arms to pray;",https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Kilmer_1908_columbia_yearbook_picture.png/330px-Kilmer_1908_columbia_yearbook_picture.png,https://en.wikisource.org/wiki/Trees_and_Other_Poems/Trees
+ZLEAR1,Edward Lear,1812,1888,The Owl and the Pussy-Cat,"The Owl and the Pussy-cat went to sea
+In a beautiful pea-green boat,
+They took some honey, and plenty of money
+Wrapped up in a five-pound note.
+The Owl looked up to the stars above,
+And sang to a small guitar,",https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Edward_Lear_1866.jpg/330px-Edward_Lear_1866.jpg,"https://en.wikisource.org/wiki/Nonsense_Songs,_Stories,_Botany,_and_Alphabets/The_Owl_and_the_Pussy-cat"
+ZCARR1,Lewis Carroll,1832,1898,The Walrus and the Carpenter,"The sun was shining on the sea,
+Shining with all his might:
+He did his very best to make
+The billows smooth and bright—
+And this was odd, because it was
+The middle of the night.",https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/LewisCarrollSelfPhoto.jpg/330px-LewisCarrollSelfPhoto.jpg,"https://en.wikisource.org/wiki/Through_the_Looking-Glass,_and_What_Alice_Found_There/Chapter_IV"
+ZHENL1,William Ernest Henley,1849,1903,Invictus,"Out of the night that covers me,
+Black as the pit from pole to pole,
+I thank whatever gods may be
+For my unconquerable soul.
+
+In the fell clutch of circumstance
+I have not winced nor cried aloud.",https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/William_Ernest_Henley%60s_Portrait.jpg/330px-William_Ernest_Henley%60s_Portrait.jpg,https://en.wikisource.org/wiki/Invictus
+ZWHEAT1,Phillis Wheatley,1753,1784,On Being Brought from Africa to America,"'Twas mercy brought me from my Pagan land,
+Taught my benighted soul to understand
+That there's a God, that there's a Saviour too:
+Once I redemption neither sought nor knew.
+Some view our sable race with scornful eye,
+""Their colour is a diabolic die.""",https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Phillis_Wheatley_frontispiece.jpg/330px-Phillis_Wheatley_frontispiece.jpg,https://poets.org/poem/being-brought-africa-america
+ZHOWE1,Julia Ward Howe,1819,1910,Battle Hymn of the Republic,"Mine eyes have seen the glory of the coming of the Lord;
+He is trampling out the vintage where the grapes of wrath are stored;
+He hath loosed the fateful lightning of His terrible swift sword:
+His truth is marching on.
+I have seen Him in the watch-fires of a hundred circling camps,
+They have builded Him an altar in the evening dews and damps;",https://upload.wikimedia.org/wikipedia/commons/a/a8/JuliaWardHowe_2_%28cropped%29.jpg,https://en.wikisource.org/wiki/The_Atlantic_Monthly/Battle_Hymn_of_the_Republic
